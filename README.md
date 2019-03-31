@@ -1,4 +1,0 @@
-jamesstrong.dev
-==============
-
-Personal Blog 
