@@ -10,7 +10,7 @@ tags:
 ---
 
 
-At Dev Nexus 2018 my worker at Contino, [Adarsh](http://shahadarsh.com/), and I led a workshop ["Introduction to Kubernetes"](https://devnexus.com/presentations/2999/)
+At Dev Nexus 2018 my co-worker, [Adarsh](http://shahadarsh.com/), and I led a workshop ["Introduction to Kubernetes"](https://devnexus.com/presentations/2999/)
 
 Introduction to Kubernetes is a hands-on, interactive workshop giving attendees a thorough 
 understanding of the fundamentals of Kubernetes. As part of this workshop, you will learn how Kubernetes 
