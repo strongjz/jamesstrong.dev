@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+<meta charset="utf-8" />
+<meta name="author" content="James Strong" />
+<meta name="description" content="Personal blog." />
+<meta name="keywords" content="blog, tech" />
+<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+<meta name="generator" content="Hugo 0.53" />
+
+<link rel="canonical" href="https://jamesstrong.dev/post/passcka/">
+<meta property="og:title" content="Passing the CKA" />
+<meta property="og:description" content="On December 29th I completed my final goal of the year - I passed the CKA.
+TL;DR This is a list of the bare minimum necessary to try to pass.
+ Do Kelsey Hightower’s tutorial Kubernetes The Hard Way at least three times! Understand it, internalize it. Do all the tasks on https://kubernetes.io/docs/tasks/ Read Kubernetes in Action by Marko Luksa  Also practice, practice, and practice. Did I mention practice?" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://jamesstrong.dev/post/passcka/" /><meta property="article:published_time" content="2019-01-29T00:00:00&#43;00:00"/>
+<meta property="article:modified_time" content="2019-01-29T00:00:00&#43;00:00"/>
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Passing the CKA"/>
+<meta name="twitter:description" content="On December 29th I completed my final goal of the year - I passed the CKA.
+TL;DR This is a list of the bare minimum necessary to try to pass.
+ Do Kelsey Hightower’s tutorial Kubernetes The Hard Way at least three times! Understand it, internalize it. Do all the tasks on https://kubernetes.io/docs/tasks/ Read Kubernetes in Action by Marko Luksa  Also practice, practice, and practice. Did I mention practice?"/>
+
+
+
+<meta itemprop="name" content="Passing the CKA">
+<meta itemprop="description" content="On December 29th I completed my final goal of the year - I passed the CKA.
+TL;DR This is a list of the bare minimum necessary to try to pass.
+ Do Kelsey Hightower’s tutorial Kubernetes The Hard Way at least three times! Understand it, internalize it. Do all the tasks on https://kubernetes.io/docs/tasks/ Read Kubernetes in Action by Marko Luksa  Also practice, practice, and practice. Did I mention practice?">
+
+
+<meta itemprop="datePublished" content="2019-01-29T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2019-01-29T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="1463">
+
+
+
+<meta itemprop="keywords" content="kubernetes,cloud native,cka,devops,containers," />
+
+
+<link rel="stylesheet" href="https://jamesstrong.dev/css/layout.css" />
+<style type="text/css">
+body {
+  background-color: #101010;
+  color: #dbdbdb;
+}
+
+a { color: #dbdbdb; }
+
+pre {
+  background: #1D1F21;
+  border: 1px solid #dbdbdb;
+  border-radius: 5px;
+}
+
+code {
+  background: #1D1F21;
+}
+
+blockquote {
+  background: #1D1F21;
+  border-left: 3px solid #dbdbdb;
+}
+
+table {
+  margin: 1em auto;
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid #dbdbdb;
+}
+
+th {
+  background: #dbdbdb;
+  color: #101010;
+}
+
+.siteTitle a { color: #99cc66; }
+
+.post .content h1{ color: #99cc66; }
+.post .content h2{ color: #99cc66; }
+.post .content h3{ color: #99cc66; }
+.post .content h4{ color: #99cc66; }
+.post .content h5{ color: #99cc66; }
+.post .content h6{ color: #99cc66; }
+.post .content a:hover { color: #99cc66; }
+.social-link:hover { color: #99cc66; }
+.nav-item-title:hover { color: #99cc66; }
+.tag a:hover { color: #99cc66; }
+.copyright { color: #404040 }
+.poweredby { color: #404040 }
+.poweredby a { color: #404040; }
+.post-preview .title a{ color: #99cc66; }
+.content-item a:hover{
+  text-decoration: underline;
+  color: #99cc66;
+}
+.post-list .title { color: #99cc66; }
+.rmore { color: #99cc66; }
+.terms .term a:hover {
+  text-decoration: underline;
+  color: #99cc66;
+}
+
+</style>
+
+
+
+<title>
+
+
+     Passing the CKA 
+
+</title>
+
+</head>
+
+
+<body>
+<div class="main">
+<header>
+
+<div class="header-bar">
+
+  <nav>
+    <div class="siteTitle">
+      <a href="https://jamesstrong.dev/">James Strong</a>
+    </div> 
+
+    
+    
+    <a class="nav-item" href="https://jamesstrong.dev/about/"><div class="nav-item-title">About Me</div></a>
+    
+    <a class="nav-item" href="https://jamesstrong.dev/post/"><div class="nav-item-title">Posts</div></a>
+    
+    <a class="nav-item" href="https://jamesstrong.dev/resume/"><div class="nav-item-title">Resume</div></a>
+    
+    <a class="nav-item" href="https://jamesstrong.dev/tags/"><div class="nav-item-title">Tags</div></a>
+    
+
+  </nav>
+</div>
+
+  
+<div class="social-links-header">
+
+  
+  <a href="mailto:strong.james.e@gmail.com"><div class="social-link">email</div></a>
+  
+
+  
+  <a href="https://github.com/strongjz" target="_blank"><div class="social-link">gh</div></a>
+  
+
+  
+
+  
+  <a href="https://twitter.com/strongjz" target="_blank"><div class="social-link">twtr</div></a>
+  
+
+  
+  <a href="https://www.linkedin.com/in/strongjames" target="_blank"><div class="social-link">in</div></a>
+  
+
+</div>
+
+
+</header>
+
+
+<article class="post">
+    <h1 class="title"> Passing the CKA </h1>
+    <div class="content"> 
+
+<p>On December 29th I completed my final goal of the year - I passed the CKA.</p>
+
+<p><img src="https://jamesstrong.dev/img/cka.png" alt="" /></p>
+
+<h4 id="tl-dr">TL;DR</h4>
+
+<p>This is a list of the bare minimum necessary to try to pass.</p>
+
+<ul>
+<li>Do Kelsey Hightower’s tutorial <a href="https://github.com/kelseyhightower/kubernetes-the-hard-way">Kubernetes The Hard Way</a> at least three times! Understand it, internalize it.</li>
+<li>Do all the tasks on <a href="https://kubernetes.io/docs/tasks/">https://kubernetes.io/docs/tasks/</a></li>
+<li>Read <a href="https://www.manning.com/books/kubernetes-in-action"><em>Kubernetes in Action</em> by Marko Luksa</a></li>
+</ul>
+
+<p>Also practice, practice, and practice. Did I mention practice? This is a practical exam, no multiple choice questions here.</p>
+
+<h4 id="how-i-got-there">How I Got There</h4>
+
+<pre><code>Disclaimer: This is just how I got there, so your mileage may vary. I hope this is helpful to some of you.
+</code></pre>
+
+<p>What is Kubernetes? That has been covered all over the Internet, you can go <a href="https://www.weave.works/technologies/the-journey-to-kubernetes/">here</a>,
+ <a href="https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/">here</a> and <a href="https://www.redhat.com/en/topics/containers/what-is-kubernetes">here</a>,
+ also <a href="https://opensource.google.com/projects/kubernetes">here</a> to get a better understanding. What I am going to cover is
+ what I did in order to pass the exam and give a brief overview of the exam itself (as much as the NDA allows at least).</p>
+
+<p>Working in IT as long as I have, I have learned the value of <a href="https://en.wikipedia.org/wiki/RTFM">R.T.F.M.</a> So the first
+thing I did was go straight to the documentation. Everything is laid out on kubernetes.io for you and I would start on
+the <a href="https://kubernetes.io/docs/concepts/">concepts page.</a></p>
+
+<p>Here is the list of books that are great supplements to the documentation. They are listed in descending order of my
+preference for the test. I prefer reading with the Kindle app since I can search for details in them.</p>
+
+<ul>
+<li><a href="https://www.manning.com/books/kubernetes-in-action"><em>Kubernetes in Action</em> by Marko Luksa</a></li>
+<li><a href="https://www.amazon.com/Kubernetes-Running-Dive-Future-Infrastructure/dp/1491935677"><em>Kubernetes Up and Running</em> by Kelsey Hightower, Brendan Burns, Joe Beda</a></li>
+<li><a href="https://www.amazon.com/DevOps-Kubernetes-Accelerating-container-orchestrators-ebook/dp/B0711KDB8N/"><em>DevOps with Kubernetes</em> by Hideto Saito, Hui-Chuan Chloe Lee, Cheng-Yang Wu</a></li>
+<li><a href="https://www.amazon.com/Kubernetes-Book-Version-January-2018-ebook/dp/B072TS9ZQZ"><em>The Kubernetes Book</em> by Nigel Poulton</a></li>
+</ul>
+
+<p>With the CKA being a practical exam, you will need significant experience working with clusters—setting up clusters,
+fixing clusters, and backing up clusters. Here are several options to get started and more advanced ones as well.</p>
+
+<h4 id="clusters-i-used-for-practice">Clusters I used for practice:</h4>
+
+<ul>
+<li><a href="https://www.katacoda.com/courses/kubernetes/playground">Katacoda’s Kubernetes Playground</a>: no installs or setup, just tutorials on a cluster</li>
+<li><a href="https://github.com/kubernetes/minikube/">Minikube:</a> local testing and getting comfortable with kubectl</li>
+<li><a href="https://cloud.google.com/kubernetes-engine/docs/quickstart">Google Kubernetes Enginer (GKE)</a>: by far the fastest way to get a multi node cluster running.</li>
+<li><a href="https://github.com/kelseyhightower/kubernetes-the-hard-way">Kelsey Hightower’s Kubernetes The Hard Way:</a> the definitive way to learn how to set up a cluster.</li>
+</ul>
+
+<p>Katacoda is great for study purposes, it’s free and there is no setup or maintenance involved. If you’re just getting started,
+ this is a great resource to get comfortable with kubectl. Contino has several <a href="https://www.katacoda.com/contino/courses/kubernetes">scenarios</a> that can be used as well. The stopper here for Katacoda is there is no way to administrator the cluster.</p>
+
+<p>Minikube is the next logical step for a beginner to try out, but it requires a little bit more to set up. You’ll need
+<a href="https://kubernetes.io/docs/setup/minikube/">minikube</a>, <a href="https://www.virtualbox.org/">virtualbox</a> and
+<a href="https://kubernetes.io/docs/tasks/tools/install-kubectl/">kubectl</a> installed on your local desktop. Once minikube is
+started, you can use it like any other cluster. One of the drawbacks is that it’s only one node so no testing multi
+node deploys or <a href="https://kubernetes.io/docs/concepts/architecture/nodes/#manual-node-administration">cordoning</a> off nodes.</p>
+
+<p>Google Kubernetes Engine is the easiest setup to get a multi node cluster. Sign up for a Google Cloud account, enable
+billing and deploy a cluster, more info <a href="https://cloud.google.com/kubernetes-engine/docs/quickstart">here</a>. This is a managed
+service from Google Cloud, so once deployed you can use it to do all the tutorials mentioned in this post. But being managed
+you can’t really “administrator” the cluster.</p>
+
+<p>The above clusters are great for getting started using kubectl and deploying applications to a cluster. But to get a real
+feel of what it takes to administer a cluster, you need to run through Kelsey Hightower’s repo
+<a href="https://github.com/kelseyhightower/kubernetes-the-hard-way">Kubernetes The Hard Way</a>.  You will “Bootstrap Kubernetes
+the hard way on Google Cloud Platform. No scripts.” This scenario best prepares you for the test in my opinion.
+Run through it several times, understand the options, why are so many certificates needed, what each component you deploy
+does and how they interact with each other. If you can run through this several times and have complete comprehension of it,
+then it will greatly help you in your journey to pass the exam.</p>
+
+<h4 id="bonus"><strong>BONUS</strong></h4>
+
+<p>This repo <a href="https://github.com/arush-sal/cka-practice-environment">here</a> is great for a testing scenario. It gives you
+24 questions to answer, a terminal, and a timer. You bring the cluster and kube config. I highly suggest running through
+ this to get comfortable with the test environment as this is the best replica for the test environment out there.
+ It uses the same terminal emulator that the test uses, <a href="https://github.com/liftoff/GateOne">gateone</a>.</p>
+
+<p>Also the kubernetes.io site is forkable on github.com, so you can read docs on long flights.</p>
+
+<h4 id="information-about-the-test">Information About the Test:</h4>
+
+<ul>
+<li>3 hours</li>
+<li>24 questions</li>
+<li>Remotely proctored</li>
+<li>Chrome browser plus an extension</li>
+<li>Government-issued non-expired ID</li>
+<li>Webcam and microphone</li>
+</ul>
+
+<h4 id="tools-used">Tools Used:</h4>
+
+<ul>
+<li>tmux: this one is optional but does help on the exam. Know how to split screens and switch between them. You only get one console on the test.</li>
+<li>vi: every edit and yaml file is done in vi. Be very comfortable navigating and editing files in vi, quickly.</li>
+<li>Systemd: the test runs on Ubuntu 16 currently so know how to manipulate services running under systemd.
+    <a href="https://www.digitalocean.com/community/tutorials/systemd-essentials-working-with-services-units-and-the-journal">Digital ocean has a great intro to systemd post</a></li>
+<li>kubectl: well, obviously. Be extremely comfortable with this command.</li>
+<li>cfssl/openssl: knowing how to generate certs (and what they are for) is important. Run through the hard way several times to be comfortable.</li>
+</ul>
+
+<p>Everything you will be tested on is in this <a href="https://github.com/cncf/curriculum">CNCF repo</a>. It is essential to understand every bullet point in that document.
+The CNCF Curriculum gives more details on what is required in each section.</p>
+
+<h4 id="breakdown-of-the-test">Breakdown of the Test:</h4>
+
+<ul>
+<li>Application Lifecycle Management (8%)</li>
+<li>Installation, Configuration &amp; Validation (12%)</li>
+<li>Core Concepts (19%)</li>
+<li>Networking (11%)</li>
+<li>Scheduling (5%)</li>
+<li>Security (12%)</li>
+<li>Cluster Maintenance (11%)</li>
+<li>Logging / Monitoring (5%)</li>
+<li>Storage (7%)</li>
+<li>Troubleshooting (10%)</li>
+</ul>
+
+<p>Example:</p>
+
+<p>5% Scheduling</p>
+
+<ul>
+<li>Use label selectors to schedule Pods.</li>
+<li>Understand the role of DaemonSets.</li>
+<li>Understand how resource limits can affect Pod scheduling.</li>
+<li>Understand how to run multiple schedulers and how to configure Pods to use them.</li>
+<li>Manually schedule a pod without a scheduler.</li>
+<li>Display scheduler events.</li>
+<li>Know how to configure the Kubernetes scheduler.</li>
+</ul>
+
+<p>Full list and details are <a href="https://github.com/cncf/curriculum">here</a> for the current test on kubernetes 1.12. The test
+changes with each release of kubernetes.</p>
+
+<h4 id="other-resources-from-the-cncf">Other resources from the CNCF</h4>
+
+<ul>
+<li><a href="https://www.cncf.io/certification/candidate-handbook">Candidate Handbook</a></li>
+<li><a href="https://cncf.io/certification/cka-cirriculum">Curriculum Overview</a></li>
+<li><a href="https://www.cncf.io/certification/tips">Exam Tips</a></li>
+</ul>
+
+<p>If you’re having trouble coming up with tutorials, Linux Academy has a great set of practice test questions in their
+course: <a href="https://linuxacademy.com/cp/modules/view/id/155">Certified Kubernetes Administrator (CKA)</a></p>
+
+<p>The people over at Kubernetes have a few examples to walk through as well, so do all of them:</p>
+
+<p><a href="https://github.com/kubernetes/examples">https://github.com/kubernetes/examples</a></p>
+
+<p>Any and all other information about the exam can be found here: <a href="https://www.cncf.io/certification/cka/">https://www.cncf.io/certification/cka/</a></p>
+
+<p>One important side note, you are allowed to use and search kubernetes.io during the test. If you forget something,
+you can look for it on the site, but keep in mind you only have 3 hours (7.5 mins per question).</p>
+
+<h4 id="day-of-the-test">Day of the Test:</h4>
+
+<p>These aliases will help save the precious time you have. Use these during your studies, so you are used to them on the day.</p>
+
+<pre><code class="language-bash">alias kc='kubectl'
+
+alias kgp='kubectl get pods'
+
+alias kgs='kubectl get svc'
+
+alias kgc='kubectl get componentstatuses’
+
+alias kctx='kubectl config current-context’
+
+alias kcon='kubectl config use-context’
+
+alias kgc='kubectl config get-context'
+</code></pre>
+
+<p>Time is a big factor here, you have 3 hours to finish 24 questions. That&rsquo;s 7.5 mins per question and they do get
+progressively harder, so no wasting time on the easier questions. If you’re spending more than 7 mins on questions
+worth only one or two percent (each question does tell you the percentage it is worth), move on. You won&rsquo;t finish otherwise.
+This is how I failed the first time, I just ran out of time.</p>
+
+<p>Have your ID ready and your room prepared, no electronics or anything on your desk. My proctor even had me cover my
+bookshelves behind me with blankets. The full exam rules are available in the <a href="https://www.cncf.io/certification/candidate-handbook">Candidate Handbook.</a></p>
+
+<p>If the test times out or there are other connectivity issues, just relax, the test is still there. Wait a couple minutes
+and refresh the page. The proctor is the true timekeeper. I had that happen on my first test, so I know how stressful that
+ can be. The test came right back and I was back into it.</p>
+
+<p>Prime yourself. A couple hours before the test, run through some scenarios, fire up minikube, and do some of the tasks.
+Get into the testing mood.</p>
+
+<p>Finally listen to this Spotify <a href="https://open.spotify.com/user/1286544262/playlist/31lxxIDyC3qYrtH6TpGFwx?si=4eEWwJgoTiW2_LORc7g9pQ">playlist</a> an hour before the test—you&rsquo;ll do great!</p>
+
+<p>Also here are <a href="https://gist.github.com/strongjz/4c9ad30a12ab715ae94cf72d0e7bbc30">links</a> to other resources I found or read about. I didn&rsquo;t necessarily go through all of these but it might be helpful to others.</p>
+
+<p>If you&rsquo;re looking to work on Kubernetes projects, Contino is always looking to hire talented DevOps engineers.</p>
+
+<p>Tweet me <a href="https://twiiter.com/strongjz">@strongjz</a> or leave a comment to let me know how you did.</p>
+
+<p>Good luck!</p>
+ </div>
+    <footer class="post-footer">
+
+  <div class="post-footer-data">
+    
+<div class="tags">
+    
+      <div class="tag">
+        <a href="https://jamesstrong.dev/tags/kubernetes">#kubernetes</a>
+      </div>
+    
+      <div class="tag">
+        <a href="https://jamesstrong.dev/tags/cloud-native">#cloud native</a>
+      </div>
+    
+      <div class="tag">
+        <a href="https://jamesstrong.dev/tags/cka">#cka</a>
+      </div>
+    
+      <div class="tag">
+        <a href="https://jamesstrong.dev/tags/devops">#devops</a>
+      </div>
+    
+      <div class="tag">
+        <a href="https://jamesstrong.dev/tags/containers">#containers</a>
+      </div>
+    
+</div>
+
+    <div class="date"> Jan 29, 2019 </div>
+  </div>
+
+</footer>
+
+
+  
+
+
+</article>
+
+  <footer>
+
+  <div class="social-links-footer">
+
+  
+  <a href="mailto:strong.james.e@gmail.com"><div class="social-link">Email</div></a>
+  
+
+  
+  <a href="https://github.com/strongjz" target="_blank"><div class="social-link">GitHub</div></a>
+  
+
+  
+
+  
+  <a href="https://twitter.com/strongjz" target="_blank"><div class="social-link">Twitter</div></a>
+  
+
+  
+  <a href="https://www.linkedin.com/in/strongjames" target="_blank"><div class="social-link">LinkedIn</div></a>
+  
+
+  <div class="social-link">
+  <a href="https://jamesstrong.dev/index.xml" target="_blank">RSS</a>
+  </div>
+
+</div>
+
+
+  <div class="copyright"> Copyright (c) 2017, all rights reserved. </div>
+
+  <div class="poweredby">
+    Powered by <a href="https://gohugo.io/">Hugo</a>.
+  </div>
+
+  </footer>
+
+</div> 
+
+</body>
+</html>
+

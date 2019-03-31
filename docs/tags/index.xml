@@ -7,9 +7,172 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright (c) 2017, all rights reserved.</copyright>
+    <lastBuildDate>Tue, 04 Dec 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://jamesstrong.dev/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Aws</title>
+      <link>https://jamesstrong.dev/tags/aws/</link>
+      <pubDate>Tue, 04 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesstrong.dev/tags/aws/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ci/Cd</title>
+      <link>https://jamesstrong.dev/tags/ci-cd/</link>
+      <pubDate>Wed, 06 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesstrong.dev/tags/ci-cd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cicd</title>
+      <link>https://jamesstrong.dev/tags/cicd/</link>
+      <pubDate>Wed, 29 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesstrong.dev/tags/cicd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cka</title>
+      <link>https://jamesstrong.dev/tags/cka/</link>
+      <pubDate>Tue, 29 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesstrong.dev/tags/cka/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cloud</title>
+      <link>https://jamesstrong.dev/tags/cloud/</link>
+      <pubDate>Tue, 04 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesstrong.dev/tags/cloud/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cloud Native</title>
+      <link>https://jamesstrong.dev/tags/cloud-native/</link>
+      <pubDate>Tue, 29 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesstrong.dev/tags/cloud-native/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cncf</title>
+      <link>https://jamesstrong.dev/tags/cncf/</link>
+      <pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesstrong.dev/tags/cncf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Code</title>
+      <link>https://jamesstrong.dev/tags/code/</link>
+      <pubDate>Wed, 29 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesstrong.dev/tags/code/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Conference</title>
+      <link>https://jamesstrong.dev/tags/conference/</link>
+      <pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesstrong.dev/tags/conference/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Containers</title>
+      <link>https://jamesstrong.dev/tags/containers/</link>
+      <pubDate>Tue, 29 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesstrong.dev/tags/containers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Development</title>
+      <link>https://jamesstrong.dev/tags/development/</link>
+      <pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesstrong.dev/tags/development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Devops</title>
+      <link>https://jamesstrong.dev/tags/devops/</link>
+      <pubDate>Tue, 29 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesstrong.dev/tags/devops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jenkins</title>
+      <link>https://jamesstrong.dev/tags/jenkins/</link>
+      <pubDate>Wed, 06 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesstrong.dev/tags/jenkins/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kubernetes</title>
+      <link>https://jamesstrong.dev/tags/kubernetes/</link>
+      <pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesstrong.dev/tags/kubernetes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Meetup</title>
+      <link>https://jamesstrong.dev/tags/meetup/</link>
+      <pubDate>Wed, 06 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesstrong.dev/tags/meetup/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reinvent</title>
+      <link>https://jamesstrong.dev/tags/reinvent/</link>
+      <pubDate>Tue, 04 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesstrong.dev/tags/reinvent/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Resume</title>
+      <link>https://jamesstrong.dev/tags/resume/</link>
+      <pubDate>Mon, 18 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesstrong.dev/tags/resume/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Workshop</title>
+      <link>https://jamesstrong.dev/tags/workshop/</link>
+      <pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesstrong.dev/tags/workshop/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

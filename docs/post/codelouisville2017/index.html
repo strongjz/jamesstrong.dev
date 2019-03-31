@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+<meta charset="utf-8" />
+<meta name="author" content="James Strong" />
+<meta name="description" content="Personal blog." />
+<meta name="keywords" content="blog, tech" />
+<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+<meta name="generator" content="Hugo 0.53" />
+
+<link rel="canonical" href="https://jamesstrong.dev/post/codelouisville2017/">
+<meta property="og:title" content="Code Louisville 2017" />
+<meta property="og:description" content="This talk was presented in 2017 at Louisville Local Software Development Conference Codepalousa
+In this presentation I discussed DevOps, how Continuous Integration and Deployment integrates into that, and how CI/CD can be implemented with AWS services.
+   Running Rules for CI/CD AWS Tool     1. Maintain a code repository Commit   2. Automate the build *   3. Keep the build fast Build   4." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://jamesstrong.dev/post/codelouisville2017/" /><meta property="article:published_time" content="2017-03-29T00:00:00&#43;00:00"/>
+<meta property="article:modified_time" content="2017-03-29T00:00:00&#43;00:00"/>
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Code Louisville 2017"/>
+<meta name="twitter:description" content="This talk was presented in 2017 at Louisville Local Software Development Conference Codepalousa
+In this presentation I discussed DevOps, how Continuous Integration and Deployment integrates into that, and how CI/CD can be implemented with AWS services.
+   Running Rules for CI/CD AWS Tool     1. Maintain a code repository Commit   2. Automate the build *   3. Keep the build fast Build   4."/>
+
+
+
+<meta itemprop="name" content="Code Louisville 2017">
+<meta itemprop="description" content="This talk was presented in 2017 at Louisville Local Software Development Conference Codepalousa
+In this presentation I discussed DevOps, how Continuous Integration and Deployment integrates into that, and how CI/CD can be implemented with AWS services.
+   Running Rules for CI/CD AWS Tool     1. Maintain a code repository Commit   2. Automate the build *   3. Keep the build fast Build   4.">
+
+
+<meta itemprop="datePublished" content="2017-03-29T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2017-03-29T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="98">
+
+
+
+<meta itemprop="keywords" content="code,development,aws,cicd,devops,cloud," />
+
+
+<link rel="stylesheet" href="https://jamesstrong.dev/css/layout.css" />
+<style type="text/css">
+body {
+  background-color: #101010;
+  color: #dbdbdb;
+}
+
+a { color: #dbdbdb; }
+
+pre {
+  background: #1D1F21;
+  border: 1px solid #dbdbdb;
+  border-radius: 5px;
+}
+
+code {
+  background: #1D1F21;
+}
+
+blockquote {
+  background: #1D1F21;
+  border-left: 3px solid #dbdbdb;
+}
+
+table {
+  margin: 1em auto;
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid #dbdbdb;
+}
+
+th {
+  background: #dbdbdb;
+  color: #101010;
+}
+
+.siteTitle a { color: #99cc66; }
+
+.post .content h1{ color: #99cc66; }
+.post .content h2{ color: #99cc66; }
+.post .content h3{ color: #99cc66; }
+.post .content h4{ color: #99cc66; }
+.post .content h5{ color: #99cc66; }
+.post .content h6{ color: #99cc66; }
+.post .content a:hover { color: #99cc66; }
+.social-link:hover { color: #99cc66; }
+.nav-item-title:hover { color: #99cc66; }
+.tag a:hover { color: #99cc66; }
+.copyright { color: #404040 }
+.poweredby { color: #404040 }
+.poweredby a { color: #404040; }
+.post-preview .title a{ color: #99cc66; }
+.content-item a:hover{
+  text-decoration: underline;
+  color: #99cc66;
+}
+.post-list .title { color: #99cc66; }
+.rmore { color: #99cc66; }
+.terms .term a:hover {
+  text-decoration: underline;
+  color: #99cc66;
+}
+
+</style>
+
+
+
+<title>
+
+
+     Code Louisville 2017 
+
+</title>
+
+</head>
+
+
+<body>
+<div class="main">
+<header>
+
+<div class="header-bar">
+
+  <nav>
+    <div class="siteTitle">
+      <a href="https://jamesstrong.dev/">James Strong</a>
+    </div> 
+
+    
+    
+    <a class="nav-item" href="https://jamesstrong.dev/about/"><div class="nav-item-title">About Me</div></a>
+    
+    <a class="nav-item" href="https://jamesstrong.dev/post/"><div class="nav-item-title">Posts</div></a>
+    
+    <a class="nav-item" href="https://jamesstrong.dev/resume/"><div class="nav-item-title">Resume</div></a>
+    
+    <a class="nav-item" href="https://jamesstrong.dev/tags/"><div class="nav-item-title">Tags</div></a>
+    
+
+  </nav>
+</div>
+
+  
+<div class="social-links-header">
+
+  
+  <a href="mailto:strong.james.e@gmail.com"><div class="social-link">email</div></a>
+  
+
+  
+  <a href="https://github.com/strongjz" target="_blank"><div class="social-link">gh</div></a>
+  
+
+  
+
+  
+  <a href="https://twitter.com/strongjz" target="_blank"><div class="social-link">twtr</div></a>
+  
+
+  
+  <a href="https://www.linkedin.com/in/strongjames" target="_blank"><div class="social-link">in</div></a>
+  
+
+</div>
+
+
+</header>
+
+
+<article class="post">
+    <h1 class="title"> Code Louisville 2017 </h1>
+    <div class="content"> <p>This talk was presented in 2017 at Louisville Local Software Development Conference Codepalousa</p>
+
+<p>In this presentation I discussed DevOps, how Continuous Integration and Deployment integrates into that,
+and how CI/CD can be implemented with AWS services.</p>
+
+<table>
+<thead>
+<tr>
+<th>Running Rules for CI/CD</th>
+<th>AWS Tool</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>1. Maintain a code repository</td>
+<td>Commit</td>
+</tr>
+
+<tr>
+<td>2. Automate the build</td>
+<td>*</td>
+</tr>
+
+<tr>
+<td>3. Keep the build fast</td>
+<td>Build</td>
+</tr>
+
+<tr>
+<td>4. Make the build self-testing</td>
+<td>Deploy</td>
+</tr>
+
+<tr>
+<td>5. Commit early, commit often</td>
+<td>Commit</td>
+</tr>
+
+<tr>
+<td>6. Every commit to the mainline gets built</td>
+<td>Pipeline</td>
+</tr>
+
+<tr>
+<td>7. Everyone can see the results of the build</td>
+<td>Pipeline</td>
+</tr>
+
+<tr>
+<td>8. Automate the deployment and rollback</td>
+<td>Deploy</td>
+</tr>
+</tbody>
+</table>
+
+<p><a href="http://www.codepalousa.com/">http://www.codepalousa.com/</a></p>
+
+<p><embed src="https://jamesstrong.dev/pdf/code.pdf" type="application/pdf"   width="615px" height="615px"></p>
+ </div>
+    <footer class="post-footer">
+
+  <div class="post-footer-data">
+    
+<div class="tags">
+    
+      <div class="tag">
+        <a href="https://jamesstrong.dev/tags/code">#code</a>
+      </div>
+    
+      <div class="tag">
+        <a href="https://jamesstrong.dev/tags/development">#development</a>
+      </div>
+    
+      <div class="tag">
+        <a href="https://jamesstrong.dev/tags/aws">#aws</a>
+      </div>
+    
+      <div class="tag">
+        <a href="https://jamesstrong.dev/tags/cicd">#cicd</a>
+      </div>
+    
+      <div class="tag">
+        <a href="https://jamesstrong.dev/tags/devops">#devops</a>
+      </div>
+    
+      <div class="tag">
+        <a href="https://jamesstrong.dev/tags/cloud">#cloud</a>
+      </div>
+    
+</div>
+
+    <div class="date"> Mar 29, 2017 </div>
+  </div>
+
+</footer>
+
+
+  
+
+
+</article>
+
+  <footer>
+
+  <div class="social-links-footer">
+
+  
+  <a href="mailto:strong.james.e@gmail.com"><div class="social-link">Email</div></a>
+  
+
+  
+  <a href="https://github.com/strongjz" target="_blank"><div class="social-link">GitHub</div></a>
+  
+
+  
+
+  
+  <a href="https://twitter.com/strongjz" target="_blank"><div class="social-link">Twitter</div></a>
+  
+
+  
+  <a href="https://www.linkedin.com/in/strongjames" target="_blank"><div class="social-link">LinkedIn</div></a>
+  
+
+  <div class="social-link">
+  <a href="https://jamesstrong.dev/index.xml" target="_blank">RSS</a>
+  </div>
+
+</div>
+
+
+  <div class="copyright"> Copyright (c) 2017, all rights reserved. </div>
+
+  <div class="poweredby">
+    Powered by <a href="https://gohugo.io/">Hugo</a>.
+  </div>
+
+  </footer>
+
+</div> 
+
+</body>
+</html>
+

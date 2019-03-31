@@ -1,0 +1,13 @@
+---
+title: "Hashicorp DFW"
+date: 2019-04-10
+tags:
+  - serverless
+  - cloud native    
+  - hashicorp
+  - meetup
+---
+
+I will be giving a talk and demo on deploying serverless apps onto AWS with Terraform!
+
+https://www.meetup.com/hashicorpdfw/events/260071773/
