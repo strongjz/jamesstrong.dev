@@ -14,6 +14,6 @@ Continuous Deployment, and how to achieve it with Jenkins.
 
 ![](/img/jenkins.png)
 
-<embed src="/pdf/software-engineering.pdf" type="application/pdf" width="615px" height="615px">
+<embed src="/pdf/software-engineering.pdf" type="application/pdf"  width="775px" height="800px">
 
 https://www.meetup.com/Louisville-Software-Engineering/events/227294818/

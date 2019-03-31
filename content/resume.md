@@ -1,7 +1,6 @@
 ---
 title: "Resume"
 date: "2019-03-18"
-menu: "main"
 tags:
   - resume
 ---

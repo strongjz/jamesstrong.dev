@@ -1,5 +1,5 @@
 ---
-title: "Dev Nexus 2018"
+title: "Dev Nexus 2019"
 date: 2019-03-06
 tags:
   - development

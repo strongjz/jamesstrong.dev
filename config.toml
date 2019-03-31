@@ -5,7 +5,7 @@ title = "James Strong"
 copyright = "Copyright (c) 2017, all rights reserved."
 canonifyurls = true
 paginate = 3
-theme = "hugo-dusk"
+theme = "blackburn"
 
 [taxonomies]
   tag = "tags"
@@ -30,6 +30,18 @@ pygmentsStyle = "native" # other dark style options: vim, fruity, monokai
 pygmentsCodeFences = true
 
 [[menu.main]]
+
+  name = "Home"
+  identifier = "home"
+  url = "/"
+
+[[menu.main]]
+  name = "About Me"
+  identifier = "about"
+  url = "/about/"
+
+[[menu.main]]
+
   name = "Posts"
   identifier = "post"
   url = "/post/"
@@ -39,15 +51,11 @@ pygmentsCodeFences = true
   identifier = "tag"
   url = "/tags/"
 
+[[menu.main]]
+  name = "Resume"
+  identifier = "resume"
+  url = "/resume/"
 
 [params.meta]
   keywords = "blog, tech"
   description = "Personal blog."
-
-[params.colors]
-  # hugo-dusk colors
-  background = "#101010" # background color for the site
-  main = "#99cc66"
-  text = "#dbdbdb"
-  code-quote-bg = "#1D1F21" # background color for quotes and code blocks
-  copyright = "#404040" # copyright text color
