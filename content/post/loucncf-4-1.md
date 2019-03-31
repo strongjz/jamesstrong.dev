@@ -1,6 +1,6 @@
 ---
 title: "Kubernetes and Cloud Native Computing April Meetup"
-date: 2019-04-04
+date: 2019-03-25
 tags:
   - cloud native
   - cncf

@@ -7,10 +7,30 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright (c) 2017, all rights reserved.</copyright>
-    <lastBuildDate>Mon, 18 Mar 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 31 Mar 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://jamesstrong.dev/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Hashicorp DFW</title>
+      <link>https://jamesstrong.dev/post/hashidfw/</link>
+      <pubDate>Sun, 31 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesstrong.dev/post/hashidfw/</guid>
+      <description>I will be giving a talk and demo on deploying serverless apps onto AWS with Terraform!
+https://www.meetup.com/hashicorpdfw/events/260071773/</description>
+    </item>
+    
+    <item>
+      <title>Kubernetes and Cloud Native Computing April Meetup</title>
+      <link>https://jamesstrong.dev/post/loucncf-4-1/</link>
+      <pubDate>Mon, 25 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesstrong.dev/post/loucncf-4-1/</guid>
+      <description>The inaugural Kubernetes and Cloud Native Computer Louisville will be on April 4th. I will be presenting an &amp;ldquo;Intro to Kubernetes&amp;rdquo;
+https://www.meetup.com/Kubernetes-and-Cloud-Native-Computing-Louisville/events/259202067/</description>
+    </item>
     
     <item>
       <title>About Me</title>

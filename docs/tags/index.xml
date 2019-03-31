@@ -60,7 +60,7 @@
     <item>
       <title>Cloud Native</title>
       <link>https://jamesstrong.dev/tags/cloud-native/</link>
-      <pubDate>Tue, 29 Jan 2019 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 31 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>https://jamesstrong.dev/tags/cloud-native/</guid>
       <description></description>
@@ -69,7 +69,7 @@
     <item>
       <title>Cncf</title>
       <link>https://jamesstrong.dev/tags/cncf/</link>
-      <pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 25 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>https://jamesstrong.dev/tags/cncf/</guid>
       <description></description>
@@ -121,6 +121,15 @@
     </item>
     
     <item>
+      <title>Hashicorp</title>
+      <link>https://jamesstrong.dev/tags/hashicorp/</link>
+      <pubDate>Sun, 31 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesstrong.dev/tags/hashicorp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Jenkins</title>
       <link>https://jamesstrong.dev/tags/jenkins/</link>
       <pubDate>Wed, 06 Jan 2016 00:00:00 +0000</pubDate>
@@ -132,7 +141,7 @@
     <item>
       <title>Kubernetes</title>
       <link>https://jamesstrong.dev/tags/kubernetes/</link>
-      <pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 25 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>https://jamesstrong.dev/tags/kubernetes/</guid>
       <description></description>
@@ -150,7 +159,7 @@
     <item>
       <title>Meetup</title>
       <link>https://jamesstrong.dev/tags/meetup/</link>
-      <pubDate>Wed, 06 Jan 2016 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 31 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>https://jamesstrong.dev/tags/meetup/</guid>
       <description></description>
@@ -171,6 +180,15 @@
       <pubDate>Mon, 18 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>https://jamesstrong.dev/tags/resume/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Serverless</title>
+      <link>https://jamesstrong.dev/tags/serverless/</link>
+      <pubDate>Sun, 31 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesstrong.dev/tags/serverless/</guid>
       <description></description>
     </item>
     
