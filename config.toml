@@ -1,0 +1,53 @@
+publishDir = "docs/"
+languageCode = "en-us"
+baseurl = "https://jamesstrong.dev/"
+title = "James Strong"
+copyright = "Copyright (c) 2017, all rights reserved."
+canonifyurls = true
+paginate = 3
+theme = "hugo-dusk"
+
+[taxonomies]
+  tag = "tags"
+
+[params]
+  github = "strongjz"
+  twitter = "strongjz"
+  linkedin = "strongjames"
+  email = "strong.james.e@gmail.com"
+  author = "James Strong"
+  locale = "en-US"
+
+
+[author]
+  name = "James Strong"
+
+SectionPagesMenu = "main"
+
+# use Chroma for syntax highlight
+pygmentsStyle = "native" # other dark style options: vim, fruity, monokai
+# enable syntax highlight for code blocks
+pygmentsCodeFences = true
+
+[[menu.main]]
+  name = "Posts"
+  identifier = "post"
+  url = "/post/"
+
+[[menu.main]]
+  name = "Tags"
+  identifier = "tag"
+  url = "/tags/"
+
+
+[params.meta]
+  keywords = "blog, tech"
+  description = "Personal blog."
+
+[params.colors]
+  # hugo-dusk colors
+  background = "#101010" # background color for the site
+  main = "#99cc66"
+  text = "#dbdbdb"
+  code-quote-bg = "#1D1F21" # background color for quotes and code blocks
+  copyright = "#404040" # copyright text color

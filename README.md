@@ -1,4 +1,4 @@
-jamesstrong-us
+jamesstrong.dev
 ==============
 
-JamesStrong-US
+Personal Blog 
