@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Master on James Strong</title>
+    <link>https://jamesstrong.dev/tags/master/</link>
+    <description>Recent content in Master on James Strong</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright (c) 2017, all rights reserved.</copyright>
+    <lastBuildDate>Fri, 24 Apr 2015 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://jamesstrong.dev/tags/master/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Masters Presentation</title>
+      <link>https://jamesstrong.dev/post/master/</link>
+      <pubDate>Fri, 24 Apr 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesstrong.dev/post/master/</guid>
+      <description>On May 9th 2015 I received my Master of Science in Computer Science from the University of Louisville. Here is my final project presentation.
+The presentation is host here as well.
+&amp;gt;</description>
+    </item>
+    
+  </channel>
+</rss>

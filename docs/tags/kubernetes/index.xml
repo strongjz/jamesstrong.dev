@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kubernetes on James Strong</title>
+    <link>https://jamesstrong.dev/tags/kubernetes/</link>
+    <description>Recent content in Kubernetes on James Strong</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright (c) 2017, all rights reserved.</copyright>
+    <lastBuildDate>Wed, 06 Mar 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://jamesstrong.dev/tags/kubernetes/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Dev Nexus 2019</title>
+      <link>https://jamesstrong.dev/post/devnexus2019/</link>
+      <pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesstrong.dev/post/devnexus2019/</guid>
+      <description>At Dev Nexus 2018 my co-worker, Adarsh, and I led a workshop &amp;ldquo;Introduction to Kubernetes&amp;rdquo;
+Introduction to Kubernetes is a hands-on, interactive workshop giving attendees a thorough understanding of the fundamentals of Kubernetes. As part of this workshop, you will learn how Kubernetes works, be able to successfully create a kubernetes cluster, deploy microservices to that cluster &amp;amp; also hear about some war stories.
+https://contino.github.io/intro-k8/
+Developer density ⁦@devnexus⁩!
+First class speakers!</description>
+    </item>
+    
+    <item>
+      <title>Passing the CKA</title>
+      <link>https://jamesstrong.dev/post/passcka/</link>
+      <pubDate>Tue, 29 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesstrong.dev/post/passcka/</guid>
+      <description>On December 29th I completed my final goal of the year - I passed the CKA.
+TL;DR This is a list of the bare minimum necessary to try to pass.
+ Do Kelsey Hightower’s tutorial Kubernetes The Hard Way at least three times! Understand it, internalize it. Do all the tasks on https://kubernetes.io/docs/tasks/ Read Kubernetes in Action by Marko Luksa  Also practice, practice, and practice. Did I mention practice?</description>
+    </item>
+    
+  </channel>
+</rss>

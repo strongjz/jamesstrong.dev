@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Resume on James Strong</title>
+    <link>https://jamesstrong.dev/tags/resume/</link>
+    <description>Recent content in Resume on James Strong</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright (c) 2017, all rights reserved.</copyright>
+    <lastBuildDate>Mon, 18 Mar 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://jamesstrong.dev/tags/resume/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Resume</title>
+      <link>https://jamesstrong.dev/resume/</link>
+      <pubDate>Mon, 18 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesstrong.dev/resume/</guid>
+      <description>PDF version
+Contino • Technical Principal New York City, NY • Jan ‘18 - Dec ‘18
+Lead technical teams implementing technologies such as Terraform, Docker and other cloud native technologies. To upskill teams on those technologies implementing paired programming or workshops. Responsible for day-to-day Scrum master duties, completion of Project deliverables and report outs to Key stakeholders.
+Contino • Senior DevOps Consultant New York City, NY • Jan ‘18 - Dec ‘18</description>
+    </item>
+    
+  </channel>
+</rss>
