@@ -129,7 +129,8 @@ Current
  * AWS CSA – Associate
  * AWS DEV - Associate
  * AWS SYSOPS - Associate
-
+ * AWS Certified Network Speciality
+ 
 Past
 
 * CCNA

@@ -2,6 +2,7 @@ DOCKER       = docker
 HUGO_VERSION = 0.49
 DOCKER_IMAGE = k8-hugo
 DOCKER_RUN   = $(DOCKER) run --rm --interactive --tty --volume $(PWD):/src
+THEME        = blackburn
 
 .PHONY: all build build-preview serve docker-all
 
@@ -30,4 +31,4 @@ docker-build:
 	$(DOCKER_RUN) $(DOCKER_IMAGE) hugo
 
 docker-serve:
-	$(DOCKER_RUN) -p 1313:1313 $(DOCKER_IMAGE) hugo server --watch --bind 0.0.0.0
+	$(DOCKER_RUN) -p 1313:1313 $(DOCKER_IMAGE) hugo server -t $(THEME) --watch --bind 0.0.0.0
