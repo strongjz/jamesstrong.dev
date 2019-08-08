@@ -1,1 +1,68 @@
-[ my public key: https://keybase.io/strongjz; my proof: https://keybase.io/strongjz/sigs/d56UTTJXbNpD-O34X0yfp1HNYc8DKhU9SmNRdcgExLQ ]
+==================================================================
+https://keybase.io/strongjz
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://jamesstrong.dev
+  * I am strongjz (https://keybase.io/strongjz) on keybase.
+  * I have a public key with fingerprint 955E 384E 8B36 BF5B 02E3  D2A4 08D1 1276 8A12 9699
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01017c505f75e82cc65537fed51bf8ac610cf9cb377bf529677cc49152b12fdf6f220a",
+      "fingerprint": "955e384e8b36bf5b02e3d2a408d112768a129699",
+      "host": "keybase.io",
+      "key_id": "08d112768a129699",
+      "kid": "01017c505f75e82cc65537fed51bf8ac610cf9cb377bf529677cc49152b12fdf6f220a",
+      "uid": "0d11c9b3f05ed28a98adea44563a0719",
+      "username": "strongjz"
+    },
+    "service": {
+      "hostname": "jamesstrong.dev",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1565261525,
+  "expire_in": 157680000,
+  "prev": "47db7878a3ca6ef64963987045a34a1507eddecd516473854b45317e1dabd705",
+  "seqno": 33,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.3
+Comment: https://keybase.io/crypto
+
+yMIoAnicrVJLSBVRGL43tfTaCyx7GC3GWlQm8zpzZkZykT0Mwyvooki9nJlz5jpq
+M7eZUa+avSBMpLCCLMwCKaqNC10UtyxvGgVSRGWLkqQHBG4CkYLeZ9JWbTubn/Of
+7/F/P2d0UUogFDxzuzqn4H17YXAs2dMQqCr5Od7KaDZuZtRWpo78KaQeE9eL1JmY
+URmWYzmoAxYYEBCZ13UJAAEaBANOM2SkSxyrG4quCRBqBuAVCUJdFxUO8BrHG9iQ
+DJ5nEZPHGKYVJU7MMS2PyioAEEEWiawJEuVpLE8EzCORlTHH8VCSEUe1FIUSa2zX
+Z9DhNOSSfNOmPXqJzI73L/4/z90wK0dtdEUTDBYQzMtIkREmSBSBJCAWcr5vg0sc
+C+0nFO16jm1Fa1uYtjyGdhtNnfiL9ZPMIWppcWdh+Zg0UnrMsT1bt+vpY43nxVzV
+J3vNMR/dRLTInE5EMy1MV0kZjcRxTdtiVI4idc/0hTkgAV6iKUAeQ+Ix0yER00cA
+uiKWHt+H2qmMCLEGZSgjQUcSMSRRkQRFhqwIkCAiDrCQYEx0ui5JhIIMRE0EAgcJ
+h5GGIQsYP9kBy2ZUQaBzoqgf24xayGtwCNN2f7gyNRAMBeanzfP/WCCUsfTvz1uS
+ueBXbU88WHRztKKteujYs2U1F3bOrHhsjvZ9KHpacmKwv6Igd3J57Nr1vUZPorXy
+bmLbWFf5yeMrH4SeVy6+W7p043Ta+slTU1N70nOqQqtzc2BLpnquItFxtr2t6eC1
+eLA9Mfm5/d63vrILPenJiatVQ+O16pvhdUPb49lZL1I7tcJEU7Kku/50dnJX15Zg
+YqS0xDzW9+NockEHThjTKVcuaze6c2YWrk1RwmWbRkC1/Kh/h7Nq6/T5wayHH8Mj
+Axmduy+WCbn6TEvWy43lxU8WvYoe2VDtpuuHbp33DvdmFr79lAjv7eTGwsUTxZcG
+rK+Hvu879658zaYN/d2be+988dTXvwF2iTyd
+=3NLi
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/strongjz
+
+==================================================================
