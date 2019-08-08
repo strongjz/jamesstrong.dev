@@ -7,7 +7,11 @@ canonifyurls = true
 paginate = 3
 theme = "blackburn"
 
-dateFormat = "02 Jan 2006"
+[params]
+  # Shown in the home page
+  brand = "James Strong"
+  googleAnalytics = "G-Y034J08BEQ"
+  dateFormat = "02 Jan 2006"
 
 [indexes]
   tag = "tags"
