@@ -7,7 +7,7 @@ canonifyurls = true
 paginate = 3
 theme = "blackburn"
 
- dateFormat = "02 Jan 2006"
+dateFormat = "02 Jan 2006"
 
 [indexes]
   tag = "tags"
@@ -16,13 +16,26 @@ theme = "blackburn"
 [taxonomies]
   tag = "tags"
 
-[params]
+[social]
   github = "strongjz"
   twitter = "strongjz"
   linkedin = "strongjames"
   email = "strong.james.e@gmail.com"
-  author = "James Strong"
-  locale = "en-US"
+
+
+  # SNS photo/video sharing
+  slideshare = "jstrong09"
+
+  reddit = "strongjz"
+  hackernews = "strongbad"
+
+  gitlab = "strongjz"
+  bitbucket = "*"
+  stackoverflow = "1794802"
+  serverfault = "162720"
+
+  # Other
+  keybase = "strongjz"
 
 
 [author]
@@ -55,6 +68,11 @@ theme = "blackburn"
   name = "Resume"
   identifier = "resume"
   url = "/resume/"
+
+[[menu.main]]
+  name = "Keybase"
+  identifier = "Keybase"
+  url = "/keybase.txt"
 
 [params.meta]
   keywords = "blog, tech"
