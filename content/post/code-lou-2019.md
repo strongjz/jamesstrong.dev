@@ -31,7 +31,7 @@ In it, he talked about what developers can do and impressed upon us how importan
 
 My first Thursday session was from [Michael Eaton](https://twitter.com/mjeaton), where he discussed his transition from developer to Leader back to a developer. In this talk, Micheal lamented the difficulties of these transitions. The first 
 transition from developer to a Leader of developers is and two, how desperately he wanted to go back to writing code.  
-Micheal gave great feedback for developers going through this, for example, know you're why; why are doing what you are 
+Michael gave great feedback for developers going through this, for example, know you're why; why are doing what you are 
 doing, whether you're a dev or a leader. If you are a leader, work on your emotional intelligence as well. The pieces 
 of advice that resonated with me were "Be consistent" with your decisions and with your team. The second is to always 
 "Own your mistakes." Michael said, "Successes are his engineers and their failures his." This quote is an excellent 
