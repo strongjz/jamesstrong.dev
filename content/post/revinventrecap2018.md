@@ -32,11 +32,22 @@ frameworks, so now lack of language frameworks no longer hold customers back fro
 [Outpost](https://aws.amazon.com/outposts/) - AWS on-premise, enough said. To help increase the adoption and migration 
 to the cloud, AWS has released Outpost, where customers can now have AWS racks of servers and services right in their data centers. 
 
-[VPC Transit Gateway](https://aws.amazon.com/about-aws/whats-new/2018/11/introducing-aws-transit-gateway/) - VPC networking can quickly become complex as you add more and more VPC’s that need interconnectivity and connection back to on-premise. VPC Transit Gateway greatly reduces the complexity, with one entry point for traffic and VPN connections between VPCs, even in different accounts and on-premise.
+[VPC Transit Gateway](https://aws.amazon.com/about-aws/whats-new/2018/11/introducing-aws-transit-gateway/) - VPC networking 
+can quickly become complex as you add more and more VPC’s that need interconnectivity and connection back to on-premise. 
+VPC Transit Gateway greatly reduces the complexity, with one entry point for traffic and VPN connections between VPCs, 
+even in different accounts and on-premise.
 
-[DeepRacer](https://aws.amazon.com/deepracer/) - Another addition their Machine Learning platform, this is a fully autonomous 1/18th scale race car driven by reinforcement learning, 3D racing simulator and global racing league. AWS will now hold DeepRacer events which will culminate in a championship race. Machine learning is a hard and complex topic and AWS has helped simplify and make it fun with this new addition to their service.
+[DeepRacer](https://aws.amazon.com/deepracer/) - Another addition their Machine Learning platform, this is a fully 
+autonomous 1/18th scale race car driven by reinforcement learning, 3D racing simulator and global racing league. 
+AWS will now hold DeepRacer events which will culminate in a championship race. Machine learning is a hard and complex 
+topic and AWS has helped simplify and make it fun with this new addition to their service.
 
-[Control Tower](https://aws.amazon.com/controltower/) and [Security Hub](https://aws.amazon.com/security-hub/) - Security Hub is a single pane of glass for all your security related concerns inside your AWS accounts. Integration with CloudWatch Events allows you to send findings to ticketing, chat or email to alert teams. It also uses Config to set up automated security checks inside the account. Control Tower helps customers deploy AWS best practices based on the AWS well architected framework. This is across accounts as well, so business can now manage and enforce security and compliance regulations from one service. Both of these new services help increase the adaption of AWS services.
+[Control Tower](https://aws.amazon.com/controltower/) and [Security Hub](https://aws.amazon.com/security-hub/) - Security
+ Hub is a single pane of glass for all your security related concerns inside your AWS accounts. Integration with 
+ CloudWatch Events allows you to send findings to ticketing, chat or email to alert teams. It also uses Config to set 
+ up automated security checks inside the account. Control Tower helps customers deploy AWS best practices based on the 
+ AWS well architected framework. This is across accounts as well, so business can now manage and enforce security and 
+ compliance regulations from one service. Both of these new services help increase the adaption of AWS services.
 
 [Check out the full list of AWS Launches/Releases](https://aws.amazon.com/new/reinvent/)
 
@@ -92,7 +103,8 @@ Some additional benefits are:
 
 AWS labs has a Fargate Reference Architecture for CI/CD you can checkout [here.](https://github.com/awslabs/ecs-refarch-continuous-deployment)
 
-Datree has 0 ec2 instances, let me repeat that, 0 ec2 instances in their accounts all things to Fargate and Lambda. Datatree started with managing their ec2 fleets with AMI’s and that soon become too much for the team.
+Datree has 0 ec2 instances, let me repeat that, 0 ec2 instances in their accounts all things to Fargate and Lambda. 
+Datatree started with managing their ec2 fleets with AMI’s and that soon become too much for the team.
 
 Datree gave a demo of the pipeline listed below:
 
@@ -107,9 +119,13 @@ Datree gave a demo of the pipeline listed below:
 
 #### DAT327 - Automate the Creation of Secure Enterprise Resources During Migration  
 
-This was my only Chalk talk that I went to. Chalk talks are smaller venues that allow the audience to interact with the speaker. In this talk, Verizon discussed how they overcame security and compliance regulations when deploying their Elasticache and EFS services.
+This was my only Chalk talk that I went to. Chalk talks are smaller venues that allow the audience to interact with the 
+speaker. In this talk, Verizon discussed how they overcame security and compliance regulations when deploying their 
+Elasticache and EFS services.
 
-All services were deployed via Jenkins and Ansible. The control in place for deploying Elasticache and EFS was a Jenkins plugin. It validates the options developers choose and then deploys them on the fly by generating Cloud formation templates for deployments.
+All services were deployed via Jenkins and Ansible. The control in place for deploying Elasticache and EFS was a Jenkins
+ plugin. It validates the options developers choose and then deploys them on the fly by generating Cloud formation 
+ templates for deployments.
 
 #### [DAT406](https://www.youtube.com/watch?v=valsEK5mIQI) - Netflix: Iterating On Stateful Services in the Cloud
 
@@ -135,7 +151,8 @@ If yes, then these four strategies can help:
    7. Retire old cluster
    8. Migrate state at the Server - Copy state from server to another 
 
-I highly suggest watching the session on [youtube](https://www.youtube.com/watch?v=valsEK5mIQI), pros and cons of each are reviewed. Also some case studies inside Netflix using these strategies is review.
+I highly suggest watching the session on [youtube](https://www.youtube.com/watch?v=valsEK5mIQI), pros and cons of each
+ are reviewed. Also some case studies inside Netflix using these strategies is review.
 
 #### [DEV317](https://www.youtube.com/watch?v=Jnl29J3RJQ4) - Advanced Continuous Delivery Best Practices
 
@@ -157,7 +174,8 @@ AWS has [some samples](https://github.com/aws-samples/aws-codepipeline-block-pro
 
 #### [NET403](https://www.youtube.com/watch?v=DXFooR95BYc) - AWS Direct Connect: Deep Dive
 
-This session reviewed the basics of AWS Direct Connect. If you want a review and to understand Direct Connect, I highly suggest watching this talk.
+This session reviewed the basics of AWS Direct Connect. If you want a review and to understand Direct Connect,
+ I highly suggest watching this talk.
 
 Updates:
 
@@ -175,7 +193,8 @@ Why Does AWS need their own backbone?
    * Security - Using AWS backbone instead of the Internet
    * Availability - Able to tune the network to reduce packet loss
    * Reliable Performance - Reducing Jitter is primary concern
-   * Connecting Closer to Customers - A secure, available, reliable backbone allows customers to connect cluster to customers 
+   * Connecting Closer to Customers - A secure, available, reliable backbone allows customers to connect cluster 
+   to customers 
 
 AWS Services that give customers access to the AWS backbone:
 
@@ -186,10 +205,13 @@ AWS Services that give customers access to the AWS backbone:
 New Network Services in AWS
 
    * Global Accelerator - Single Point of presence for your application that utilizes the AWS backbone
-   * VPC Transit Gateway - VPC Transit Gateway greatly reduces the complexity, with one entry point for traffic and VPN connections between VPCs, even in different accounts and on-premise
+   * VPC Transit Gateway - VPC Transit Gateway greatly reduces the complexity, with one entry point for traffic and VPN 
+   connections between VPCs, even in different accounts and on-premise
    * Route53 resolver - This enables bi-directional querying between on-premises and AWS over private connections
    * ELB - Redirect support!
-   * PrivateLink - A new service that allows customers to privately access select AWS services from their Virtual Private Cloud and from on-premises via AWS Direct Connect
-   * Shared VPC - Allows VPC to be shared to other accounts, central oversight for Network engineers and reduces the complexity for App developers to deploy their applications 
+   * PrivateLink - A new service that allows customers to privately access select AWS services from their Virtual 
+   Private Cloud and from on-premises via AWS Direct Connect
+   * Shared VPC - Allows VPC to be shared to other accounts, central oversight for Network engineers and reduces 
+   the complexity for App developers to deploy their applications 
 
 Enjoy all the new services from AWS and see you next year at re:Invent!
