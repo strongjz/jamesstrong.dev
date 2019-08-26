@@ -13,23 +13,28 @@ Another year! Another amazing Code PaLOUsa come and gone.
 ### Location
 
 This year Code PaLOUsa was at the Hyatt Regency, which is smack dap in the middle of downtown. This location makes it a
- perfect spot for all the speakers and conference-goers to experience some of the tourist spots in Louisville and still enjoy the conference. 
+perfect spot for all the speakers and conference-goers to experience some of the tourist spots in Louisville and still 
+enjoy the conference. 
     
 ### Sessions 
 
-The sessions were action-packed, as well. A (useful?) attribute of a conference is the level of difficulty for goers to decide which speakers to see! There were so many sessions at each hour to choose to see. Here is the list of ones I chose (could) to attend. 
+The sessions were action-packed, as well. A (useful?) attribute of a conference is the level of difficulty for goers to 
+decide which speakers to see! There were so many sessions at each hour to choose to see. Here is the list of ones 
+I chose (could) to attend. 
 
 #### [Demystifying accessibility - Keynote](http://www.codepalousa.com/Sessions/1622)
 
-Accessibility is an essential attribute for websites, and developers need to keep in mind but easy to forget. In this talk 
-Gianugo Rabellino from Microsoft's Accessibility team delivered the keynote Wednesday night for Code PaLOUsa. 
-In it, he talked about what developers can do and impressed upon us how important it to make sure Accessibility is part of the design cycle. 
+Accessibility is an essential attribute for websites, and developers need to keep in mind but easy to forget. In this 
+talk Gianugo Rabellino from Microsoft's Accessibility team delivered the keynote Wednesday night for Code PaLOUsa. 
+In it, he talked about what developers can do and impressed upon us how important it to make sure Accessibility is 
+part of the design cycle. 
 
 {{< tweet 1164302584494116864 >}}
 
 #### [Leadership Journey: From Software Developer to Leader](http://www.codepalousa.com/Sessions/1442)
 
-My first Thursday session was from [Michael Eaton](https://twitter.com/mjeaton), where he discussed his transition from developer to Leader back to a developer. In this talk, Micheal lamented the difficulties of these transitions. The first 
+My first Thursday session was from [Michael Eaton](https://twitter.com/mjeaton), where he discussed his transition from 
+developer to Leader back to a developer. In this talk, Micheal lamented the difficulties of these transitions. The first 
 transition from developer to a Leader of developers is and two, how desperately he wanted to go back to writing code.  
 Michael gave great feedback for developers going through this, for example, know you're why; why are doing what you are 
 doing, whether you're a dev or a leader. If you are a leader, work on your emotional intelligence as well. The pieces 
