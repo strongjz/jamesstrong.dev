@@ -6,11 +6,22 @@
     <description>Recent content in Posts on James Strong</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Copyright (c) 2017, all rights reserved.</copyright>
-    <lastBuildDate>Thu, 08 Aug 2019 00:00:00 +0000</lastBuildDate>
+    <copyright>Copyright (c) 2015, all rights reserved.</copyright>
+    <lastBuildDate>Mon, 26 Aug 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://jamesstrong.dev/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Code PaLOUSa 2019</title>
+      <link>https://jamesstrong.dev/post/code-lou-2019/</link>
+      <pubDate>Mon, 26 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesstrong.dev/post/code-lou-2019/</guid>
+      <description>Another year! Another amazing Code PaLOUsa come and gone.
+Location This year Code PaLOUsa was at the Hyatt Regency, which is smack dap in the middle of downtown. This location makes it a perfect spot for all the speakers and conference-goers to experience some of the tourist spots in Louisville and still enjoy the conference.
+Sessions The sessions were action-packed, as well. A (useful?) attribute of a conference is the level of difficulty for goers to decide which speakers to see!</description>
+    </item>
     
     <item>
       <title>Kubernetes Networking</title>
@@ -87,6 +98,16 @@ TL;DR This is a list of the bare minimum necessary to try to pass.
       <guid>https://jamesstrong.dev/post/revinventrecap2018/</guid>
       <description>Another year, another re:Invent down! 2018 had everything we have come to expect from AWS and re:Invent - releases, updates, sessions on everything and shots at Oracle. The focus this time was certainly on developer experience, Artificial Intelligence/Machine Learning and Serverless.
 There were at least sixteen new releases in regards to ML/AI. Sagemaker got new features in Ground truth and RL. There is now a marketplace for machine learning algorithm writers to release them and earn from all their hard work.</description>
+    </item>
+    
+    <item>
+      <title>Dockercon 2017</title>
+      <link>https://jamesstrong.dev/post/dockercon-2017/</link>
+      <pubDate>Tue, 16 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesstrong.dev/post/dockercon-2017/</guid>
+      <description>Before we dive into some of the highlights from DockerCon 2017, let’s do a quick overview of what Docker is. Quite simply, a “docker container” is a portable container, of sorts, that allows a collection of apps to run on any operating system.
+How is it possible, you ask, for a docker container to allow any app to “Build, Ship and Run,” as the docker motto says, on any OS?</description>
     </item>
     
     <item>

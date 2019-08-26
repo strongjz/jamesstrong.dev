@@ -3,7 +3,7 @@ title: "About Me"
 date: "2019-03-18"
 ---
 
-![](/img/headshot.png#center)
+{{% fluid_img class="pure-u-1-3" src="/img/headshot.png" %}}
 
 Hey Everyone! 
 

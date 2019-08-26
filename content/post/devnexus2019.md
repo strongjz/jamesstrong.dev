@@ -9,7 +9,6 @@ tags:
   - cncf
 ---
 
-
 At Dev Nexus 2018 my co-worker, [Adarsh](http://shahadarsh.com/), and I led a workshop ["Introduction to Kubernetes"](https://devnexus.com/presentations/2999/)
 
 Introduction to Kubernetes is a hands-on, interactive workshop giving attendees a thorough 

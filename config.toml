@@ -2,16 +2,18 @@ publishDir = "docs/"
 languageCode = "en-us"
 baseurl = "https://jamesstrong.dev/"
 title = "James Strong"
-copyright = "Copyright (c) 2017, all rights reserved."
+copyright = "Copyright (c) 2015, all rights reserved."
 canonifyurls = true
 paginate = 3
 theme = "blackburn"
+
+disqusShortname = "jamesstrong-dev"
 
 [params]
   # Shown in the home page
   brand = "James Strong"
   googleAnalytics = "G-Y034J08BEQ"
-  dateFormat = "02 Jan 2006"
+  dateFormat = "Jan 2, 2006"
 
 [indexes]
   tag = "tags"
@@ -26,7 +28,6 @@ theme = "blackburn"
   linkedin = "strongjames"
   email = "strong.james.e@gmail.com"
 
-
   # SNS photo/video sharing
   slideshare = "jstrong09"
 
@@ -40,7 +41,6 @@ theme = "blackburn"
 
   # Other
   keybase = "strongjz"
-
 
 [author]
   name = "James Strong"

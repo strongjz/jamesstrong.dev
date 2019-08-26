@@ -1,6 +1,6 @@
 DOCKER       = docker
 HUGO_VERSION = 0.49
-DOCKER_IMAGE = k8-hugo
+DOCKER_IMAGE = k8-hugo:0.0.1
 DOCKER_RUN   = $(DOCKER) run --rm --interactive --tty --volume $(PWD):/src
 THEME        = blackburn
 
@@ -19,7 +19,10 @@ production-build: build
 non-production-build: ## Build the non-production site, which adds noindex headers to prevent indexing
 	hugo --enableGitInfo
 
-serve: ## Boot the development server.
+serve:
+	hugo server
+
+serve-dev: ## Boot the development server.
 	hugo server --ignoreCache --disableFastRender
 
 docker-all: docker-image docker-build docker-serve
@@ -31,4 +34,4 @@ docker-build:
 	$(DOCKER_RUN) $(DOCKER_IMAGE) hugo
 
 docker-serve:
-	$(DOCKER_RUN) -p 1313:1313 $(DOCKER_IMAGE) hugo server -t $(THEME) --watch --bind 0.0.0.0
+	$(DOCKER_RUN) -p 1313:1313 $(DOCKER_IMAGE) hugo server --watch --bind 0.0.0.0

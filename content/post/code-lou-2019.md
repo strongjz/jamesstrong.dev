@@ -1,0 +1,111 @@
+---
+title: "Code PaLOUSa 2019"
+date: 2019-08-26
+tags:
+  - kubernetes
+  - conference
+  - developer
+---
+
+
+Another year! Another amazing Code PaLOUsa come and gone. 
+
+### Location
+
+This year Code PaLOUsa was at the Hyatt Regency, which is smack dap in the middle of downtown. This location makes it a
+ perfect spot for all the speakers and conference-goers to experience some of the tourist spots in Louisville and still enjoy the conference. 
+    
+### Sessions 
+
+The sessions were action-packed, as well. A (useful?) attribute of a conference is the level of difficulty for goers to decide which speakers to see! There were so many sessions at each hour to choose to see. Here is the list of ones I chose (could) to attend. 
+
+#### [Demystifying accessibility - Keynote](http://www.codepalousa.com/Sessions/1622)
+
+Accessibility is an essential attribute for websites, and developers need to keep in mind but easy to forget. In this talk 
+Gianugo Rabellino from Microsoft's Accessibility team delivered the keynote Wednesday night for Code PaLOUsa. 
+In it, he talked about what developers can do and impressed upon us how important it to make sure Accessibility is part of the design cycle. 
+
+{{< tweet 1164302584494116864 >}}
+
+#### [Leadership Journey: From Software Developer to Leader](http://www.codepalousa.com/Sessions/1442)
+
+My first Thursday session was from [Michael Eaton](https://twitter.com/mjeaton), where he discussed his transition from developer to Leader back to a developer. In this talk, Micheal lamented the difficulties of these transitions. The first 
+transition from developer to a Leader of developers is and two, how desperately he wanted to go back to writing code.  
+Micheal gave great feedback for developers going through this, for example, know you're why; why are doing what you are 
+doing, whether you're a dev or a leader. If you are a leader, work on your emotional intelligence as well. The pieces 
+of advice that resonated with me were "Be consistent" with your decisions and with your team. The second is to always 
+"Own your mistakes." Michael said, "Successes are his engineers and their failures his." This quote is an excellent 
+mindset for a leader to have, and I would look for in any leader. 
+
+#### [Microservices - The Good, The Bad, and The Ugly](http://www.codepalousa.com/Sessions/1590)
+
+This session, directed by [James Quick](https://twitter.com/jamesqquick), gave insight into his lessons of running 
+Microservices at FedEx.  In it, we discussed some of the challenges of running Microservices as a scale. Service discovery 
+was a hot topic; James explained several of the solutions. He painted moving to Microservices as not the rosy picture it 
+seems to be and wanted to make sure Developers know he Good, The Bad, and The Ugly.  
+
+{{< tweet 1165000474929639426 >}}
+
+#### [OAuth 2.0 and OpenID Connect In Plain English](http://www.codepalousa.com/Sessions/1625)
+
+[Lee Brandt](https://twitter.com/leebrandt) from [Okta](https://www.okta.com/) gave a riveting performance explaining 
+OAuth 2.0 and OpenID Connect in plain English ( which he exactly promised in his title). I worked with infrastructure 
+and Cloud a lot, so my experience with OAuth is in name only. After Lee's talk, I felt like I had a grasp of the 
+technology.  He kept referring the same code flow but kept going deeper and deeper in the complexities of OAuth while 
+keeping it attainable for people like me or new developers. He used an analogy of a hotel transaction to compare to 
+something that was all too familiar. Keeping complicated tech engaging is hard for 45 mins, and I applaud Lee for his 
+efforts. 
+
+#### [Overcoming the Paradox of Choice when moving to the Cloud](http://www.codepalousa.com/Sessions/1437)
+
+[Derik Whittaker](https://twitter.com/derikwhittaker) gave a session on the nonexhaustive list of the choices developers
+ have when moving to the Cloud, which was one of his points! There are many services and nuances when moving to the 
+ Cloud, AWS in his examples. Developers need to have a plan of action when moving to the Cloud. Do we use SQL server? 
+ On RDS? Self-hosted on EC2.  Research and experimentation go a long way when making the shift to the Cloud. 
+ 
+Make sure to check out the [AWS Well-Architected framework](https://aws.amazon.com/architecture/well-architected/)
+
+{{< tweet 1164926173211746305 >}}
+
+#### [All about JWT's](http://www.codepalousa.com/Sessions/1586) 
+
+JSON web tokens have become an essential part of a developer's toolbox to secure their applications and sites. 
+This talk [Stephanie Chamblee](https://twitter.com/stephchamblee) went where we came from, to the development of JWT,
+ and an explanation for the need for them. As with the OAuth session, Stephanie was able to make a non-developer grasp 
+ this technology, and it's importance. 
+
+{{< tweet 1164887030117085185 >}}
+
+and a corgi, thanks [Cassandra](https://twitter.com/cassandrafaris) for bringing Katie and sorry I couldn't attend 
+your [sessions](http://www.codepalousa.com/SpeakerDetails/B2651A92-9F8D-4979-A0C7-7722BB6FB29B), I'm sure they were 
+AWESOME!
+
+{{< tweet 1165000842849726465 >}}
+
+
+#### Intro to Kubernetes 
+
+It's always a great feeling as a speaker to have a full house and LOTS of questions. We had a great session this go 
+around! I changed up the format for the exercises, utilizing [katacoda](https://www.katacoda.com/contino/courses/kubernetes)
+this time instead of native GCP and kubectl.  It helped reduce the time for setup and made the experience smoother for both me 
+as a speaker and the workshop attendees. I think I will continue to use this service.  
+
+Here is the [presentation](https://contino.github.io/intro-k8) and [code](https://github.com/contino/intro-k8)
+
+{{< tweet 1164177930416771072 >}}
+
+#### Serverless and Terraform 
+
+I was able to help fill in a slot for Chad since he could not speak, he was busy you know running the conference! In 
+this talk, I gave an overview of how to develop, deploy, and manage a slack bot with AWS Serverless technology. 
+
+Here is the [presentation](https://strongjz.github.io/dfw-hashi/) and the [code](https://github.com/strongjz/slack-bucks)
+
+{{< tweet 1164558407946428416 >}}
+
+### Overall 
+
+I had a great experience at Code PaLOUsa 2019! And will continue to support our local Developer Conference to make it 
+the best experience for our community. Thanks again for having me as a speaker Chad and Code PaLOUsa, I look forward to 
+next year! 
+
