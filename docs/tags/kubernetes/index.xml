@@ -14,10 +14,10 @@
     
     <item>
       <title>Code PaLOUSa 2019</title>
-      <link>https://jamesstrong.dev/post/code-lou-2019/</link>
+      <link>https://jamesstrong.dev/post/2019/code-lou-2019/</link>
       <pubDate>Mon, 26 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://jamesstrong.dev/post/code-lou-2019/</guid>
+      <guid>https://jamesstrong.dev/post/2019/code-lou-2019/</guid>
       <description>Another year! Another amazing Code PaLOUsa come and gone.
 Location This year Code PaLOUsa was at the Hyatt Regency, which is smack dap in the middle of downtown. This location makes it a perfect spot for all the speakers and conference-goers to experience some of the tourist spots in Louisville and still enjoy the conference.
 Sessions The sessions were action-packed, as well. A (useful?) attribute of a conference is the level of difficulty for goers to decide which speakers to see!</description>
@@ -25,20 +25,20 @@ Sessions The sessions were action-packed, as well. A (useful?) attribute of a co
     
     <item>
       <title>Kubernetes Networking</title>
-      <link>https://jamesstrong.dev/post/k8-network/</link>
+      <link>https://jamesstrong.dev/post/2019/k8-network/</link>
       <pubDate>Thu, 08 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://jamesstrong.dev/post/k8-network/</guid>
+      <guid>https://jamesstrong.dev/post/2019/k8-network/</guid>
       <description>I have begin working on Deep Dive into Kubernetes Networking, Let me know your thoughts about what you want to see.
 https://strongjz.github.io/k8-networking/#/</description>
     </item>
     
     <item>
       <title>Intro to Kubernetes</title>
-      <link>https://jamesstrong.dev/post/cncf-intro-k8/</link>
+      <link>https://jamesstrong.dev/post/2019/cncf-intro-k8/</link>
       <pubDate>Thu, 04 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://jamesstrong.dev/post/cncf-intro-k8/</guid>
+      <guid>https://jamesstrong.dev/post/2019/cncf-intro-k8/</guid>
       <description>In April we kicked off Kubernetes and Cloud Native Computing Louisville
 I presented an &amp;ldquo;Intro to Kubernetes&amp;rdquo;, here is a link to the presentation
 More about that Meetup here
@@ -48,20 +48,20 @@ Recording
     
     <item>
       <title>Kubernetes and Cloud Native Computing April Meetup</title>
-      <link>https://jamesstrong.dev/post/loucncf-4-1/</link>
+      <link>https://jamesstrong.dev/post/2019/loucncf-4-1/</link>
       <pubDate>Mon, 25 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://jamesstrong.dev/post/loucncf-4-1/</guid>
+      <guid>https://jamesstrong.dev/post/2019/loucncf-4-1/</guid>
       <description>The inaugural Kubernetes and Cloud Native Computer Louisville will be on April 4th. I will be presenting an &amp;ldquo;Intro to Kubernetes&amp;rdquo;
 https://www.meetup.com/Kubernetes-and-Cloud-Native-Computing-Louisville/events/259202067/</description>
     </item>
     
     <item>
       <title>Dev Nexus 2019</title>
-      <link>https://jamesstrong.dev/post/devnexus2019/</link>
+      <link>https://jamesstrong.dev/post/2019/devnexus2019/</link>
       <pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://jamesstrong.dev/post/devnexus2019/</guid>
+      <guid>https://jamesstrong.dev/post/2019/devnexus2019/</guid>
       <description>At Dev Nexus 2018 my co-worker, Adarsh, and I led a workshop &amp;ldquo;Introduction to Kubernetes&amp;rdquo;
 Introduction to Kubernetes is a hands-on, interactive workshop giving attendees a thorough understanding of the fundamentals of Kubernetes. As part of this workshop, you will learn how Kubernetes works, be able to successfully create a kubernetes cluster, deploy microservices to that cluster &amp;amp; also hear about some war stories.
 https://contino.github.io/intro-k8/
@@ -71,10 +71,10 @@ First class speakers!</description>
     
     <item>
       <title>Passing the CKA</title>
-      <link>https://jamesstrong.dev/post/passcka/</link>
+      <link>https://jamesstrong.dev/post/2019/passcka/</link>
       <pubDate>Tue, 29 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://jamesstrong.dev/post/passcka/</guid>
+      <guid>https://jamesstrong.dev/post/2019/passcka/</guid>
       <description>On December 29th I completed my final goal of the year - I passed the CKA.
 TL;DR This is a list of the bare minimum necessary to try to pass.
  Do Kelsey Hightower’s tutorial Kubernetes The Hard Way at least three times! Understand it, internalize it. Do all the tasks on https://kubernetes.io/docs/tasks/ Read Kubernetes in Action by Marko Luksa  Also practice, practice, and practice. Did I mention practice?</description>

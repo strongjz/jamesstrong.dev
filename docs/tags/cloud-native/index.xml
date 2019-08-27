@@ -14,30 +14,30 @@
     
     <item>
       <title>Hashicorp DFW</title>
-      <link>https://jamesstrong.dev/post/hashidfw/</link>
+      <link>https://jamesstrong.dev/post/2019/hashidfw/</link>
       <pubDate>Sun, 31 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://jamesstrong.dev/post/hashidfw/</guid>
+      <guid>https://jamesstrong.dev/post/2019/hashidfw/</guid>
       <description>I will be giving a talk and demo on deploying serverless apps onto AWS with Terraform!
 https://www.meetup.com/hashicorpdfw/events/260071773/</description>
     </item>
     
     <item>
       <title>Kubernetes and Cloud Native Computing April Meetup</title>
-      <link>https://jamesstrong.dev/post/loucncf-4-1/</link>
+      <link>https://jamesstrong.dev/post/2019/loucncf-4-1/</link>
       <pubDate>Mon, 25 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://jamesstrong.dev/post/loucncf-4-1/</guid>
+      <guid>https://jamesstrong.dev/post/2019/loucncf-4-1/</guid>
       <description>The inaugural Kubernetes and Cloud Native Computer Louisville will be on April 4th. I will be presenting an &amp;ldquo;Intro to Kubernetes&amp;rdquo;
 https://www.meetup.com/Kubernetes-and-Cloud-Native-Computing-Louisville/events/259202067/</description>
     </item>
     
     <item>
       <title>Passing the CKA</title>
-      <link>https://jamesstrong.dev/post/passcka/</link>
+      <link>https://jamesstrong.dev/post/2019/passcka/</link>
       <pubDate>Tue, 29 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://jamesstrong.dev/post/passcka/</guid>
+      <guid>https://jamesstrong.dev/post/2019/passcka/</guid>
       <description>On December 29th I completed my final goal of the year - I passed the CKA.
 TL;DR This is a list of the bare minimum necessary to try to pass.
  Do Kelsey Hightower’s tutorial Kubernetes The Hard Way at least three times! Understand it, internalize it. Do all the tasks on https://kubernetes.io/docs/tasks/ Read Kubernetes in Action by Marko Luksa  Also practice, practice, and practice. Did I mention practice?</description>

@@ -14,10 +14,10 @@
     
     <item>
       <title>AWS Re:invent Recap 2018</title>
-      <link>https://jamesstrong.dev/post/revinventrecap2018/</link>
+      <link>https://jamesstrong.dev/post/2018/revinventrecap2018/</link>
       <pubDate>Tue, 04 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://jamesstrong.dev/post/revinventrecap2018/</guid>
+      <guid>https://jamesstrong.dev/post/2018/revinventrecap2018/</guid>
       <description>Another year, another re:Invent down! 2018 had everything we have come to expect from AWS and re:Invent - releases, updates, sessions on everything and shots at Oracle. The focus this time was certainly on developer experience, Artificial Intelligence/Machine Learning and Serverless.
 There were at least sixteen new releases in regards to ML/AI. Sagemaker got new features in Ground truth and RL. There is now a marketplace for machine learning algorithm writers to release them and earn from all their hard work.</description>
     </item>

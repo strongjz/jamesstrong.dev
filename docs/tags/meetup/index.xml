@@ -14,30 +14,30 @@
     
     <item>
       <title>Hashicorp DFW</title>
-      <link>https://jamesstrong.dev/post/hashidfw/</link>
+      <link>https://jamesstrong.dev/post/2019/hashidfw/</link>
       <pubDate>Sun, 31 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://jamesstrong.dev/post/hashidfw/</guid>
+      <guid>https://jamesstrong.dev/post/2019/hashidfw/</guid>
       <description>I will be giving a talk and demo on deploying serverless apps onto AWS with Terraform!
 https://www.meetup.com/hashicorpdfw/events/260071773/</description>
     </item>
     
     <item>
       <title>Kubernetes and Cloud Native Computing April Meetup</title>
-      <link>https://jamesstrong.dev/post/loucncf-4-1/</link>
+      <link>https://jamesstrong.dev/post/2019/loucncf-4-1/</link>
       <pubDate>Mon, 25 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://jamesstrong.dev/post/loucncf-4-1/</guid>
+      <guid>https://jamesstrong.dev/post/2019/loucncf-4-1/</guid>
       <description>The inaugural Kubernetes and Cloud Native Computer Louisville will be on April 4th. I will be presenting an &amp;ldquo;Intro to Kubernetes&amp;rdquo;
 https://www.meetup.com/Kubernetes-and-Cloud-Native-Computing-Louisville/events/259202067/</description>
     </item>
     
     <item>
       <title>Louisville Software Meetup - Jenkins</title>
-      <link>https://jamesstrong.dev/post/louissoft-jenkins/</link>
+      <link>https://jamesstrong.dev/post/2016/louissoft-jenkins/</link>
       <pubDate>Wed, 06 Jan 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://jamesstrong.dev/post/louissoft-jenkins/</guid>
+      <guid>https://jamesstrong.dev/post/2016/louissoft-jenkins/</guid>
       <description>This presentation was given at the Louisville Software Engineering Meetup. In It I discuss Continuous Integration and Continuous Deployment, and how to achieve it with Jenkins.
 https://www.meetup.com/Louisville-Software-Engineering/events/227294818/</description>
     </item>
