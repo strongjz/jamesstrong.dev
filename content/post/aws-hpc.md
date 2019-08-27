@@ -1,32 +1,106 @@
 ---
-title: "Code Louisville 2017"
-date: 2017-03-29
+title: "High-Performance Computing for Financial Services"
+date: 2019-08-19
 tags:
   - code
+  - finserve
+  - hpc
   - development
   - aws
-  - cicd
-  - devops
   - cloud
 ---
 
-This talk was presented in 2017 at Louisville Local Software Development Conference Codepalousa.
+The last week of July, I attended High-Performance Compute (HPC) Training for Financial Services in AWS. 
+During this week-long training, AWS professionals in Financial Services shared their outlook on the needs that large 
+financial institutions face from the industry, regulators, and markets. 
 
-In this presentation I discussed DevOps, how Continuous Integration and Deployment integrates into that, and 
-how CI/CD can be implemented with AWS services.
+The first thing that caught my attention was this question:
 
+"If you could add 100,000 cores to your HPC grid, return them once you're done and pay only for what you use, just like 
+many of your peers do, how would that improve your business?" 
 
-| Running Rules for CI/CD                       |   AWS Tool  |
-|:-----------------------------------------------|:-------------:|
-| 1. Maintain a code repository                 |   Commit    |
-| 2. Automate the build                         |   *         |
-| 3. Keep the build fast                        |   Build     |
-| 4. Make the build self-testing                |   Deploy    |
-| 5. Commit early, commit often                 |   Commit    |
-| 6. Every commit to the mainline gets built    |   Pipeline  |
-| 7. Everyone can see the results of the build  |   Pipeline  |
-| 8. Automate the deployment and rollback       |   Deploy    |
+In a few words, HPC allows organizations to process data and perform complex calculations at high speeds. The cloud 
+enables you to have access to almost infinite processing power. 
 
-http://www.codepalousa.com/
+That is a powerful question; with powerful implications. With that ability, your IT department could speed up 
+Quantitative Analysts, Quants, ability to make informed decisions. With that capability, you could also increase 
+the performance of your grid compute while lowering costs and maintaining compliance to compete effectively. 
+What CIO or CEO doesn't want that? Here are some examples of doing just that, albeit with 1,000,000 cores. 
 
-<embed src="/pdf/code.pdf" type="application/pdf"   width="775px" height="800px">
+* [Western Digital, 1m vCPU cluster](https://aws.amazon.com/blogs/aws/western-digital-hdd-simulation-at-cloud-scale-2-5-million-hpc-tasks-40k-ec2-spot-instances/)
+* [AWS and Tibco, 1.3m vCPU on Spot](https://aws.amazon.com/blogs/aws/creating-a-1-3-million-vcpu-grid-on-aws-using-ec2-spot-instances-and-tibco-gridserver/)
+* [Get into the Top 500 for just $5k](https://www.top500.org/system/179693)
+
+"Regardless of whether 2022 is a deadline for reporting only or full capital implementation, banks must have FRTB 
+infrastructure in place and models approved by supervisors by then." - [Bloomberg Professional Services](https://www.bloomberg.com/professional/blog/2022-market-risk-odyssey/)
+
+With the Fundamental Review of the Trading Book (FRTB) pushed to 2022, this gives banks more time to understand the 
+impact on their risk models and the shift to expected shortfall calculations. More and more pressure is coming from 
+regulators for reform and reporting, FRTB will not be the end. IT also adds additional stress to save more while 
+also increasing capacity.
+
+Running your HPC grid on AWS can be the answer to both regulator and IT pressures. However, with that comes with its 
+own risk, that you can read about [here](https://www.capitalone.com/facts2019/), [here](https://www.upguard.com/breaches/cloud-leak-accenture),
+ and [here](https://arstechnica.com/information-technology/2017/05/defense-contractor-stored-intelligence-data-in-amazon-cloud-unprotected/). 
+ Understandably, financial institutions are hesitant to move to the cloud. But the need is greater than ever. 
+
+The AWS Well-Architected Framework can help you realize the following:
+
+* [Operational Excellence](https://d1.awsstatic.com/whitepapers/architecture/AWS-Operational-Excellence-Pillar.pdf) - Scalable resources for repositories, build pipelines as code, and metrics for all levels of 
+operations.
+
+* [Security](https://d1.awsstatic.com/whitepapers/architecture/AWS-Security-Pillar.pdf) - Managed and secure access to data sources via AWS IAM, encryption at rest and In transit. 
+
+* [Reliability](https://d1.awsstatic.com/whitepapers/architecture/AWS-Reliability-Pillar.pdf) - Leveraging capabilities like Autoscaling and services like S3, you be sure that your solutions are 
+always available when needed. 
+
+* [Performance](https://d1.awsstatic.com/whitepapers/architecture/AWS-Performance-Efficiency-Pillar.pdf) - There are many options to run your workload, and with AWS, you can experiment to find the right level 
+of performance your workload needs.
+
+* [Cost Optimization](https://d1.awsstatic.com/whitepapers/architecture/AWS-Cost-Optimization-Pillar.pdf) - Spot instances for computing can reduce costs up to 90%, You can track and analyze spend to 
+ensure services are scaled and appropriately utilized. 
+
+Also included in the Well-Architected Framework is AWS HPC Lens, it covers common HPC scenarios and identifies key 
+elements to ensure your workloads are architected according to AWS's best practices.
+
+AWS has lots of example architectures in their Architecture Center, below is an example of how to run an HPC Grid on 
+AWS securely.
+
+{{% fluid_img class="pure-u-1" src="/img/aws_ac_ra_financialgrid_12.png" %}}
+https://media.amazonwebservices.com/architecturecenter/AWS_ac_ra_financialgrid_12.pdf
+
+With AWS, you can allocate extra compute capacity on-demand without upfront planning of data center, network, and 
+server infrastructure. This ability is a huge advantage when compared to on-prem grid setups. Below are just some of 
+the options that can be used for an AWS powered HPC: 
+
+* [Parallel Cluster](https://github.com/aws/aws-parallelcluster) - With a couple of lines of YAML, you can have an HPC grid up and running in minutes. Parallel Cluster 
+supports these schedulers; AWS Batch, SGE, Torque, and Slurm, to customize the needs of your firm's algorithms. 
+Submit a job and let Autoscaling take care of the number of hosts needed to run it, you only pay for what is required 
+and save massively on the cost with spot instances. 
+
+* [AWS Batch](https://aws.amazon.com/batch/) - AWS Batch enables developers and Quants to quickly and efficiently execute hundreds of thousands of batch 
+jobs on AWS. AWS Batch dynamically provisions the optimal quantity and compute resources based on the volume and specific
+ resource requirements of the batch jobs submitted. 
+
+* [Lambda](https://aws.amazon.com/lambda/) - No servers, no maintenance needed, just code. Lambda will execute what you need and when you need it. 
+Couple this with streaming data from Kinesis, and you can analyze data in near real-time. 
+
+* [EC2 Spot](https://aws.amazon.com/ec2/spot/) - With spot instances, you could save up to 90% of your compute cost. Spot instances allow you to use AWS 
+spare capacity; in return for that, you pay less than the on-demand price. Launch a cluster with EC2 spot instances 
+and watch the savings roll in.
+
+AWS can help with these HPC solutions:
+
+* Financial Services - Real track of stocks and risk management 
+* Insurance Companies - Risk management and insurance calculations
+* Media - Render special effects and media streaming 
+* Healthcare Companies - Develop new drugs and cure diseases 
+* Banking Industry - Detect credit card fraud
+
+More Resources
+
+* [AWS Grid Computing](https://aws.amazon.com/financial-services/grid-computing/)
+* [AWS Grid Computing White paper](https://d1.awsstatic.com/Industries/Financial%20Services/Grid%20Computing/aws-financial-services-grid-computing.pdf)
+* [Github Repo of Parallel Cluster](https://github.com/aws/aws-parallelcluster)
+* [What is Parallel Cluster?](https://docs.aws.amazon.com/parallelcluster/latest/ug/what-is-aws-parallelcluster.html)
+* [Bloomberb 2022 Market Risk Odyssey](https://www.bloomberg.com/professional/blog/2022-market-risk-odyssey/)

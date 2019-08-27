@@ -40,11 +40,56 @@
     </item>
     
     <item>
+      <title>aws</title>
+      <link>https://jamesstrong.dev/tags/aws/</link>
+      <pubDate>Mon, 19 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesstrong.dev/tags/aws/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>cloud</title>
       <link>https://jamesstrong.dev/tags/cloud/</link>
-      <pubDate>Thu, 08 Aug 2019 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 19 Aug 2019 00:00:00 +0000</pubDate>
       
       <guid>https://jamesstrong.dev/tags/cloud/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>code</title>
+      <link>https://jamesstrong.dev/tags/code/</link>
+      <pubDate>Mon, 19 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesstrong.dev/tags/code/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>development</title>
+      <link>https://jamesstrong.dev/tags/development/</link>
+      <pubDate>Mon, 19 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesstrong.dev/tags/development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>finserve</title>
+      <link>https://jamesstrong.dev/tags/finserve/</link>
+      <pubDate>Mon, 19 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesstrong.dev/tags/finserve/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hpc</title>
+      <link>https://jamesstrong.dev/tags/hpc/</link>
+      <pubDate>Mon, 19 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesstrong.dev/tags/hpc/</guid>
       <description></description>
     </item>
     
@@ -112,15 +157,6 @@
     </item>
     
     <item>
-      <title>development</title>
-      <link>https://jamesstrong.dev/tags/development/</link>
-      <pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://jamesstrong.dev/tags/development/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>workshop</title>
       <link>https://jamesstrong.dev/tags/workshop/</link>
       <pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate>
@@ -148,15 +184,6 @@
     </item>
     
     <item>
-      <title>aws</title>
-      <link>https://jamesstrong.dev/tags/aws/</link>
-      <pubDate>Tue, 04 Dec 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://jamesstrong.dev/tags/aws/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>reinvent</title>
       <link>https://jamesstrong.dev/tags/reinvent/</link>
       <pubDate>Tue, 04 Dec 2018 00:00:00 +0000</pubDate>
@@ -180,15 +207,6 @@
       <pubDate>Wed, 29 Mar 2017 00:00:00 +0000</pubDate>
       
       <guid>https://jamesstrong.dev/tags/cicd/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>code</title>
-      <link>https://jamesstrong.dev/tags/code/</link>
-      <pubDate>Wed, 29 Mar 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://jamesstrong.dev/tags/code/</guid>
       <description></description>
     </item>
     
