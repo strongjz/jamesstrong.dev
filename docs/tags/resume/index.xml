@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>resume on James Strong</title>
@@ -19,9 +19,8 @@
       
       <guid>https://jamesstrong.dev/resume/</guid>
       <description>PDF version
-Contino • Technical Principal New York City, NY • Jan ‘18 - Dec ‘18
-Lead technical teams implementing technologies such as Terraform, Docker and other cloud native technologies. To upskill teams on those technologies implementing paired programming or workshops. Responsible for day-to-day Scrum master duties, completion of Project deliverables and report outs to Key stakeholders.
-Contino • Senior DevOps Consultant New York City, NY • Jan ‘18 - Dec ‘18</description>
+Contino • Cloud Native Director New York City, NY • Sept ‘19 - Present
+Responsible for Evangelizing Contino’s work in DevOps and Cloud transformations. Partnering with clients, conference organizers, and others to bring their message to their communities, accelerate the adoption of new platforms, or present on topics such as Kubernetes, Cloud Native Architecture, or Application Modernization. Aides in all facets of the project life cycle, beginning with project proposal and closing SOW’s with the sales team through helping technical teams deliver value to the client.</description>
     </item>
     
   </channel>

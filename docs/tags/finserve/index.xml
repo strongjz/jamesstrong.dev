@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>finserve on James Strong</title>
@@ -20,7 +20,7 @@
       <guid>https://jamesstrong.dev/post/2019/aws-hpc/</guid>
       <description>The last week of July, I attended High-Performance Compute (HPC) Training for Financial Services in AWS. During this week-long training, AWS professionals in Financial Services shared their outlook on the needs that large financial institutions face from the industry, regulators, and markets.
 The first thing that caught my attention was this question:
-&amp;ldquo;If you could add 100,000 cores to your HPC grid, return them once you&amp;rsquo;re done and pay only for what you use, just like many of your peers do, how would that improve your business?</description>
+&amp;ldquo;If you could add 100,000 cores to your HPC grid, return them once you&#39;re done and pay only for what you use, just like many of your peers do, how would that improve your business?</description>
     </item>
     
   </channel>

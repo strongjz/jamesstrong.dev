@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on James Strong</title>
@@ -31,7 +31,7 @@ Sessions The sessions were action-packed, as well. A (useful?) attribute of a co
       <guid>https://jamesstrong.dev/post/2019/aws-hpc/</guid>
       <description>The last week of July, I attended High-Performance Compute (HPC) Training for Financial Services in AWS. During this week-long training, AWS professionals in Financial Services shared their outlook on the needs that large financial institutions face from the industry, regulators, and markets.
 The first thing that caught my attention was this question:
-&amp;ldquo;If you could add 100,000 cores to your HPC grid, return them once you&amp;rsquo;re done and pay only for what you use, just like many of your peers do, how would that improve your business?</description>
+&amp;ldquo;If you could add 100,000 cores to your HPC grid, return them once you&#39;re done and pay only for what you use, just like many of your peers do, how would that improve your business?</description>
     </item>
     
     <item>
@@ -53,8 +53,7 @@ https://strongjz.github.io/k8-networking/#/</description>
       <description>In April we kicked off Kubernetes and Cloud Native Computing Louisville
 I presented an &amp;ldquo;Intro to Kubernetes&amp;rdquo;, here is a link to the presentation
 More about that Meetup here
-Recording
- </description>
+Recording</description>
     </item>
     
     <item>
@@ -98,7 +97,7 @@ First class speakers!</description>
       <guid>https://jamesstrong.dev/post/2019/passcka/</guid>
       <description>On December 29th I completed my final goal of the year - I passed the CKA.
 TL;DR This is a list of the bare minimum necessary to try to pass.
- Do Kelsey Hightower’s tutorial Kubernetes The Hard Way at least three times! Understand it, internalize it. Do all the tasks on https://kubernetes.io/docs/tasks/ Read Kubernetes in Action by Marko Luksa  Also practice, practice, and practice. Did I mention practice?</description>
+ Do Kelsey Hightower’s tutorial Kubernetes The Hard Way at least three times! Understand it, internalize it. Do all the tasks on https://kubernetes.io/docs/tasks/ Read Kubernetes in Action by Marko Luksa  Also practice, practice, and practice. Did I mention practice? This is a practical exam, no multiple choice questions here.</description>
     </item>
     
     <item>
@@ -118,7 +117,7 @@ There were at least sixteen new releases in regards to ML/AI. Sagemaker got new 
       
       <guid>https://jamesstrong.dev/post/2017/dockercon-2017/</guid>
       <description>Before we dive into some of the highlights from DockerCon 2017, let’s do a quick overview of what Docker is. Quite simply, a “docker container” is a portable container, of sorts, that allows a collection of apps to run on any operating system.
-How is it possible, you ask, for a docker container to allow any app to “Build, Ship and Run,” as the docker motto says, on any OS?</description>
+How is it possible, you ask, for a docker container to allow any app to “Build, Ship and Run,” as the docker motto says, on any OS? A docker container uses kernel features to produce resource isolation (CPU, memory, block I/O and more) as well as separate namespaces, to isolate the application’s view of the operating system (a visual depiction below).</description>
     </item>
     
     <item>

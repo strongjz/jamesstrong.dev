@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>conference on James Strong</title>
@@ -43,7 +43,7 @@ First class speakers!</description>
       
       <guid>https://jamesstrong.dev/post/2017/dockercon-2017/</guid>
       <description>Before we dive into some of the highlights from DockerCon 2017, let’s do a quick overview of what Docker is. Quite simply, a “docker container” is a portable container, of sorts, that allows a collection of apps to run on any operating system.
-How is it possible, you ask, for a docker container to allow any app to “Build, Ship and Run,” as the docker motto says, on any OS?</description>
+How is it possible, you ask, for a docker container to allow any app to “Build, Ship and Run,” as the docker motto says, on any OS? A docker container uses kernel features to produce resource isolation (CPU, memory, block I/O and more) as well as separate namespaces, to isolate the application’s view of the operating system (a visual depiction below).</description>
     </item>
     
   </channel>
