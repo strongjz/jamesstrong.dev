@@ -62,8 +62,7 @@ That is a bit more tricky especially on a Mac, windows it's a littler easier.
 
 In order to stream the audio from Zoom to OBS a separate piece of software needed to capture audio.
 
-On a Mac you need this [iShowU Audio Capture](https://support.shinywhitebox.com/hc/en-us/articles/204161459
--Installing-iShowU-Audio-Capture)
+On a Mac you need this [iShowU Audio Capture](https://support.shinywhitebox.com/hc/en-us/articles/204161459-Installing-iShowU-Audio-Capture)
 
 Blog posts more about setting that up
 
@@ -73,9 +72,9 @@ https://lofi-gaming.org.uk/blog/2016/09/17/capture-mac-desktop-audio-obs/
 
 On Windows there is an OBS plugin available so no need for a separate install.
 
-OBS is open source and free, but some functionality required subscriptions, here is that breakdown. 
-
 ### Pricing
+
+OBS is open source and free, but some functionality required subscriptions, here is that breakdown. 
 
 https://www.epidemicsound.com/  $15/month personal 
 
