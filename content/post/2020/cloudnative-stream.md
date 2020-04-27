@@ -1,7 +1,6 @@
 ---
 title: "Cloud Native Summit Online Stream Experience"
 date: 2020-04-27
-draft: true
 tags:
   - cloud native
 ---
