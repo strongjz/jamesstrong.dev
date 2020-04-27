@@ -23,7 +23,7 @@ serve:
 	hugo server
 
 serve-dev: ## Boot the development server.
-	hugo server --ignoreCache --disableFastRender
+	hugo -D server --ignoreCache --disableFastRender
 
 docker-all: docker-image docker-build docker-serve
 

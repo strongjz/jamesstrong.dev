@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright (c) 2015, all rights reserved.</copyright>
-    <lastBuildDate>Mon, 26 Aug 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 27 Apr 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://jamesstrong.dev/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>cloud native</title>
+      <link>https://jamesstrong.dev/tags/cloud-native/</link>
+      <pubDate>Mon, 27 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesstrong.dev/tags/cloud-native/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>conference</title>
@@ -99,15 +108,6 @@
       <pubDate>Thu, 08 Aug 2019 00:00:00 +0000</pubDate>
       
       <guid>https://jamesstrong.dev/tags/devops/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>cloud native</title>
-      <link>https://jamesstrong.dev/tags/cloud-native/</link>
-      <pubDate>Sun, 31 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://jamesstrong.dev/tags/cloud-native/</guid>
       <description></description>
     </item>
     

@@ -6,7 +6,7 @@
 
 FROM alpine:latest
 
-MAINTAINER James Strong <strong.james.e@gmail.com>
+MAINTAINER James Strong <james.strong@linux.com>
 
 RUN apk add --no-cache \
     curl \

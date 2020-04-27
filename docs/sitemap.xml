@@ -3,6 +3,31 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://jamesstrong.dev/tags/cloud-native/</loc>
+    <lastmod>2020-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamesstrong.dev/post/2020/cloudnative-stream/</loc>
+    <lastmod>2020-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamesstrong.dev/</loc>
+    <lastmod>2020-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamesstrong.dev/post/</loc>
+    <lastmod>2020-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamesstrong.dev/tags/</loc>
+    <lastmod>2020-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://jamesstrong.dev/post/2019/code-lou-2019/</loc>
     <lastmod>2019-08-26T00:00:00+00:00</lastmod>
   </url>
@@ -18,22 +43,7 @@
   </url>
   
   <url>
-    <loc>https://jamesstrong.dev/</loc>
-    <lastmod>2019-08-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://jamesstrong.dev/tags/kubernetes/</loc>
-    <lastmod>2019-08-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jamesstrong.dev/post/</loc>
-    <lastmod>2019-08-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jamesstrong.dev/tags/</loc>
     <lastmod>2019-08-26T00:00:00+00:00</lastmod>
   </url>
   
@@ -85,11 +95,6 @@
   <url>
     <loc>https://jamesstrong.dev/post/2019/cncf-intro-k8/</loc>
     <lastmod>2019-04-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jamesstrong.dev/tags/cloud-native/</loc>
-    <lastmod>2019-03-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
