@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>sessions on James Strong</title>
+    <link>https://jamesstrong.dev/tags/sessions/</link>
+    <description>Recent content in sessions on James Strong</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright (c) 2015, all rights reserved.</copyright>
+    <lastBuildDate>Fri, 11 Jan 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://jamesstrong.dev/tags/sessions/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Sessionize</title>
+      <link>https://jamesstrong.dev/session/</link>
+      <pubDate>Fri, 11 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesstrong.dev/session/</guid>
+      <description>{{ partial &amp;ldquo;session.html&amp;rdquo; . }}</description>
+    </item>
+    
+  </channel>
+</rss>

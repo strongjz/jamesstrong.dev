@@ -4,7 +4,7 @@ baseurl = "https://jamesstrong.dev/"
 title = "James Strong"
 copyright = "Copyright (c) 2015, all rights reserved."
 canonifyurls = true
-paginate = 3
+paginate = 5
 theme = "blackburn"
 
 disqusShortname = "jamesstrong-dev"
@@ -72,6 +72,11 @@ disqusShortname = "jamesstrong-dev"
   name = "Resume"
   identifier = "resume"
   url = "/resume/"
+
+[[menu.main]]
+  name = "Sessionize"
+  identifier = "session"
+  url = "/session/"
 
 [[menu.main]]
   name = "Keybase"
