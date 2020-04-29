@@ -28,6 +28,21 @@
   </url>
   
   <url>
+    <loc>https://jamesstrong.dev/tags/containers/</loc>
+    <lastmod>2020-04-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamesstrong.dev/tags/kubernetes/</loc>
+    <lastmod>2020-04-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamesstrong.dev/post/2020/k8-contino-web/</loc>
+    <lastmod>2020-04-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://jamesstrong.dev/post/2019/code-lou-2019/</loc>
     <lastmod>2019-08-26T00:00:00+00:00</lastmod>
   </url>
@@ -39,11 +54,6 @@
   
   <url>
     <loc>https://jamesstrong.dev/tags/developer/</loc>
-    <lastmod>2019-08-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jamesstrong.dev/tags/kubernetes/</loc>
     <lastmod>2019-08-26T00:00:00+00:00</lastmod>
   </url>
   
@@ -154,11 +164,6 @@
   
   <url>
     <loc>https://jamesstrong.dev/tags/cka/</loc>
-    <lastmod>2019-01-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jamesstrong.dev/tags/containers/</loc>
     <lastmod>2019-01-29T00:00:00+00:00</lastmod>
   </url>
   

@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright (c) 2015, all rights reserved.</copyright>
-    <lastBuildDate>Tue, 29 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 16 Apr 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://jamesstrong.dev/tags/containers/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Kubernetes Best Practices Webinar</title>
+      <link>https://jamesstrong.dev/post/2020/k8-contino-web/</link>
+      <pubDate>Thu, 16 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesstrong.dev/post/2020/k8-contino-web/</guid>
+      <description>   In this webinar Gregory Patmore and I covered:
+ Getting started with Kubernetes - laying the foundations for success Clusters: Set up, security and operations Best practices for container and Kubernetes adoption Securing containers Optimising application development in Kubernetes environments  </description>
+    </item>
     
     <item>
       <title>Passing the CKA</title>
