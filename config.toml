@@ -74,11 +74,6 @@ disqusShortname = "jamesstrong-dev"
   url = "/resume/"
 
 [[menu.main]]
-  name = "Sessionize"
-  identifier = "session"
-  url = "/session/"
-
-[[menu.main]]
   name = "Keybase"
   identifier = "Keybase"
   url = "/keybase.txt"
