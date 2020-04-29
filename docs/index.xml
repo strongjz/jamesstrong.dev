@@ -146,15 +146,6 @@ TL;DR This is a list of the bare minimum necessary to try to pass.
     </item>
     
     <item>
-      <title>Sessionize</title>
-      <link>https://jamesstrong.dev/session/</link>
-      <pubDate>Fri, 11 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://jamesstrong.dev/session/</guid>
-      <description>{{ partial &amp;ldquo;session.html&amp;rdquo; . }}</description>
-    </item>
-    
-    <item>
       <title>AWS Re:invent Recap 2018</title>
       <link>https://jamesstrong.dev/post/2018/revinventrecap2018/</link>
       <pubDate>Tue, 04 Dec 2018 00:00:00 +0000</pubDate>
