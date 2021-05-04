@@ -1,6 +1,6 @@
 ---
 title: "Resume"
-date: "2019-03-18"
+date: "2021-05-04"
 tags:
   - resume
 ---
@@ -18,7 +18,7 @@ Amazon Web Services • Network Administration • Virtualization • Cloud Nati
 
 ##  Contact
 
-link:mailto:&#106;a&#109;&#x65;&#x73;&#x2e;&#x73;&#116;&#x72;&#x6f;n&#103;&#x40;&#108;i&#110;&#117;&#120;.&#99;o&#x6d;[&#106;a&#109;&#x65;&#x73;&#x2e;&#x73;&#116;&#x72;&#x6f;n&#103;&#x40;&#108;i&#110;&#117;&#120;.&#99;o&#x6d;]
+james.strong@linux.com
 
 https://jamesstrong.dev
 
@@ -247,10 +247,10 @@ Current
 * AWS CSA – Associate
 * AWS DEV - Associate
 * AWS SYSOPS - Associate
-* AWS Certified Network Speciality
 
 Past
 
+* AWS Certified Network Speciality
 * CCNA
 * CCNA Security
 * RedHat Certified System Administrator
