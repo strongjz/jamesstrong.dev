@@ -7,11 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright (c) 2015, all rights reserved.</copyright>
-    <lastBuildDate>Mon, 27 Apr 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://jamesstrong.dev/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Mon, 27 Apr 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://jamesstrong.dev/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cloud Native Summit Online Stream Experience</title>
       <link>https://jamesstrong.dev/post/2020/cloudnative-stream/</link>
@@ -55,7 +51,7 @@ Sessions The sessions were action-packed, as well. A (useful?) attribute of a co
       <guid>https://jamesstrong.dev/post/2019/aws-hpc/</guid>
       <description>The last week of July, I attended High-Performance Compute (HPC) Training for Financial Services in AWS. During this week-long training, AWS professionals in Financial Services shared their outlook on the needs that large financial institutions face from the industry, regulators, and markets.
 The first thing that caught my attention was this question:
-&amp;ldquo;If you could add 100,000 cores to your HPC grid, return them once you&#39;re done and pay only for what you use, just like many of your peers do, how would that improve your business?</description>
+&amp;ldquo;If you could add 100,000 cores to your HPC grid, return them once you&amp;rsquo;re done and pay only for what you use, just like many of your peers do, how would that improve your business?</description>
     </item>
     
     <item>
@@ -107,7 +103,7 @@ https://www.meetup.com/Kubernetes-and-Cloud-Native-Computing-Louisville/events/2
       
       <guid>https://jamesstrong.dev/about/</guid>
       <description>Hey Everyone!
-The Name is James Strong and I love the cloud and teaching people about it. I&#39;m from louisville, KY, it&#39;s &amp;ldquo;Loo-a-vul&amp;rdquo; or &amp;ldquo;Loo-ee-ville&amp;rdquo; and never Loo-is-ville I am extremely passionate about Cloud Native tech, containers and Infrastructure. I enjoy talking to CTO&#39;s, junior engineers and colleagues about cloud technologies. I am a big supporter of Code Louisville and local Louisville Tech meetups, I also run Louisville Kubernetes and Cloud native Computing meetup</description>
+The Name is James Strong and I love the cloud and teaching people about it. I&amp;rsquo;m from louisville, KY, it&amp;rsquo;s &amp;ldquo;Loo-a-vul&amp;rdquo; or &amp;ldquo;Loo-ee-ville&amp;rdquo; and never Loo-is-ville I am extremely passionate about Cloud Native tech, containers and Infrastructure. I enjoy talking to CTO&amp;rsquo;s, junior engineers and colleagues about cloud technologies. I am a big supporter of Code Louisville and local Louisville Tech meetups, I also run Louisville Kubernetes and Cloud native Computing meetup</description>
     </item>
     
     <item>
@@ -116,9 +112,8 @@ The Name is James Strong and I love the cloud and teaching people about it. I&#3
       <pubDate>Mon, 18 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>https://jamesstrong.dev/resume/</guid>
-      <description>PDF version
-Contino • Cloud Native Director New York City, NY • Sept ‘19 - Present
-Responsible for Evangelizing Contino’s work in DevOps and Cloud transformations. Partnering with clients, conference organizers, and others to bring their message to their communities, accelerate the adoption of new platforms, or present on topics such as Kubernetes, Cloud Native Architecture, or Application Modernization. Aides in all facets of the project life cycle, beginning with project proposal and closing SOW’s with the sales team through helping technical teams deliver value to the client.</description>
+      <description>James Strong Overview Experienced Technical Professional who works well with minimum supervision as well as a group member. Customer oriented problem solver with an ability to adapt to new situations. A quick learner with a desire for continuous personal and technical growth. Effective communicator with the ability to create technical materials that convey value for both clients and end users. Core competencies include:
+Amazon Web Services • Network Administration • Virtualization • Cloud Native • Linux • VMware • Web Services</description>
     </item>
     
     <item>

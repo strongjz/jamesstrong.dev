@@ -7,11 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright (c) 2015, all rights reserved.</copyright>
-    <lastBuildDate>Mon, 26 Aug 2019 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://jamesstrong.dev/tags/developer/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Mon, 26 Aug 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://jamesstrong.dev/tags/developer/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Code PaLOUSa 2019</title>
       <link>https://jamesstrong.dev/post/2019/code-lou-2019/</link>

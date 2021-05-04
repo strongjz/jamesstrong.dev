@@ -7,11 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright (c) 2015, all rights reserved.</copyright>
-    <lastBuildDate>Mon, 27 Apr 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://jamesstrong.dev/tags/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Mon, 27 Apr 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://jamesstrong.dev/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>cloud native</title>
       <link>https://jamesstrong.dev/tags/cloud-native/</link>
@@ -211,15 +207,6 @@
     </item>
     
     <item>
-      <title>ci/cd</title>
-      <link>https://jamesstrong.dev/tags/ci/cd/</link>
-      <pubDate>Wed, 06 Jan 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://jamesstrong.dev/tags/ci/cd/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>jenkins</title>
       <link>https://jamesstrong.dev/tags/jenkins/</link>
       <pubDate>Wed, 06 Jan 2016 00:00:00 +0000</pubDate>
@@ -234,6 +221,15 @@
       <pubDate>Fri, 24 Apr 2015 00:00:00 +0000</pubDate>
       
       <guid>https://jamesstrong.dev/tags/master/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ci/cd</title>
+      <link>https://jamesstrong.dev/tags/ci/cd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesstrong.dev/tags/ci/cd/</guid>
       <description></description>
     </item>
     

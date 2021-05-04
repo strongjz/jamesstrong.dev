@@ -7,11 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright (c) 2015, all rights reserved.</copyright>
-    <lastBuildDate>Mon, 25 Mar 2019 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://jamesstrong.dev/tags/cncf/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Mon, 25 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://jamesstrong.dev/tags/cncf/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Kubernetes and Cloud Native Computing April Meetup</title>
       <link>https://jamesstrong.dev/post/2019/loucncf-4-1/</link>

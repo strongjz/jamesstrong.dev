@@ -6,10 +6,6 @@
     <description>Recent content in Topics on James Strong</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Copyright (c) 2015, all rights reserved.</copyright>
-    
-	<atom:link href="https://jamesstrong.dev/topics/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <copyright>Copyright (c) 2015, all rights reserved.</copyright><atom:link href="https://jamesstrong.dev/topics/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
