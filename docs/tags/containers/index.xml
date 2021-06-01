@@ -37,7 +37,7 @@ TL;DR This is a list of the bare minimum necessary to try to pass.
       
       <guid>https://jamesstrong.dev/post/2015/2015-04-24-master/</guid>
       <description>On May 9th 2015 I received my Master of Science in Computer Science from the University of Louisville. Here is my final project presentation is here.
-https://prezi.com/embed/fg1szrsl15c8/</description>
+  #the-canvas { border: 1px solid black; direction: ltr; width: 100%; height: auto; } #paginator{ text-align: center; margin-bottom: 10px; }  Previous Next &amp;nbsp; &amp;nbsp; Page:  /     window.onload = function() { var url = &#34;https:\/\/jamesstrong.dev\/&#34; + &#39;.\/pdf\/master.pdf&#39;; var hidePaginator = &#34;</description>
     </item>
     
   </channel>
