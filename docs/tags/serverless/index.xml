@@ -10,10 +10,10 @@
     <lastBuildDate>Sun, 31 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://jamesstrong.dev/tags/serverless/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hashicorp DFW</title>
-      <link>https://jamesstrong.dev/post/2019/hashidfw/</link>
+      <link>https://jamesstrong.dev/post/2019/2019-03-31-hashidfw/</link>
       <pubDate>Sun, 31 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://jamesstrong.dev/post/2019/hashidfw/</guid>
+      <guid>https://jamesstrong.dev/post/2019/2019-03-31-hashidfw/</guid>
       <description>I will be giving a talk and demo on deploying serverless apps onto AWS with Terraform!
 https://www.meetup.com/hashicorpdfw/events/260071773/</description>
     </item>
