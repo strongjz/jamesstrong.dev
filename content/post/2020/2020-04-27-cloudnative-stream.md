@@ -53,7 +53,7 @@ OBS also allowed us to integrate plugins from Streamlabs for the polls.
 
 ![Polls](/img/2020-cloudnaitve-summit-polls.png)
 
-Restream streamed to Youtube and Twitter, and pulled the all the chats as well from YouTube and
+Restream streamed to YouTube and Twitter, and pulled the all the chats as well from YouTube and
  Periscope. 
 
 ### Audio setup 

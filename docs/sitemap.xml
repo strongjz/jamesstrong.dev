@@ -2,8 +2,35 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://jamesstrong.dev/tags/aws/</loc>
+    <lastmod>2021-05-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jamesstrong.dev/tags/azure/</loc>
+    <lastmod>2021-05-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jamesstrong.dev/tags/cloud/</loc>
+    <lastmod>2021-05-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jamesstrong.dev/post/2021/2021-05-27-cloud-native-security/</loc>
+    <lastmod>2021-05-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jamesstrong.dev/tags/gcp/</loc>
+    <lastmod>2021-05-27T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://jamesstrong.dev/</loc>
-    <lastmod>2021-05-04T00:00:00+00:00</lastmod>
+    <lastmod>2021-05-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jamesstrong.dev/tags/kubernetes/</loc>
+    <lastmod>2021-05-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jamesstrong.dev/tags/networking/</loc>
+    <lastmod>2021-05-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jamesstrong.dev/post/</loc>
+    <lastmod>2021-05-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jamesstrong.dev/tags/</loc>
+    <lastmod>2021-05-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jamesstrong.dev/resume/</loc>
     <lastmod>2021-05-04T00:00:00+00:00</lastmod>
@@ -11,8 +38,17 @@
     <loc>https://jamesstrong.dev/tags/resume/</loc>
     <lastmod>2021-05-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jamesstrong.dev/tags/</loc>
-    <lastmod>2021-05-04T00:00:00+00:00</lastmod>
+    <loc>https://jamesstrong.dev/post/2021/2021-03-02-kubernetes-networking-book/</loc>
+    <lastmod>2021-03-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jamesstrong.dev/post/2020/2020-8-24-acg-networking/</loc>
+    <lastmod>2020-08-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jamesstrong.dev/post/2020/2020-08-20-aws-cloud-governance-security/</loc>
+    <lastmod>2020-08-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jamesstrong.dev/tags/security/</loc>
+    <lastmod>2020-08-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jamesstrong.dev/tags/cloud-native/</loc>
     <lastmod>2020-04-27T00:00:00+00:00</lastmod>
@@ -20,20 +56,11 @@
     <loc>https://jamesstrong.dev/post/2020/2020-04-27-cloudnative-stream/</loc>
     <lastmod>2020-04-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jamesstrong.dev/post/</loc>
-    <lastmod>2020-04-27T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://jamesstrong.dev/tags/containers/</loc>
-    <lastmod>2020-04-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jamesstrong.dev/tags/kubernetes/</loc>
     <lastmod>2020-04-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jamesstrong.dev/post/2020/2020-04-16-k8-contino-web/</loc>
     <lastmod>2020-04-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jamesstrong.dev/tags/cloud/</loc>
-    <lastmod>2019-11-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jamesstrong.dev/tags/devops/</loc>
     <lastmod>2019-11-23T00:00:00+00:00</lastmod>
@@ -49,9 +76,6 @@
   </url><url>
     <loc>https://jamesstrong.dev/tags/developer/</loc>
     <lastmod>2019-08-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jamesstrong.dev/tags/aws/</loc>
-    <lastmod>2019-08-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jamesstrong.dev/tags/code/</loc>
     <lastmod>2019-08-19T00:00:00+00:00</lastmod>

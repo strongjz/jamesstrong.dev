@@ -7,7 +7,50 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright (c) 2015, all rights reserved.</copyright>
-    <lastBuildDate>Sat, 23 Nov 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://jamesstrong.dev/tags/cloud/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 27 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://jamesstrong.dev/tags/cloud/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cloud Native Security Webinar</title>
+      <link>https://jamesstrong.dev/post/2021/2021-05-27-cloud-native-security/</link>
+      <pubDate>Thu, 27 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesstrong.dev/post/2021/2021-05-27-cloud-native-security/</guid>
+      <description>As organizations undergo a digital transformation, cloud migration now more than ever remains a high priority for those looking to expand their business and remain top competitors in their field. But how do companies develop and deploy in the cloud without fear? What is really needed to secure your cloud accounts, and develop your engineers’ innovation all while adhering to industry-wide security best practices?
+On Thursday, May 27th, discover the solution to those questions and more during our latest webinar where we present our unique framework, Cloud Guardian.</description>
+    </item>
+    
+    <item>
+      <title>Networking and Kubernetes Early Release</title>
+      <link>https://jamesstrong.dev/post/2021/2021-03-02-kubernetes-networking-book/</link>
+      <pubDate>Tue, 02 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesstrong.dev/post/2021/2021-03-02-kubernetes-networking-book/</guid>
+      <description>This past year Vallery Lancey and I have been working on a Kubernetes Networking Book.
+I am proud to announce that we have an early release of Chapters 1-3 of the book available on O&amp;rsquo;Reilly Digital platform.
+Kubernetes Networking is an essential guide for anyone who wants to deploy, manage, or troubleshoot a production-scale Kubernetes network.
+Understanding Kubernetes clusters isn&amp;rsquo;t enough to operate Kubernetes at scale. Every layer of the stack&amp;ndash;the network, operating system, and Kubernetes&amp;ndash;depends on the layer below.</description>
+    </item>
+    
+    <item>
+      <title>A Cloud Guru Advanced Networking with Kubernetes on AWS </title>
+      <link>https://jamesstrong.dev/post/2020/2020-8-24-acg-networking/</link>
+      <pubDate>Wed, 26 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesstrong.dev/post/2020/2020-8-24-acg-networking/</guid>
+      <description>I&amp;rsquo;ve spent the last year created a course for A Cloud Guru. With 3.4 hours of content and 36 lessons, I look forward to your feedback. Here is my &amp;ldquo;Advanced Networking with Kubernetes on AWS&amp;rdquo; Course.
+Since its release in 2014, Kubernetes has become the de-facto standard for container orchestration. Kubernetes is a distributed system for managing containers and its networking is no different. Many companies are deploying Kubernetes on-prem and in the cloud, both managed offerings and self-deployed.</description>
+    </item>
+    
+    <item>
+      <title>AWS Cloud Governance &amp; Security through Automation</title>
+      <link>https://jamesstrong.dev/post/2020/2020-08-20-aws-cloud-governance-security/</link>
+      <pubDate>Thu, 20 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesstrong.dev/post/2020/2020-08-20-aws-cloud-governance-security/</guid>
+      <description>At the August meetup for Atlanta AWS Builders group Jason Lutz and I presented on AWS Security.
+Presentation: https://www.slideshare.net/jstrong09/aws-dev-secops-atlanta-august-meetup
+Is that requirement from NIST 800-53 Controls or NIST 800-190? If you&amp;rsquo;ve ever wondered where those pesky cloud security controls come from, this meetup is for you. In this Meetup, Jame Strong and Jason Lutz from Contino (an AWS Permier Consulting Partner) will discuss how Contino views DevSecOps. They will review the Benefits of DevSecOps:</description>
+    </item>
+    
     <item>
       <title>KubeCon San Diego Recap</title>
       <link>https://jamesstrong.dev/post/2019/2019-11-23-kubecon/</link>
@@ -46,7 +89,7 @@ https://strongjz.github.io/k8-networking/#/</description>
       <pubDate>Thu, 04 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>https://jamesstrong.dev/post/2019/2019-04-04-cncf-intro-k8/</guid>
-      <description>In April we kicked off Kubernetes and Cloud Native Computing Louisville
+      <description>In April, we kicked off [Kubernetes and Cloud Native Computing Louisville](https://www.meetup. com/Kubernetes-and-Cloud-Native-Computing-Louisville/)
 I presented an &amp;ldquo;Intro to Kubernetes&amp;rdquo;, here is a link to the presentation
 More about that Meetup here
 Recording</description>
@@ -80,7 +123,7 @@ In this presentation I discussed DevOps, how Continuous Integration and Deployme
       
       <guid>https://jamesstrong.dev/post/2015/2015-04-24-master/</guid>
       <description>On May 9th 2015 I received my Master of Science in Computer Science from the University of Louisville. Here is my final project presentation is here.
-&amp;gt;</description>
+https://prezi.com/embed/fg1szrsl15c8/</description>
     </item>
     
   </channel>

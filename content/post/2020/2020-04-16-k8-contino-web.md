@@ -9,6 +9,8 @@ tags:
 
 {{< youtube R9CjnitC2ZM >}}
 
+Slides: https://www.slideshare.net/jstrong09/kubernetes-do-or-do-not-there-is-no-try
+
 In this webinar Gregory Patmore and I covered: 
 
 - Getting started with Kubernetes - laying the foundations for success 

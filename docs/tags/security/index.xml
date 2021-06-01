@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>security on James Strong</title>
+    <link>https://jamesstrong.dev/tags/security/</link>
+    <description>Recent content in security on James Strong</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright (c) 2015, all rights reserved.</copyright>
+    <lastBuildDate>Thu, 20 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://jamesstrong.dev/tags/security/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AWS Cloud Governance &amp; Security through Automation</title>
+      <link>https://jamesstrong.dev/post/2020/2020-08-20-aws-cloud-governance-security/</link>
+      <pubDate>Thu, 20 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesstrong.dev/post/2020/2020-08-20-aws-cloud-governance-security/</guid>
+      <description>At the August meetup for Atlanta AWS Builders group Jason Lutz and I presented on AWS Security.
+Presentation: https://www.slideshare.net/jstrong09/aws-dev-secops-atlanta-august-meetup
+Is that requirement from NIST 800-53 Controls or NIST 800-190? If you&amp;rsquo;ve ever wondered where those pesky cloud security controls come from, this meetup is for you. In this Meetup, Jame Strong and Jason Lutz from Contino (an AWS Permier Consulting Partner) will discuss how Contino views DevSecOps. They will review the Benefits of DevSecOps:</description>
+    </item>
+    
+  </channel>
+</rss>
