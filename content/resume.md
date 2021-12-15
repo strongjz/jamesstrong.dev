@@ -50,7 +50,7 @@ scale Kubernetes network.
 
 Understanding Kubernetes clusters is not enough to operate Kubernetes at scale. Every layer of the stack–the
 network, operating system, Kubernetes–depends on the layer below. Successful administrators need to understand each
-layer and how it works across deployments on-prim, in the cloud, and with managed services. Kubernetes Networking
+layer and how it works across deployments on-prem, in the cloud, and with managed services. Kubernetes Networking
 clearly guides administrators through the layers of complexity and abstraction that come with running a Kubernetes
 network. It covers:
 
