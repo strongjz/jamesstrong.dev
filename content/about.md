@@ -20,8 +20,4 @@ If you're interested in what I have done, checkout my [posts](/post), or [resume
 
 Thanks for reading, hopefully you find something helpful here! 
 
-Feel free to Reach out
-
-[James dot strong at linux dot com](mailto:james.strong@linux.com)
-
-{{< tweet user=strongjz id=1099078765286772737 >}}
+Feel free to Reach out [James dot strong at linux dot com](mailto:james.strong@linux.com)
