@@ -1,9 +1,6 @@
 ---
 title: "About"
 date: "2022-12-28"
-description: "About me and this site"
-tags:
-- resume
 ---
 
 {{% fluid_img class="pure-u-1-3" src="/img/headshot.png" %}}
