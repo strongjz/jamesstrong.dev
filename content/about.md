@@ -1,18 +1,20 @@
 ---
-title: "About Me"
-date: "2019-03-18"
+title: "About"
+date: "2022-12-28"
+description: "About me and this site"
+tags:
+- resume
 ---
 
 {{% fluid_img class="pure-u-1-3" src="/img/headshot.png" %}}
 
 Hey Everyone! 
 
-The Name is James Strong and I love the cloud and teaching people about it. I'm from louisville, KY, it's 
-["Loo-a-vul" or "Loo-ee-ville" and never Loo-is-ville](https://www.youtube.com/watch?v=w8Bn9o_L08o) 
+The Name is James Strong and I love the cloud and teaching people about it. I'm from Philadelphia, PA.
 I am extremely passionate about Cloud Native tech, containers and Infrastructure. I enjoy talking to CTO's, 
-junior engineers and colleagues about cloud technologies. I am a big supporter of Code Louisville and 
-local Louisville Tech meetups, I also run 
-[Louisville Kubernetes and Cloud native Computing meetup](https://www.meetup.com/Kubernetes-and-Cloud-Native-Computing-Louisville/) 
+junior engineers and colleagues about cloud technologies. I run 
+[Kubernetes Philly CNCF Community Group](https://community.cncf.io/kubernetes-philly/) and help maintain Kubernetes 
+Ingress-nginx Project.
 
 If you're interested in what I have done, checkout my [posts](/post), or [resume](/resume).
 
@@ -22,4 +24,4 @@ Feel free to Reach out
 
 [James dot strong at linux dot com](mailto:james.strong@linux.com)
 
-{{< tweet 1099078765286772737 >}}
+{{< tweet user=strongjz id=1099078765286772737 >}}

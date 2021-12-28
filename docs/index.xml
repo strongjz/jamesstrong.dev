@@ -7,7 +7,27 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright (c) 2015, all rights reserved.</copyright>
-    <lastBuildDate>Thu, 27 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://jamesstrong.dev/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 28 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://jamesstrong.dev/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Resume</title>
+      <link>https://jamesstrong.dev/resume/</link>
+      <pubDate>Tue, 28 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesstrong.dev/resume/</guid>
+      <description>James Strong Overview Experienced Technical Professional who works well with minimum supervision as well as a group member. Customer oriented problem solver with an ability to adapt to new situations. A quick learner with a desire for continuous personal and technical growth. Effective communicator with the ability to create technical materials that convey value for both clients and end users.
+Professional Experience Chainguard, Inc • Lead Solutions Architect Kirkland, WA • Dec ‘21 - Present</description>
+    </item>
+    
+    <item>
+      <title>Resume-2</title>
+      <link>https://jamesstrong.dev/resume-2/</link>
+      <pubDate>Tue, 28 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesstrong.dev/resume-2/</guid>
+      <description>James Strong Overview Experienced Technical Professional who works well with minimum supervision as well as a group member. Customer oriented problem solver with an ability to adapt to new situations. A quick learner with a desire for continuous personal and technical growth. Effective communicator with the ability to create technical materials that convey value for both clients and end users.
+Professional Experience Chainguard, Inc • Lead Solutions Architect Kirkland, WA • Dec ‘21 - Present</description>
+    </item>
+    
     <item>
       <title>Cloud Native Security Webinar</title>
       <link>https://jamesstrong.dev/post/2021/2021-05-27-cloud-native-security/</link>
@@ -16,16 +36,6 @@
       <guid>https://jamesstrong.dev/post/2021/2021-05-27-cloud-native-security/</guid>
       <description>As organizations undergo a digital transformation, cloud migration now more than ever remains a high priority for those looking to expand their business and remain top competitors in their field. But how do companies develop and deploy in the cloud without fear? What is really needed to secure your cloud accounts, and develop your engineers’ innovation all while adhering to industry-wide security best practices?
 On Thursday, May 27th, discover the solution to those questions and more during our latest webinar where we present our unique framework, Cloud Guardian.</description>
-    </item>
-    
-    <item>
-      <title>Resume</title>
-      <link>https://jamesstrong.dev/resume/</link>
-      <pubDate>Tue, 04 May 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://jamesstrong.dev/resume/</guid>
-      <description>James Strong Overview Experienced Technical Professional who works well with minimum supervision as well as a group member. Customer oriented problem solver with an ability to adapt to new situations. A quick learner with a desire for continuous personal and technical growth. Effective communicator with the ability to create technical materials that convey value for both clients and end users. Core competencies include:
-Amazon Web Services • Network Administration • Virtualization • Cloud Native • Linux • VMware • Web Services</description>
     </item>
     
     <item>
@@ -159,16 +169,6 @@ https://www.meetup.com/hashicorpdfw/events/260071773/</description>
       <guid>https://jamesstrong.dev/post/2019/2019-03-25-loucncf-4-1/</guid>
       <description>The inaugural Kubernetes and Cloud Native Computer Louisville will be on April 4th. I will be presenting an &amp;ldquo;Intro to Kubernetes&amp;rdquo;
 https://www.meetup.com/Kubernetes-and-Cloud-Native-Computing-Louisville/events/259202067/</description>
-    </item>
-    
-    <item>
-      <title>About Me</title>
-      <link>https://jamesstrong.dev/about/</link>
-      <pubDate>Mon, 18 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://jamesstrong.dev/about/</guid>
-      <description>Hey Everyone!
-The Name is James Strong and I love the cloud and teaching people about it. I&amp;rsquo;m from louisville, KY, it&amp;rsquo;s &amp;ldquo;Loo-a-vul&amp;rdquo; or &amp;ldquo;Loo-ee-ville&amp;rdquo; and never Loo-is-ville I am extremely passionate about Cloud Native tech, containers and Infrastructure. I enjoy talking to CTO&amp;rsquo;s, junior engineers and colleagues about cloud technologies. I am a big supporter of Code Louisville and local Louisville Tech meetups, I also run Louisville Kubernetes and Cloud native Computing meetup</description>
     </item>
     
     <item>

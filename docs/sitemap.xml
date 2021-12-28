@@ -2,6 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://jamesstrong.dev/</loc>
+    <lastmod>2021-12-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jamesstrong.dev/resume/</loc>
+    <lastmod>2021-12-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jamesstrong.dev/tags/resume/</loc>
+    <lastmod>2021-12-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jamesstrong.dev/resume-2/</loc>
+    <lastmod>2021-12-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jamesstrong.dev/tags/</loc>
+    <lastmod>2021-12-28T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://jamesstrong.dev/tags/aws/</loc>
     <lastmod>2021-05-27T00:00:00+00:00</lastmod>
   </url><url>
@@ -17,9 +32,6 @@
     <loc>https://jamesstrong.dev/tags/gcp/</loc>
     <lastmod>2021-05-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jamesstrong.dev/</loc>
-    <lastmod>2021-05-27T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://jamesstrong.dev/tags/kubernetes/</loc>
     <lastmod>2021-05-27T00:00:00+00:00</lastmod>
   </url><url>
@@ -28,15 +40,6 @@
   </url><url>
     <loc>https://jamesstrong.dev/post/</loc>
     <lastmod>2021-05-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jamesstrong.dev/tags/</loc>
-    <lastmod>2021-05-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jamesstrong.dev/resume/</loc>
-    <lastmod>2021-05-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jamesstrong.dev/tags/resume/</loc>
-    <lastmod>2021-05-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jamesstrong.dev/post/2021/2021-03-02-kubernetes-networking-book/</loc>
     <lastmod>2021-03-02T00:00:00+00:00</lastmod>
@@ -116,9 +119,6 @@
     <loc>https://jamesstrong.dev/post/2019/2019-03-25-loucncf-4-1/</loc>
     <lastmod>2019-03-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jamesstrong.dev/about/</loc>
-    <lastmod>2019-03-18T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://jamesstrong.dev/post/2019/2019-03-06-devnexus2019/</loc>
     <lastmod>2019-03-06T00:00:00+00:00</lastmod>
   </url><url>
@@ -162,7 +162,5 @@
     <lastmod>2015-04-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jamesstrong.dev/tags/ci/cd/</loc>
-  </url><url>
-    <loc>https://jamesstrong.dev/topics/</loc>
   </url>
 </urlset>

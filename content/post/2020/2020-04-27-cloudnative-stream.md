@@ -25,7 +25,7 @@ I was part of the Cloud Native Online summit team that helped put on the event.
 
 [@Zaki Mahomed](https://cloud-native.slack.com/archives/D012ZQWRZEV) Streaming Consultant
 
-{{< tweet 1247520336330948608 >}}
+{{< tweet user="strongjz" id=1247520336330948608 >}}
 
 For the event we used several pieces of technology to enable a collaborative and fun event
 

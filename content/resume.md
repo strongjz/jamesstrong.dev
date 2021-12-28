@@ -1,6 +1,6 @@
 ---
 title: "Resume"
-date: "2021-05-04"
+date: "2021-12-28"
 tags:
   - resume
 ---
@@ -12,36 +12,13 @@ tags:
 Experienced Technical Professional who works well with minimum supervision as well as a group member. Customer
 oriented problem solver with an ability to adapt to new situations. A quick learner with a desire for continuous
 personal and technical growth. Effective communicator with the ability to create technical materials that convey
-value for both clients and end users. Core competencies include:
-
-Amazon Web Services • Network Administration • Virtualization • Cloud Native • Linux • VMware • Web Services
-
-##  Contact
-
-james.strong@linux.com
-
-https://jamesstrong.dev
-
-https://www.linkedin.com/in/strongjz/
-
-https://twitter.com/strongjz
-
-https://github.com/strongjz
-
+value for both clients and end users. 
 
 ## Professional Experience
 
+### Chainguard, Inc • Lead Solutions Architect
 
-### Contino • Cloud Native Director
-
-New York City, NY • Sept ‘19 - Present
-
-Responsible for Evangelizing Contino’s work in DevOps and Cloud transformations. Partnering with clients, conference
-organizers, and others to bring their message to their communities, accelerate the adoption of new platforms, or
-present on topics such as Kubernetes, Cloud Native Architecture, or Application Modernization. Aides in all facets
-of the project life cycle, beginning with project proposal and closing SOW’s with the sales team through helping +
-technical teams deliver value to the client.
-
+Kirkland, WA • Dec ‘21 - Present
 
 ### O'Reilly Author - Kubernetes Networking
 
@@ -63,19 +40,20 @@ network. It covers:
 
 https://www.oreilly.com/library/view/kubernetes-networking/9781492081647/
 
-
 ### A Cloud Guru Instructor
 
-Since its release in 2014, Kubernetes has become the de-facto standard for container orchestration. Kubernetes is a distributed system for managing containers and its networking is no different. Many companies are deploying Kubernetes on-prem and in the cloud, both managed offerings and self-deployed. With that, the demand for System, Network and Cluster Administrators to understand the underpinnings of the network stack in Kubernetes is ever increasing.
-
-This course is a deep dive into the Kubernetes network model, the components involved and how to deploy, manage and troubleshoot the cluster network.
+Since its release in 2014, Kubernetes has become the de-facto standard for container orchestration. Kubernetes is a 
+distributed system for managing containers and its networking is no different. Many companies are deploying Kubernetes 
+on-prem and in the cloud, both managed offerings and self-deployed. With that, the demand for System, Network and 
+Cluster Administrators to understand the underpinnings of the network stack in Kubernetes is ever-increasing. This 
+course is a deep dive into the Kubernetes network model, the components involved and how to deploy, manage 
+and troubleshoot the cluster network.
 
 https://acloud.guru/overview/advanced-networking-with-kubernetes-for-aws
 
-
 ### Volunteer • Meetup Organizer
 
-New York City, NY • April ‘19 - Present
+New York City, NY • April ‘19 - March ‘20
 
 Responsible for organizing and scheduling several Meetups in the Louisville and NYC tech community. In Louisville,
 Kubernetes and Cloud Native, GoLou, and the AWS User group. James works as Co-Organizer for DevOps NYC.
@@ -88,6 +66,15 @@ https://www.meetup.com/DevOps-NYC/
 
 https://www.meetup.com/go-lou/
 
+### Contino • Cloud Native Director
+
+New York City, NY • Sept ‘19 - Dec ‘21
+
+Responsible for Evangelizing Contino’s work in DevOps and Cloud transformations. Partnering with clients, conference
+organizers, and others to bring their message to their communities, accelerate the adoption of new platforms, or
+present on topics such as Kubernetes, Cloud Native Architecture, or Application Modernization. Aides in all facets
+of the project life cycle, beginning with project proposal and closing SOW’s with the sales team through helping +
+technical teams deliver value to the client.
 
 ### Contino • Technical Principal
 
@@ -96,7 +83,6 @@ New York City, NY • Jan ‘18 - Dec ‘18
 Lead technical teams implementing technologies such as Terraform, Docker and other cloud native technologies.
 To upskill teams on those technologies implementing paired programming or workshops. Responsible for day-to-day
 Scrum master duties, completion of Project deliverables and report outs to Key stakeholders.
-
 
 ### Contino • Senior DevOps Consultant
 
@@ -110,7 +96,6 @@ Provide guidance for Enterprise organizations on how to adopt DevOps practices b
 * Accelerating the adoption of DevOps tools; Docker, Terraform, Configuration management tools such as Chef, Puppet or
   Ansible and coordinated with CI/CD software like Jenkins.
 
-
 ### Bluesentry IT • DevOps Engineer Lead
 
 Louisville, KY • Jan ‘17 - Jan 18
@@ -123,7 +108,6 @@ Aided client’s efforts to transition to Cloud based architecture exclusively u
 * Scrum Master for Team, leading all discussion and backlog reviews.
 * Product Owner discussions with clients and backlog prioritization.
 
-
 ### Cafepress • DevOps Engineer
 
 Louisville, KY • Sept '16 - Dec '16
@@ -134,7 +118,6 @@ Responsible for aiding the Organization transition to a Cloud based Architecture
 * Create automated pipeline for building out infrastructure utilizing Jenkins Pipeline, Hashicorp’s Terraform and Packer.
 * AWS - Troubleshoot AWS environment; EC2 Clean up, Cost optimization and setup security/usage/architecture guidelines.
 * Release manager for website code base; Project plan for simplifying and automating the release process.
-
 
 ### GE Appliances • Cloud Architect - Marketing IT
 
@@ -151,7 +134,6 @@ and methodologies like Docker, Continuous Integration, Agile, and Microservices.
   web applications.
 * Migration of static websites to AWS utilizing S3 and Cloudflare.
 
-
 ### GE Appliances • IT Lead Technologist – Cloud
 
 Louisville, KY • February '13 – May '15
@@ -165,8 +147,6 @@ VMware infrastructure. Also, responsible for public cloud migration utilizing Am
 * DevOps and cloud evangelist.
 * Network management between GE and AWS.
 
-
-
 ### GE Home &amp; Business Solutions • IT Technologist – Cloud
 
 Louisville, KY • August ‘12 – February ‘13
@@ -174,7 +154,7 @@ Louisville, KY • August ‘12 – February ‘13
 * Responsible for continued implementation, design, and support of GE Home and Business Solutions' private cloud
   utilizing VMware’s vCloud automation center 5.1, C#, Puppet and Ruby. Also, contributed in the support of the current
   VMware virtualization infrastructure.
-* Implemented Service-Now to DynamicOps SOAP interface.
+* Implemented ServiceNow to DynamicOps SOAP interface.
 * Collaborated on creation of REST web service design for cloud integrations.
 * Implemented integration into current IPAM solution.
 
@@ -240,8 +220,7 @@ troubleshoot wireless around campus. Deploying and Troubleshooting Network equip
 ## Accreditations
 
 Current
-
-* CNCF CKA
+* 
 * AWS DEVOPS - Professional
 * AWS CSA - Professional
 * AWS CSA – Associate
@@ -250,6 +229,7 @@ Current
 
 Past
 
+* CNCF CKA
 * AWS Certified Network Speciality
 * CCNA
 * CCNA Security
@@ -263,3 +243,16 @@ Bachelor of Science in Computer Information Systems: U. of Dayton, Ohio 2010
 Masters of Science in Computer Science: U. of Louisville, Kentucky May 2015
 
 IEEE Member: 92045724
+
+##  Contact
+
+james.strong@linux.com
+
+https://jamesstrong.dev
+
+https://www.linkedin.com/in/strongjz/
+
+https://twitter.com/strongjz
+
+https://github.com/strongjz
+

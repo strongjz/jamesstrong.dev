@@ -25,58 +25,61 @@ disqusShortname = "jamesstrong-dev"
 [social]
   github = "strongjz"
   twitter = "strongjz"
-  linkedin = "strongjames"
+  linkedin = "strongjz"
   email = "james.strong@linux.com"
-
-  # SNS photo/video sharing
   slideshare = "jstrong09"
-
   reddit = "strongjz"
   hackernews = "strongbad"
-
   gitlab = "strongjz"
   bitbucket = "strongjz"
   stackoverflow = "1794802"
-  serverfault = "162720"
-
-  # Other
   keybase = "strongjz"
 
 [author]
   name = "James Strong"
 
+[menu]
+    [[menu.main]]
+      name = "Home"
+      pre = "<i class='fa fa-home fa-fw'></i>"
+      weight = 1
+      identifier = "home"
+      url = "/"
 
-[[menu.main]]
+    [[menu.main]]
+      name = "About"
+      pre = "<i class='fa fa-user fa-fw'></i>"
+      weight = 6
+      identifier = "about"
+      url = "/about/"
 
-  name = "Home"
-  identifier = "home"
-  url = "/"
+    [[menu.main]]
+      name = "Posts"
+      pre = "<i class='fa fa-list fa-fw'></i>"
+      weight = 3
+      identifier = "post"
+      url = "/post/"
 
-[[menu.main]]
-  name = "About Me"
-  identifier = "about"
-  url = "/about/"
+    [[menu.main]]
+      name = "Resume"
+      pre = "<i class='fa fa-user fa-fw'></i>"
+      weight = 4
+      identifier = "resume"
+      url = "/resume/"
 
-[[menu.main]]
+    [[menu.main]]
+      name = "Keybase"
+      identifier = "Keybase"
+      pre = "<i class='fa fa-key fa-fw'></i>"
+      weight = 5
+      url = "/keybase.txt"
 
-  name = "Posts"
-  identifier = "post"
-  url = "/post/"
-
-[[menu.main]]
-  name = "Tags"
-  identifier = "tag"
-  url = "/tags/"
-
-[[menu.main]]
-  name = "Resume"
-  identifier = "resume"
-  url = "/resume/"
-
-[[menu.main]]
-  name = "Keybase"
-  identifier = "Keybase"
-  url = "/keybase.txt"
+    [[menu.main]]
+      name = "Tags"
+      pre = "<i class='fa fa-solid fa-tag'></i>"
+      weight = 2
+      identifier = "tag"
+      url = "/tags/"
 
 [params.meta]
   keywords = "blog, tech"
