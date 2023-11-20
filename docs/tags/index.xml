@@ -108,6 +108,24 @@
     </item>
     
     <item>
+      <title>sigstore</title>
+      <link>https://jamesstrong.dev/tags/sigstore/</link>
+      <pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesstrong.dev/tags/sigstore/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>security</title>
+      <link>https://jamesstrong.dev/tags/security/</link>
+      <pubDate>Wed, 14 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesstrong.dev/tags/security/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>interview</title>
       <link>https://jamesstrong.dev/tags/interview/</link>
       <pubDate>Mon, 29 Aug 2022 00:00:00 +0000</pubDate>
@@ -122,6 +140,15 @@
       <pubDate>Mon, 29 Aug 2022 00:00:00 +0000</pubDate>
       
       <guid>https://jamesstrong.dev/tags/software-supply-chain-security/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>podcast</title>
+      <link>https://jamesstrong.dev/tags/podcast/</link>
+      <pubDate>Tue, 18 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesstrong.dev/tags/podcast/</guid>
       <description></description>
     </item>
     
@@ -144,6 +171,15 @@
     </item>
     
     <item>
+      <title>devsecops</title>
+      <link>https://jamesstrong.dev/tags/devsecops/</link>
+      <pubDate>Thu, 27 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesstrong.dev/tags/devsecops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>gcp</title>
       <link>https://jamesstrong.dev/tags/gcp/</link>
       <pubDate>Thu, 27 May 2021 00:00:00 +0000</pubDate>
@@ -153,11 +189,11 @@
     </item>
     
     <item>
-      <title>security</title>
-      <link>https://jamesstrong.dev/tags/security/</link>
-      <pubDate>Thu, 20 Aug 2020 00:00:00 +0000</pubDate>
+      <title>workshop</title>
+      <link>https://jamesstrong.dev/tags/workshop/</link>
+      <pubDate>Thu, 27 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://jamesstrong.dev/tags/security/</guid>
+      <guid>https://jamesstrong.dev/tags/workshop/</guid>
       <description></description>
     </item>
     
@@ -176,15 +212,6 @@
       <pubDate>Wed, 27 May 2020 00:00:00 +0000</pubDate>
       
       <guid>https://jamesstrong.dev/tags/containers/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>devsecops</title>
-      <link>https://jamesstrong.dev/tags/devsecops/</link>
-      <pubDate>Wed, 27 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://jamesstrong.dev/tags/devsecops/</guid>
       <description></description>
     </item>
     
@@ -284,15 +311,6 @@
       <pubDate>Mon, 25 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>https://jamesstrong.dev/tags/cncf/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>workshop</title>
-      <link>https://jamesstrong.dev/tags/workshop/</link>
-      <pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://jamesstrong.dev/tags/workshop/</guid>
       <description></description>
     </item>
     

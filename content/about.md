@@ -3,7 +3,7 @@ title: "About"
 date: "2022-12-28"
 ---
 
-{{% fluid_img class="pure-u-1-3" src="..img/headshot.png" %}}
+![Headshot](/img/headshot.png)
 
 Hey Everyone! 
 
@@ -17,4 +17,4 @@ If you're interested in what I have done, checkout my [posts](/post), or [resume
 
 Thanks for reading, hopefully you find something helpful here! 
 
-Feel free to Reach out [James dot strong at linux dot com](mailto:james.strong@linux.com)
+Feel free to Reach out [strong dot james dot e at gmail dot com](mailto:strong.james.e@gmail.com)

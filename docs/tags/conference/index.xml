@@ -19,6 +19,28 @@ The majority of us are using images based on the Docker official images availabl
     </item>
     
     <item>
+      <title>What Does Rugby Have To Do With Sigstore?</title>
+      <link>https://jamesstrong.dev/post/2023/2023-02-04-fosdem-sigstore-rugby/</link>
+      <pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesstrong.dev/post/2023/2023-02-04-fosdem-sigstore-rugby/</guid>
+      <description>Cosign, fulcio, rekor are all components in keyless signing with Sigstore. Each piece has its responsibility to provide a smooth developer experience for container signing. How does it all work together to complete that complicated dance to tie identity to cryptographic signatures? And what&amp;rsquo;s more cryptic than rugby? In this talk, James and Lewis will educate attendees about sigstore and container signing using examples from the best sport in the world, rugby.</description>
+    </item>
+    
+    <item>
+      <title>Realizing the benefits of container DevSecOps with AWS</title>
+      <link>https://jamesstrong.dev/post/2021/2021-09-21-devsecops-with-aws/</link>
+      <pubDate>Thu, 27 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesstrong.dev/post/2021/2021-09-21-devsecops-with-aws/</guid>
+      <description>AWS DevSecOps Container Pipeline workshop at DevOps Days Houston
+Workshop available at https://aws.containerdevsecops.io/
+In this workshop Engineers will learn how to secure their container pipeline using AWS and other Cloud Native tools. This will be part Lecture and part hands on.
+We will be working through the following topics:
+Introduction Workshop Setup Development Environment Container Builds Container Pipeline Running Containers We will be using these tools and techniques to secure a container pipeline and runtime.</description>
+    </item>
+    
+    <item>
       <title>Code PaLOUSa 2019</title>
       <link>https://jamesstrong.dev/post/2019/2019-08-26-code-lou-2019/</link>
       <pubDate>Mon, 26 Aug 2019 00:00:00 +0000</pubDate>

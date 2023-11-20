@@ -39,5 +39,15 @@ Speakers: Dylen Turnbull, James Strong
 In 7 years, Ingress-nginx has had 221 releases, with over 6800 commits. To ensure stability and to test this highly configurable controller, the project has grown to over 400 e2e tests and helm chart tests across various kubernetes versions and deployment landscapes. We were 3/4 through our stabilization project in the last maintainer track we presented.</description>
     </item>
     
+    <item>
+      <title>From Build to Prod: Getting Started with Software Signing &amp; Policy Enforce</title>
+      <link>https://jamesstrong.dev/post/2022/2022-12-14-getting-started-signing-and-policy/</link>
+      <pubDate>Wed, 14 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesstrong.dev/post/2022/2022-12-14-getting-started-signing-and-policy/</guid>
+      <description>Want to know how to get started on signing your images and commits? Secure from build to prod and join James Strong to walk through signing images with Sigstore via Tekton chains and commits with Gitsign, all with policy enforced by Chainguard!
+Watch on crowd cast</description>
+    </item>
+    
   </channel>
 </rss>

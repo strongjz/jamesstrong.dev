@@ -69,6 +69,15 @@ The intended audience is software development teams that use containers and are 
     </item>
     
     <item>
+      <title>Networking &amp; Kubernetes: Book Review and Interview with Author James Strong</title>
+      <link>https://jamesstrong.dev/post/2021/2021-10-06-hackernoon-interview/</link>
+      <pubDate>Wed, 06 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesstrong.dev/post/2021/2021-10-06-hackernoon-interview/</guid>
+      <description>Networking &amp;amp; Kubernetes: Book Review and Interview with Author James Strong By Amy Pravin Shah</description>
+    </item>
+    
+    <item>
       <title>Cloud Native Security Webinar</title>
       <link>https://jamesstrong.dev/post/2021/2021-05-27-cloud-native-security/</link>
       <pubDate>Thu, 27 May 2021 00:00:00 +0000</pubDate>
@@ -76,6 +85,19 @@ The intended audience is software development teams that use containers and are 
       <guid>https://jamesstrong.dev/post/2021/2021-05-27-cloud-native-security/</guid>
       <description>As organizations undergo a digital transformation, cloud migration now more than ever remains a high priority for those looking to expand their business and remain top competitors in their field. But how do companies develop and deploy in the cloud without fear? What is really needed to secure your cloud accounts, and develop your engineers’ innovation all while adhering to industry-wide security best practices?
 On Thursday, May 27th, discover the solution to those questions and more during our latest webinar where we present our unique framework, Cloud Guardian.</description>
+    </item>
+    
+    <item>
+      <title>Realizing the benefits of container DevSecOps with AWS</title>
+      <link>https://jamesstrong.dev/post/2021/2021-09-21-devsecops-with-aws/</link>
+      <pubDate>Thu, 27 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesstrong.dev/post/2021/2021-09-21-devsecops-with-aws/</guid>
+      <description>AWS DevSecOps Container Pipeline workshop at DevOps Days Houston
+Workshop available at https://aws.containerdevsecops.io/
+In this workshop Engineers will learn how to secure their container pipeline using AWS and other Cloud Native tools. This will be part Lecture and part hands on.
+We will be working through the following topics:
+Introduction Workshop Setup Development Environment Container Builds Container Pipeline Running Containers We will be using these tools and techniques to secure a container pipeline and runtime.</description>
     </item>
     
     <item>
