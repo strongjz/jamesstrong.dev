@@ -10,21 +10,21 @@
     <lastBuildDate>Mon, 29 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://jamesstrong.dev/tags/interview/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>#DevOpsSpeakeasy at #KubeCon EU 2022 with James Strong on Supply Chain Security</title>
-      <link>https://jamesstrong.dev/post/2022/2022-04-19-chainguard-live-all-about-that-base/</link>
-      <pubDate>Mon, 29 Aug 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://jamesstrong.dev/post/2022/2022-04-19-chainguard-live-all-about-that-base/</guid>
-      <description>The Chainguard team has released a new whitepaper titled “All About That Base Image.” The whitepaper proposes “quiet” base images, minimal images with few or no security vulnerabilities, and other security features built-in.
-The intended audience is software development teams that use containers and are interested in reducing the workload associated with investigating and mitigating security vulnerabilities. The whitepaper helps software professionals better understand the security debt of popular base images by analyzing the number, severity, and lifetime of vulnerabilities.</description>
-    </item>
-    
-    <item>
-      <title>#DevOpsSpeakeasy at #KubeCon EU 2022 with James Strong on Supply Chain Security</title>
       <link>https://jamesstrong.dev/post/2022/2022-08-29-jfrog-supply-chain-security/</link>
       <pubDate>Mon, 29 Aug 2022 00:00:00 +0000</pubDate>
       
       <guid>https://jamesstrong.dev/post/2022/2022-08-29-jfrog-supply-chain-security/</guid>
       <description>James Strong, lead solution architect at Chainguard, discusses the challenges of securing software supply chains and recommendations for developers</description>
+    </item>
+    
+    <item>
+      <title>Chainguard Live: All About That Base Image</title>
+      <link>https://jamesstrong.dev/post/2022/2022-04-19-chainguard-live-all-about-that-base/</link>
+      <pubDate>Tue, 19 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesstrong.dev/post/2022/2022-04-19-chainguard-live-all-about-that-base/</guid>
+      <description>The Chainguard team has released a new whitepaper titled “All About That Base Image.” The whitepaper proposes “quiet” base images, minimal images with few or no security vulnerabilities, and other security features built-in.
+The intended audience is software development teams that use containers and are interested in reducing the workload associated with investigating and mitigating security vulnerabilities. The whitepaper helps software professionals better understand the security debt of popular base images by analyzing the number, severity, and lifetime of vulnerabilities.</description>
     </item>
     
   </channel>

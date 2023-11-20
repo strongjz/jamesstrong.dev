@@ -59,9 +59,6 @@
     <loc>https://jamesstrong.dev/post/2022/2022-11-11-understanding-future-ingress-nginx/</loc>
     <lastmod>2022-11-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jamesstrong.dev/post/2022/2022-04-19-chainguard-live-all-about-that-base/</loc>
-    <lastmod>2022-08-29T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://jamesstrong.dev/post/2022/2022-08-29-jfrog-supply-chain-security/</loc>
     <lastmod>2022-08-29T00:00:00+00:00</lastmod>
   </url><url>
@@ -70,6 +67,9 @@
   </url><url>
     <loc>https://jamesstrong.dev/tags/software-supply-chain-security/</loc>
     <lastmod>2022-08-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jamesstrong.dev/post/2022/2022-04-19-chainguard-live-all-about-that-base/</loc>
+    <lastmod>2022-04-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jamesstrong.dev/post/2021/2021-11-01-kubernetes-networking-101/</loc>
     <lastmod>2021-11-01T00:00:00+00:00</lastmod>
