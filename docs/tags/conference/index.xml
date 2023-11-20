@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright (c) 2015, all rights reserved.</copyright>
-    <lastBuildDate>Mon, 26 Aug 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://jamesstrong.dev/tags/conference/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 14 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://jamesstrong.dev/tags/conference/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Wolfi: A Secure-by-Default Distro for Curing Container CVE Chaos </title>
+      <link>https://jamesstrong.dev/post/2023/2023-08-14-all-systems-go-wolfi/</link>
+      <pubDate>Mon, 14 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesstrong.dev/post/2023/2023-08-14-all-systems-go-wolfi/</guid>
+      <description>Are you using container images with hundreds of known vulnerabilities?
+The majority of us are using images based on the Docker official images available on the Docker Hub. This includes base images – such as Debian and Ubuntu – as well as application images such as nginx and redis. Unfortunately these images often have hundreds of known vulnerabilities due to excessively large dependency trees with out-of-date packages. This security debt can lead to unnecessary security risks and slower development cycles.</description>
+    </item>
+    
     <item>
       <title>Code PaLOUSa 2019</title>
       <link>https://jamesstrong.dev/post/2019/2019-08-26-code-lou-2019/</link>

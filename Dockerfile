@@ -1,6 +1,6 @@
-FROM alpine:3.15.0
+FROM alpine:latest
 
-MAINTAINER James Strong <james.strong@linux.com>
+LABEL maintiner="James Strong <james.strong@linux.com>"
 
 ARG HUGO_VERSION
 ARG ARCH

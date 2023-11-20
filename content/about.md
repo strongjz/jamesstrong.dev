@@ -3,7 +3,7 @@ title: "About"
 date: "2022-12-28"
 ---
 
-{{% fluid_img class="pure-u-1-3" src="/img/headshot.png" %}}
+{{% fluid_img class="pure-u-1-3" src="..img/headshot.png" %}}
 
 Hey Everyone! 
 

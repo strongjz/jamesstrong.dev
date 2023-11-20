@@ -40,7 +40,7 @@ First class speakers!</description>
       <guid>https://jamesstrong.dev/post/2017/2017-03-29-codelouisville/</guid>
       <description>This talk was presented in 2017 at Louisville Local Software Development Conference Codepalousa.
 In this presentation I discussed DevOps, how Continuous Integration and Deployment integrates into that, and how CI/CD can be implemented with AWS services.
-   Running Rules for CI/CD AWS Tool     1. Maintain a code repository Commit   2. Automate the build *   3. Keep the build fast Build   4.</description>
+Running Rules for CI/CD AWS Tool 1. Maintain a code repository Commit 2. Automate the build * 3. Keep the build fast Build 4. Make the build self-testing Deploy 5. Commit early, commit often Commit 6.</description>
     </item>
     
     <item>

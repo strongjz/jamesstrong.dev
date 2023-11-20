@@ -7,7 +7,47 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright (c) 2015, all rights reserved.</copyright>
-    <lastBuildDate>Thu, 27 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://jamesstrong.dev/tags/networking/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 18 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://jamesstrong.dev/tags/networking/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Enlightning - What is Ingress-nginx?</title>
+      <link>https://jamesstrong.dev/post/2023/2023-05-18-englightning-ingress-nginx/</link>
+      <pubDate>Thu, 18 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesstrong.dev/post/2023/2023-05-18-englightning-ingress-nginx/</guid>
+      <description>ingress-nginx is an Ingress controller for Kubernetes using NGINX as a reverse proxy and load balancer. It&amp;rsquo;s not the NGINX inc controller&amp;hellip; confusing, right? In this session we will discuss how the ingress-nginx controller works, how it differs from the NGINX inc controller, the release process, and how you can help contribute to the project!</description>
+    </item>
+    
+    <item>
+      <title>Life of a CVE with Ingress-Nginx; Understanding the Project&#39;s Release Cycle</title>
+      <link>https://jamesstrong.dev/post/2023/2023-05-01-lifeofacve/</link>
+      <pubDate>Mon, 01 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesstrong.dev/post/2023/2023-05-01-lifeofacve/</guid>
+      <description>Life of a CVE with Ingress-Nginx; Understanding the Project&amp;rsquo;s Release Cycle - James Strong, Chainguard &amp;amp; Dylen Turnbull, Nginx INC
+Speakers: Dylen Turnbull, James Strong
+In 7 years, Ingress-nginx has had 221 releases, with over 6800 commits. To ensure stability and to test this highly configurable controller, the project has grown to over 400 e2e tests and helm chart tests across various kubernetes versions and deployment landscapes. We were 3/4 through our stabilization project in the last maintainer track we presented.</description>
+    </item>
+    
+    <item>
+      <title>Understanding the Future of Ingress-nginx</title>
+      <link>https://jamesstrong.dev/post/2022/2022-11-11-understanding-future-ingress-nginx/</link>
+      <pubDate>Fri, 11 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesstrong.dev/post/2022/2022-11-11-understanding-future-ingress-nginx/</guid>
+      <description>Understanding the Future of Ingress-nginx - James Strong, Chainguard &amp;amp; Ricardo Katz, VMware
+Speakers: Ricardo Katz, James Strong
+In this talk, we will present the survey results from our Ingress-nginx community survey. The survey&amp;rsquo;s goal was to know what we should be doing for future releases and how to prioritize features, bugs, or other issues important to the community. The ingress-nginx project is undergoing a stabilization project as well. This stabilization project has worked to increase the security, review and deprecate older features, and fix long-standing issues with the project.</description>
+    </item>
+    
+    <item>
+      <title>Kubernetes Networking Live</title>
+      <link>https://jamesstrong.dev/post/2021/2021-11-01-kubernetes-networking-101/</link>
+      <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesstrong.dev/post/2021/2021-11-01-kubernetes-networking-101/</guid>
+      <description> </description>
+    </item>
+    
     <item>
       <title>Cloud Native Security Webinar</title>
       <link>https://jamesstrong.dev/post/2021/2021-05-27-cloud-native-security/</link>
@@ -38,6 +78,16 @@ Understanding Kubernetes clusters isn&amp;rsquo;t enough to operate Kubernetes a
       <guid>https://jamesstrong.dev/post/2020/2020-8-24-acg-networking/</guid>
       <description>I&amp;rsquo;ve spent the last year created a course for A Cloud Guru. With 3.4 hours of content and 36 lessons, I look forward to your feedback. Here is my &amp;ldquo;Advanced Networking with Kubernetes on AWS&amp;rdquo; Course.
 Since its release in 2014, Kubernetes has become the de-facto standard for container orchestration. Kubernetes is a distributed system for managing containers and its networking is no different. Many companies are deploying Kubernetes on-prem and in the cloud, both managed offerings and self-deployed.</description>
+    </item>
+    
+    <item>
+      <title>Kubernetes Networking</title>
+      <link>https://jamesstrong.dev/post/2019/2019-08-08-k8-network/</link>
+      <pubDate>Thu, 08 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesstrong.dev/post/2019/2019-08-08-k8-network/</guid>
+      <description>I have begin working on Deep Dive into Kubernetes Networking, Let me know your thoughts about what you want to see.
+https://strongjz.github.io/k8-networking/#/</description>
     </item>
     
   </channel>

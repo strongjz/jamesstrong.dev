@@ -7,7 +7,57 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright (c) 2015, all rights reserved.</copyright>
-    <lastBuildDate>Thu, 27 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://jamesstrong.dev/tags/kubernetes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 14 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://jamesstrong.dev/tags/kubernetes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Wolfi: A Secure-by-Default Distro for Curing Container CVE Chaos </title>
+      <link>https://jamesstrong.dev/post/2023/2023-08-14-all-systems-go-wolfi/</link>
+      <pubDate>Mon, 14 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesstrong.dev/post/2023/2023-08-14-all-systems-go-wolfi/</guid>
+      <description>Are you using container images with hundreds of known vulnerabilities?
+The majority of us are using images based on the Docker official images available on the Docker Hub. This includes base images – such as Debian and Ubuntu – as well as application images such as nginx and redis. Unfortunately these images often have hundreds of known vulnerabilities due to excessively large dependency trees with out-of-date packages. This security debt can lead to unnecessary security risks and slower development cycles.</description>
+    </item>
+    
+    <item>
+      <title>Enlightning - What is Ingress-nginx?</title>
+      <link>https://jamesstrong.dev/post/2023/2023-05-18-englightning-ingress-nginx/</link>
+      <pubDate>Thu, 18 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesstrong.dev/post/2023/2023-05-18-englightning-ingress-nginx/</guid>
+      <description>ingress-nginx is an Ingress controller for Kubernetes using NGINX as a reverse proxy and load balancer. It&amp;rsquo;s not the NGINX inc controller&amp;hellip; confusing, right? In this session we will discuss how the ingress-nginx controller works, how it differs from the NGINX inc controller, the release process, and how you can help contribute to the project!</description>
+    </item>
+    
+    <item>
+      <title>Life of a CVE with Ingress-Nginx; Understanding the Project&#39;s Release Cycle</title>
+      <link>https://jamesstrong.dev/post/2023/2023-05-01-lifeofacve/</link>
+      <pubDate>Mon, 01 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesstrong.dev/post/2023/2023-05-01-lifeofacve/</guid>
+      <description>Life of a CVE with Ingress-Nginx; Understanding the Project&amp;rsquo;s Release Cycle - James Strong, Chainguard &amp;amp; Dylen Turnbull, Nginx INC
+Speakers: Dylen Turnbull, James Strong
+In 7 years, Ingress-nginx has had 221 releases, with over 6800 commits. To ensure stability and to test this highly configurable controller, the project has grown to over 400 e2e tests and helm chart tests across various kubernetes versions and deployment landscapes. We were 3/4 through our stabilization project in the last maintainer track we presented.</description>
+    </item>
+    
+    <item>
+      <title>Understanding the Future of Ingress-nginx</title>
+      <link>https://jamesstrong.dev/post/2022/2022-11-11-understanding-future-ingress-nginx/</link>
+      <pubDate>Fri, 11 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesstrong.dev/post/2022/2022-11-11-understanding-future-ingress-nginx/</guid>
+      <description>Understanding the Future of Ingress-nginx - James Strong, Chainguard &amp;amp; Ricardo Katz, VMware
+Speakers: Ricardo Katz, James Strong
+In this talk, we will present the survey results from our Ingress-nginx community survey. The survey&amp;rsquo;s goal was to know what we should be doing for future releases and how to prioritize features, bugs, or other issues important to the community. The ingress-nginx project is undergoing a stabilization project as well. This stabilization project has worked to increase the security, review and deprecate older features, and fix long-standing issues with the project.</description>
+    </item>
+    
+    <item>
+      <title>Kubernetes Networking Live</title>
+      <link>https://jamesstrong.dev/post/2021/2021-11-01-kubernetes-networking-101/</link>
+      <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesstrong.dev/post/2021/2021-11-01-kubernetes-networking-101/</guid>
+      <description> </description>
+    </item>
+    
     <item>
       <title>Cloud Native Security Webinar</title>
       <link>https://jamesstrong.dev/post/2021/2021-05-27-cloud-native-security/</link>
@@ -46,9 +96,9 @@ Since its release in 2014, Kubernetes has become the de-facto standard for conta
       <pubDate>Thu, 16 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>https://jamesstrong.dev/post/2020/2020-04-16-k8-contino-web/</guid>
-      <description>   Slides: https://www.slideshare.net/jstrong09/kubernetes-do-or-do-not-there-is-no-try
+      <description> Slides: https://www.slideshare.net/jstrong09/kubernetes-do-or-do-not-there-is-no-try
 In this webinar Gregory Patmore and I covered:
- Getting started with Kubernetes - laying the foundations for success Clusters: Set up, security and operations Best practices for container and Kubernetes adoption Securing containers Optimising application development in Kubernetes environments  </description>
+Getting started with Kubernetes - laying the foundations for success Clusters: Set up, security and operations Best practices for container and Kubernetes adoption Securing containers Optimising application development in Kubernetes environments </description>
     </item>
     
     <item>
@@ -60,6 +110,15 @@ In this webinar Gregory Patmore and I covered:
       <description>KubeCon San Diego Recap
 KubeCon had a great turnout this year with 12,000 attendees that filled the San Diego Convention center. Three things stood out to me: Security, Network, and Community.
 The community was a big theme at this event and in many of the keynotes. From David’s talk about non-code ways to contribute to CNCF’s projects. Kelsey Hightower’s keynote on how we could never have done this as an individual or a single company.</description>
+    </item>
+    
+    <item>
+      <title>Live at KubeCon North America 2019 with James Strong</title>
+      <link>https://jamesstrong.dev/post/2019/2019-11-20-rancher-live-with-james/</link>
+      <pubDate>Wed, 20 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesstrong.dev/post/2019/2019-11-20-rancher-live-with-james/</guid>
+      <description>JvB and James dicuss KubeCon and the evolution of the Kubernetes ecosystem at KubeCon North America 2019</description>
     </item>
     
     <item>
@@ -126,7 +185,7 @@ First class speakers!</description>
       <guid>https://jamesstrong.dev/post/2019/2019-01-29-passcka/</guid>
       <description>On December 29th I completed my final goal of the year - I passed the CKA.
 TL;DR This is a list of the bare minimum necessary to try to pass.
- Do Kelsey Hightower’s tutorial Kubernetes The Hard Way at least three times! Understand it, internalize it. Do all the tasks on https://kubernetes.io/docs/tasks/ Read Kubernetes in Action by Marko Luksa  Also practice, practice, and practice. Did I mention practice? This is a practical exam, no multiple choice questions here.</description>
+Do Kelsey Hightower’s tutorial Kubernetes The Hard Way at least three times! Understand it, internalize it. Do all the tasks on https://kubernetes.io/docs/tasks/ Read Kubernetes in Action by Marko Luksa Also practice, practice, and practice. Did I mention practice? This is a practical exam, no multiple choice questions here.</description>
     </item>
     
   </channel>

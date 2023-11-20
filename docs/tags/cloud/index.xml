@@ -7,7 +7,67 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright (c) 2015, all rights reserved.</copyright>
-    <lastBuildDate>Thu, 27 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://jamesstrong.dev/tags/cloud/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 14 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://jamesstrong.dev/tags/cloud/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Wolfi: A Secure-by-Default Distro for Curing Container CVE Chaos </title>
+      <link>https://jamesstrong.dev/post/2023/2023-08-14-all-systems-go-wolfi/</link>
+      <pubDate>Mon, 14 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesstrong.dev/post/2023/2023-08-14-all-systems-go-wolfi/</guid>
+      <description>Are you using container images with hundreds of known vulnerabilities?
+The majority of us are using images based on the Docker official images available on the Docker Hub. This includes base images – such as Debian and Ubuntu – as well as application images such as nginx and redis. Unfortunately these images often have hundreds of known vulnerabilities due to excessively large dependency trees with out-of-date packages. This security debt can lead to unnecessary security risks and slower development cycles.</description>
+    </item>
+    
+    <item>
+      <title>Life of a CVE with Ingress-Nginx; Understanding the Project&#39;s Release Cycle</title>
+      <link>https://jamesstrong.dev/post/2023/2023-05-01-lifeofacve/</link>
+      <pubDate>Mon, 01 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesstrong.dev/post/2023/2023-05-01-lifeofacve/</guid>
+      <description>Life of a CVE with Ingress-Nginx; Understanding the Project&amp;rsquo;s Release Cycle - James Strong, Chainguard &amp;amp; Dylen Turnbull, Nginx INC
+Speakers: Dylen Turnbull, James Strong
+In 7 years, Ingress-nginx has had 221 releases, with over 6800 commits. To ensure stability and to test this highly configurable controller, the project has grown to over 400 e2e tests and helm chart tests across various kubernetes versions and deployment landscapes. We were 3/4 through our stabilization project in the last maintainer track we presented.</description>
+    </item>
+    
+    <item>
+      <title>Understanding the Future of Ingress-nginx</title>
+      <link>https://jamesstrong.dev/post/2022/2022-11-11-understanding-future-ingress-nginx/</link>
+      <pubDate>Fri, 11 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesstrong.dev/post/2022/2022-11-11-understanding-future-ingress-nginx/</guid>
+      <description>Understanding the Future of Ingress-nginx - James Strong, Chainguard &amp;amp; Ricardo Katz, VMware
+Speakers: Ricardo Katz, James Strong
+In this talk, we will present the survey results from our Ingress-nginx community survey. The survey&amp;rsquo;s goal was to know what we should be doing for future releases and how to prioritize features, bugs, or other issues important to the community. The ingress-nginx project is undergoing a stabilization project as well. This stabilization project has worked to increase the security, review and deprecate older features, and fix long-standing issues with the project.</description>
+    </item>
+    
+    <item>
+      <title>#DevOpsSpeakeasy at #KubeCon EU 2022 with James Strong on Supply Chain Security</title>
+      <link>https://jamesstrong.dev/post/2022/2022-04-19-chainguard-live-all-about-that-base/</link>
+      <pubDate>Mon, 29 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesstrong.dev/post/2022/2022-04-19-chainguard-live-all-about-that-base/</guid>
+      <description>The Chainguard team has released a new whitepaper titled “All About That Base Image.” The whitepaper proposes “quiet” base images, minimal images with few or no security vulnerabilities, and other security features built-in.
+The intended audience is software development teams that use containers and are interested in reducing the workload associated with investigating and mitigating security vulnerabilities. The whitepaper helps software professionals better understand the security debt of popular base images by analyzing the number, severity, and lifetime of vulnerabilities.</description>
+    </item>
+    
+    <item>
+      <title>#DevOpsSpeakeasy at #KubeCon EU 2022 with James Strong on Supply Chain Security</title>
+      <link>https://jamesstrong.dev/post/2022/2022-08-29-jfrog-supply-chain-security/</link>
+      <pubDate>Mon, 29 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesstrong.dev/post/2022/2022-08-29-jfrog-supply-chain-security/</guid>
+      <description>James Strong, lead solution architect at Chainguard, discusses the challenges of securing software supply chains and recommendations for developers</description>
+    </item>
+    
+    <item>
+      <title>Kubernetes Networking Live</title>
+      <link>https://jamesstrong.dev/post/2021/2021-11-01-kubernetes-networking-101/</link>
+      <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesstrong.dev/post/2021/2021-11-01-kubernetes-networking-101/</guid>
+      <description> </description>
+    </item>
+    
     <item>
       <title>Cloud Native Security Webinar</title>
       <link>https://jamesstrong.dev/post/2021/2021-05-27-cloud-native-security/</link>
@@ -49,6 +109,17 @@ Since its release in 2014, Kubernetes has become the de-facto standard for conta
       <description>At the August meetup for Atlanta AWS Builders group Jason Lutz and I presented on AWS Security.
 Presentation: https://www.slideshare.net/jstrong09/aws-dev-secops-atlanta-august-meetup
 Is that requirement from NIST 800-53 Controls or NIST 800-190? If you&amp;rsquo;ve ever wondered where those pesky cloud security controls come from, this meetup is for you. In this Meetup, Jame Strong and Jason Lutz from Contino (an AWS Permier Consulting Partner) will discuss how Contino views DevSecOps. They will review the Benefits of DevSecOps:</description>
+    </item>
+    
+    <item>
+      <title>Containers and DevSecops</title>
+      <link>https://jamesstrong.dev/post/2020/2020-05-27-containers-devsecops-austin/</link>
+      <pubDate>Wed, 27 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesstrong.dev/post/2020/2020-05-27-containers-devsecops-austin/</guid>
+      <description>DevOps is established, and containers are all the rage, but we forget about security!
+Let&amp;rsquo;s talk about DevSecOps and Containers. We&amp;rsquo;re going to show you how to inject security into your Container Pipelines. Don&amp;rsquo;t have a pipeline? Don&amp;rsquo;t worry, because we&amp;rsquo;ll fix that too.
+In this talk, James Strong, Cloud Native Director at Contino and AWS APN Ambassador, will share knowledge around container security and building a DevSecOps pipeline in AWS with no servers.</description>
     </item>
     
     <item>
@@ -113,7 +184,7 @@ There were at least sixteen new releases in regards to ML/AI. Sagemaker got new 
       <guid>https://jamesstrong.dev/post/2017/2017-03-29-codelouisville/</guid>
       <description>This talk was presented in 2017 at Louisville Local Software Development Conference Codepalousa.
 In this presentation I discussed DevOps, how Continuous Integration and Deployment integrates into that, and how CI/CD can be implemented with AWS services.
-   Running Rules for CI/CD AWS Tool     1. Maintain a code repository Commit   2. Automate the build *   3. Keep the build fast Build   4.</description>
+Running Rules for CI/CD AWS Tool 1. Maintain a code repository Commit 2. Automate the build * 3. Keep the build fast Build 4. Make the build self-testing Deploy 5. Commit early, commit often Commit 6.</description>
     </item>
     
     <item>
@@ -123,7 +194,7 @@ In this presentation I discussed DevOps, how Continuous Integration and Deployme
       
       <guid>https://jamesstrong.dev/post/2015/2015-04-24-master/</guid>
       <description>On May 9th 2015 I received my Master of Science in Computer Science from the University of Louisville. Here is my final project presentation is here.
-  #the-canvas { border: 1px solid black; direction: ltr; width: 100%; height: auto; } #paginator{ text-align: center; margin-bottom: 10px; }  Previous Next &amp;nbsp; &amp;nbsp; Page:  /     window.onload = function() { var url = &#34;https:\/\/jamesstrong.dev\/&#34; + &#39;.\/pdf\/master.pdf&#39;; var hidePaginator = &#34;</description>
+Previous Next &amp;nbsp; &amp;nbsp; Page: / </description>
     </item>
     
   </channel>

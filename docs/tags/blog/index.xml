@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>blog on James Strong</title>
+    <link>https://jamesstrong.dev/tags/blog/</link>
+    <description>Recent content in blog on James Strong</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright (c) 2015, all rights reserved.</copyright>
+    <lastBuildDate>Mon, 19 Aug 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://jamesstrong.dev/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>High-Performance Computing for Financial Services</title>
+      <link>https://jamesstrong.dev/post/2019/2019-08-19-aws-hpc/</link>
+      <pubDate>Mon, 19 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesstrong.dev/post/2019/2019-08-19-aws-hpc/</guid>
+      <description>The last week of July, I attended High-Performance Compute (HPC) Training for Financial Services in AWS. During this week-long training, AWS professionals in Financial Services shared their outlook on the needs that large financial institutions face from the industry, regulators, and markets.
+The first thing that caught my attention was this question:
+&amp;ldquo;If you could add 100,000 cores to your HPC grid, return them once you&amp;rsquo;re done and pay only for what you use, just like many of your peers do, how would that improve your business?</description>
+    </item>
+    
+    <item>
+      <title>Passing the CKA</title>
+      <link>https://jamesstrong.dev/post/2019/2019-01-29-passcka/</link>
+      <pubDate>Tue, 29 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesstrong.dev/post/2019/2019-01-29-passcka/</guid>
+      <description>On December 29th I completed my final goal of the year - I passed the CKA.
+TL;DR This is a list of the bare minimum necessary to try to pass.
+Do Kelsey Hightower’s tutorial Kubernetes The Hard Way at least three times! Understand it, internalize it. Do all the tasks on https://kubernetes.io/docs/tasks/ Read Kubernetes in Action by Marko Luksa Also practice, practice, and practice. Did I mention practice? This is a practical exam, no multiple choice questions here.</description>
+    </item>
+    
+    <item>
+      <title>AWS Re:invent Recap 2018</title>
+      <link>https://jamesstrong.dev/post/2018/2018-12-04-revinventrecap/</link>
+      <pubDate>Tue, 04 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesstrong.dev/post/2018/2018-12-04-revinventrecap/</guid>
+      <description>Another year, another re:Invent down! 2018 had everything we have come to expect from AWS and re:Invent - releases, updates, sessions on everything and shots at Oracle. The focus this time was certainly on developer experience, Artificial Intelligence/Machine Learning and Serverless.
+There were at least sixteen new releases in regards to ML/AI. Sagemaker got new features in Ground truth and RL. There is now a marketplace for machine learning algorithm writers to release them and earn from all their hard work.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>devsecops on James Strong</title>
+    <link>https://jamesstrong.dev/tags/devsecops/</link>
+    <description>Recent content in devsecops on James Strong</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright (c) 2015, all rights reserved.</copyright>
+    <lastBuildDate>Wed, 27 May 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://jamesstrong.dev/tags/devsecops/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Containers and DevSecops</title>
+      <link>https://jamesstrong.dev/post/2020/2020-05-27-containers-devsecops-austin/</link>
+      <pubDate>Wed, 27 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesstrong.dev/post/2020/2020-05-27-containers-devsecops-austin/</guid>
+      <description>DevOps is established, and containers are all the rage, but we forget about security!
+Let&amp;rsquo;s talk about DevSecOps and Containers. We&amp;rsquo;re going to show you how to inject security into your Container Pipelines. Don&amp;rsquo;t have a pipeline? Don&amp;rsquo;t worry, because we&amp;rsquo;ll fix that too.
+In this talk, James Strong, Cloud Native Director at Contino and AWS APN Ambassador, will share knowledge around container security and building a DevSecOps pipeline in AWS with no servers.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>stream on James Strong</title>
+    <link>https://jamesstrong.dev/tags/stream/</link>
+    <description>Recent content in stream on James Strong</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright (c) 2015, all rights reserved.</copyright>
+    <lastBuildDate>Thu, 18 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://jamesstrong.dev/tags/stream/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Enlightning - What is Ingress-nginx?</title>
+      <link>https://jamesstrong.dev/post/2023/2023-05-18-englightning-ingress-nginx/</link>
+      <pubDate>Thu, 18 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesstrong.dev/post/2023/2023-05-18-englightning-ingress-nginx/</guid>
+      <description>ingress-nginx is an Ingress controller for Kubernetes using NGINX as a reverse proxy and load balancer. It&amp;rsquo;s not the NGINX inc controller&amp;hellip; confusing, right? In this session we will discuss how the ingress-nginx controller works, how it differs from the NGINX inc controller, the release process, and how you can help contribute to the project!</description>
+    </item>
+    
+    <item>
+      <title>Kubernetes Networking Live</title>
+      <link>https://jamesstrong.dev/post/2021/2021-11-01-kubernetes-networking-101/</link>
+      <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesstrong.dev/post/2021/2021-11-01-kubernetes-networking-101/</guid>
+      <description> </description>
+    </item>
+    
+    <item>
+      <title>Cloud Native Security Webinar</title>
+      <link>https://jamesstrong.dev/post/2021/2021-05-27-cloud-native-security/</link>
+      <pubDate>Thu, 27 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesstrong.dev/post/2021/2021-05-27-cloud-native-security/</guid>
+      <description>As organizations undergo a digital transformation, cloud migration now more than ever remains a high priority for those looking to expand their business and remain top competitors in their field. But how do companies develop and deploy in the cloud without fear? What is really needed to secure your cloud accounts, and develop your engineers’ innovation all while adhering to industry-wide security best practices?
+On Thursday, May 27th, discover the solution to those questions and more during our latest webinar where we present our unique framework, Cloud Guardian.</description>
+    </item>
+    
+  </channel>
+</rss>

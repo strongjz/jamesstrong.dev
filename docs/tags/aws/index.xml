@@ -52,6 +52,17 @@ Is that requirement from NIST 800-53 Controls or NIST 800-190? If you&amp;rsquo;
     </item>
     
     <item>
+      <title>Containers and DevSecops</title>
+      <link>https://jamesstrong.dev/post/2020/2020-05-27-containers-devsecops-austin/</link>
+      <pubDate>Wed, 27 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesstrong.dev/post/2020/2020-05-27-containers-devsecops-austin/</guid>
+      <description>DevOps is established, and containers are all the rage, but we forget about security!
+Let&amp;rsquo;s talk about DevSecOps and Containers. We&amp;rsquo;re going to show you how to inject security into your Container Pipelines. Don&amp;rsquo;t have a pipeline? Don&amp;rsquo;t worry, because we&amp;rsquo;ll fix that too.
+In this talk, James Strong, Cloud Native Director at Contino and AWS APN Ambassador, will share knowledge around container security and building a DevSecOps pipeline in AWS with no servers.</description>
+    </item>
+    
+    <item>
       <title>High-Performance Computing for Financial Services</title>
       <link>https://jamesstrong.dev/post/2019/2019-08-19-aws-hpc/</link>
       <pubDate>Mon, 19 Aug 2019 00:00:00 +0000</pubDate>
@@ -80,7 +91,7 @@ There were at least sixteen new releases in regards to ML/AI. Sagemaker got new 
       <guid>https://jamesstrong.dev/post/2017/2017-03-29-codelouisville/</guid>
       <description>This talk was presented in 2017 at Louisville Local Software Development Conference Codepalousa.
 In this presentation I discussed DevOps, how Continuous Integration and Deployment integrates into that, and how CI/CD can be implemented with AWS services.
-   Running Rules for CI/CD AWS Tool     1. Maintain a code repository Commit   2. Automate the build *   3. Keep the build fast Build   4.</description>
+Running Rules for CI/CD AWS Tool 1. Maintain a code repository Commit 2. Automate the build * 3. Keep the build fast Build 4. Make the build self-testing Deploy 5. Commit early, commit often Commit 6.</description>
     </item>
     
   </channel>

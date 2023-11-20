@@ -1,9 +1,11 @@
 ---
 title: "Resume"
-date: "2021-12-28"
+date: "2023-11-20"
 tags:
   - resume
 ---
+
+[PDF Version](/pdf/James-Strong-Resume.pdf)
 
 ## James Strong
 
@@ -16,9 +18,28 @@ value for both clients and end users.
 
 ## Professional Experience
 
-### Chainguard, Inc • Lead Solutions Architect
+### Chainguard, Inc • Staff Solutions Architect
 
 Kirkland, WA • Dec ‘21 - Present
+
+Responsible for providing Chainguard customer product support, answering
+technical questions while architecting solutions, and solving customer problems
+with the suite of Chainguard products. Also, partner with customers to upgrade
+their CI/CD and SDLC to enable new Software Supply Chain Security practices
+and tools such as SBOM and CVE attestations and container signing utilizing
+Sigstore.
+
+### Contino • Cloud Native Director
+
+New York City, NY • Sept ‘19 - Dec ‘21
+
+Responsible for Evangelizing Contino’s work in DevOps and Cloud
+transformations. Partnering with clients, conference organizers, and others to
+bring their message to their communities, accelerate the adoption of new
+platforms, or present on topics such as Kubernetes, Cloud Native Architecture, or
+Application Modernization. Aides in all facets of the project life cycle, beginning
+with a project proposal and closing SOWs with the sales team by helping
+technical teams deliver value to the client.
 
 ### O'Reilly Author - Kubernetes Networking
 
@@ -220,16 +241,15 @@ troubleshoot wireless around campus. Deploying and Troubleshooting Network equip
 ## Accreditations
 
 Current
-* 
+* [CNCF CKS](/pdf/cks.pdf)
+* [CNCF CKA](/pdf/cka.pdf)
+
+Past
 * AWS DEVOPS - Professional
 * AWS CSA - Professional
 * AWS CSA – Associate
 * AWS DEV - Associate
 * AWS SYSOPS - Associate
-
-Past
-
-* CNCF CKA
 * AWS Certified Network Speciality
 * CCNA
 * CCNA Security
@@ -246,13 +266,11 @@ IEEE Member: 92045724
 
 ##  Contact
 
-james.strong@linux.com
+* Email strong.james.e@gmail.com
+* Personal Blog https://jamesstrong.dev
+* Linkedin https://www.linkedin.com/in/strongjz/
+* Twitter https://twitter.com/strongjz
+* Github https://github.com/strongjz
+* Gitlab https://gitlab.com/strongjz
 
-https://jamesstrong.dev
-
-https://www.linkedin.com/in/strongjz/
-
-https://twitter.com/strongjz
-
-https://github.com/strongjz
 
