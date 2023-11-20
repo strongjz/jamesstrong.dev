@@ -29,6 +29,17 @@ their CI/CD and SDLC to enable new Software Supply Chain Security practices
 and tools such as SBOM and CVE attestations and container signing utilizing
 Sigstore.
 
+### Kubernetes • Ingress-nginx Maintainer
+Online • 2019 - Present
+
+Core maintainer for the kubernetes sig-network project sub-project Ingress-Nginx Ingress controller. Bi-weekly run the community where we discuss pressing needs of the project and the community. Responsible for triaging issues, approving pull requests and most importantly releasing new versions of the controller for open source users and business to consume. 
+
+Repo https://github.com/kubernetes/ingress-nginx
+
+Community meeting playlist https://www.youtube.com/playlist?list=PL69nYSiGNLP2Rqe8T4mDnyHqDZ4VYPY1X
+
+
+
 ### Contino • Cloud Native Director
 
 New York City, NY • Sept ‘19 - Dec ‘21
@@ -42,6 +53,7 @@ with a project proposal and closing SOWs with the sales team by helping
 technical teams deliver value to the client.
 
 ### O'Reilly Author - Kubernetes Networking
+September 2021
 
 Kubernetes Networking is an essential guide for anyone who wants to deploy, manage, or troubleshoot a production
 scale Kubernetes network.
@@ -70,7 +82,7 @@ Cluster Administrators to understand the underpinnings of the network stack in K
 course is a deep dive into the Kubernetes network model, the components involved and how to deploy, manage 
 and troubleshoot the cluster network.
 
-https://acloud.guru/overview/advanced-networking-with-kubernetes-for-aws
+https://learn.acloud.guru/course/advanced-networking-with-kubernetes-for-aws/dashboard
 
 ### Volunteer • Meetup Organizer
 
