@@ -1,13 +1,11 @@
 ---
-title: "#DevOpsSpeakeasy at #KubeCon EU 2022 with James Strong on Supply Chain Security"
-date: 2022-08-29
+title: "Chainguard Live: All About That Base Image"
+date: 2022-04-19
 tags:
 - cloud
 - software supply chain security
 - interview
 ---
-
-
 
 The Chainguard team has released a new whitepaper titled “All About That Base Image.” The whitepaper proposes “quiet” base images, minimal images with few or no security vulnerabilities, and other security features built-in.
 
