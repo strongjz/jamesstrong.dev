@@ -6,7 +6,7 @@
     <description>Recent content in kubecon on James Strong</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Copyright (c) 2015, all rights reserved.</copyright>
+    <copyright>Copyright (c) 2023, all rights reserved.</copyright>
     <lastBuildDate>Mon, 01 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://jamesstrong.dev/tags/kubecon/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Life of a CVE with Ingress-Nginx; Understanding the Project&#39;s Release Cycle</title>
