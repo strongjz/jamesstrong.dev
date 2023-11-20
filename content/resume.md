@@ -30,6 +30,7 @@ and tools such as SBOM and CVE attestations and container signing utilizing
 Sigstore.
 
 ### Kubernetes • Ingress-nginx Maintainer
+
 Online • 2019 - Present
 
 Core maintainer for the kubernetes sig-network project sub-project Ingress-Nginx Ingress controller. Bi-weekly run the community where we discuss pressing needs of the project and the community. Responsible for triaging issues, approving pull requests and most importantly releasing new versions of the controller for open source users and business to consume. 
@@ -37,8 +38,6 @@ Core maintainer for the kubernetes sig-network project sub-project Ingress-Nginx
 Repo https://github.com/kubernetes/ingress-nginx
 
 Community meeting playlist https://www.youtube.com/playlist?list=PL69nYSiGNLP2Rqe8T4mDnyHqDZ4VYPY1X
-
-
 
 ### Contino • Cloud Native Director
 
@@ -53,6 +52,7 @@ with a project proposal and closing SOWs with the sales team by helping
 technical teams deliver value to the client.
 
 ### O'Reilly Author - Kubernetes Networking
+
 September 2021
 
 Kubernetes Networking is an essential guide for anyone who wants to deploy, manage, or troubleshoot a production
@@ -98,16 +98,6 @@ https://www.meetup.com/Louisville-AWS-Users-Group/
 https://www.meetup.com/DevOps-NYC/
 
 https://www.meetup.com/go-lou/
-
-### Contino • Cloud Native Director
-
-New York City, NY • Sept ‘19 - Dec ‘21
-
-Responsible for Evangelizing Contino’s work in DevOps and Cloud transformations. Partnering with clients, conference
-organizers, and others to bring their message to their communities, accelerate the adoption of new platforms, or
-present on topics such as Kubernetes, Cloud Native Architecture, or Application Modernization. Aides in all facets
-of the project life cycle, beginning with project proposal and closing SOW’s with the sales team through helping +
-technical teams deliver value to the client.
 
 ### Contino • Technical Principal
 
