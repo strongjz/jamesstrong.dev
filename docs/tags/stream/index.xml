@@ -18,6 +18,16 @@
     </item>
     
     <item>
+      <title>End to End Security &amp; Operations with Chainguard and Weave GitOps</title>
+      <link>https://jamesstrong.dev/post/2023/2023-05-10-e2e-security-chainguard-weaveworks/</link>
+      <pubDate>Wed, 10 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesstrong.dev/post/2023/2023-05-10-e2e-security-chainguard-weaveworks/</guid>
+      <description>One of the key values of GitOps relies on its fully declarative single source of truth in Git for the desired state of your entire system – configuration that continuously reconciles with the runtime of the system.
+Validating committer identity in your Git repository is a critical component towards a secure GitOps solution. Although basic capabilities are provided by Git service providers, more granular controls for governance and compliance are a requirement to satisfy most enterprise grade implementations.</description>
+    </item>
+    
+    <item>
       <title>Kubernetes Networking Live</title>
       <link>https://jamesstrong.dev/post/2021/2021-11-01-kubernetes-networking-101/</link>
       <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>

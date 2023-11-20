@@ -44,6 +44,12 @@
     <loc>https://jamesstrong.dev/tags/stream/</loc>
     <lastmod>2023-05-18T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://jamesstrong.dev/post/2023/2023-05-10-e2e-security-chainguard-weaveworks/</loc>
+    <lastmod>2023-05-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jamesstrong.dev/tags/gitops/</loc>
+    <lastmod>2023-05-10T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://jamesstrong.dev/tags/kubecon/</loc>
     <lastmod>2023-05-01T00:00:00+00:00</lastmod>
   </url><url>
@@ -214,8 +220,6 @@
   </url><url>
     <loc>https://jamesstrong.dev/post/2015/2015-04-24-master/</loc>
     <lastmod>2015-04-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jamesstrong.dev/post/2023/2023-05-10-e2e-security-chainguard-weaveworks/</loc>
   </url><url>
     <loc>https://jamesstrong.dev/tags/ci/cd/</loc>
   </url>

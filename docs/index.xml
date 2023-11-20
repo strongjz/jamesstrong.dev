@@ -39,6 +39,16 @@ The majority of us are using images based on the Docker official images availabl
     </item>
     
     <item>
+      <title>End to End Security &amp; Operations with Chainguard and Weave GitOps</title>
+      <link>https://jamesstrong.dev/post/2023/2023-05-10-e2e-security-chainguard-weaveworks/</link>
+      <pubDate>Wed, 10 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesstrong.dev/post/2023/2023-05-10-e2e-security-chainguard-weaveworks/</guid>
+      <description>One of the key values of GitOps relies on its fully declarative single source of truth in Git for the desired state of your entire system – configuration that continuously reconciles with the runtime of the system.
+Validating committer identity in your Git repository is a critical component towards a secure GitOps solution. Although basic capabilities are provided by Git service providers, more granular controls for governance and compliance are a requirement to satisfy most enterprise grade implementations.</description>
+    </item>
+    
+    <item>
       <title>Life of a CVE with Ingress-Nginx; Understanding the Project&#39;s Release Cycle</title>
       <link>https://jamesstrong.dev/post/2023/2023-05-01-lifeofacve/</link>
       <pubDate>Mon, 01 May 2023 00:00:00 +0000</pubDate>
@@ -335,15 +345,6 @@ https://www.meetup.com/Louisville-Software-Engineering/events/227294818/</descri
       <guid>https://jamesstrong.dev/post/2015/2015-04-24-master/</guid>
       <description>On May 9th 2015 I received my Master of Science in Computer Science from the University of Louisville. Here is my final project presentation is here.
 Previous Next &amp;nbsp; &amp;nbsp; Page: / </description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://jamesstrong.dev/post/2023/2023-05-10-e2e-security-chainguard-weaveworks/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://jamesstrong.dev/post/2023/2023-05-10-e2e-security-chainguard-weaveworks/</guid>
-      <description>//Webinar: End to End Security &amp;amp; Operations with Chainguard and Weave GitOps from Weaveworks // //</description>
     </item>
     
   </channel>
