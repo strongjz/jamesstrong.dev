@@ -5,6 +5,7 @@ tags:
   - kubernetes
   - devops
   - cloud
+  - meetup
 ---
 
 In April, we kicked off [Kubernetes and Cloud Native Computing Louisville](https://www.meetup.

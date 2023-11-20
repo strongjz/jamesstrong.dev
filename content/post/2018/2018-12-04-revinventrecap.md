@@ -5,6 +5,7 @@ tags:
   - cloud
   - aws
   - reinvent
+  - blog
 ---
 
 Another year, another re:Invent down! 2018 had everything we have come to expect from AWS and re:Invent - releases, 
