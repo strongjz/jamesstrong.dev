@@ -23,10 +23,16 @@
     <loc>https://jamesstrong.dev/tags/cve/</loc>
     <lastmod>2023-08-14T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://jamesstrong.dev/tags/kubecon/</loc>
+    <lastmod>2023-08-14T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://jamesstrong.dev/tags/kubernetes/</loc>
     <lastmod>2023-08-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jamesstrong.dev/post/</loc>
+    <lastmod>2023-08-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jamesstrong.dev/post/2023/2023-11-07-whats-happening-ingress-kubecon/</loc>
     <lastmod>2023-08-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jamesstrong.dev/post/2023/2023-08-14-all-systems-go-wolfi/</loc>
@@ -49,9 +55,6 @@
   </url><url>
     <loc>https://jamesstrong.dev/tags/gitops/</loc>
     <lastmod>2023-05-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jamesstrong.dev/tags/kubecon/</loc>
-    <lastmod>2023-05-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jamesstrong.dev/post/2023/2023-05-01-lifeofacve/</loc>
     <lastmod>2023-05-01T00:00:00+00:00</lastmod>

@@ -45,6 +45,15 @@
     </item>
     
     <item>
+      <title>kubecon</title>
+      <link>https://jamesstrong.dev/tags/kubecon/</link>
+      <pubDate>Mon, 14 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesstrong.dev/tags/kubecon/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>kubernetes</title>
       <link>https://jamesstrong.dev/tags/kubernetes/</link>
       <pubDate>Mon, 14 Aug 2023 00:00:00 +0000</pubDate>
@@ -86,15 +95,6 @@
       <pubDate>Wed, 10 May 2023 00:00:00 +0000</pubDate>
       
       <guid>https://jamesstrong.dev/tags/gitops/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>kubecon</title>
-      <link>https://jamesstrong.dev/tags/kubecon/</link>
-      <pubDate>Mon, 01 May 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://jamesstrong.dev/tags/kubecon/</guid>
       <description></description>
     </item>
     

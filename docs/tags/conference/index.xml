@@ -9,6 +9,16 @@
     <copyright>Copyright (c) 2023, all rights reserved.</copyright>
     <lastBuildDate>Mon, 14 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://jamesstrong.dev/tags/conference/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>What&#39;s Happening with Ingress-Nginx!</title>
+      <link>https://jamesstrong.dev/post/2023/2023-11-07-whats-happening-ingress-kubecon/</link>
+      <pubDate>Mon, 14 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesstrong.dev/post/2023/2023-11-07-whats-happening-ingress-kubecon/</guid>
+      <description>What&amp;rsquo;s Happening with Ingress-Nginx! - James Strong, Chainguard &amp;amp; Ricardo Katz, VMware
+This presentation will discuss our plans for Ingress-nginx 2.0 release, breaking changes, new features, and deprecations. We will also discuss our plans for gateway API, CVE reduction, and other security updates coming to ingress-nginx. As always, we will provide a community update, roadmap, and other critical information attendees should know about the project. Please join us to learn all about the progress and future of ingress-nginx.</description>
+    </item>
+    
+    <item>
       <title>Wolfi: A Secure-by-Default Distro for Curing Container CVE Chaos </title>
       <link>https://jamesstrong.dev/post/2023/2023-08-14-all-systems-go-wolfi/</link>
       <pubDate>Mon, 14 Aug 2023 00:00:00 +0000</pubDate>
