@@ -1,6 +1,6 @@
 ---
 title: "What's Happening with Ingress-Nginx!"
-date: 2023-08-14
+date: 2023-11-07
 tags:
 - cloud
 - kubernetes

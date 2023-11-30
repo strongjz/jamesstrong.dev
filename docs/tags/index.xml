@@ -20,7 +20,7 @@
     <item>
       <title>cloud</title>
       <link>https://jamesstrong.dev/tags/cloud/</link>
-      <pubDate>Mon, 14 Aug 2023 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 07 Nov 2023 00:00:00 +0000</pubDate>
       
       <guid>https://jamesstrong.dev/tags/cloud/</guid>
       <description></description>
@@ -29,9 +29,27 @@
     <item>
       <title>conference</title>
       <link>https://jamesstrong.dev/tags/conference/</link>
-      <pubDate>Mon, 14 Aug 2023 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 07 Nov 2023 00:00:00 +0000</pubDate>
       
       <guid>https://jamesstrong.dev/tags/conference/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>kubecon</title>
+      <link>https://jamesstrong.dev/tags/kubecon/</link>
+      <pubDate>Tue, 07 Nov 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesstrong.dev/tags/kubecon/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>kubernetes</title>
+      <link>https://jamesstrong.dev/tags/kubernetes/</link>
+      <pubDate>Tue, 07 Nov 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesstrong.dev/tags/kubernetes/</guid>
       <description></description>
     </item>
     
@@ -41,24 +59,6 @@
       <pubDate>Mon, 14 Aug 2023 00:00:00 +0000</pubDate>
       
       <guid>https://jamesstrong.dev/tags/cve/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>kubecon</title>
-      <link>https://jamesstrong.dev/tags/kubecon/</link>
-      <pubDate>Mon, 14 Aug 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://jamesstrong.dev/tags/kubecon/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>kubernetes</title>
-      <link>https://jamesstrong.dev/tags/kubernetes/</link>
-      <pubDate>Mon, 14 Aug 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://jamesstrong.dev/tags/kubernetes/</guid>
       <description></description>
     </item>
     
