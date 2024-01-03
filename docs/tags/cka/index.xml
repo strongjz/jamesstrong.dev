@@ -7,17 +7,14 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright (c) 2023, all rights reserved.</copyright>
-    <lastBuildDate>Tue, 29 Jan 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://jamesstrong.dev/tags/cka/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 29 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://jamesstrong.dev/tags/cka/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Passing the CKA</title>
       <link>https://jamesstrong.dev/post/2019/2019-01-29-passcka/</link>
       <pubDate>Tue, 29 Jan 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://jamesstrong.dev/post/2019/2019-01-29-passcka/</guid>
-      <description>On December 29th I completed my final goal of the year - I passed the CKA.
-TL;DR This is a list of the bare minimum necessary to try to pass.
-Do Kelsey Hightower’s tutorial Kubernetes The Hard Way at least three times! Understand it, internalize it. Do all the tasks on https://kubernetes.io/docs/tasks/ Read Kubernetes in Action by Marko Luksa Also practice, practice, and practice. Did I mention practice? This is a practical exam, no multiple choice questions here.</description>
+      <description>On December 29th I completed my final goal of the year - I passed the CKA.&#xA;TL;DR This is a list of the bare minimum necessary to try to pass.&#xA;Do Kelsey Hightower’s tutorial Kubernetes The Hard Way at least three times! Understand it, internalize it. Do all the tasks on https://kubernetes.io/docs/tasks/ Read Kubernetes in Action by Marko Luksa Also practice, practice, and practice. Did I mention practice? This is a practical exam, no multiple choice questions here.</description>
     </item>
-    
   </channel>
 </rss>

@@ -7,375 +7,294 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright (c) 2023, all rights reserved.</copyright>
-    <lastBuildDate>Mon, 20 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://jamesstrong.dev/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 20 Nov 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://jamesstrong.dev/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>resume</title>
       <link>https://jamesstrong.dev/tags/resume/</link>
       <pubDate>Mon, 20 Nov 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://jamesstrong.dev/tags/resume/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>cloud</title>
       <link>https://jamesstrong.dev/tags/cloud/</link>
       <pubDate>Tue, 07 Nov 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://jamesstrong.dev/tags/cloud/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>conference</title>
       <link>https://jamesstrong.dev/tags/conference/</link>
       <pubDate>Tue, 07 Nov 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://jamesstrong.dev/tags/conference/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>kubecon</title>
       <link>https://jamesstrong.dev/tags/kubecon/</link>
       <pubDate>Tue, 07 Nov 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://jamesstrong.dev/tags/kubecon/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>kubernetes</title>
       <link>https://jamesstrong.dev/tags/kubernetes/</link>
       <pubDate>Tue, 07 Nov 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://jamesstrong.dev/tags/kubernetes/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>cve</title>
       <link>https://jamesstrong.dev/tags/cve/</link>
       <pubDate>Mon, 14 Aug 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://jamesstrong.dev/tags/cve/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>ingress-nginx</title>
       <link>https://jamesstrong.dev/tags/ingress-nginx/</link>
       <pubDate>Thu, 18 May 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://jamesstrong.dev/tags/ingress-nginx/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>networking</title>
       <link>https://jamesstrong.dev/tags/networking/</link>
       <pubDate>Thu, 18 May 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://jamesstrong.dev/tags/networking/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>stream</title>
       <link>https://jamesstrong.dev/tags/stream/</link>
       <pubDate>Thu, 18 May 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://jamesstrong.dev/tags/stream/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>gitops</title>
       <link>https://jamesstrong.dev/tags/gitops/</link>
       <pubDate>Wed, 10 May 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://jamesstrong.dev/tags/gitops/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>nginx</title>
       <link>https://jamesstrong.dev/tags/nginx/</link>
       <pubDate>Mon, 01 May 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://jamesstrong.dev/tags/nginx/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>sigstore</title>
       <link>https://jamesstrong.dev/tags/sigstore/</link>
       <pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://jamesstrong.dev/tags/sigstore/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>security</title>
       <link>https://jamesstrong.dev/tags/security/</link>
       <pubDate>Wed, 14 Dec 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://jamesstrong.dev/tags/security/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>interview</title>
       <link>https://jamesstrong.dev/tags/interview/</link>
       <pubDate>Mon, 29 Aug 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://jamesstrong.dev/tags/interview/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>software supply chain security</title>
       <link>https://jamesstrong.dev/tags/software-supply-chain-security/</link>
       <pubDate>Mon, 29 Aug 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://jamesstrong.dev/tags/software-supply-chain-security/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>podcast</title>
       <link>https://jamesstrong.dev/tags/podcast/</link>
       <pubDate>Tue, 18 Jan 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://jamesstrong.dev/tags/podcast/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>aws</title>
       <link>https://jamesstrong.dev/tags/aws/</link>
       <pubDate>Thu, 27 May 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://jamesstrong.dev/tags/aws/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>azure</title>
       <link>https://jamesstrong.dev/tags/azure/</link>
       <pubDate>Thu, 27 May 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://jamesstrong.dev/tags/azure/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>devsecops</title>
       <link>https://jamesstrong.dev/tags/devsecops/</link>
       <pubDate>Thu, 27 May 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://jamesstrong.dev/tags/devsecops/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>gcp</title>
       <link>https://jamesstrong.dev/tags/gcp/</link>
       <pubDate>Thu, 27 May 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://jamesstrong.dev/tags/gcp/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>workshop</title>
       <link>https://jamesstrong.dev/tags/workshop/</link>
       <pubDate>Thu, 27 May 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://jamesstrong.dev/tags/workshop/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>cloud native</title>
       <link>https://jamesstrong.dev/tags/cloud-native/</link>
       <pubDate>Wed, 27 May 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://jamesstrong.dev/tags/cloud-native/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>containers</title>
       <link>https://jamesstrong.dev/tags/containers/</link>
       <pubDate>Wed, 27 May 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://jamesstrong.dev/tags/containers/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>devops</title>
       <link>https://jamesstrong.dev/tags/devops/</link>
       <pubDate>Sat, 23 Nov 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://jamesstrong.dev/tags/devops/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>developer</title>
       <link>https://jamesstrong.dev/tags/developer/</link>
       <pubDate>Mon, 26 Aug 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://jamesstrong.dev/tags/developer/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>blog</title>
       <link>https://jamesstrong.dev/tags/blog/</link>
       <pubDate>Mon, 19 Aug 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://jamesstrong.dev/tags/blog/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>code</title>
       <link>https://jamesstrong.dev/tags/code/</link>
       <pubDate>Mon, 19 Aug 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://jamesstrong.dev/tags/code/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>development</title>
       <link>https://jamesstrong.dev/tags/development/</link>
       <pubDate>Mon, 19 Aug 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://jamesstrong.dev/tags/development/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>finserve</title>
       <link>https://jamesstrong.dev/tags/finserve/</link>
       <pubDate>Mon, 19 Aug 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://jamesstrong.dev/tags/finserve/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>hpc</title>
       <link>https://jamesstrong.dev/tags/hpc/</link>
       <pubDate>Mon, 19 Aug 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://jamesstrong.dev/tags/hpc/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>meetup</title>
       <link>https://jamesstrong.dev/tags/meetup/</link>
       <pubDate>Thu, 04 Apr 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://jamesstrong.dev/tags/meetup/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>hashicorp</title>
       <link>https://jamesstrong.dev/tags/hashicorp/</link>
       <pubDate>Sun, 31 Mar 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://jamesstrong.dev/tags/hashicorp/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>serverless</title>
       <link>https://jamesstrong.dev/tags/serverless/</link>
       <pubDate>Sun, 31 Mar 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://jamesstrong.dev/tags/serverless/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>cncf</title>
       <link>https://jamesstrong.dev/tags/cncf/</link>
       <pubDate>Mon, 25 Mar 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://jamesstrong.dev/tags/cncf/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>cka</title>
       <link>https://jamesstrong.dev/tags/cka/</link>
       <pubDate>Tue, 29 Jan 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://jamesstrong.dev/tags/cka/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>reinvent</title>
       <link>https://jamesstrong.dev/tags/reinvent/</link>
       <pubDate>Tue, 04 Dec 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://jamesstrong.dev/tags/reinvent/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>docker</title>
       <link>https://jamesstrong.dev/tags/docker/</link>
       <pubDate>Tue, 16 May 2017 00:00:00 +0000</pubDate>
-      
       <guid>https://jamesstrong.dev/tags/docker/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>cicd</title>
       <link>https://jamesstrong.dev/tags/cicd/</link>
       <pubDate>Wed, 29 Mar 2017 00:00:00 +0000</pubDate>
-      
       <guid>https://jamesstrong.dev/tags/cicd/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>jenkins</title>
       <link>https://jamesstrong.dev/tags/jenkins/</link>
       <pubDate>Wed, 06 Jan 2016 00:00:00 +0000</pubDate>
-      
       <guid>https://jamesstrong.dev/tags/jenkins/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>master</title>
       <link>https://jamesstrong.dev/tags/master/</link>
       <pubDate>Fri, 24 Apr 2015 00:00:00 +0000</pubDate>
-      
       <guid>https://jamesstrong.dev/tags/master/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>ci/cd</title>
       <link>https://jamesstrong.dev/tags/ci/cd/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://jamesstrong.dev/tags/ci/cd/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>

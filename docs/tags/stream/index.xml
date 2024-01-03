@@ -7,53 +7,42 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright (c) 2023, all rights reserved.</copyright>
-    <lastBuildDate>Thu, 18 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://jamesstrong.dev/tags/stream/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 18 May 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://jamesstrong.dev/tags/stream/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Enlightning - What is Ingress-nginx?</title>
       <link>https://jamesstrong.dev/post/2023/2023-05-18-englightning-ingress-nginx/</link>
       <pubDate>Thu, 18 May 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://jamesstrong.dev/post/2023/2023-05-18-englightning-ingress-nginx/</guid>
       <description>ingress-nginx is an Ingress controller for Kubernetes using NGINX as a reverse proxy and load balancer. It&amp;rsquo;s not the NGINX inc controller&amp;hellip; confusing, right? In this session we will discuss how the ingress-nginx controller works, how it differs from the NGINX inc controller, the release process, and how you can help contribute to the project!</description>
     </item>
-    
     <item>
       <title>End to End Security &amp; Operations with Chainguard and Weave GitOps</title>
       <link>https://jamesstrong.dev/post/2023/2023-05-10-e2e-security-chainguard-weaveworks/</link>
       <pubDate>Wed, 10 May 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://jamesstrong.dev/post/2023/2023-05-10-e2e-security-chainguard-weaveworks/</guid>
-      <description>One of the key values of GitOps relies on its fully declarative single source of truth in Git for the desired state of your entire system – configuration that continuously reconciles with the runtime of the system.
-Validating committer identity in your Git repository is a critical component towards a secure GitOps solution. Although basic capabilities are provided by Git service providers, more granular controls for governance and compliance are a requirement to satisfy most enterprise grade implementations.</description>
+      <description>One of the key values of GitOps relies on its fully declarative single source of truth in Git for the desired state of your entire system – configuration that continuously reconciles with the runtime of the system.&#xA;Validating committer identity in your Git repository is a critical component towards a secure GitOps solution. Although basic capabilities are provided by Git service providers, more granular controls for governance and compliance are a requirement to satisfy most enterprise grade implementations.</description>
     </item>
-    
     <item>
       <title>Klustered Teams - Chainguard Vs. Chainguard </title>
       <link>https://jamesstrong.dev/post/2022/2022-03-21-klustered-chainguard-v-chainguard/</link>
       <pubDate>Thu, 31 Mar 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://jamesstrong.dev/post/2022/2022-03-21-klustered-chainguard-v-chainguard/</guid>
       <description> </description>
     </item>
-    
     <item>
       <title>Kubernetes Networking Live</title>
       <link>https://jamesstrong.dev/post/2021/2021-11-01-kubernetes-networking-101/</link>
       <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://jamesstrong.dev/post/2021/2021-11-01-kubernetes-networking-101/</guid>
       <description> </description>
     </item>
-    
     <item>
       <title>Cloud Native Security Webinar</title>
       <link>https://jamesstrong.dev/post/2021/2021-05-27-cloud-native-security/</link>
       <pubDate>Thu, 27 May 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://jamesstrong.dev/post/2021/2021-05-27-cloud-native-security/</guid>
-      <description>As organizations undergo a digital transformation, cloud migration now more than ever remains a high priority for those looking to expand their business and remain top competitors in their field. But how do companies develop and deploy in the cloud without fear? What is really needed to secure your cloud accounts, and develop your engineers’ innovation all while adhering to industry-wide security best practices?
-On Thursday, May 27th, discover the solution to those questions and more during our latest webinar where we present our unique framework, Cloud Guardian.</description>
+      <description>As organizations undergo a digital transformation, cloud migration now more than ever remains a high priority for those looking to expand their business and remain top competitors in their field. But how do companies develop and deploy in the cloud without fear? What is really needed to secure your cloud accounts, and develop your engineers’ innovation all while adhering to industry-wide security best practices?&#xA;On Thursday, May 27th, discover the solution to those questions and more during our latest webinar where we present our unique framework, Cloud Guardian.</description>
     </item>
-    
   </channel>
 </rss>

@@ -7,47 +7,35 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright (c) 2023, all rights reserved.</copyright>
-    <lastBuildDate>Tue, 07 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://jamesstrong.dev/tags/kubecon/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 07 Nov 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://jamesstrong.dev/tags/kubecon/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>What&#39;s Happening with Ingress-Nginx!</title>
       <link>https://jamesstrong.dev/post/2023/2023-11-07-whats-happening-ingress-kubecon/</link>
       <pubDate>Tue, 07 Nov 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://jamesstrong.dev/post/2023/2023-11-07-whats-happening-ingress-kubecon/</guid>
-      <description>What&amp;rsquo;s Happening with Ingress-Nginx! - James Strong, Chainguard &amp;amp; Ricardo Katz, VMware
-This presentation will discuss our plans for Ingress-nginx 2.0 release, breaking changes, new features, and deprecations. We will also discuss our plans for gateway API, CVE reduction, and other security updates coming to ingress-nginx. As always, we will provide a community update, roadmap, and other critical information attendees should know about the project. Please join us to learn all about the progress and future of ingress-nginx.</description>
+      <description>What&amp;rsquo;s Happening with Ingress-Nginx! - James Strong, Chainguard &amp;amp; Ricardo Katz, VMware&#xA;This presentation will discuss our plans for Ingress-nginx 2.0 release, breaking changes, new features, and deprecations. We will also discuss our plans for gateway API, CVE reduction, and other security updates coming to ingress-nginx. As always, we will provide a community update, roadmap, and other critical information attendees should know about the project. Please join us to learn all about the progress and future of ingress-nginx.</description>
     </item>
-    
     <item>
       <title>Life of a CVE with Ingress-Nginx; Understanding the Project&#39;s Release Cycle</title>
       <link>https://jamesstrong.dev/post/2023/2023-05-01-lifeofacve/</link>
       <pubDate>Mon, 01 May 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://jamesstrong.dev/post/2023/2023-05-01-lifeofacve/</guid>
-      <description>Life of a CVE with Ingress-Nginx; Understanding the Project&amp;rsquo;s Release Cycle - James Strong, Chainguard &amp;amp; Dylen Turnbull, Nginx INC
-Speakers: Dylen Turnbull, James Strong
-In 7 years, Ingress-nginx has had 221 releases, with over 6800 commits. To ensure stability and to test this highly configurable controller, the project has grown to over 400 e2e tests and helm chart tests across various kubernetes versions and deployment landscapes. We were 3/4 through our stabilization project in the last maintainer track we presented.</description>
+      <description>Life of a CVE with Ingress-Nginx; Understanding the Project&amp;rsquo;s Release Cycle - James Strong, Chainguard &amp;amp; Dylen Turnbull, Nginx INC&#xA;Speakers: Dylen Turnbull, James Strong&#xA;In 7 years, Ingress-nginx has had 221 releases, with over 6800 commits. To ensure stability and to test this highly configurable controller, the project has grown to over 400 e2e tests and helm chart tests across various kubernetes versions and deployment landscapes. We were 3/4 through our stabilization project in the last maintainer track we presented.</description>
     </item>
-    
     <item>
       <title>Understanding the Future of Ingress-nginx</title>
       <link>https://jamesstrong.dev/post/2022/2022-11-11-understanding-future-ingress-nginx/</link>
       <pubDate>Fri, 11 Nov 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://jamesstrong.dev/post/2022/2022-11-11-understanding-future-ingress-nginx/</guid>
-      <description>Understanding the Future of Ingress-nginx - James Strong, Chainguard &amp;amp; Ricardo Katz, VMware
-Speakers: Ricardo Katz, James Strong
-In this talk, we will present the survey results from our Ingress-nginx community survey. The survey&amp;rsquo;s goal was to know what we should be doing for future releases and how to prioritize features, bugs, or other issues important to the community. The ingress-nginx project is undergoing a stabilization project as well. This stabilization project has worked to increase the security, review and deprecate older features, and fix long-standing issues with the project.</description>
+      <description>Understanding the Future of Ingress-nginx - James Strong, Chainguard &amp;amp; Ricardo Katz, VMware&#xA;Speakers: Ricardo Katz, James Strong&#xA;In this talk, we will present the survey results from our Ingress-nginx community survey. The survey&amp;rsquo;s goal was to know what we should be doing for future releases and how to prioritize features, bugs, or other issues important to the community. The ingress-nginx project is undergoing a stabilization project as well. This stabilization project has worked to increase the security, review and deprecate older features, and fix long-standing issues with the project.</description>
     </item>
-    
     <item>
       <title>Live at KubeCon North America 2019 with James Strong</title>
       <link>https://jamesstrong.dev/post/2019/2019-11-20-rancher-live-with-james/</link>
       <pubDate>Wed, 20 Nov 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://jamesstrong.dev/post/2019/2019-11-20-rancher-live-with-james/</guid>
       <description>JvB and James dicuss KubeCon and the evolution of the Kubernetes ecosystem at KubeCon North America 2019</description>
     </item>
-    
   </channel>
 </rss>

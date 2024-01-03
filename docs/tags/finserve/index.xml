@@ -7,17 +7,14 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright (c) 2023, all rights reserved.</copyright>
-    <lastBuildDate>Mon, 19 Aug 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://jamesstrong.dev/tags/finserve/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 19 Aug 2019 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://jamesstrong.dev/tags/finserve/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>High-Performance Computing for Financial Services</title>
       <link>https://jamesstrong.dev/post/2019/2019-08-19-aws-hpc/</link>
       <pubDate>Mon, 19 Aug 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://jamesstrong.dev/post/2019/2019-08-19-aws-hpc/</guid>
-      <description>The last week of July, I attended High-Performance Compute (HPC) Training for Financial Services in AWS. During this week-long training, AWS professionals in Financial Services shared their outlook on the needs that large financial institutions face from the industry, regulators, and markets.
-The first thing that caught my attention was this question:
-&amp;ldquo;If you could add 100,000 cores to your HPC grid, return them once you&amp;rsquo;re done and pay only for what you use, just like many of your peers do, how would that improve your business?</description>
+      <description>The last week of July, I attended High-Performance Compute (HPC) Training for Financial Services in AWS. During this week-long training, AWS professionals in Financial Services shared their outlook on the needs that large financial institutions face from the industry, regulators, and markets.&#xA;The first thing that caught my attention was this question:&#xA;&amp;ldquo;If you could add 100,000 cores to your HPC grid, return them once you&amp;rsquo;re done and pay only for what you use, just like many of your peers do, how would that improve your business?</description>
     </item>
-    
   </channel>
 </rss>

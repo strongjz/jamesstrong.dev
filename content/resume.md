@@ -14,13 +14,17 @@ tags:
 Experienced Technical Professional who works well with minimum supervision as well as a group member. Customer
 oriented problem solver with an ability to adapt to new situations. A quick learner with a desire for continuous
 personal and technical growth. Effective communicator with the ability to create technical materials that convey
-value for both clients and end users. 
+value for both clients and end users.
 
 ## Professional Experience
 
+### Isovalent • Senior Solutions Architect
+
+Remote • Jan ‘24 - Present
+
 ### Chainguard, Inc • Staff Solutions Architect
 
-Kirkland, WA • Dec ‘21 - Present
+Remote • Dec ‘21 - Dec ‘23
 
 Responsible for providing Chainguard customer product support, answering
 technical questions while architecting solutions, and solving customer problems
@@ -31,9 +35,9 @@ Sigstore.
 
 ### Kubernetes • Ingress-nginx Maintainer
 
-Online • 2019 - Present
+Remote • 2019 - Present
 
-Core maintainer for the kubernetes sig-network project sub-project Ingress-Nginx Ingress controller. Bi-weekly run the community where we discuss pressing needs of the project and the community. Responsible for triaging issues, approving pull requests and most importantly releasing new versions of the controller for open source users and business to consume. 
+Core maintainer for the kubernetes sig-network project sub-project Ingress-Nginx Ingress controller. Bi-weekly run the community where we discuss pressing needs of the project and the community. Responsible for triaging issues, approving pull requests and most importantly releasing new versions of the controller for open source users and business to consume.
 
 Repo https://github.com/kubernetes/ingress-nginx
 
@@ -53,7 +57,7 @@ technical teams deliver value to the client.
 
 ### O'Reilly Author - Kubernetes Networking
 
-September 2021
+Remote - September 2021
 
 Kubernetes Networking is an essential guide for anyone who wants to deploy, manage, or troubleshoot a production
 scale Kubernetes network.
@@ -75,12 +79,7 @@ https://www.oreilly.com/library/view/kubernetes-networking/9781492081647/
 
 ### A Cloud Guru Instructor
 
-Since its release in 2014, Kubernetes has become the de-facto standard for container orchestration. Kubernetes is a 
-distributed system for managing containers and its networking is no different. Many companies are deploying Kubernetes 
-on-prem and in the cloud, both managed offerings and self-deployed. With that, the demand for System, Network and 
-Cluster Administrators to understand the underpinnings of the network stack in Kubernetes is ever-increasing. This 
-course is a deep dive into the Kubernetes network model, the components involved and how to deploy, manage 
-and troubleshoot the cluster network.
+Since its release in 2014, Kubernetes has become the de-facto standard for container orchestration. Kubernetes is a distributed system for managing containers and its networking is no different. Many companies are deploying Kubernetes on-prem and in the cloud, both managed offerings and self-deployed. With that, the demand for System, Network and Cluster Administrators to understand the underpinnings of the network stack in Kubernetes is ever-increasing. This course is a deep dive into the Kubernetes network model, the components involved and how to deploy, manage and troubleshoot the cluster network.
 
 https://learn.acloud.guru/course/advanced-networking-with-kubernetes-for-aws/dashboard
 
@@ -243,10 +242,12 @@ troubleshoot wireless around campus. Deploying and Troubleshooting Network equip
 ## Accreditations
 
 Current
+
 * [CNCF CKS](/pdf/cks.pdf)
 * [CNCF CKA](/pdf/cka.pdf)
 
 Past
+
 * AWS DEVOPS - Professional
 * AWS CSA - Professional
 * AWS CSA – Associate
@@ -266,7 +267,7 @@ Masters of Science in Computer Science: U. of Louisville, Kentucky May 2015
 
 IEEE Member: 92045724
 
-##  Contact
+## Contact
 
 * Email strong.james.e@gmail.com
 * Personal Blog https://jamesstrong.dev

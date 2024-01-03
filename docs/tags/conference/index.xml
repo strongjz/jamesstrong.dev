@@ -7,82 +7,56 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright (c) 2023, all rights reserved.</copyright>
-    <lastBuildDate>Tue, 07 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://jamesstrong.dev/tags/conference/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 07 Nov 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://jamesstrong.dev/tags/conference/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>What&#39;s Happening with Ingress-Nginx!</title>
       <link>https://jamesstrong.dev/post/2023/2023-11-07-whats-happening-ingress-kubecon/</link>
       <pubDate>Tue, 07 Nov 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://jamesstrong.dev/post/2023/2023-11-07-whats-happening-ingress-kubecon/</guid>
-      <description>What&amp;rsquo;s Happening with Ingress-Nginx! - James Strong, Chainguard &amp;amp; Ricardo Katz, VMware
-This presentation will discuss our plans for Ingress-nginx 2.0 release, breaking changes, new features, and deprecations. We will also discuss our plans for gateway API, CVE reduction, and other security updates coming to ingress-nginx. As always, we will provide a community update, roadmap, and other critical information attendees should know about the project. Please join us to learn all about the progress and future of ingress-nginx.</description>
+      <description>What&amp;rsquo;s Happening with Ingress-Nginx! - James Strong, Chainguard &amp;amp; Ricardo Katz, VMware&#xA;This presentation will discuss our plans for Ingress-nginx 2.0 release, breaking changes, new features, and deprecations. We will also discuss our plans for gateway API, CVE reduction, and other security updates coming to ingress-nginx. As always, we will provide a community update, roadmap, and other critical information attendees should know about the project. Please join us to learn all about the progress and future of ingress-nginx.</description>
     </item>
-    
     <item>
       <title>Wolfi: A Secure-by-Default Distro for Curing Container CVE Chaos </title>
       <link>https://jamesstrong.dev/post/2023/2023-08-14-all-systems-go-wolfi/</link>
       <pubDate>Mon, 14 Aug 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://jamesstrong.dev/post/2023/2023-08-14-all-systems-go-wolfi/</guid>
-      <description>Are you using container images with hundreds of known vulnerabilities?
-The majority of us are using images based on the Docker official images available on the Docker Hub. This includes base images – such as Debian and Ubuntu – as well as application images such as nginx and redis. Unfortunately these images often have hundreds of known vulnerabilities due to excessively large dependency trees with out-of-date packages. This security debt can lead to unnecessary security risks and slower development cycles.</description>
+      <description>Are you using container images with hundreds of known vulnerabilities?&#xA;The majority of us are using images based on the Docker official images available on the Docker Hub. This includes base images – such as Debian and Ubuntu – as well as application images such as nginx and redis. Unfortunately these images often have hundreds of known vulnerabilities due to excessively large dependency trees with out-of-date packages. This security debt can lead to unnecessary security risks and slower development cycles.</description>
     </item>
-    
     <item>
       <title>What Does Rugby Have To Do With Sigstore?</title>
       <link>https://jamesstrong.dev/post/2023/2023-02-04-fosdem-sigstore-rugby/</link>
       <pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://jamesstrong.dev/post/2023/2023-02-04-fosdem-sigstore-rugby/</guid>
       <description>Cosign, fulcio, rekor are all components in keyless signing with Sigstore. Each piece has its responsibility to provide a smooth developer experience for container signing. How does it all work together to complete that complicated dance to tie identity to cryptographic signatures? And what&amp;rsquo;s more cryptic than rugby? In this talk, James and Lewis will educate attendees about sigstore and container signing using examples from the best sport in the world, rugby.</description>
     </item>
-    
     <item>
       <title>Realizing the benefits of container DevSecOps with AWS</title>
       <link>https://jamesstrong.dev/post/2021/2021-09-21-devsecops-with-aws/</link>
       <pubDate>Thu, 27 May 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://jamesstrong.dev/post/2021/2021-09-21-devsecops-with-aws/</guid>
-      <description>AWS DevSecOps Container Pipeline workshop at DevOps Days Houston
-Workshop available at https://aws.containerdevsecops.io/
-In this workshop Engineers will learn how to secure their container pipeline using AWS and other Cloud Native tools. This will be part Lecture and part hands on.
-We will be working through the following topics:
-Introduction Workshop Setup Development Environment Container Builds Container Pipeline Running Containers We will be using these tools and techniques to secure a container pipeline and runtime.</description>
+      <description>AWS DevSecOps Container Pipeline workshop at DevOps Days Houston&#xA;Workshop available at https://aws.containerdevsecops.io/&#xA;In this workshop Engineers will learn how to secure their container pipeline using AWS and other Cloud Native tools. This will be part Lecture and part hands on.&#xA;We will be working through the following topics:&#xA;Introduction Workshop Setup Development Environment Container Builds Container Pipeline Running Containers We will be using these tools and techniques to secure a container pipeline and runtime.</description>
     </item>
-    
     <item>
       <title>Code PaLOUSa 2019</title>
       <link>https://jamesstrong.dev/post/2019/2019-08-26-code-lou-2019/</link>
       <pubDate>Mon, 26 Aug 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://jamesstrong.dev/post/2019/2019-08-26-code-lou-2019/</guid>
-      <description>Another year! Another amazing Code PaLOUsa come and gone.
-Location This year Code PaLOUsa was at the Hyatt Regency, which is smack dap in the middle of downtown. This location makes it a perfect spot for all the speakers and conference-goers to experience some of the tourist spots in Louisville and still enjoy the conference.
-Sessions The sessions were action-packed, as well. A (useful?) attribute of a conference is the level of difficulty for goers to decide which speakers to see!</description>
+      <description>Another year! Another amazing Code PaLOUsa come and gone.&#xA;Location This year Code PaLOUsa was at the Hyatt Regency, which is smack dap in the middle of downtown. This location makes it a perfect spot for all the speakers and conference-goers to experience some of the tourist spots in Louisville and still enjoy the conference.&#xA;Sessions The sessions were action-packed, as well. A (useful?) attribute of a conference is the level of difficulty for goers to decide which speakers to see!</description>
     </item>
-    
     <item>
       <title>Dev Nexus 2019</title>
       <link>https://jamesstrong.dev/post/2019/2019-03-06-devnexus2019/</link>
       <pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://jamesstrong.dev/post/2019/2019-03-06-devnexus2019/</guid>
-      <description>At Dev Nexus 2018 my co-worker, Adarsh, and I led a workshop &amp;ldquo;Introduction to Kubernetes&amp;rdquo;
-Introduction to Kubernetes is a hands-on, interactive workshop giving attendees a thorough understanding of the fundamentals of Kubernetes. As part of this workshop, you will learn how Kubernetes works, be able to successfully create a kubernetes cluster, deploy microservices to that cluster &amp;amp; also hear about some war stories.
-https://contino.github.io/intro-k8/
-Developer density ⁦@devnexus⁩!
-First class speakers!</description>
+      <description>At Dev Nexus 2018 my co-worker, Adarsh, and I led a workshop &amp;ldquo;Introduction to Kubernetes&amp;rdquo;&#xA;Introduction to Kubernetes is a hands-on, interactive workshop giving attendees a thorough understanding of the fundamentals of Kubernetes. As part of this workshop, you will learn how Kubernetes works, be able to successfully create a kubernetes cluster, deploy microservices to that cluster &amp;amp; also hear about some war stories.&#xA;https://contino.github.io/intro-k8/&#xA;Developer density ⁦@devnexus⁩!&#xA;First class speakers!</description>
     </item>
-    
     <item>
       <title>Dockercon 2017</title>
       <link>https://jamesstrong.dev/post/2017/2017-05-16-dockercon/</link>
       <pubDate>Tue, 16 May 2017 00:00:00 +0000</pubDate>
-      
       <guid>https://jamesstrong.dev/post/2017/2017-05-16-dockercon/</guid>
-      <description>Before we dive into some of the highlights from DockerCon 2017, let’s do a quick overview of what Docker is. Quite simply, a “docker container” is a portable container, of sorts, that allows a collection of apps to run on any operating system.
-How is it possible, you ask, for a docker container to allow any app to “Build, Ship and Run,” as the docker motto says, on any OS? A docker container uses kernel features to produce resource isolation (CPU, memory, block I/O and more) as well as separate namespaces, to isolate the application’s view of the operating system (a visual depiction below).</description>
+      <description>Before we dive into some of the highlights from DockerCon 2017, let’s do a quick overview of what Docker is. Quite simply, a “docker container” is a portable container, of sorts, that allows a collection of apps to run on any operating system.&#xA;How is it possible, you ask, for a docker container to allow any app to “Build, Ship and Run,” as the docker motto says, on any OS? A docker container uses kernel features to produce resource isolation (CPU, memory, block I/O and more) as well as separate namespaces, to isolate the application’s view of the operating system (a visual depiction below).</description>
     </item>
-    
   </channel>
 </rss>

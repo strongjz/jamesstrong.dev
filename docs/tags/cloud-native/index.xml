@@ -7,73 +7,49 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright (c) 2023, all rights reserved.</copyright>
-    <lastBuildDate>Wed, 27 May 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://jamesstrong.dev/tags/cloud-native/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 27 May 2020 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://jamesstrong.dev/tags/cloud-native/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Containers and DevSecops</title>
       <link>https://jamesstrong.dev/post/2020/2020-05-27-containers-devsecops-austin/</link>
       <pubDate>Wed, 27 May 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://jamesstrong.dev/post/2020/2020-05-27-containers-devsecops-austin/</guid>
-      <description>DevOps is established, and containers are all the rage, but we forget about security!
-Let&amp;rsquo;s talk about DevSecOps and Containers. We&amp;rsquo;re going to show you how to inject security into your Container Pipelines. Don&amp;rsquo;t have a pipeline? Don&amp;rsquo;t worry, because we&amp;rsquo;ll fix that too.
-In this talk, James Strong, Cloud Native Director at Contino and AWS APN Ambassador, will share knowledge around container security and building a DevSecOps pipeline in AWS with no servers.</description>
+      <description>DevOps is established, and containers are all the rage, but we forget about security!&#xA;Let&amp;rsquo;s talk about DevSecOps and Containers. We&amp;rsquo;re going to show you how to inject security into your Container Pipelines. Don&amp;rsquo;t have a pipeline? Don&amp;rsquo;t worry, because we&amp;rsquo;ll fix that too.&#xA;In this talk, James Strong, Cloud Native Director at Contino and AWS APN Ambassador, will share knowledge around container security and building a DevSecOps pipeline in AWS with no servers.</description>
     </item>
-    
     <item>
       <title>Cloud Native Summit Online Stream Experience</title>
       <link>https://jamesstrong.dev/post/2020/2020-04-27-cloudnative-stream/</link>
       <pubDate>Mon, 27 Apr 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://jamesstrong.dev/post/2020/2020-04-27-cloudnative-stream/</guid>
-      <description>The Cloud Native Online Summit was a community event that had updates from all graduated CNCF projects - Kubernetes , Prometheus, Envoy, Jaeger, Fluentd, Containerd, CoreDNS, Vitess, TUF. Along with conversations between the key SIG and WG contributors.
-I was part of the Cloud Native Online summit team that helped put on the event.
-@Abubakar Siddiq Ango Site Design
-@Ariel Jatib Contributor
-@Kim McMahon CNCF Marketing Director
-@Kaitlyn Barnard Marketing Consultant</description>
+      <description>The Cloud Native Online Summit was a community event that had updates from all graduated CNCF projects - Kubernetes , Prometheus, Envoy, Jaeger, Fluentd, Containerd, CoreDNS, Vitess, TUF. Along with conversations between the key SIG and WG contributors.&#xA;I was part of the Cloud Native Online summit team that helped put on the event.&#xA;@Abubakar Siddiq Ango Site Design&#xA;@Ariel Jatib Contributor&#xA;@Kim McMahon CNCF Marketing Director&#xA;@Kaitlyn Barnard Marketing Consultant</description>
     </item>
-    
     <item>
       <title>Kubernetes Best Practices Webinar</title>
       <link>https://jamesstrong.dev/post/2020/2020-04-16-k8-contino-web/</link>
       <pubDate>Thu, 16 Apr 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://jamesstrong.dev/post/2020/2020-04-16-k8-contino-web/</guid>
-      <description> Slides: https://www.slideshare.net/jstrong09/kubernetes-do-or-do-not-there-is-no-try
-In this webinar Gregory Patmore and I covered:
-Getting started with Kubernetes - laying the foundations for success Clusters: Set up, security and operations Best practices for container and Kubernetes adoption Securing containers Optimising application development in Kubernetes environments </description>
+      <description> Slides: https://www.slideshare.net/jstrong09/kubernetes-do-or-do-not-there-is-no-try&#xA;In this webinar Gregory Patmore and I covered:&#xA;Getting started with Kubernetes - laying the foundations for success Clusters: Set up, security and operations Best practices for container and Kubernetes adoption Securing containers Optimising application development in Kubernetes environments </description>
     </item>
-    
     <item>
       <title>Hashicorp DFW</title>
       <link>https://jamesstrong.dev/post/2019/2019-03-31-hashidfw/</link>
       <pubDate>Sun, 31 Mar 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://jamesstrong.dev/post/2019/2019-03-31-hashidfw/</guid>
-      <description>I will be giving a talk and demo on deploying serverless apps onto AWS with Terraform!
-https://www.meetup.com/hashicorpdfw/events/260071773/</description>
+      <description>I will be giving a talk and demo on deploying serverless apps onto AWS with Terraform!&#xA;https://www.meetup.com/hashicorpdfw/events/260071773/</description>
     </item>
-    
     <item>
       <title>Kubernetes and Cloud Native Computing April Meetup</title>
       <link>https://jamesstrong.dev/post/2019/2019-03-25-loucncf-4-1/</link>
       <pubDate>Mon, 25 Mar 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://jamesstrong.dev/post/2019/2019-03-25-loucncf-4-1/</guid>
-      <description>The inaugural Kubernetes and Cloud Native Computer Louisville will be on April 4th. I will be presenting an &amp;ldquo;Intro to Kubernetes&amp;rdquo;
-https://www.meetup.com/Kubernetes-and-Cloud-Native-Computing-Louisville/events/259202067/</description>
+      <description>The inaugural Kubernetes and Cloud Native Computer Louisville will be on April 4th. I will be presenting an &amp;ldquo;Intro to Kubernetes&amp;rdquo;&#xA;https://www.meetup.com/Kubernetes-and-Cloud-Native-Computing-Louisville/events/259202067/</description>
     </item>
-    
     <item>
       <title>Passing the CKA</title>
       <link>https://jamesstrong.dev/post/2019/2019-01-29-passcka/</link>
       <pubDate>Tue, 29 Jan 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://jamesstrong.dev/post/2019/2019-01-29-passcka/</guid>
-      <description>On December 29th I completed my final goal of the year - I passed the CKA.
-TL;DR This is a list of the bare minimum necessary to try to pass.
-Do Kelsey Hightower’s tutorial Kubernetes The Hard Way at least three times! Understand it, internalize it. Do all the tasks on https://kubernetes.io/docs/tasks/ Read Kubernetes in Action by Marko Luksa Also practice, practice, and practice. Did I mention practice? This is a practical exam, no multiple choice questions here.</description>
+      <description>On December 29th I completed my final goal of the year - I passed the CKA.&#xA;TL;DR This is a list of the bare minimum necessary to try to pass.&#xA;Do Kelsey Hightower’s tutorial Kubernetes The Hard Way at least three times! Understand it, internalize it. Do all the tasks on https://kubernetes.io/docs/tasks/ Read Kubernetes in Action by Marko Luksa Also practice, practice, and practice. Did I mention practice? This is a practical exam, no multiple choice questions here.</description>
     </item>
-    
   </channel>
 </rss>

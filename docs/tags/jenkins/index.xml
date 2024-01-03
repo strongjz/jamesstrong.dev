@@ -7,16 +7,14 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright (c) 2023, all rights reserved.</copyright>
-    <lastBuildDate>Wed, 06 Jan 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://jamesstrong.dev/tags/jenkins/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 06 Jan 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://jamesstrong.dev/tags/jenkins/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Louisville Software Meetup - Jenkins</title>
       <link>https://jamesstrong.dev/post/2016/2016-01-06-louissoft-jenkins/</link>
       <pubDate>Wed, 06 Jan 2016 00:00:00 +0000</pubDate>
-      
       <guid>https://jamesstrong.dev/post/2016/2016-01-06-louissoft-jenkins/</guid>
-      <description>This presentation was given at the Louisville Software Engineering Meetup. In It I discuss Continuous Integration and Continuous Deployment, and how to achieve it with Jenkins.
-https://www.meetup.com/Louisville-Software-Engineering/events/227294818/</description>
+      <description>This presentation was given at the Louisville Software Engineering Meetup. In It I discuss Continuous Integration and Continuous Deployment, and how to achieve it with Jenkins.&#xA;https://www.meetup.com/Louisville-Software-Engineering/events/227294818/</description>
     </item>
-    
   </channel>
 </rss>

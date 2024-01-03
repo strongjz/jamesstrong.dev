@@ -7,71 +7,49 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright (c) 2023, all rights reserved.</copyright>
-    <lastBuildDate>Sat, 23 Nov 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://jamesstrong.dev/tags/devops/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 23 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://jamesstrong.dev/tags/devops/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>KubeCon San Diego Recap</title>
       <link>https://jamesstrong.dev/post/2019/2019-11-23-kubecon/</link>
       <pubDate>Sat, 23 Nov 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://jamesstrong.dev/post/2019/2019-11-23-kubecon/</guid>
-      <description>KubeCon San Diego Recap
-KubeCon had a great turnout this year with 12,000 attendees that filled the San Diego Convention center. Three things stood out to me: Security, Network, and Community.
-The community was a big theme at this event and in many of the keynotes. From David’s talk about non-code ways to contribute to CNCF’s projects. Kelsey Hightower’s keynote on how we could never have done this as an individual or a single company.</description>
+      <description>KubeCon San Diego Recap&#xA;KubeCon had a great turnout this year with 12,000 attendees that filled the San Diego Convention center. Three things stood out to me: Security, Network, and Community.&#xA;The community was a big theme at this event and in many of the keynotes. From David’s talk about non-code ways to contribute to CNCF’s projects. Kelsey Hightower’s keynote on how we could never have done this as an individual or a single company.</description>
     </item>
-    
     <item>
       <title>Kubernetes Networking</title>
       <link>https://jamesstrong.dev/post/2019/2019-08-08-k8-network/</link>
       <pubDate>Thu, 08 Aug 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://jamesstrong.dev/post/2019/2019-08-08-k8-network/</guid>
-      <description>I have begin working on Deep Dive into Kubernetes Networking, Let me know your thoughts about what you want to see.
-https://strongjz.github.io/k8-networking/#/</description>
+      <description>I have begin working on Deep Dive into Kubernetes Networking, Let me know your thoughts about what you want to see.&#xA;https://strongjz.github.io/k8-networking/#/</description>
     </item>
-    
     <item>
       <title>Intro to Kubernetes</title>
       <link>https://jamesstrong.dev/post/2019/2019-04-04-cncf-intro-k8/</link>
       <pubDate>Thu, 04 Apr 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://jamesstrong.dev/post/2019/2019-04-04-cncf-intro-k8/</guid>
-      <description>In April, we kicked off [Kubernetes and Cloud Native Computing Louisville](https://www.meetup. com/Kubernetes-and-Cloud-Native-Computing-Louisville/)
-I presented an &amp;ldquo;Intro to Kubernetes&amp;rdquo;, here is a link to the presentation
-More about that Meetup here
-Recording</description>
+      <description>In April, we kicked off [Kubernetes and Cloud Native Computing Louisville](https://www.meetup. com/Kubernetes-and-Cloud-Native-Computing-Louisville/)&#xA;I presented an &amp;ldquo;Intro to Kubernetes&amp;rdquo;, here is a link to the presentation&#xA;More about that Meetup here&#xA;Recording</description>
     </item>
-    
     <item>
       <title>Passing the CKA</title>
       <link>https://jamesstrong.dev/post/2019/2019-01-29-passcka/</link>
       <pubDate>Tue, 29 Jan 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://jamesstrong.dev/post/2019/2019-01-29-passcka/</guid>
-      <description>On December 29th I completed my final goal of the year - I passed the CKA.
-TL;DR This is a list of the bare minimum necessary to try to pass.
-Do Kelsey Hightower’s tutorial Kubernetes The Hard Way at least three times! Understand it, internalize it. Do all the tasks on https://kubernetes.io/docs/tasks/ Read Kubernetes in Action by Marko Luksa Also practice, practice, and practice. Did I mention practice? This is a practical exam, no multiple choice questions here.</description>
+      <description>On December 29th I completed my final goal of the year - I passed the CKA.&#xA;TL;DR This is a list of the bare minimum necessary to try to pass.&#xA;Do Kelsey Hightower’s tutorial Kubernetes The Hard Way at least three times! Understand it, internalize it. Do all the tasks on https://kubernetes.io/docs/tasks/ Read Kubernetes in Action by Marko Luksa Also practice, practice, and practice. Did I mention practice? This is a practical exam, no multiple choice questions here.</description>
     </item>
-    
     <item>
       <title>Code Louisville 2017</title>
       <link>https://jamesstrong.dev/post/2017/2017-03-29-codelouisville/</link>
       <pubDate>Wed, 29 Mar 2017 00:00:00 +0000</pubDate>
-      
       <guid>https://jamesstrong.dev/post/2017/2017-03-29-codelouisville/</guid>
-      <description>This talk was presented in 2017 at Louisville Local Software Development Conference Codepalousa.
-In this presentation I discussed DevOps, how Continuous Integration and Deployment integrates into that, and how CI/CD can be implemented with AWS services.
-Running Rules for CI/CD AWS Tool 1. Maintain a code repository Commit 2. Automate the build * 3. Keep the build fast Build 4. Make the build self-testing Deploy 5. Commit early, commit often Commit 6.</description>
+      <description>This talk was presented in 2017 at Louisville Local Software Development Conference Codepalousa.&#xA;In this presentation I discussed DevOps, how Continuous Integration and Deployment integrates into that, and how CI/CD can be implemented with AWS services.&#xA;Running Rules for CI/CD AWS Tool 1. Maintain a code repository Commit 2. Automate the build * 3. Keep the build fast Build 4. Make the build self-testing Deploy 5. Commit early, commit often Commit 6.</description>
     </item>
-    
     <item>
       <title>Louisville Software Meetup - Jenkins</title>
       <link>https://jamesstrong.dev/post/2016/2016-01-06-louissoft-jenkins/</link>
       <pubDate>Wed, 06 Jan 2016 00:00:00 +0000</pubDate>
-      
       <guid>https://jamesstrong.dev/post/2016/2016-01-06-louissoft-jenkins/</guid>
-      <description>This presentation was given at the Louisville Software Engineering Meetup. In It I discuss Continuous Integration and Continuous Deployment, and how to achieve it with Jenkins.
-https://www.meetup.com/Louisville-Software-Engineering/events/227294818/</description>
+      <description>This presentation was given at the Louisville Software Engineering Meetup. In It I discuss Continuous Integration and Continuous Deployment, and how to achieve it with Jenkins.&#xA;https://www.meetup.com/Louisville-Software-Engineering/events/227294818/</description>
     </item>
-    
   </channel>
 </rss>

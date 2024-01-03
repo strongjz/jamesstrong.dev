@@ -7,233 +7,161 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright (c) 2023, all rights reserved.</copyright>
-    <lastBuildDate>Tue, 07 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://jamesstrong.dev/tags/kubernetes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 07 Nov 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://jamesstrong.dev/tags/kubernetes/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>What&#39;s Happening with Ingress-Nginx!</title>
       <link>https://jamesstrong.dev/post/2023/2023-11-07-whats-happening-ingress-kubecon/</link>
       <pubDate>Tue, 07 Nov 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://jamesstrong.dev/post/2023/2023-11-07-whats-happening-ingress-kubecon/</guid>
-      <description>What&amp;rsquo;s Happening with Ingress-Nginx! - James Strong, Chainguard &amp;amp; Ricardo Katz, VMware
-This presentation will discuss our plans for Ingress-nginx 2.0 release, breaking changes, new features, and deprecations. We will also discuss our plans for gateway API, CVE reduction, and other security updates coming to ingress-nginx. As always, we will provide a community update, roadmap, and other critical information attendees should know about the project. Please join us to learn all about the progress and future of ingress-nginx.</description>
+      <description>What&amp;rsquo;s Happening with Ingress-Nginx! - James Strong, Chainguard &amp;amp; Ricardo Katz, VMware&#xA;This presentation will discuss our plans for Ingress-nginx 2.0 release, breaking changes, new features, and deprecations. We will also discuss our plans for gateway API, CVE reduction, and other security updates coming to ingress-nginx. As always, we will provide a community update, roadmap, and other critical information attendees should know about the project. Please join us to learn all about the progress and future of ingress-nginx.</description>
     </item>
-    
     <item>
       <title>Wolfi: A Secure-by-Default Distro for Curing Container CVE Chaos </title>
       <link>https://jamesstrong.dev/post/2023/2023-08-14-all-systems-go-wolfi/</link>
       <pubDate>Mon, 14 Aug 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://jamesstrong.dev/post/2023/2023-08-14-all-systems-go-wolfi/</guid>
-      <description>Are you using container images with hundreds of known vulnerabilities?
-The majority of us are using images based on the Docker official images available on the Docker Hub. This includes base images – such as Debian and Ubuntu – as well as application images such as nginx and redis. Unfortunately these images often have hundreds of known vulnerabilities due to excessively large dependency trees with out-of-date packages. This security debt can lead to unnecessary security risks and slower development cycles.</description>
+      <description>Are you using container images with hundreds of known vulnerabilities?&#xA;The majority of us are using images based on the Docker official images available on the Docker Hub. This includes base images – such as Debian and Ubuntu – as well as application images such as nginx and redis. Unfortunately these images often have hundreds of known vulnerabilities due to excessively large dependency trees with out-of-date packages. This security debt can lead to unnecessary security risks and slower development cycles.</description>
     </item>
-    
     <item>
       <title>Enlightning - What is Ingress-nginx?</title>
       <link>https://jamesstrong.dev/post/2023/2023-05-18-englightning-ingress-nginx/</link>
       <pubDate>Thu, 18 May 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://jamesstrong.dev/post/2023/2023-05-18-englightning-ingress-nginx/</guid>
       <description>ingress-nginx is an Ingress controller for Kubernetes using NGINX as a reverse proxy and load balancer. It&amp;rsquo;s not the NGINX inc controller&amp;hellip; confusing, right? In this session we will discuss how the ingress-nginx controller works, how it differs from the NGINX inc controller, the release process, and how you can help contribute to the project!</description>
     </item>
-    
     <item>
       <title>End to End Security &amp; Operations with Chainguard and Weave GitOps</title>
       <link>https://jamesstrong.dev/post/2023/2023-05-10-e2e-security-chainguard-weaveworks/</link>
       <pubDate>Wed, 10 May 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://jamesstrong.dev/post/2023/2023-05-10-e2e-security-chainguard-weaveworks/</guid>
-      <description>One of the key values of GitOps relies on its fully declarative single source of truth in Git for the desired state of your entire system – configuration that continuously reconciles with the runtime of the system.
-Validating committer identity in your Git repository is a critical component towards a secure GitOps solution. Although basic capabilities are provided by Git service providers, more granular controls for governance and compliance are a requirement to satisfy most enterprise grade implementations.</description>
+      <description>One of the key values of GitOps relies on its fully declarative single source of truth in Git for the desired state of your entire system – configuration that continuously reconciles with the runtime of the system.&#xA;Validating committer identity in your Git repository is a critical component towards a secure GitOps solution. Although basic capabilities are provided by Git service providers, more granular controls for governance and compliance are a requirement to satisfy most enterprise grade implementations.</description>
     </item>
-    
     <item>
       <title>Life of a CVE with Ingress-Nginx; Understanding the Project&#39;s Release Cycle</title>
       <link>https://jamesstrong.dev/post/2023/2023-05-01-lifeofacve/</link>
       <pubDate>Mon, 01 May 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://jamesstrong.dev/post/2023/2023-05-01-lifeofacve/</guid>
-      <description>Life of a CVE with Ingress-Nginx; Understanding the Project&amp;rsquo;s Release Cycle - James Strong, Chainguard &amp;amp; Dylen Turnbull, Nginx INC
-Speakers: Dylen Turnbull, James Strong
-In 7 years, Ingress-nginx has had 221 releases, with over 6800 commits. To ensure stability and to test this highly configurable controller, the project has grown to over 400 e2e tests and helm chart tests across various kubernetes versions and deployment landscapes. We were 3/4 through our stabilization project in the last maintainer track we presented.</description>
+      <description>Life of a CVE with Ingress-Nginx; Understanding the Project&amp;rsquo;s Release Cycle - James Strong, Chainguard &amp;amp; Dylen Turnbull, Nginx INC&#xA;Speakers: Dylen Turnbull, James Strong&#xA;In 7 years, Ingress-nginx has had 221 releases, with over 6800 commits. To ensure stability and to test this highly configurable controller, the project has grown to over 400 e2e tests and helm chart tests across various kubernetes versions and deployment landscapes. We were 3/4 through our stabilization project in the last maintainer track we presented.</description>
     </item>
-    
     <item>
       <title>Understanding the Future of Ingress-nginx</title>
       <link>https://jamesstrong.dev/post/2022/2022-11-11-understanding-future-ingress-nginx/</link>
       <pubDate>Fri, 11 Nov 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://jamesstrong.dev/post/2022/2022-11-11-understanding-future-ingress-nginx/</guid>
-      <description>Understanding the Future of Ingress-nginx - James Strong, Chainguard &amp;amp; Ricardo Katz, VMware
-Speakers: Ricardo Katz, James Strong
-In this talk, we will present the survey results from our Ingress-nginx community survey. The survey&amp;rsquo;s goal was to know what we should be doing for future releases and how to prioritize features, bugs, or other issues important to the community. The ingress-nginx project is undergoing a stabilization project as well. This stabilization project has worked to increase the security, review and deprecate older features, and fix long-standing issues with the project.</description>
+      <description>Understanding the Future of Ingress-nginx - James Strong, Chainguard &amp;amp; Ricardo Katz, VMware&#xA;Speakers: Ricardo Katz, James Strong&#xA;In this talk, we will present the survey results from our Ingress-nginx community survey. The survey&amp;rsquo;s goal was to know what we should be doing for future releases and how to prioritize features, bugs, or other issues important to the community. The ingress-nginx project is undergoing a stabilization project as well. This stabilization project has worked to increase the security, review and deprecate older features, and fix long-standing issues with the project.</description>
     </item>
-    
     <item>
       <title>Klustered Teams - Chainguard Vs. Chainguard </title>
       <link>https://jamesstrong.dev/post/2022/2022-03-21-klustered-chainguard-v-chainguard/</link>
       <pubDate>Thu, 31 Mar 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://jamesstrong.dev/post/2022/2022-03-21-klustered-chainguard-v-chainguard/</guid>
       <description> </description>
     </item>
-    
     <item>
       <title>Does K8s still need DR? O&#39;Reilly K8s Author On the Hot Seat!</title>
       <link>https://jamesstrong.dev/post/2022/2022-01-18-does-k8s-need-backup-podcast/</link>
       <pubDate>Tue, 18 Jan 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://jamesstrong.dev/post/2022/2022-01-18-does-k8s-need-backup-podcast/</guid>
       <description>Things got a little tense on this week&amp;rsquo;s podcast when James Strong (@strongjz, Co-Author of O&amp;rsquo;Reilly&amp;rsquo;s Networking &amp;amp; Kubernetes) hinted at DR being a thing of the past with K8s. Mr. Backups was having none of that. No blows were thrown, mostly because it was all online, but it was a really good conversation that K8s and DR enthusiasts alike will find interesting. We also cover the new book, Networking and Kubernetes, by James Strong and Vallery Lancey, including why the decided to write it, and what it covers.</description>
     </item>
-    
     <item>
       <title>Kubernetes Networking Live</title>
       <link>https://jamesstrong.dev/post/2021/2021-11-01-kubernetes-networking-101/</link>
       <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://jamesstrong.dev/post/2021/2021-11-01-kubernetes-networking-101/</guid>
       <description> </description>
     </item>
-    
     <item>
       <title>Networking &amp; Kubernetes: Book Review and Interview with Author James Strong</title>
       <link>https://jamesstrong.dev/post/2021/2021-10-06-hackernoon-interview/</link>
       <pubDate>Wed, 06 Oct 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://jamesstrong.dev/post/2021/2021-10-06-hackernoon-interview/</guid>
       <description>Networking &amp;amp; Kubernetes: Book Review and Interview with Author James Strong By Amy Pravin Shah</description>
     </item>
-    
     <item>
       <title>Cloud Native Security Webinar</title>
       <link>https://jamesstrong.dev/post/2021/2021-05-27-cloud-native-security/</link>
       <pubDate>Thu, 27 May 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://jamesstrong.dev/post/2021/2021-05-27-cloud-native-security/</guid>
-      <description>As organizations undergo a digital transformation, cloud migration now more than ever remains a high priority for those looking to expand their business and remain top competitors in their field. But how do companies develop and deploy in the cloud without fear? What is really needed to secure your cloud accounts, and develop your engineers’ innovation all while adhering to industry-wide security best practices?
-On Thursday, May 27th, discover the solution to those questions and more during our latest webinar where we present our unique framework, Cloud Guardian.</description>
+      <description>As organizations undergo a digital transformation, cloud migration now more than ever remains a high priority for those looking to expand their business and remain top competitors in their field. But how do companies develop and deploy in the cloud without fear? What is really needed to secure your cloud accounts, and develop your engineers’ innovation all while adhering to industry-wide security best practices?&#xA;On Thursday, May 27th, discover the solution to those questions and more during our latest webinar where we present our unique framework, Cloud Guardian.</description>
     </item>
-    
     <item>
       <title>Networking and Kubernetes Early Release</title>
       <link>https://jamesstrong.dev/post/2021/2021-03-02-kubernetes-networking-book/</link>
       <pubDate>Tue, 02 Mar 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://jamesstrong.dev/post/2021/2021-03-02-kubernetes-networking-book/</guid>
-      <description>This past year Vallery Lancey and I have been working on a Kubernetes Networking Book.
-I am proud to announce that we have an early release of Chapters 1-3 of the book available on O&amp;rsquo;Reilly Digital platform.
-Kubernetes Networking is an essential guide for anyone who wants to deploy, manage, or troubleshoot a production-scale Kubernetes network.
-Understanding Kubernetes clusters isn&amp;rsquo;t enough to operate Kubernetes at scale. Every layer of the stack&amp;ndash;the network, operating system, and Kubernetes&amp;ndash;depends on the layer below.</description>
+      <description>This past year Vallery Lancey and I have been working on a Kubernetes Networking Book.&#xA;I am proud to announce that we have an early release of Chapters 1-3 of the book available on O&amp;rsquo;Reilly Digital platform.&#xA;Kubernetes Networking is an essential guide for anyone who wants to deploy, manage, or troubleshoot a production-scale Kubernetes network.&#xA;Understanding Kubernetes clusters isn&amp;rsquo;t enough to operate Kubernetes at scale. Every layer of the stack&amp;ndash;the network, operating system, and Kubernetes&amp;ndash;depends on the layer below.</description>
     </item>
-    
     <item>
       <title>A Cloud Guru Advanced Networking with Kubernetes on AWS </title>
       <link>https://jamesstrong.dev/post/2020/2020-8-24-acg-networking/</link>
       <pubDate>Wed, 26 Aug 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://jamesstrong.dev/post/2020/2020-8-24-acg-networking/</guid>
-      <description>I&amp;rsquo;ve spent the last year created a course for A Cloud Guru. With 3.4 hours of content and 36 lessons, I look forward to your feedback. Here is my &amp;ldquo;Advanced Networking with Kubernetes on AWS&amp;rdquo; Course.
-Since its release in 2014, Kubernetes has become the de-facto standard for container orchestration. Kubernetes is a distributed system for managing containers and its networking is no different. Many companies are deploying Kubernetes on-prem and in the cloud, both managed offerings and self-deployed.</description>
+      <description>I&amp;rsquo;ve spent the last year created a course for A Cloud Guru. With 3.4 hours of content and 36 lessons, I look forward to your feedback. Here is my &amp;ldquo;Advanced Networking with Kubernetes on AWS&amp;rdquo; Course.&#xA;Since its release in 2014, Kubernetes has become the de-facto standard for container orchestration. Kubernetes is a distributed system for managing containers and its networking is no different. Many companies are deploying Kubernetes on-prem and in the cloud, both managed offerings and self-deployed.</description>
     </item>
-    
     <item>
       <title>Kubernetes Best Practices Webinar</title>
       <link>https://jamesstrong.dev/post/2020/2020-04-16-k8-contino-web/</link>
       <pubDate>Thu, 16 Apr 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://jamesstrong.dev/post/2020/2020-04-16-k8-contino-web/</guid>
-      <description> Slides: https://www.slideshare.net/jstrong09/kubernetes-do-or-do-not-there-is-no-try
-In this webinar Gregory Patmore and I covered:
-Getting started with Kubernetes - laying the foundations for success Clusters: Set up, security and operations Best practices for container and Kubernetes adoption Securing containers Optimising application development in Kubernetes environments </description>
+      <description> Slides: https://www.slideshare.net/jstrong09/kubernetes-do-or-do-not-there-is-no-try&#xA;In this webinar Gregory Patmore and I covered:&#xA;Getting started with Kubernetes - laying the foundations for success Clusters: Set up, security and operations Best practices for container and Kubernetes adoption Securing containers Optimising application development in Kubernetes environments </description>
     </item>
-    
     <item>
       <title>KubeCon San Diego Recap</title>
       <link>https://jamesstrong.dev/post/2019/2019-11-23-kubecon/</link>
       <pubDate>Sat, 23 Nov 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://jamesstrong.dev/post/2019/2019-11-23-kubecon/</guid>
-      <description>KubeCon San Diego Recap
-KubeCon had a great turnout this year with 12,000 attendees that filled the San Diego Convention center. Three things stood out to me: Security, Network, and Community.
-The community was a big theme at this event and in many of the keynotes. From David’s talk about non-code ways to contribute to CNCF’s projects. Kelsey Hightower’s keynote on how we could never have done this as an individual or a single company.</description>
+      <description>KubeCon San Diego Recap&#xA;KubeCon had a great turnout this year with 12,000 attendees that filled the San Diego Convention center. Three things stood out to me: Security, Network, and Community.&#xA;The community was a big theme at this event and in many of the keynotes. From David’s talk about non-code ways to contribute to CNCF’s projects. Kelsey Hightower’s keynote on how we could never have done this as an individual or a single company.</description>
     </item>
-    
     <item>
       <title>Live at KubeCon North America 2019 with James Strong</title>
       <link>https://jamesstrong.dev/post/2019/2019-11-20-rancher-live-with-james/</link>
       <pubDate>Wed, 20 Nov 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://jamesstrong.dev/post/2019/2019-11-20-rancher-live-with-james/</guid>
       <description>JvB and James dicuss KubeCon and the evolution of the Kubernetes ecosystem at KubeCon North America 2019</description>
     </item>
-    
     <item>
       <title>Code PaLOUSa 2019</title>
       <link>https://jamesstrong.dev/post/2019/2019-08-26-code-lou-2019/</link>
       <pubDate>Mon, 26 Aug 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://jamesstrong.dev/post/2019/2019-08-26-code-lou-2019/</guid>
-      <description>Another year! Another amazing Code PaLOUsa come and gone.
-Location This year Code PaLOUsa was at the Hyatt Regency, which is smack dap in the middle of downtown. This location makes it a perfect spot for all the speakers and conference-goers to experience some of the tourist spots in Louisville and still enjoy the conference.
-Sessions The sessions were action-packed, as well. A (useful?) attribute of a conference is the level of difficulty for goers to decide which speakers to see!</description>
+      <description>Another year! Another amazing Code PaLOUsa come and gone.&#xA;Location This year Code PaLOUsa was at the Hyatt Regency, which is smack dap in the middle of downtown. This location makes it a perfect spot for all the speakers and conference-goers to experience some of the tourist spots in Louisville and still enjoy the conference.&#xA;Sessions The sessions were action-packed, as well. A (useful?) attribute of a conference is the level of difficulty for goers to decide which speakers to see!</description>
     </item>
-    
     <item>
       <title>Kubernetes Networking</title>
       <link>https://jamesstrong.dev/post/2019/2019-08-08-k8-network/</link>
       <pubDate>Thu, 08 Aug 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://jamesstrong.dev/post/2019/2019-08-08-k8-network/</guid>
-      <description>I have begin working on Deep Dive into Kubernetes Networking, Let me know your thoughts about what you want to see.
-https://strongjz.github.io/k8-networking/#/</description>
+      <description>I have begin working on Deep Dive into Kubernetes Networking, Let me know your thoughts about what you want to see.&#xA;https://strongjz.github.io/k8-networking/#/</description>
     </item>
-    
     <item>
       <title>Intro to Kubernetes</title>
       <link>https://jamesstrong.dev/post/2019/2019-04-04-cncf-intro-k8/</link>
       <pubDate>Thu, 04 Apr 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://jamesstrong.dev/post/2019/2019-04-04-cncf-intro-k8/</guid>
-      <description>In April, we kicked off [Kubernetes and Cloud Native Computing Louisville](https://www.meetup. com/Kubernetes-and-Cloud-Native-Computing-Louisville/)
-I presented an &amp;ldquo;Intro to Kubernetes&amp;rdquo;, here is a link to the presentation
-More about that Meetup here
-Recording</description>
+      <description>In April, we kicked off [Kubernetes and Cloud Native Computing Louisville](https://www.meetup. com/Kubernetes-and-Cloud-Native-Computing-Louisville/)&#xA;I presented an &amp;ldquo;Intro to Kubernetes&amp;rdquo;, here is a link to the presentation&#xA;More about that Meetup here&#xA;Recording</description>
     </item>
-    
     <item>
       <title>Kubernetes and Cloud Native Computing April Meetup</title>
       <link>https://jamesstrong.dev/post/2019/2019-03-25-loucncf-4-1/</link>
       <pubDate>Mon, 25 Mar 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://jamesstrong.dev/post/2019/2019-03-25-loucncf-4-1/</guid>
-      <description>The inaugural Kubernetes and Cloud Native Computer Louisville will be on April 4th. I will be presenting an &amp;ldquo;Intro to Kubernetes&amp;rdquo;
-https://www.meetup.com/Kubernetes-and-Cloud-Native-Computing-Louisville/events/259202067/</description>
+      <description>The inaugural Kubernetes and Cloud Native Computer Louisville will be on April 4th. I will be presenting an &amp;ldquo;Intro to Kubernetes&amp;rdquo;&#xA;https://www.meetup.com/Kubernetes-and-Cloud-Native-Computing-Louisville/events/259202067/</description>
     </item>
-    
     <item>
       <title>Dev Nexus 2019</title>
       <link>https://jamesstrong.dev/post/2019/2019-03-06-devnexus2019/</link>
       <pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://jamesstrong.dev/post/2019/2019-03-06-devnexus2019/</guid>
-      <description>At Dev Nexus 2018 my co-worker, Adarsh, and I led a workshop &amp;ldquo;Introduction to Kubernetes&amp;rdquo;
-Introduction to Kubernetes is a hands-on, interactive workshop giving attendees a thorough understanding of the fundamentals of Kubernetes. As part of this workshop, you will learn how Kubernetes works, be able to successfully create a kubernetes cluster, deploy microservices to that cluster &amp;amp; also hear about some war stories.
-https://contino.github.io/intro-k8/
-Developer density ⁦@devnexus⁩!
-First class speakers!</description>
+      <description>At Dev Nexus 2018 my co-worker, Adarsh, and I led a workshop &amp;ldquo;Introduction to Kubernetes&amp;rdquo;&#xA;Introduction to Kubernetes is a hands-on, interactive workshop giving attendees a thorough understanding of the fundamentals of Kubernetes. As part of this workshop, you will learn how Kubernetes works, be able to successfully create a kubernetes cluster, deploy microservices to that cluster &amp;amp; also hear about some war stories.&#xA;https://contino.github.io/intro-k8/&#xA;Developer density ⁦@devnexus⁩!&#xA;First class speakers!</description>
     </item>
-    
     <item>
       <title>Passing the CKA</title>
       <link>https://jamesstrong.dev/post/2019/2019-01-29-passcka/</link>
       <pubDate>Tue, 29 Jan 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://jamesstrong.dev/post/2019/2019-01-29-passcka/</guid>
-      <description>On December 29th I completed my final goal of the year - I passed the CKA.
-TL;DR This is a list of the bare minimum necessary to try to pass.
-Do Kelsey Hightower’s tutorial Kubernetes The Hard Way at least three times! Understand it, internalize it. Do all the tasks on https://kubernetes.io/docs/tasks/ Read Kubernetes in Action by Marko Luksa Also practice, practice, and practice. Did I mention practice? This is a practical exam, no multiple choice questions here.</description>
+      <description>On December 29th I completed my final goal of the year - I passed the CKA.&#xA;TL;DR This is a list of the bare minimum necessary to try to pass.&#xA;Do Kelsey Hightower’s tutorial Kubernetes The Hard Way at least three times! Understand it, internalize it. Do all the tasks on https://kubernetes.io/docs/tasks/ Read Kubernetes in Action by Marko Luksa Also practice, practice, and practice. Did I mention practice? This is a practical exam, no multiple choice questions here.</description>
     </item>
-    
   </channel>
 </rss>
