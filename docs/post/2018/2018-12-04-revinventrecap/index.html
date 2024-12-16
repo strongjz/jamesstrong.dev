@@ -1,288 +1,169 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="">
-  <meta name="generator" content="Hugo 0.121.1">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <title>
+  AWS Re:invent Recap 2018 · James Strong
+</title>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
 
-  <title>AWS Re:invent Recap 2018 &middot; James Strong</title>
 
-    
+
+
+<meta name="description" content="Another year, another re:Invent down! 2018 had everything we have come to expect from AWS and re:Invent - releases,
+updates, sessions on everything and shots at Oracle. The focus this time was certainly on developer experience, Artificial
+Intelligence/Machine Learning and Serverless.
+There were at least sixteen new releases in regards to ML/AI. Sagemaker got new features in Ground truth and RL. There
+is now a marketplace for machine learning algorithm writers to release them and earn from all their hard work. DeepRacer
+has to be the new wow release, another physical device for ML following the release last year of DeepLens. DeepRacer
+is a machine learning car that is programmed with simple python scripts. There is even a league now that customers
+can participate in at AWS events culminating in a championship at re:Invent.">
+<meta name="keywords" content="blog,developer,personal">
+
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="AWS Re:invent Recap 2018">
+  <meta name="twitter:description" content="Another year, another re:Invent down! 2018 had everything we have come to expect from AWS and re:Invent - releases, updates, sessions on everything and shots at Oracle. The focus this time was certainly on developer experience, Artificial Intelligence/Machine Learning and Serverless.
+There were at least sixteen new releases in regards to ML/AI. Sagemaker got new features in Ground truth and RL. There is now a marketplace for machine learning algorithm writers to release them and earn from all their hard work. DeepRacer has to be the new wow release, another physical device for ML following the release last year of DeepLens. DeepRacer is a machine learning car that is programmed with simple python scripts. There is even a league now that customers can participate in at AWS events culminating in a championship at re:Invent.">
+
+<meta property="og:url" content="http://localhost:1313/post/2018/2018-12-04-revinventrecap/">
+  <meta property="og:site_name" content="James Strong">
+  <meta property="og:title" content="AWS Re:invent Recap 2018">
+  <meta property="og:description" content="Another year, another re:Invent down! 2018 had everything we have come to expect from AWS and re:Invent - releases, updates, sessions on everything and shots at Oracle. The focus this time was certainly on developer experience, Artificial Intelligence/Machine Learning and Serverless.
+There were at least sixteen new releases in regards to ML/AI. Sagemaker got new features in Ground truth and RL. There is now a marketplace for machine learning algorithm writers to release them and earn from all their hard work. DeepRacer has to be the new wow release, another physical device for ML following the release last year of DeepLens. DeepRacer is a machine learning car that is programmed with simple python scripts. There is even a league now that customers can participate in at AWS events culminating in a championship at re:Invent.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="post">
+    <meta property="article:published_time" content="2018-12-04T00:00:00+00:00">
+    <meta property="article:modified_time" content="2018-12-04T00:00:00+00:00">
+    <meta property="article:tag" content="Cloud">
+    <meta property="article:tag" content="Aws">
+    <meta property="article:tag" content="Reinvent">
+    <meta property="article:tag" content="Blog">
+
+
+
+
+<link rel="canonical" href="http://localhost:1313/post/2018/2018-12-04-revinventrecap/">
+
+
+<link rel="preload" href="http://localhost:1313/fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="http://localhost:1313/fonts/fa-regular-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="http://localhost:1313/fonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+
 
   
   
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/pure-min.css">
+  <link rel="stylesheet" href="http://localhost:1313/css/coder.css" media="screen">
 
-  <!--[if lte IE 8]>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-old-ie-min.css">
-  <![endif]-->
-  <!--[if gt IE 8]><!-->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-min.css">
-  <!--<![endif]-->
 
-  <!--[if lte IE 8]>
-  <link rel="stylesheet" href="https://jamesstrong.dev/css/side-menu-old-ie.css">
-  <![endif]-->
-  <!--[if gt IE 8]><!-->
-  <link rel="stylesheet" href="https://jamesstrong.dev/css/side-menu.css">
-  <!--<![endif]-->
 
-  <link rel="stylesheet" href="https://jamesstrong.dev/css/blackburn.css">
 
-  
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
 
-  
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet" type="text/css">
 
-  
-  <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
 
  
-  
 
-  
 
-  <link rel="shortcut icon" href="https://jamesstrong.dev/img/favicon.ico" type="image/x-icon" />
 
-  
-  
+
+<link rel="icon" type="image/svg+xml" href="http://localhost:1313/images/favicon.svg" sizes="any">
+<link rel="icon" type="image/png" href="http://localhost:1313/images/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="http://localhost:1313/images/favicon-16x16.png" sizes="16x16">
+
+<link rel="apple-touch-icon" href="http://localhost:1313/images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="http://localhost:1313/images/apple-touch-icon.png">
+
+<link rel="manifest" href="http://localhost:1313/site.webmanifest">
+<link rel="mask-icon" href="http://localhost:1313/images/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
+
+
 
 </head>
 
 
-<body>
-<div id="layout">
 
+
+<body class="preload-transitions colorscheme-light">
   
-<a href="#menu" id="menuLink" class="menu-link">
-  
-  <span></span>
-</a>
-<div id="menu">
-
-  
-  <a class="pure-menu-heading brand" href="https://jamesstrong.dev/">James Strong</a>
-
-
-  <div class="pure-menu">
-    <ul class="pure-menu-list">
-      
-      
-        <li class="pure-menu-item">
-          <a class="pure-menu-link" href="https://jamesstrong.dev/"><i class='fa fa-home fa-fw'></i>Home</a>
-      
-        </li>
-      
-      
-        <li class="pure-menu-item">
-          <a class="pure-menu-link" href="https://jamesstrong.dev/about/"><i class='fa fa-user fa-fw'></i>About</a>
-      
-        </li>
-      
-      
-        <li class="pure-menu-item">
-          <a class="pure-menu-link" href="https://jamesstrong.dev/post/"><i class='fa fa-list fa-fw'></i>Posts</a>
-      
-        </li>
-      
-      
-        <li class="pure-menu-item">
-          <a class="pure-menu-link" href="https://jamesstrong.dev/resume/"><i class='fa fa-user fa-fw'></i>Resume</a>
-      
-        </li>
-      
-      
-        <li class="pure-menu-item">
-          <a class="pure-menu-link" href="https://jamesstrong.dev/keybase.txt"><i class='fa fa-key fa-fw'></i>Keybase</a>
-      
-        </li>
-      
-      
-        <li class="pure-menu-item">
-          <a class="pure-menu-link" href="https://jamesstrong.dev/tags/"><i class='fa fa-solid fa-tag'></i>Tags</a>
-      
-        </li>
-      
-    </ul>
-  </div>
-
-  <div class="pure-menu social">
-  <ul class="pure-menu-list">
-
-    
-
-    
-
-    
-    <li class="pure-menu-item">
-      <a class="pure-menu-link" href="https://twitter.com/strongjz" rel="me" target="_blank"><i class="fab fa-twitter-square fa-fw"></i>Twitter</a>
-    </li>
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-    <li class="pure-menu-item">
-      <a class="pure-menu-link" href="http://slideshare.net/jstrong09" rel="me" target="_blank"><i class="fab fa-slideshare fa-fw"></i>SlideShare</a>
-    </li>
-    
-
-    
-
-    
-    <li class="pure-menu-item">
-      <a class="pure-menu-link" href="https://linkedin.com/in/strongjz" rel="me" target="_blank"><i class="fab fa-linkedin fa-fw"></i>LinkedIn</a>
-    </li>
-    
-
-    
-
-    
-
-    
-    <li class="pure-menu-item">
-      <a class="pure-menu-link" href="https://reddit.com/user/strongjz" rel="me" target="_blank"><i class="fab fa-reddit-square fa-fw"></i>Reddit</a>
-    </li>
-    
-
-    
-    <li class="pure-menu-item">
-      <a class="pure-menu-link" href="https://news.ycombinator.com/user?id=strongbad" rel="me" target="_blank"><i class="fab fa-hacker-news fa-fw"></i>Hacker News</a>
-    </li>
-    
-
-    
-
-    
-    <li class="pure-menu-item">
-      <a class="pure-menu-link" href="https://github.com/strongjz" rel="me" target="_blank"><i class="fab fa-github-square fa-fw"></i>GitHub</a>
-    </li>
-    
-
-    
-    <li class="pure-menu-item">
-      <a class="pure-menu-link" href="https://gitlab.com/strongjz" rel="me" target="_blank"><i class="fab fa-gitlab fa-fw"></i>GitLab</a>
-    </li>
-    
-
-    
-    <li class="pure-menu-item">
-      <a class="pure-menu-link" href="https://bitbucket.org/strongjz" rel="me" target="_blank"><i class="fab fa-bitbucket fa-fw"></i>Bitbucket</a>
-    </li>
-    
-
-    
-    <li class="pure-menu-item">
-      <a class="pure-menu-link" href="https://stackoverflow.com/users/1794802" rel="me" target="_blank"><i class="fab fa-stack-overflow fa-fw"></i>Stack Overflow</a>
-    </li>
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-    <li class="pure-menu-item">
-      <a class="pure-menu-link" href="https://keybase.io/strongjz" rel="me" target="_blank"><i class="fas fa-key fa-fw"></i>Keybase</a>
-    </li>
-    
-
-  </ul>
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
 </div>
 
 
-  <div>
-  <div class="small-print">
-    <small>Copyright (c) 2023, all rights reserved.</small>
-  </div>
-  <div class="small-print">
-    <small>Built with&nbsp;<a href="https://gohugo.io/" target="_blank">Hugo</a></small>
-    <small>Theme&nbsp;<a href="https://github.com/yoshiharuyamashita/blackburn" target="_blank">Blackburn</a></small>
-  </div>
-</div>
-
-</div>
-
-
-  <div id="main">
-
-
-<div class="header">
-  <h1>AWS Re:invent Recap 2018</h1>
-  <h2></h2>
-</div>
-<div class="content">
-
-  <div class="post-meta">
-
-  <div>
-    <i class="fa fa-calendar fa-fw"></i>
-    <time>Dec 4, 2018</time>
-  </div>
-
-  
-
-  
-
-  
-  
-  
-  <div>
-    <i class="fa fa-tags fa-fw"></i>
+  <main class="wrapper">
+    <nav class="navigation">
+  <section class="container">
     
-      <a class="post-taxonomy-tag" href="https://jamesstrong.dev/tags/cloud">cloud</a>&nbsp;&#47;
+    <a class="navigation-title" href="http://localhost:1313/">
+      James Strong
+    </a>
     
-      <a class="post-taxonomy-tag" href="https://jamesstrong.dev/tags/aws">aws</a>&nbsp;&#47;
     
-      <a class="post-taxonomy-tag" href="https://jamesstrong.dev/tags/reinvent">reinvent</a>&nbsp;&#47;
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa-solid fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="http://localhost:1313/">Home</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="http://localhost:1313/about/">About</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="http://localhost:1313/post/">Posts</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="http://localhost:1313/resume/">Resume</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="http://localhost:1313/keybase.txt">Keybase</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="http://localhost:1313/tags/">Tags</a>
+            </li>
+          
+        
+        
+      </ul>
     
-      <a class="post-taxonomy-tag" href="https://jamesstrong.dev/tags/blog">blog</a>
-    
-  </div>
-  
-  
+  </section>
+</nav>
 
-</div>
 
-  <p>Another year, another re:Invent down! 2018 had everything we have come to expect from AWS and re:Invent - releases,
+    <div class="content">
+      
+  <section class="container page">
+  <article>
+    <header>
+      <h1 class="title">
+        <a class="title-link" href="http://localhost:1313/post/2018/2018-12-04-revinventrecap/">
+          AWS Re:invent Recap 2018
+        </a>
+      </h1>
+    </header>
+
+    <p>Another year, another re:Invent down! 2018 had everything we have come to expect from AWS and re:Invent - releases,
 updates, sessions on everything and shots at Oracle. The focus this time was certainly on developer experience, Artificial
 Intelligence/Machine Learning and Serverless.</p>
 <p>There were at least sixteen new releases in regards to ML/AI. Sagemaker got new features in Ground truth and RL. There
@@ -298,25 +179,37 @@ administration of AWS accounts and increase the speed of onboarding developers a
 <p>Serverless is a close first to center stage, with Firecracker being released as the biggest one. AWS has open-sourced
 Firecracker, which is the engine used to power Lambda. Ruby support was released for Lambda as well the custom
 frameworks, so now lack of language frameworks no longer hold customers back from using it.</p>
-<h4 id="releases-i-am-excited-about"><strong>Releases I Am Excited About</strong></h4>
-<p><a href="https://aws.amazon.com/outposts/">Outpost</a> - AWS on-premise, enough said. To help increase the adoption and migration
+<h4 id="releases-i-am-excited-about">
+  <strong>Releases I Am Excited About</strong>
+  <a class="heading-link" href="#releases-i-am-excited-about">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h4>
+<p><a href="https://aws.amazon.com/outposts/"  class="external-link" target="_blank" rel="noopener">Outpost</a> - AWS on-premise, enough said. To help increase the adoption and migration
 to the cloud, AWS has released Outpost, where customers can now have AWS racks of servers and services right in their data centers.</p>
-<p><a href="https://aws.amazon.com/about-aws/whats-new/2018/11/introducing-aws-transit-gateway/">VPC Transit Gateway</a> - VPC networking
+<p><a href="https://aws.amazon.com/about-aws/whats-new/2018/11/introducing-aws-transit-gateway/"  class="external-link" target="_blank" rel="noopener">VPC Transit Gateway</a> - VPC networking
 can quickly become complex as you add more and more VPC’s that need interconnectivity and connection back to on-premise.
 VPC Transit Gateway greatly reduces the complexity, with one entry point for traffic and VPN connections between VPCs,
 even in different accounts and on-premise.</p>
-<p><a href="https://aws.amazon.com/deepracer/">DeepRacer</a> - Another addition their Machine Learning platform, this is a fully
+<p><a href="https://aws.amazon.com/deepracer/"  class="external-link" target="_blank" rel="noopener">DeepRacer</a> - Another addition their Machine Learning platform, this is a fully
 autonomous 1/18th scale race car driven by reinforcement learning, 3D racing simulator and global racing league.
 AWS will now hold DeepRacer events which will culminate in a championship race. Machine learning is a hard and complex
 topic and AWS has helped simplify and make it fun with this new addition to their service.</p>
-<p><a href="https://aws.amazon.com/controltower/">Control Tower</a> and <a href="https://aws.amazon.com/security-hub/">Security Hub</a> - Security
+<p><a href="https://aws.amazon.com/controltower/"  class="external-link" target="_blank" rel="noopener">Control Tower</a> and <a href="https://aws.amazon.com/security-hub/"  class="external-link" target="_blank" rel="noopener">Security Hub</a> - Security
 Hub is a single pane of glass for all your security related concerns inside your AWS accounts. Integration with
 CloudWatch Events allows you to send findings to ticketing, chat or email to alert teams. It also uses Config to set
 up automated security checks inside the account. Control Tower helps customers deploy AWS best practices based on the
 AWS well architected framework. This is across accounts as well, so business can now manage and enforce security and
 compliance regulations from one service. Both of these new services help increase the adaption of AWS services.</p>
-<p><a href="https://aws.amazon.com/new/reinvent/">Check out the full list of AWS Launches/Releases</a></p>
-<h4 id="sessions-i-attended"><strong>Sessions I Attended</strong></h4>
+<p><a href="https://aws.amazon.com/new/reinvent/"  class="external-link" target="_blank" rel="noopener">Check out the full list of AWS Launches/Releases</a></p>
+<h4 id="sessions-i-attended">
+  <strong>Sessions I Attended</strong>
+  <a class="heading-link" href="#sessions-i-attended">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h4>
 <p>At re:Invent there are so many ways to ingest new AWS services and network with other customers. Sessions, chalk talks,
 certifications, ask the expert; with so many people and sessions, re:Invent took over The Strip with sessions at multiple
 sites. To keep travel to minimum, I kept all my sessions at the Venetian. To keep my focus, I centered around topics that
@@ -324,19 +217,31 @@ I am interested in both professionally and personally, primarily Containers and 
 with most of my clients. I also attended two data sessions, since that is where I am weakest in the stack. Additionally,
 since I got my start in Networking, I’m always fascinated about how AWS scales their network. Below are some highlights
 from each:</p>
-<h4 id="con301httpswwwyoutubecomwatchv8opkt93wypa---mastering-kubernetes-on-aws"><a href="https://www.youtube.com/watch?v=8OPkt93WyPA">CON301</a> - Mastering Kubernetes on AWS</h4>
+<h4 id="con301httpswwwyoutubecomwatchv8opkt93wypa---mastering-kubernetes-on-aws">
+  <a href="https://www.youtube.com/watch?v=8OPkt93WyPA"  class="external-link" target="_blank" rel="noopener">CON301</a> - Mastering Kubernetes on AWS
+  <a class="heading-link" href="#con301httpswwwyoutubecomwatchv8opkt93wypa---mastering-kubernetes-on-aws">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h4>
 <p>An overview of Amazon Elastic Container Service for Kubernetes, EKS, was given by the Yaniv Donenfeld.
 “Local Dev is easy, move to production is hard” he stated, so with the help of EKS, developers and infrastructure
 engineers can global scale Kubernetes deployment. Donenfeld walked through several aspects of EKS.</p>
 <p>Cluster Setup - EKS manages the master nodes for the customer.</p>
 <p>Security - The same security you expect for EC2 and other AWS services is offered in EKS as well. AWS IAM access to other
-services, inside pods, is still in development. There are several solutions that can be used <a href="https://docs.google.com/document/d/1rn-v2TNH9k4Oz-VuaueP77ANE5p-5Ua89obK2JaArfg/edit">inside kubernetes Pods</a> to
+services, inside pods, is still in development. There are several solutions that can be used <a href="https://docs.google.com/document/d/1rn-v2TNH9k4Oz-VuaueP77ANE5p-5Ua89obK2JaArfg/edit"  class="external-link" target="_blank" rel="noopener">inside kubernetes Pods</a> to
 access AWS resources.</p>
-<p>Networking - Two things of interest, AWS has their own CNI to work within the VPC and the <a href="https://github.com/kubernetes-sigs/aws-alb-ingress-controller">ALB supports EKS as well.</a></p>
+<p>Networking - Two things of interest, AWS has their own CNI to work within the VPC and the <a href="https://github.com/kubernetes-sigs/aws-alb-ingress-controller"  class="external-link" target="_blank" rel="noopener">ALB supports EKS as well.</a></p>
 <p>Logging - EKS is integrated with CloudTrail and CloudWatch. EKS also can be integrated with an ELK stack or use the
 AWS Elasticsearch Service.</p>
 <p>Karl D&rsquo;Adamo From Snapchat gave an overview of their migration to EKS. EKS allowed them to move to their “distributed monolith”.</p>
-<h4 id="con320httpswwwyoutubecomwatchvrtk3rrdaz6s---operational-excellence-w-containerized-workloads-using-aws-fargate"><a href="https://www.youtube.com/watch?v=rtk3rRdAZ6s">CON320</a> - Operational Excellence w/ Containerized Workloads Using AWS Fargate</h4>
+<h4 id="con320httpswwwyoutubecomwatchvrtk3rrdaz6s---operational-excellence-w-containerized-workloads-using-aws-fargate">
+  <a href="https://www.youtube.com/watch?v=rtk3rRdAZ6s"  class="external-link" target="_blank" rel="noopener">CON320</a> - Operational Excellence w/ Containerized Workloads Using AWS Fargate
+  <a class="heading-link" href="#con320httpswwwyoutubecomwatchvrtk3rrdaz6s---operational-excellence-w-containerized-workloads-using-aws-fargate">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h4>
 <p>AWS Fargate allows developers to deploy containerized applications without having to worry about clusters or servers.
 This alleviates the burden of managing servers and cluster from the team to allow them to focus on the business and
 not infrastructure.</p>
@@ -352,7 +257,7 @@ not infrastructure.</p>
 <li>Traffic goes thru ENI in your own VPC</li>
 <li>VPC flow logs</li>
 </ul>
-<p>AWS labs has a Fargate Reference Architecture for CI/CD you can checkout <a href="https://github.com/awslabs/ecs-refarch-continuous-deployment">here.</a></p>
+<p>AWS labs has a Fargate Reference Architecture for CI/CD you can checkout <a href="https://github.com/awslabs/ecs-refarch-continuous-deployment"  class="external-link" target="_blank" rel="noopener">here.</a></p>
 <p>Datree has 0 ec2 instances, let me repeat that, 0 ec2 instances in their accounts all things to Fargate and Lambda.
 Datatree started with managing their ec2 fleets with AMI’s and that soon become too much for the team.</p>
 <p>Datree gave a demo of the pipeline listed below:</p>
@@ -366,14 +271,26 @@ Datatree started with managing their ec2 fleets with AMI’s and that soon becom
 <li>Destroy old task</li>
 <li>Cleanup</li>
 </ul>
-<h4 id="dat327---automate-the-creation-of-secure-enterprise-resources-during-migration">DAT327 - Automate the Creation of Secure Enterprise Resources During Migration</h4>
+<h4 id="dat327---automate-the-creation-of-secure-enterprise-resources-during-migration">
+  DAT327 - Automate the Creation of Secure Enterprise Resources During Migration
+  <a class="heading-link" href="#dat327---automate-the-creation-of-secure-enterprise-resources-during-migration">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h4>
 <p>This was my only Chalk talk that I went to. Chalk talks are smaller venues that allow the audience to interact with the
 speaker. In this talk, Verizon discussed how they overcame security and compliance regulations when deploying their
 Elasticache and EFS services.</p>
 <p>All services were deployed via Jenkins and Ansible. The control in place for deploying Elasticache and EFS was a Jenkins
 plugin. It validates the options developers choose and then deploys them on the fly by generating Cloud formation
 templates for deployments.</p>
-<h4 id="dat406httpswwwyoutubecomwatchvvalsek5miqi---netflix-iterating-on-stateful-services-in-the-cloud"><a href="https://www.youtube.com/watch?v=valsEK5mIQI">DAT406</a> - Netflix: Iterating On Stateful Services in the Cloud</h4>
+<h4 id="dat406httpswwwyoutubecomwatchvvalsek5miqi---netflix-iterating-on-stateful-services-in-the-cloud">
+  <a href="https://www.youtube.com/watch?v=valsEK5mIQI"  class="external-link" target="_blank" rel="noopener">DAT406</a> - Netflix: Iterating On Stateful Services in the Cloud
+  <a class="heading-link" href="#dat406httpswwwyoutubecomwatchvvalsek5miqi---netflix-iterating-on-stateful-services-in-the-cloud">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h4>
 <p>First question that you should ask yourself when managing stateful services is - should you?</p>
 <p>Joey Lynch from Netflix discuss this with these questions:</p>
 <ol>
@@ -395,9 +312,15 @@ templates for deployments.</p>
 <li>Retire old cluster</li>
 <li>Migrate state at the Server - Copy state from server to another</li>
 </ol>
-<p>I highly suggest watching the session on <a href="https://www.youtube.com/watch?v=valsEK5mIQI">youtube</a>, pros and cons of each
+<p>I highly suggest watching the session on <a href="https://www.youtube.com/watch?v=valsEK5mIQI"  class="external-link" target="_blank" rel="noopener">youtube</a>, pros and cons of each
 are reviewed. Also some case studies inside Netflix using these strategies is review.</p>
-<h4 id="dev317httpswwwyoutubecomwatchvjnl29j3rjq4---advanced-continuous-delivery-best-practices"><a href="https://www.youtube.com/watch?v=Jnl29J3RJQ4">DEV317</a> - Advanced Continuous Delivery Best Practices</h4>
+<h4 id="dev317httpswwwyoutubecomwatchvjnl29j3rjq4---advanced-continuous-delivery-best-practices">
+  <a href="https://www.youtube.com/watch?v=Jnl29J3RJQ4"  class="external-link" target="_blank" rel="noopener">DEV317</a> - Advanced Continuous Delivery Best Practices
+  <a class="heading-link" href="#dev317httpswwwyoutubecomwatchvjnl29j3rjq4---advanced-continuous-delivery-best-practices">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h4>
 <p>Basic CI/CD best practices:</p>
 <ol>
 <li>Versioned source</li>
@@ -411,8 +334,14 @@ are reviewed. Also some case studies inside Netflix using these strategies is re
 </ol>
 <p>AWS CodePipeline can help implement these best practices. Other safety mechanisms like health checks, rollback and alerts
 can also be integrated in this pipeline.</p>
-<p>AWS has <a href="https://github.com/aws-samples/aws-codepipeline-block-production">some samples</a> used in this talk.</p>
-<h4 id="net403httpswwwyoutubecomwatchvdxfoor95byc---aws-direct-connect-deep-dive"><a href="https://www.youtube.com/watch?v=DXFooR95BYc">NET403</a> - AWS Direct Connect: Deep Dive</h4>
+<p>AWS has <a href="https://github.com/aws-samples/aws-codepipeline-block-production"  class="external-link" target="_blank" rel="noopener">some samples</a> used in this talk.</p>
+<h4 id="net403httpswwwyoutubecomwatchvdxfoor95byc---aws-direct-connect-deep-dive">
+  <a href="https://www.youtube.com/watch?v=DXFooR95BYc"  class="external-link" target="_blank" rel="noopener">NET403</a> - AWS Direct Connect: Deep Dive
+  <a class="heading-link" href="#net403httpswwwyoutubecomwatchvdxfoor95byc---aws-direct-connect-deep-dive">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h4>
 <p>This session reviewed the basics of AWS Direct Connect. If you want a review and to understand Direct Connect,
 I highly suggest watching this talk.</p>
 <p>Updates:</p>
@@ -422,8 +351,14 @@ I highly suggest watching this talk.</p>
 <li>Direct Connect gateway - aggregates DX connections for VPC</li>
 <li>Support for multiple BGP connections over a single VIF</li>
 </ul>
-<p><img src="https://jamesstrong.dev/img/net403.png" alt=""></p>
-<h4 id="net209-l---leadership-session-networking">NET209-L - Leadership Session: Networking</h4>
+<p><img src="http://localhost:1313/img/net403.png" alt=""></p>
+<h4 id="net209-l---leadership-session-networking">
+  NET209-L - Leadership Session: Networking
+  <a class="heading-link" href="#net209-l---leadership-session-networking">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h4>
 <p>Why Does AWS need their own backbone?</p>
 <ul>
 <li>Security - Using AWS backbone instead of the Internet</li>
@@ -452,116 +387,75 @@ the complexity for App developers to deploy their applications</li>
 </ul>
 <p>Enjoy all the new services from AWS and see you next year at re:Invent!</p>
 
-  
-  <h4><i class="fas fa-share-alt" aria-hidden="true"></i>&nbsp;Share!</h4>
-<ul class="share-buttons">
-	<li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fjamesstrong.dev%2fpost%2f2018%2f2018-12-04-revinventrecap%2f" target="_blank" title="Share on Facebook"><i class="fab fa-facebook" aria-hidden="true"></i><span class="sr-only">Share on Facebook</span></a>
-	</li>&nbsp;&nbsp;&nbsp;
-	<li><a href="https://twitter.com/intent/tweet?source=https%3a%2f%2fjamesstrong.dev%2fpost%2f2018%2f2018-12-04-revinventrecap%2f" target="_blank" title="Tweet"><i class="fab fa-twitter" aria-hidden="true"></i><span class="sr-only">Tweet</span></a>
-	</li>&nbsp;&nbsp;&nbsp;
-	<li><a href="https://plus.google.com/share?url=https%3a%2f%2fjamesstrong.dev%2fpost%2f2018%2f2018-12-04-revinventrecap%2f" target="_blank" title="Share on Google+"><i class="fab fa-google-plus" aria-hidden="true"></i><span class="sr-only">Share on Google+</span></a>
-	</li>&nbsp;&nbsp;&nbsp;
-	<li><a href="http://www.tumblr.com/share?v=3&u=https%3a%2f%2fjamesstrong.dev%2fpost%2f2018%2f2018-12-04-revinventrecap%2f" target="_blank" title="Post to Tumblr"><i class="fab fa-tumblr" aria-hidden="true"></i><span class="sr-only">Post to Tumblr</span></a>
-	</li>&nbsp;&nbsp;&nbsp;
-	<li><a href="http://pinterest.com/pin/create/button/?url=https%3a%2f%2fjamesstrong.dev%2fpost%2f2018%2f2018-12-04-revinventrecap%2f" target="_blank" title="Pin it"><i class="fab fa-pinterest-p" aria-hidden="true"></i><span class="sr-only">Pin it</span></a>
-	</li>&nbsp;&nbsp;&nbsp;
-	<li><a href="http://www.reddit.com/submit?url=https%3a%2f%2fjamesstrong.dev%2fpost%2f2018%2f2018-12-04-revinventrecap%2f" target="_blank" title="Submit to Reddit"><i class="fab fa-reddit-alien" aria-hidden="true"></i><span class="sr-only">Submit to Reddit</span></a>
-	</li>
-</ul>
-
-
-<style>
-	ul.share-buttons{
-	  list-style: none;
-	  padding: 0;
-	}
-
-	ul.share-buttons li{
-	  display: inline;
-	}
-
-	ul.share-buttons .sr-only{
-	  position: absolute;
-	  clip: rect(1px 1px 1px 1px);
-	  clip: rect(1px, 1px, 1px, 1px);
-	  padding: 0;
-	  border: 0;
-	  height: 1px;
-	  width: 1px;
-	  overflow: hidden;
-	}
-</style>
-
+  </article>
+</section>
 
   
-<div class="prev-next-post pure-g">
-  <div class="pure-u-1-24" style="text-align: left;">
-    
-    <a href="https://jamesstrong.dev/post/2017/2017-05-16-dockercon/"><i class="fa fa-chevron-left"></i></a>
-    
-  </div>
-  <div class="pure-u-10-24">
-    
-    <nav class="prev">
-      <a href="https://jamesstrong.dev/post/2017/2017-05-16-dockercon/">Dockercon 2017</a>
-    </nav>
-    
-  </div>
-  <div class="pure-u-2-24">
-    &nbsp;
-  </div>
-  <div class="pure-u-10-24">
-    
-    <nav class="next">
-      <a href="https://jamesstrong.dev/post/2019/2019-01-29-passcka/">Passing the CKA</a>
-    </nav>
-    
-  </div>
-  <div class="pure-u-1-24" style="text-align: right;">
-    
-    <a href="https://jamesstrong.dev/post/2019/2019-01-29-passcka/"><i class="fa fa-chevron-right"></i></a>
-    
-  </div>
-</div>
 
+    </div>
+
+    <footer class="footer">
+  <section class="container">
+    ©
+    
+      2017 -
+    
+    2024
+    
+    ·
+    
+    Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/" target="_blank" rel="noopener">Coder</a>.
+    
+  </section>
+</footer>
+
+  </main>
+
+  
 
   
   
-  
+  <script src="http://localhost:1313/js/coder.js"></script>
   
 
   
 
-</div>
-
-</div>
-</div>
-<script src="https://jamesstrong.dev/js/ui.js"></script>
-<script src="https://jamesstrong.dev/js/menus.js"></script>
-
-
-
-
-
-
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-Y034J08BEQ"></script>
-<script>
   
-  if (window.location.hostname != "localhost") {
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-Y034J08BEQ');
-  }
-</script>
 
 
+  
 
+  
 
+  
 
+  
 
+  
 
+  
 
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
 </body>
-</html>
 
+</html>

@@ -1,293 +1,180 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="">
-  <meta name="generator" content="Hugo 0.121.1">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <title>
+  Dockercon 2017 · James Strong
+</title>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
 
-  <title>Dockercon 2017 &middot; James Strong</title>
 
-    
+
+
+<meta name="description" content="Before we dive into some of the highlights from DockerCon 2017, let’s do a quick overview
+of what Docker is. Quite simply, a “docker container” is a portable container, of sorts, that allows a collection of
+apps to run on any operating system.
+How is it possible, you ask, for a docker container to allow any app to “Build, Ship and Run,” as the docker motto says,
+on any OS? A docker container uses kernel features to produce resource isolation (CPU, memory, block I/O
+and more) as well as separate namespaces, to isolate the application’s view of the operating system
+(a visual depiction below).">
+<meta name="keywords" content="blog,developer,personal">
+
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Dockercon 2017">
+  <meta name="twitter:description" content="Before we dive into some of the highlights from DockerCon 2017, let’s do a quick overview of what Docker is. Quite simply, a “docker container” is a portable container, of sorts, that allows a collection of apps to run on any operating system.
+How is it possible, you ask, for a docker container to allow any app to “Build, Ship and Run,” as the docker motto says, on any OS? A docker container uses kernel features to produce resource isolation (CPU, memory, block I/O and more) as well as separate namespaces, to isolate the application’s view of the operating system (a visual depiction below).">
+
+<meta property="og:url" content="http://localhost:1313/post/2017/2017-05-16-dockercon/">
+  <meta property="og:site_name" content="James Strong">
+  <meta property="og:title" content="Dockercon 2017">
+  <meta property="og:description" content="Before we dive into some of the highlights from DockerCon 2017, let’s do a quick overview of what Docker is. Quite simply, a “docker container” is a portable container, of sorts, that allows a collection of apps to run on any operating system.
+How is it possible, you ask, for a docker container to allow any app to “Build, Ship and Run,” as the docker motto says, on any OS? A docker container uses kernel features to produce resource isolation (CPU, memory, block I/O and more) as well as separate namespaces, to isolate the application’s view of the operating system (a visual depiction below).">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="post">
+    <meta property="article:published_time" content="2017-05-16T00:00:00+00:00">
+    <meta property="article:modified_time" content="2017-05-16T00:00:00+00:00">
+    <meta property="article:tag" content="Docker">
+    <meta property="article:tag" content="Conference">
+
+
+
+
+<link rel="canonical" href="http://localhost:1313/post/2017/2017-05-16-dockercon/">
+
+
+<link rel="preload" href="http://localhost:1313/fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="http://localhost:1313/fonts/fa-regular-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="http://localhost:1313/fonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+
 
   
   
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/pure-min.css">
+  <link rel="stylesheet" href="http://localhost:1313/css/coder.css" media="screen">
 
-  <!--[if lte IE 8]>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-old-ie-min.css">
-  <![endif]-->
-  <!--[if gt IE 8]><!-->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-min.css">
-  <!--<![endif]-->
 
-  <!--[if lte IE 8]>
-  <link rel="stylesheet" href="https://jamesstrong.dev/css/side-menu-old-ie.css">
-  <![endif]-->
-  <!--[if gt IE 8]><!-->
-  <link rel="stylesheet" href="https://jamesstrong.dev/css/side-menu.css">
-  <!--<![endif]-->
 
-  <link rel="stylesheet" href="https://jamesstrong.dev/css/blackburn.css">
 
-  
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
 
-  
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet" type="text/css">
 
-  
-  <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
 
  
-  
 
-  
 
-  <link rel="shortcut icon" href="https://jamesstrong.dev/img/favicon.ico" type="image/x-icon" />
 
-  
-  
+
+<link rel="icon" type="image/svg+xml" href="http://localhost:1313/images/favicon.svg" sizes="any">
+<link rel="icon" type="image/png" href="http://localhost:1313/images/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="http://localhost:1313/images/favicon-16x16.png" sizes="16x16">
+
+<link rel="apple-touch-icon" href="http://localhost:1313/images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="http://localhost:1313/images/apple-touch-icon.png">
+
+<link rel="manifest" href="http://localhost:1313/site.webmanifest">
+<link rel="mask-icon" href="http://localhost:1313/images/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
+
+
 
 </head>
 
 
-<body>
-<div id="layout">
 
+
+<body class="preload-transitions colorscheme-light">
   
-<a href="#menu" id="menuLink" class="menu-link">
-  
-  <span></span>
-</a>
-<div id="menu">
-
-  
-  <a class="pure-menu-heading brand" href="https://jamesstrong.dev/">James Strong</a>
-
-
-  <div class="pure-menu">
-    <ul class="pure-menu-list">
-      
-      
-        <li class="pure-menu-item">
-          <a class="pure-menu-link" href="https://jamesstrong.dev/"><i class='fa fa-home fa-fw'></i>Home</a>
-      
-        </li>
-      
-      
-        <li class="pure-menu-item">
-          <a class="pure-menu-link" href="https://jamesstrong.dev/about/"><i class='fa fa-user fa-fw'></i>About</a>
-      
-        </li>
-      
-      
-        <li class="pure-menu-item">
-          <a class="pure-menu-link" href="https://jamesstrong.dev/post/"><i class='fa fa-list fa-fw'></i>Posts</a>
-      
-        </li>
-      
-      
-        <li class="pure-menu-item">
-          <a class="pure-menu-link" href="https://jamesstrong.dev/resume/"><i class='fa fa-user fa-fw'></i>Resume</a>
-      
-        </li>
-      
-      
-        <li class="pure-menu-item">
-          <a class="pure-menu-link" href="https://jamesstrong.dev/keybase.txt"><i class='fa fa-key fa-fw'></i>Keybase</a>
-      
-        </li>
-      
-      
-        <li class="pure-menu-item">
-          <a class="pure-menu-link" href="https://jamesstrong.dev/tags/"><i class='fa fa-solid fa-tag'></i>Tags</a>
-      
-        </li>
-      
-    </ul>
-  </div>
-
-  <div class="pure-menu social">
-  <ul class="pure-menu-list">
-
-    
-
-    
-
-    
-    <li class="pure-menu-item">
-      <a class="pure-menu-link" href="https://twitter.com/strongjz" rel="me" target="_blank"><i class="fab fa-twitter-square fa-fw"></i>Twitter</a>
-    </li>
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-    <li class="pure-menu-item">
-      <a class="pure-menu-link" href="http://slideshare.net/jstrong09" rel="me" target="_blank"><i class="fab fa-slideshare fa-fw"></i>SlideShare</a>
-    </li>
-    
-
-    
-
-    
-    <li class="pure-menu-item">
-      <a class="pure-menu-link" href="https://linkedin.com/in/strongjz" rel="me" target="_blank"><i class="fab fa-linkedin fa-fw"></i>LinkedIn</a>
-    </li>
-    
-
-    
-
-    
-
-    
-    <li class="pure-menu-item">
-      <a class="pure-menu-link" href="https://reddit.com/user/strongjz" rel="me" target="_blank"><i class="fab fa-reddit-square fa-fw"></i>Reddit</a>
-    </li>
-    
-
-    
-    <li class="pure-menu-item">
-      <a class="pure-menu-link" href="https://news.ycombinator.com/user?id=strongbad" rel="me" target="_blank"><i class="fab fa-hacker-news fa-fw"></i>Hacker News</a>
-    </li>
-    
-
-    
-
-    
-    <li class="pure-menu-item">
-      <a class="pure-menu-link" href="https://github.com/strongjz" rel="me" target="_blank"><i class="fab fa-github-square fa-fw"></i>GitHub</a>
-    </li>
-    
-
-    
-    <li class="pure-menu-item">
-      <a class="pure-menu-link" href="https://gitlab.com/strongjz" rel="me" target="_blank"><i class="fab fa-gitlab fa-fw"></i>GitLab</a>
-    </li>
-    
-
-    
-    <li class="pure-menu-item">
-      <a class="pure-menu-link" href="https://bitbucket.org/strongjz" rel="me" target="_blank"><i class="fab fa-bitbucket fa-fw"></i>Bitbucket</a>
-    </li>
-    
-
-    
-    <li class="pure-menu-item">
-      <a class="pure-menu-link" href="https://stackoverflow.com/users/1794802" rel="me" target="_blank"><i class="fab fa-stack-overflow fa-fw"></i>Stack Overflow</a>
-    </li>
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-    <li class="pure-menu-item">
-      <a class="pure-menu-link" href="https://keybase.io/strongjz" rel="me" target="_blank"><i class="fas fa-key fa-fw"></i>Keybase</a>
-    </li>
-    
-
-  </ul>
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
 </div>
 
 
-  <div>
-  <div class="small-print">
-    <small>Copyright (c) 2023, all rights reserved.</small>
-  </div>
-  <div class="small-print">
-    <small>Built with&nbsp;<a href="https://gohugo.io/" target="_blank">Hugo</a></small>
-    <small>Theme&nbsp;<a href="https://github.com/yoshiharuyamashita/blackburn" target="_blank">Blackburn</a></small>
-  </div>
-</div>
-
-</div>
-
-
-  <div id="main">
-
-
-<div class="header">
-  <h1>Dockercon 2017</h1>
-  <h2></h2>
-</div>
-<div class="content">
-
-  <div class="post-meta">
-
-  <div>
-    <i class="fa fa-calendar fa-fw"></i>
-    <time>May 16, 2017</time>
-  </div>
-
-  
-
-  
-
-  
-  
-  
-  <div>
-    <i class="fa fa-tags fa-fw"></i>
+  <main class="wrapper">
+    <nav class="navigation">
+  <section class="container">
     
-      <a class="post-taxonomy-tag" href="https://jamesstrong.dev/tags/docker">docker</a>&nbsp;&#47;
+    <a class="navigation-title" href="http://localhost:1313/">
+      James Strong
+    </a>
     
-      <a class="post-taxonomy-tag" href="https://jamesstrong.dev/tags/conference">conference</a>
     
-  </div>
-  
-  
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa-solid fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="http://localhost:1313/">Home</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="http://localhost:1313/about/">About</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="http://localhost:1313/post/">Posts</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="http://localhost:1313/resume/">Resume</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="http://localhost:1313/keybase.txt">Keybase</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="http://localhost:1313/tags/">Tags</a>
+            </li>
+          
+        
+        
+      </ul>
+    
+  </section>
+</nav>
 
-</div>
 
-  <p>Before we dive into some of the highlights from <a href="https://2017.dockercon.com/">DockerCon 2017</a>, let’s do a quick overview
+    <div class="content">
+      
+  <section class="container page">
+  <article>
+    <header>
+      <h1 class="title">
+        <a class="title-link" href="http://localhost:1313/post/2017/2017-05-16-dockercon/">
+          Dockercon 2017
+        </a>
+      </h1>
+    </header>
+
+    <p>Before we dive into some of the highlights from <a href="https://2017.dockercon.com/"  class="external-link" target="_blank" rel="noopener">DockerCon 2017</a>, let’s do a quick overview
 of what Docker is. Quite simply, a “docker container” is a portable container, of sorts, that allows a collection of
 apps to run on any operating system.</p>
 <p>How is it possible, you ask, for a docker container to allow any app to “Build, Ship and Run,” as the docker motto says,
 on any OS? A docker container uses kernel features to produce resource isolation (CPU, memory, block I/O
 and more) as well as separate namespaces, to isolate the application’s view of the operating system
 (a visual depiction below).</p>
-<!-- raw HTML omitted -->
 <p>Here’s a closer look at this process, using the docker motto as our guide:</p>
-<h3 id="build">Build</h3>
+<h3 id="build">
+  Build
+  <a class="heading-link" href="#build">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
 <p>Each container is a way of virtualizing the application, which requires only the libraries needed by the process to
 execute the program. Each container can be “constructed” from a simple file known as a Dockerfile.</p>
 <p>Docker File</p>
@@ -295,20 +182,43 @@ execute the program. Each container can be “constructed” from a simple file 
 COPY ./public-html/ /usr/local/apache2/htdocs/
 </code></pre><p>Now Build it</p>
 <pre tabindex="0"><code>docker build . -t strongjz/example-httpd
-</code></pre><h3 id="ship">Ship</h3>
-<p>Docker containers can be packaged into an image and shipped anywhere, using either the <a href="https://hub.docker.com/">Docker Hub</a>
-or a <a href="https://docs.docker.com/registry/">stand alone registry.</a></p>
+</code></pre><h3 id="ship">
+  Ship
+  <a class="heading-link" href="#ship">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>Docker containers can be packaged into an image and shipped anywhere, using either the <a href="https://hub.docker.com/"  class="external-link" target="_blank" rel="noopener">Docker Hub</a>
+or a <a href="https://docs.docker.com/registry/"  class="external-link" target="_blank" rel="noopener">stand alone registry.</a></p>
 <pre tabindex="0"><code>docker push strongjz/example-httpd
-</code></pre><h3 id="run">Run</h3>
+</code></pre><h3 id="run">
+  Run
+  <a class="heading-link" href="#run">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
 <p>Anywhere the Docker daemon can run, a docker container can run.</p>
 <pre tabindex="0"><code>docker run -p 80:80 strongjz/example-httpd 
 </code></pre><p>So now, let’s take a closer look at the conference that brought the world of the docker container to life.</p>
-<h2 id="dockercon-2017">DockerCon 2017</h2>
-<!-- raw HTML omitted -->
+<h2 id="dockercon-2017">
+  DockerCon 2017
+  <a class="heading-link" href="#dockercon-2017">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
 <p>Dockercon 2017 was hosted this year in Texas. They say that everything&rsquo;s bigger in the Lone Star State,
 and this year’s DockerCon exemplified that &ndash; with a host of Texas-sized sessions and announcements on tap.
 (To quickly immerse yourself in the experience, click here to take a gander at the Day 1 keynote session)</p>
-<h3 id="day-1-keynotehttpswwwyoutubecomwatchvhwkqju_bxeo"><a href="https://www.youtube.com/watch?v=hwkqju_BXEo">Day 1 Keynote</a></h3>
+<h3 id="day-1-keynotehttpswwwyoutubecomwatchvhwkqju_bxeo">
+  <a href="https://www.youtube.com/watch?v=hwkqju_BXEo"  class="external-link" target="_blank" rel="noopener">Day 1 Keynote</a>
+  <a class="heading-link" href="#day-1-keynotehttpswwwyoutubecomwatchvhwkqju_bxeo">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
 <p>Dockercon kicked off with some of the numbers of growth for Docker over the past four years. What truly resonated with
 me was the focus on the simplicity of docker for developers, and how security is ingrained in all components in the
 Docker ecosystem.</p>
@@ -323,7 +233,13 @@ innovations,“ and he outlined three necessary principles that &ldquo;tools of 
 reiterated in his session during the keynote that you “can&rsquo;t bolt on security after the fact.”</p>
 <p>Monica discussed how Docker integrates security into their secure orchestration in the Docker ecosystem with Swarmkit;
 included is the Raft Store, node identity, Secret Routing Mesh, and Encrypted Networking.</p>
-<h3 id="day-2-keynotehttpswwwyoutubecomwatchv2duz4z6sygg"><a href="https://www.youtube.com/watch?v=2DUZ4Z6SYGg">Day 2 Keynote</a></h3>
+<h3 id="day-2-keynotehttpswwwyoutubecomwatchv2duz4z6sygg">
+  <a href="https://www.youtube.com/watch?v=2DUZ4Z6SYGg"  class="external-link" target="_blank" rel="noopener">Day 2 Keynote</a>
+  <a class="heading-link" href="#day-2-keynotehttpswwwyoutubecomwatchv2duz4z6sygg">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
 <p>Day 2 began with a demonstration of Docker Trusted Registry and Docker’s Enterprise tool &ndash; the Universal Control Plane.
 It contains role-based access controls, swarm control, and Container scanning &ndash; all tools and processes needed in the
 Enterprise to run containers securely at scale. The part of the day that caught my attention was the
@@ -339,7 +255,7 @@ Docker&rsquo;s idea of creating &ldquo;tools for mass innovations&rdquo; and the
 <p>Linuxkit, developed in partnership with companies such as HPE, Intel, ARM, IBM, and Microsoft, is dubbed as a “secure,
 lean and portable Linux subsystem for the container.” It includes open source tooling that allows system builders to
 build custom Linux subsystems which only include precisely what the runtime platform needs and nothing else.</p>
-<p>More information <a href="https://github.com/linuxkit/linuxkit">here</a></p>
+<p>More information <a href="https://github.com/linuxkit/linuxkit"  class="external-link" target="_blank" rel="noopener">here</a></p>
 <p>The Moby project is another sign that Docker plans to “open-source” its platform and make it available for all to use.
 Hykes stated during the keynote talk that “if you are a system builder, it means you can collaborate and participate in
 defining systems more efficiently without being tied to Docker.” The best analogy to describe the Moby Project is that
@@ -354,8 +270,8 @@ artifacts for these assemblies.</p>
 of container systems using various components from the Moby library or other projects.</p>
 <p>More information on the Moby project here:</p>
 <ul>
-<li><a href="https://github.com/moby/moby">https://github.com/moby/moby</a></li>
-<li><a href="https://mobyproject.org/">https://mobyproject.org/</a></li>
+<li><a href="https://github.com/moby/moby"  class="external-link" target="_blank" rel="noopener">https://github.com/moby/moby</a></li>
+<li><a href="https://mobyproject.org/"  class="external-link" target="_blank" rel="noopener">https://mobyproject.org/</a></li>
 </ul>
 <p>Next, John Grossman, a Microsoft Azure architect, presented information on a development that is as surprising as it is
 unique: Linux containers running on a Windows host. Microsoft also was a platinum partner for Dockercon 2017. This
@@ -365,158 +281,134 @@ Microsoft kernel on the same host. Said Grossman: “Each container gets its cop
 it needs, and yet you get more performance advantage or that shared kernel container.”</p>
 <p>This increasing even more what a developer can do with Windows and Docker &ndash; no need to be tied to a specific Windows
 kernel version.</p>
-<h4 id="oracle-and-docker">Oracle and Docker</h4>
+<h4 id="oracle-and-docker">
+  Oracle and Docker
+  <a class="heading-link" href="#oracle-and-docker">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h4>
 <p>Developers can now run Oracle 12c in a Docker container. It’s as simple as that: Anyone who has had to manage, install,
 or configure an Oracle database understands how huge this announcement is for the community. here is the link to
-<a href="https://store.docker.com/images/oracle-database-enterprise-edition?tab=description">Oracle&rsquo;s Docker Store</a></p>
+<a href="https://store.docker.com/images/oracle-database-enterprise-edition?tab=description"  class="external-link" target="_blank" rel="noopener">Oracle&rsquo;s Docker Store</a></p>
 <p>The first set of certified images include:</p>
 <ul>
-<li><a href="https://www.oracle.com/database/index.html">Oracle Database</a></li>
-<li><a href="https://store.docker.com/images/mysql?tab=description">Oracle MySQL</a></li>
-<li><a href="http://www.oracle.com/technetwork/middleware/weblogic/overview/index.html">Oracle WebLogic Server</a></li>
-<li><a href="http://www.oracle.com/technetwork/middleware/coherence/overview/index.html">Oracle Coherence</a></li>
-<li><a href="http://www.oracle.com/technetwork/database/features/instant-client/index-097480.html">Oracle Instant Client</a></li>
-<li><a href="https://www.oracle.com/java/index.html">Oracle Java 8 SE (Server JRE)</a></li>
+<li><a href="https://www.oracle.com/database/index.html"  class="external-link" target="_blank" rel="noopener">Oracle Database</a></li>
+<li><a href="https://store.docker.com/images/mysql?tab=description"  class="external-link" target="_blank" rel="noopener">Oracle MySQL</a></li>
+<li><a href="http://www.oracle.com/technetwork/middleware/weblogic/overview/index.html"  class="external-link" target="_blank" rel="noopener">Oracle WebLogic Server</a></li>
+<li><a href="http://www.oracle.com/technetwork/middleware/coherence/overview/index.html"  class="external-link" target="_blank" rel="noopener">Oracle Coherence</a></li>
+<li><a href="http://www.oracle.com/technetwork/database/features/instant-client/index-097480.html"  class="external-link" target="_blank" rel="noopener">Oracle Instant Client</a></li>
+<li><a href="https://www.oracle.com/java/index.html"  class="external-link" target="_blank" rel="noopener">Oracle Java 8 SE (Server JRE)</a></li>
 </ul>
-<p>More about Day 1 at <a href="https://blog.docker.com/2017/04/dockercon-2017-day-1-highlights/">Docker’s blog</a> and
-<a href="https://blog.docker.com/2017/04/dockercon-2017-day-2-highlights/">Day 2</a></p>
+<p>More about Day 1 at <a href="https://blog.docker.com/2017/04/dockercon-2017-day-1-highlights/"  class="external-link" target="_blank" rel="noopener">Docker’s blog</a> and
+<a href="https://blog.docker.com/2017/04/dockercon-2017-day-2-highlights/"  class="external-link" target="_blank" rel="noopener">Day 2</a></p>
 <p>Dockercon had several levels of talks, from use cases and deep dives to what they called “Blacks Belts.” Here are two
 black belts talks that are worth watching and running their demos on your own time to understand the inner works of
 the Docker ecosystem.</p>
-<h4 id="container-performance-analysis">Container Performance analysis</h4>
+<h4 id="container-performance-analysis">
+  Container Performance analysis
+  <a class="heading-link" href="#container-performance-analysis">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h4>
 <p>For those who don&rsquo;t know who Brendan Gregg is, they may know work, for instance, this infographic.</p>
-<!-- raw HTML omitted -->
+<p><img src="img/dockercon_2017/linux_perf_dockercon.png" alt=""></p>
 <p>In his Dockercon talk, he asks the question Is it the host or the container? Brendan Gregg gives an excellent presentation
 on figuring out this question. This post describing the conference talk will not do it justice; anyone running containers
 at scale should watch the discussion.</p>
-<p><a href="https://www.youtube.com/watch?v=bK9A5ODIgac">Container Performance Talk</a> and
-<a href="https://www.slideshare.net/mobile/brendangregg/container-performance-analysis">Slides</a></p>
-<h4 id="deep-dive-in-docker-overlay-networks">Deep Dive in Docker Overlay Networks</h4>
+<p><a href="https://www.youtube.com/watch?v=bK9A5ODIgac"  class="external-link" target="_blank" rel="noopener">Container Performance Talk</a> and
+<a href="https://www.slideshare.net/mobile/brendangregg/container-performance-analysis"  class="external-link" target="_blank" rel="noopener">Slides</a></p>
+<h4 id="deep-dive-in-docker-overlay-networks">
+  Deep Dive in Docker Overlay Networks
+  <a class="heading-link" href="#deep-dive-in-docker-overlay-networks">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h4>
 <p>Laurent Bernaille, Architect from D2SI, discusses how networking overlay works in Docker Swarm and then dives into doing
 just that with only Linux commands. Two Docker hosts running in AWS, the slides and code used are available on
-<a href="https://github.com/lbernail/dockercon2017">GitHub</a> and <a href="https://www.slideshare.net/lbernail/deep-dive-in-docker-overlay-networks">SlideShare</a>.
+<a href="https://github.com/lbernail/dockercon2017"  class="external-link" target="_blank" rel="noopener">GitHub</a> and <a href="https://www.slideshare.net/lbernail/deep-dive-in-docker-overlay-networks"  class="external-link" target="_blank" rel="noopener">SlideShare</a>.
 These talks demonstrated the complexity involved with container overlay networking and how swarm simplifies it.
 Developers don&rsquo;t need to know all the Linux commands to create a network. Docker network creates a network,
 attaches a couple of hosts to it and your done.</p>
-<p>From Laurent presentation available at <a href="https://www.slideshare.net/lbernail/deep-dive-in-docker-overlay-networks">SlideShare.</a></p>
-<!-- raw HTML omitted -->
-<p>All videos are at the <a href="https://www.youtube.com/playlist?list=PLkA60AVN3hh_nihZ1mh6cO3n-uMdF7UlV">Dockercon 2017 playlist</a></p>
+<p>From Laurent presentation available at <a href="https://www.slideshare.net/lbernail/deep-dive-in-docker-overlay-networks"  class="external-link" target="_blank" rel="noopener">SlideShare.</a></p>
+<p>All videos are at the <a href="https://www.youtube.com/playlist?list=PLkA60AVN3hh_nihZ1mh6cO3n-uMdF7UlV"  class="external-link" target="_blank" rel="noopener">Dockercon 2017 playlist</a></p>
 <p>Resources</p>
 <ul>
-<li><a href="https://www.docker.com/what-docker">https://www.docker.com/what-docker</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Docker_(software)">https://en.wikipedia.org/wiki/Docker_(software)</a></li>
+<li><a href="https://www.docker.com/what-docker"  class="external-link" target="_blank" rel="noopener">https://www.docker.com/what-docker</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Docker_%28software%29"  class="external-link" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Docker_(software)</a></li>
 </ul>
 
-  
-  <h4><i class="fas fa-share-alt" aria-hidden="true"></i>&nbsp;Share!</h4>
-<ul class="share-buttons">
-	<li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fjamesstrong.dev%2fpost%2f2017%2f2017-05-16-dockercon%2f" target="_blank" title="Share on Facebook"><i class="fab fa-facebook" aria-hidden="true"></i><span class="sr-only">Share on Facebook</span></a>
-	</li>&nbsp;&nbsp;&nbsp;
-	<li><a href="https://twitter.com/intent/tweet?source=https%3a%2f%2fjamesstrong.dev%2fpost%2f2017%2f2017-05-16-dockercon%2f" target="_blank" title="Tweet"><i class="fab fa-twitter" aria-hidden="true"></i><span class="sr-only">Tweet</span></a>
-	</li>&nbsp;&nbsp;&nbsp;
-	<li><a href="https://plus.google.com/share?url=https%3a%2f%2fjamesstrong.dev%2fpost%2f2017%2f2017-05-16-dockercon%2f" target="_blank" title="Share on Google+"><i class="fab fa-google-plus" aria-hidden="true"></i><span class="sr-only">Share on Google+</span></a>
-	</li>&nbsp;&nbsp;&nbsp;
-	<li><a href="http://www.tumblr.com/share?v=3&u=https%3a%2f%2fjamesstrong.dev%2fpost%2f2017%2f2017-05-16-dockercon%2f" target="_blank" title="Post to Tumblr"><i class="fab fa-tumblr" aria-hidden="true"></i><span class="sr-only">Post to Tumblr</span></a>
-	</li>&nbsp;&nbsp;&nbsp;
-	<li><a href="http://pinterest.com/pin/create/button/?url=https%3a%2f%2fjamesstrong.dev%2fpost%2f2017%2f2017-05-16-dockercon%2f" target="_blank" title="Pin it"><i class="fab fa-pinterest-p" aria-hidden="true"></i><span class="sr-only">Pin it</span></a>
-	</li>&nbsp;&nbsp;&nbsp;
-	<li><a href="http://www.reddit.com/submit?url=https%3a%2f%2fjamesstrong.dev%2fpost%2f2017%2f2017-05-16-dockercon%2f" target="_blank" title="Submit to Reddit"><i class="fab fa-reddit-alien" aria-hidden="true"></i><span class="sr-only">Submit to Reddit</span></a>
-	</li>
-</ul>
-
-
-<style>
-	ul.share-buttons{
-	  list-style: none;
-	  padding: 0;
-	}
-
-	ul.share-buttons li{
-	  display: inline;
-	}
-
-	ul.share-buttons .sr-only{
-	  position: absolute;
-	  clip: rect(1px 1px 1px 1px);
-	  clip: rect(1px, 1px, 1px, 1px);
-	  padding: 0;
-	  border: 0;
-	  height: 1px;
-	  width: 1px;
-	  overflow: hidden;
-	}
-</style>
-
+  </article>
+</section>
 
   
-<div class="prev-next-post pure-g">
-  <div class="pure-u-1-24" style="text-align: left;">
-    
-    <a href="https://jamesstrong.dev/post/2017/2017-03-29-codelouisville/"><i class="fa fa-chevron-left"></i></a>
-    
-  </div>
-  <div class="pure-u-10-24">
-    
-    <nav class="prev">
-      <a href="https://jamesstrong.dev/post/2017/2017-03-29-codelouisville/">Code Louisville 2017</a>
-    </nav>
-    
-  </div>
-  <div class="pure-u-2-24">
-    &nbsp;
-  </div>
-  <div class="pure-u-10-24">
-    
-    <nav class="next">
-      <a href="https://jamesstrong.dev/post/2018/2018-12-04-revinventrecap/">AWS Re:invent Recap 2018</a>
-    </nav>
-    
-  </div>
-  <div class="pure-u-1-24" style="text-align: right;">
-    
-    <a href="https://jamesstrong.dev/post/2018/2018-12-04-revinventrecap/"><i class="fa fa-chevron-right"></i></a>
-    
-  </div>
-</div>
 
+    </div>
+
+    <footer class="footer">
+  <section class="container">
+    ©
+    
+      2017 -
+    
+    2024
+    
+    ·
+    
+    Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/" target="_blank" rel="noopener">Coder</a>.
+    
+  </section>
+</footer>
+
+  </main>
+
+  
 
   
   
-  
+  <script src="http://localhost:1313/js/coder.js"></script>
   
 
   
 
-</div>
-
-</div>
-</div>
-<script src="https://jamesstrong.dev/js/ui.js"></script>
-<script src="https://jamesstrong.dev/js/menus.js"></script>
-
-
-
-
-
-
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-Y034J08BEQ"></script>
-<script>
   
-  if (window.location.hostname != "localhost") {
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-Y034J08BEQ');
-  }
-</script>
 
 
+  
 
+  
 
+  
 
+  
 
+  
 
+  
 
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
 </body>
-</html>
 
+</html>

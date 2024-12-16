@@ -2,18 +2,77 @@ publishDir = "docs/"
 languageCode = "en-us"
 baseurl = "https://jamesstrong.dev/"
 title = "James Strong"
-copyright = "Copyright (c) 2023, all rights reserved."
+copyright = "Copyright (c) 2024, all rights reserved."
 canonifyurls = true
-paginate = 5
-theme = "blackburn"
+theme = "hugo-coder"
+defaultContentLanguage = "en"
+enableEmoji = true
+
+[pagination]
+pagerSize = 10
 
 disqusShortname = "jamesstrong-dev"
+
+ignoreLogs = ['warning-goldmark-raw-html']
+
+[markup]
+  [markup.asciidocExt]
+    safeMode = 'unsafe'
 
 [params]
   # Shown in the home page
   brand = "James Strong"
   googleAnalytics = "G-Y034J08BEQ"
   dateFormat = "Jan 2, 2006"
+  since = 2017
+  keywords = "blog,developer,personal"
+  info = ["Solution Architect", "Kubernetes non-expert"]
+  avatarURL = "img/headshot.png"
+
+[[params.social]]
+  name = "Github"
+  icon = "fa-brands fa-github fa-2x"
+  url       = "https://github.com/strongjz"
+[[params.social]]
+  name = "fa-brands fa-twitter fa-2x"
+  icon = "Twitter"
+  url       = "https://twitter.com/strongjz"
+[[params.social]]
+  name      = "Linkedin"
+  icon = "fa-brands fa-linkedin fa-2x"
+  url       = "https://www.linkedin.com/in/strongjz"
+[[params.social]]
+  name = "Email"
+  icon = "fa fa-envelope fa-2x"
+  link = "strong.james.e@gmail.com"
+[[params.social]]
+  name      = "slideshare"
+  icon = "fa-brands fa-slideshare fa-2x"
+  url       = "https://www.slideshare.net/jstrong09"
+[[params.social]]
+  name     = "reddit"
+  icon = "fa-brands fa-reddit fa-2x"
+  url       = "https://www.reddit.com/user/strongjz/"
+[[params.social]]
+  name     = "hacker-news"
+  icon = "fa-brands fa-hacker-news fa-2x"
+  url       = "https://news.ycombinator.com/user?id=strongbad"
+[[params.social]]
+  name     = "Gitlab"
+  icon = "fa-brands fa-gitlab fa-2x"
+  url       = "https://gitlab.com/strongjz"
+[[params.social]]
+  name     = ""
+  icon = "fa-brands fa-bitbucket fa-2x"
+  url       = "https://bitbucket.org/strongjz/workspace/repositories/"
+[[params.social]]
+  name     = ""
+  icon = "fa-brands fa-stack-overflow fa-2x"
+  url       = "https://stackoverflow.com/users/1794802/strongjz"
+[[params.social]]
+  name     = "Keybase"
+  icon = "fa-brands fa-keybase fa-2x"
+  url       = "https://keybase.io/strongjz"
 
 [indexes]
   tag = "tags"
@@ -21,19 +80,6 @@ disqusShortname = "jamesstrong-dev"
 
 [taxonomies]
   tag = "tags"
-
-[social]
-  github = "strongjz"
-  twitter = "strongjz"
-  linkedin = "strongjz"
-  email = "strong.james.e@gmail.com"
-  slideshare = "jstrong09"
-  reddit = "strongjz"
-  hackernews = "strongbad"
-  gitlab = "strongjz"
-  bitbucket = "strongjz"
-  stackoverflow = "1794802"
-  keybase = "strongjz"
 
 [author]
   name = "James Strong"
