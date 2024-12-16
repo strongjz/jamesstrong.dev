@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Developer on James Strong</title>
-    <link>https://jamesstrong.dev/tags/developer/</link>
+    <link>http://localhost:1313/tags/developer/</link>
     <description>Recent content in Developer on James Strong</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Copyright (c) 2024, all rights reserved.</copyright>
     <lastBuildDate>Mon, 26 Aug 2019 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://jamesstrong.dev/tags/developer/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/developer/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Code PaLOUSa 2019</title>
-      <link>https://jamesstrong.dev/post/2019/2019-08-26-code-lou-2019/</link>
+      <link>http://localhost:1313/post/2019/2019-08-26-code-lou-2019/</link>
       <pubDate>Mon, 26 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>https://jamesstrong.dev/post/2019/2019-08-26-code-lou-2019/</guid>
+      <guid>http://localhost:1313/post/2019/2019-08-26-code-lou-2019/</guid>
       <description>&lt;p&gt;Another year! Another amazing Code PaLOUsa come and gone.&lt;/p&gt;&#xA;&lt;h3 id=&#34;location&#34;&gt;&#xA;  Location&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#location&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;This year Code PaLOUsa was at the Hyatt Regency, which is smack dap in the middle of downtown. This location makes it a&#xA;perfect spot for all the speakers and conference-goers to experience some of the tourist spots in Louisville and still&#xA;enjoy the conference.&lt;/p&gt;&#xA;&lt;h3 id=&#34;sessions&#34;&gt;&#xA;  Sessions&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#sessions&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;The sessions were action-packed, as well. A (useful?) attribute of a conference is the level of difficulty for goers to&#xA;decide which speakers to see! There were so many sessions at each hour to choose. Here is the list of ones&#xA;I chose (could) to attend.&lt;/p&gt;</description>
     </item>
   </channel>

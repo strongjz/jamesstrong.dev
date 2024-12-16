@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Gitops on James Strong</title>
-    <link>https://jamesstrong.dev/tags/gitops/</link>
+    <link>http://localhost:1313/tags/gitops/</link>
     <description>Recent content in Gitops on James Strong</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Copyright (c) 2024, all rights reserved.</copyright>
     <lastBuildDate>Wed, 10 May 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://jamesstrong.dev/tags/gitops/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/gitops/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>End to End Security &amp; Operations with Chainguard and Weave GitOps</title>
-      <link>https://jamesstrong.dev/post/2023/2023-05-10-e2e-security-chainguard-weaveworks/</link>
+      <link>http://localhost:1313/post/2023/2023-05-10-e2e-security-chainguard-weaveworks/</link>
       <pubDate>Wed, 10 May 2023 00:00:00 +0000</pubDate>
-      <guid>https://jamesstrong.dev/post/2023/2023-05-10-e2e-security-chainguard-weaveworks/</guid>
+      <guid>http://localhost:1313/post/2023/2023-05-10-e2e-security-chainguard-weaveworks/</guid>
       <description>&lt;p&gt;One of the key values of GitOps relies on its fully declarative single source of truth in Git for the desired state of your entire system – configuration that continuously reconciles with the runtime of the system.&lt;/p&gt;&#xA;&lt;p&gt;Validating committer identity in your Git repository is a critical component towards a secure GitOps solution. Although basic capabilities are provided by Git service providers, more granular controls for governance and compliance are a requirement to satisfy most enterprise grade implementations.&lt;/p&gt;</description>
     </item>
   </channel>

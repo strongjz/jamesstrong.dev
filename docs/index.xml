@@ -2,285 +2,306 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>James Strong</title>
-    <link>https://jamesstrong.dev/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on James Strong</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Copyright (c) 2024, all rights reserved.</copyright>
-    <lastBuildDate>Mon, 20 Nov 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://jamesstrong.dev/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 15 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Securing the Future of Ingress-Nginx</title>
+      <link>http://localhost:1313/post/2024/2024-11-14-securing-the-future-ingress/</link>
+      <pubDate>Fri, 15 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2024/2024-11-14-securing-the-future-ingress/</guid>
+      <description>&lt;p&gt;Ingress NGINX is a very flexible Ingress controller that provides users with a lot of NGINX functionality through annotations. However, this flexibility also raises security concerns for maintainers and cluster administrators. There have been eight significant CVEs and RCEs in Ingress NGINX. To address these issues, we have created a security hardening guide, which will be presented as a preview in this talk. Additionally, we will enable restrictive features by default to offer a more secure out-of-the-box experience with Ingress NGINX such as annotation validations. To maintain and secure the project and its Gateway API implementation, we will not be adding any new features to the core functionality of ingress, and a significant amount of functionality, such as UDP/TCP Routing, will be moved to Gateway API. We will also unveil the new name of the project during this presentation.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Understanding Kubernetes Networking in 30 Minutes</title>
+      <link>http://localhost:1313/post/2024/2024-11-14-understanding-kubernetes-networking/</link>
+      <pubDate>Thu, 14 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2024/2024-11-14-understanding-kubernetes-networking/</guid>
+      <description>&lt;p&gt;You are learning Kubernetes and started to face concepts like Pod CIDRs, Services, CNI, kube-proxy? Welcome! you have reached the amazing area of Kubernetes networking! We all have already been there and know how complex it may seem on the beginning, but in this talk, Ricardo and James will demystify the Kubernetes network concepts and model on a fun way, exploring how it is designed, why the is a &amp;ldquo;pause&amp;rdquo; container on every Pods, how the communication between Pods work, what are kube-proxy and CNI and their importance. In the end of this talk we expect you to get your learning path on Kubernetes Networking clear to better understand not only what are the concepts about, but also see on a live demo how every component correlates and makes the communications possible on a Kubernetes cluster.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>A day in the life of a maintainer</title>
+      <link>http://localhost:1313/post/2024/2024-10-03-a-day-in-the-life-giaint-swarm/</link>
+      <pubDate>Thu, 03 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2024/2024-10-03-a-day-in-the-life-giaint-swarm/</guid>
+      <description>&lt;p&gt;Giant Conversations Episode #23 A day in the life of a maintainer&lt;/p&gt;&#xA;&lt;p&gt;&amp;ldquo;Wait, you&amp;rsquo;re doing what? Coding? In your free time? For free? Nobody is paying you?&amp;rdquo;&lt;/p&gt;&#xA;&lt;p&gt;In this episode of Giant Conversations we would like to dive into the world of Open Source, find out how you can contribute to it, which challenges you might face, which lessons you can learn, and how you can become a reviewer or a maintainer of a project.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Resume</title>
-      <link>https://jamesstrong.dev/resume/</link>
+      <link>http://localhost:1313/resume/</link>
       <pubDate>Mon, 20 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>https://jamesstrong.dev/resume/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://jamesstrong.dev/pdf/James-Strong-Resume.pdf&#34; &gt;PDF Version&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;james-strong&#34;&gt;&#xA;  James Strong&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#james-strong&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;h2 id=&#34;overview&#34;&gt;&#xA;  Overview&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#overview&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Experienced Technical Professional who works well with minimum supervision as well as a group member. Customer&#xA;oriented problem solver with an ability to adapt to new situations. A quick learner with a desire for continuous&#xA;personal and technical growth. Effective communicator with the ability to create technical materials that convey&#xA;value for both clients and end users.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/resume/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://localhost:1313/pdf/James-Strong-Resume.pdf&#34; &gt;PDF Version&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;james-strong&#34;&gt;&#xA;  James Strong&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#james-strong&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;h2 id=&#34;overview&#34;&gt;&#xA;  Overview&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#overview&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Experienced Technical Professional who works well with minimum supervision as well as a group member. Customer&#xA;oriented problem solver with an ability to adapt to new situations. A quick learner with a desire for continuous&#xA;personal and technical growth. Effective communicator with the ability to create technical materials that convey&#xA;value for both clients and end users.&lt;/p&gt;</description>
     </item>
     <item>
       <title>What&#39;s Happening with Ingress-Nginx!</title>
-      <link>https://jamesstrong.dev/post/2023/2023-11-07-whats-happening-ingress-kubecon/</link>
+      <link>http://localhost:1313/post/2023/2023-11-07-whats-happening-ingress-kubecon/</link>
       <pubDate>Tue, 07 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>https://jamesstrong.dev/post/2023/2023-11-07-whats-happening-ingress-kubecon/</guid>
+      <guid>http://localhost:1313/post/2023/2023-11-07-whats-happening-ingress-kubecon/</guid>
       <description>&lt;p&gt;What&amp;rsquo;s Happening with Ingress-Nginx! - James Strong, Chainguard &amp;amp; Ricardo Katz, VMware&lt;/p&gt;&#xA;&lt;p&gt;This presentation will discuss our plans for Ingress-nginx 2.0 release, breaking changes, new features, and deprecations. We will also discuss our plans for gateway API, CVE reduction, and other security updates coming to ingress-nginx. As always, we will provide a community update, roadmap, and other critical information attendees should know about the project. Please join us to learn all about the progress and future of ingress-nginx.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Wolfi: A Secure-by-Default Distro for Curing Container CVE Chaos </title>
-      <link>https://jamesstrong.dev/post/2023/2023-08-14-all-systems-go-wolfi/</link>
+      <link>http://localhost:1313/post/2023/2023-08-14-all-systems-go-wolfi/</link>
       <pubDate>Mon, 14 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>https://jamesstrong.dev/post/2023/2023-08-14-all-systems-go-wolfi/</guid>
+      <guid>http://localhost:1313/post/2023/2023-08-14-all-systems-go-wolfi/</guid>
       <description>&lt;p&gt;Are you using container images with hundreds of known vulnerabilities?&lt;/p&gt;&#xA;&lt;p&gt;The majority of us are using images based on the Docker official images available on the Docker Hub. This includes base images – such as Debian and Ubuntu – as well as application images such as nginx and redis. Unfortunately these images often have hundreds of known vulnerabilities due to excessively large dependency trees with out-of-date packages. This security debt can lead to unnecessary security risks and slower development cycles.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Enlightning - What is Ingress-nginx?</title>
-      <link>https://jamesstrong.dev/post/2023/2023-05-18-englightning-ingress-nginx/</link>
+      <link>http://localhost:1313/post/2023/2023-05-18-englightning-ingress-nginx/</link>
       <pubDate>Thu, 18 May 2023 00:00:00 +0000</pubDate>
-      <guid>https://jamesstrong.dev/post/2023/2023-05-18-englightning-ingress-nginx/</guid>
+      <guid>http://localhost:1313/post/2023/2023-05-18-englightning-ingress-nginx/</guid>
       <description>&lt;p&gt;ingress-nginx is an Ingress controller for Kubernetes using NGINX as a reverse proxy and load balancer.  It&amp;rsquo;s not the NGINX inc controller&amp;hellip; confusing, right?  In this session we will discuss how the ingress-nginx controller works, how it differs from the NGINX inc controller, the release process, and how you can help contribute to the project!&lt;/p&gt;&#xA;&#xA;    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/ly_zzKR_alA?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;</description>
     </item>
     <item>
       <title>End to End Security &amp; Operations with Chainguard and Weave GitOps</title>
-      <link>https://jamesstrong.dev/post/2023/2023-05-10-e2e-security-chainguard-weaveworks/</link>
+      <link>http://localhost:1313/post/2023/2023-05-10-e2e-security-chainguard-weaveworks/</link>
       <pubDate>Wed, 10 May 2023 00:00:00 +0000</pubDate>
-      <guid>https://jamesstrong.dev/post/2023/2023-05-10-e2e-security-chainguard-weaveworks/</guid>
+      <guid>http://localhost:1313/post/2023/2023-05-10-e2e-security-chainguard-weaveworks/</guid>
       <description>&lt;p&gt;One of the key values of GitOps relies on its fully declarative single source of truth in Git for the desired state of your entire system – configuration that continuously reconciles with the runtime of the system.&lt;/p&gt;&#xA;&lt;p&gt;Validating committer identity in your Git repository is a critical component towards a secure GitOps solution. Although basic capabilities are provided by Git service providers, more granular controls for governance and compliance are a requirement to satisfy most enterprise grade implementations.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Life of a CVE with Ingress-Nginx; Understanding the Project&#39;s Release Cycle</title>
-      <link>https://jamesstrong.dev/post/2023/2023-05-01-lifeofacve/</link>
+      <link>http://localhost:1313/post/2023/2023-05-01-lifeofacve/</link>
       <pubDate>Mon, 01 May 2023 00:00:00 +0000</pubDate>
-      <guid>https://jamesstrong.dev/post/2023/2023-05-01-lifeofacve/</guid>
+      <guid>http://localhost:1313/post/2023/2023-05-01-lifeofacve/</guid>
       <description>&lt;p&gt;Life of a CVE with Ingress-Nginx; Understanding the Project&amp;rsquo;s Release Cycle - James Strong, Chainguard &amp;amp; Dylen Turnbull, Nginx INC&lt;/p&gt;&#xA;&lt;p&gt;Speakers: Dylen Turnbull, James Strong&lt;/p&gt;&#xA;&lt;p&gt;In 7 years, Ingress-nginx has had 221 releases, with over 6800 commits. To ensure stability and to test this highly configurable controller, the project has grown to over 400 e2e tests and helm chart tests across various kubernetes versions and deployment landscapes. We were 3/4 through our stabilization project in the last maintainer track we presented. The ironic thing about OSS and software, in general, is that it is never really completed, nor should the stabilization and security of the project. In this talk, we discuss how we work to improve the release process of ingress-nginx to keep Ingress-nginx CVE-free with real-world examples. We will discuss the current release process and how we are working with sig-release and sig-security to increase release velocity, reduce complexity and increase the security of ingress-nginx. Please join us for this presentation if you want to hear about the ingress-nginx controller getting released &amp;amp; how we continue to improve it.&lt;/p&gt;</description>
     </item>
     <item>
       <title>What Does Rugby Have To Do With Sigstore?</title>
-      <link>https://jamesstrong.dev/post/2023/2023-02-04-fosdem-sigstore-rugby/</link>
+      <link>http://localhost:1313/post/2023/2023-02-04-fosdem-sigstore-rugby/</link>
       <pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate>
-      <guid>https://jamesstrong.dev/post/2023/2023-02-04-fosdem-sigstore-rugby/</guid>
+      <guid>http://localhost:1313/post/2023/2023-02-04-fosdem-sigstore-rugby/</guid>
       <description>&lt;p&gt;Cosign, fulcio, rekor are all components in keyless signing with Sigstore. Each piece has its responsibility to provide a smooth developer experience for container signing. How does it all work together to complete that complicated dance to tie identity to cryptographic signatures? And what&amp;rsquo;s more cryptic than rugby? In this talk, James and Lewis will educate attendees about sigstore and container signing using examples from the best sport in the world, rugby. If you&amp;rsquo;re interested in learning more about sigstore and what a hooker does, this talk is for you.&lt;/p&gt;</description>
     </item>
     <item>
       <title>About</title>
-      <link>https://jamesstrong.dev/about/</link>
+      <link>http://localhost:1313/about/</link>
       <pubDate>Wed, 28 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>https://jamesstrong.dev/about/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://jamesstrong.dev/img/headshot.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Hey Everyone!&lt;/p&gt;&#xA;&lt;p&gt;The Name is James Strong and I love the cloud and teaching people about it. I&amp;rsquo;m from Philadelphia, PA.&#xA;I am extremely passionate about Cloud Native tech, Kubernetes/ containers and Infrastructure. I enjoy talking to CTO&amp;rsquo;s,&#xA;junior engineers and colleagues about cloud technologies. I help maintain Kubernetes&#xA;&lt;a href=&#34;https://github.com/kubernetes/ingress-nginx&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ingress-nginx Project&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;If you&amp;rsquo;re interested in what I have done, checkout my &lt;a href=&#34;https://jamesstrong.dev/post&#34; &gt;posts&lt;/a&gt;, or &lt;a href=&#34;https://jamesstrong.dev/resume&#34; &gt;resume&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Thanks for reading, hopefully you find something helpful here!&lt;/p&gt;</description>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/headshot.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Hey Everyone!&lt;/p&gt;&#xA;&lt;p&gt;The Name is James Strong and I love the cloud and teaching people about it. I&amp;rsquo;m from Philadelphia, PA.&#xA;I am extremely passionate about Cloud Native tech, Kubernetes/ containers and Infrastructure. I enjoy talking to CTO&amp;rsquo;s,&#xA;junior engineers and colleagues about cloud technologies. I help maintain Kubernetes&#xA;&lt;a href=&#34;https://github.com/kubernetes/ingress-nginx&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ingress-nginx Project&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;If you&amp;rsquo;re interested in what I have done, checkout my &lt;a href=&#34;http://localhost:1313/post&#34; &gt;posts&lt;/a&gt;, or &lt;a href=&#34;http://localhost:1313/resume&#34; &gt;resume&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Thanks for reading, hopefully you find something helpful here!&lt;/p&gt;</description>
     </item>
     <item>
       <title>From Build to Prod: Getting Started with Software Signing &amp; Policy Enforce</title>
-      <link>https://jamesstrong.dev/post/2022/2022-12-14-getting-started-signing-and-policy/</link>
+      <link>http://localhost:1313/post/2022/2022-12-14-getting-started-signing-and-policy/</link>
       <pubDate>Wed, 14 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>https://jamesstrong.dev/post/2022/2022-12-14-getting-started-signing-and-policy/</guid>
-      <description>&lt;p&gt;Want to know how to get started on signing your images and commits? Secure from build to prod and join James Strong to walk through signing images with Sigstore via Tekton chains and commits with Gitsign, all with policy enforced by Chainguard!&lt;/p&gt;&#xA;&lt;p&gt;Watch on &lt;a href=&#34;https://www.crowdcast.io/c/software-signing&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;crowd cast&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://jamesstrong.dev/img/getting-started-signing.png&#34; alt=&#34;Image&#34;&gt;&lt;/p&gt;</description>
+      <guid>http://localhost:1313/post/2022/2022-12-14-getting-started-signing-and-policy/</guid>
+      <description>&lt;p&gt;Want to know how to get started on signing your images and commits? Secure from build to prod and join James Strong to walk through signing images with Sigstore via Tekton chains and commits with Gitsign, all with policy enforced by Chainguard!&lt;/p&gt;&#xA;&lt;p&gt;Watch on &lt;a href=&#34;https://www.crowdcast.io/c/software-signing&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;crowd cast&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/getting-started-signing.png&#34; alt=&#34;Image&#34;&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Understanding the Future of Ingress-nginx</title>
-      <link>https://jamesstrong.dev/post/2022/2022-11-11-understanding-future-ingress-nginx/</link>
+      <link>http://localhost:1313/post/2022/2022-11-11-understanding-future-ingress-nginx/</link>
       <pubDate>Fri, 11 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>https://jamesstrong.dev/post/2022/2022-11-11-understanding-future-ingress-nginx/</guid>
+      <guid>http://localhost:1313/post/2022/2022-11-11-understanding-future-ingress-nginx/</guid>
       <description>&lt;p&gt;Understanding the Future of Ingress-nginx - James Strong, Chainguard &amp;amp; Ricardo Katz, VMware&lt;/p&gt;&#xA;&lt;p&gt;Speakers: Ricardo Katz, James Strong&lt;/p&gt;&#xA;&lt;p&gt;In this talk, we will present the survey results from our Ingress-nginx community survey. The survey&amp;rsquo;s goal was to know what we should be doing for future releases and how to prioritize features, bugs, or other issues important to the community. The ingress-nginx project is undergoing a stabilization project as well. This stabilization project has worked to increase the security, review and deprecate older features, and fix long-standing issues with the project. We will examine the current status of the stabilization project and invite community members and users to join us to discuss the future of the ingress-nginx project.&lt;/p&gt;</description>
     </item>
     <item>
       <title>#DevOpsSpeakeasy at #KubeCon EU 2022 with James Strong on Supply Chain Security</title>
-      <link>https://jamesstrong.dev/post/2022/2022-08-29-jfrog-supply-chain-security/</link>
+      <link>http://localhost:1313/post/2022/2022-08-29-jfrog-supply-chain-security/</link>
       <pubDate>Mon, 29 Aug 2022 00:00:00 +0000</pubDate>
-      <guid>https://jamesstrong.dev/post/2022/2022-08-29-jfrog-supply-chain-security/</guid>
+      <guid>http://localhost:1313/post/2022/2022-08-29-jfrog-supply-chain-security/</guid>
       <description>&lt;p&gt;James Strong, lead solution architect at Chainguard, discusses the challenges of securing software supply chains and recommendations for developers&lt;/p&gt;&#xA;&#xA;    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/UVjFlzDi2Yk?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;</description>
     </item>
     <item>
       <title>Chainguard Live: All About That Base Image</title>
-      <link>https://jamesstrong.dev/post/2022/2022-04-19-chainguard-live-all-about-that-base/</link>
+      <link>http://localhost:1313/post/2022/2022-04-19-chainguard-live-all-about-that-base/</link>
       <pubDate>Tue, 19 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>https://jamesstrong.dev/post/2022/2022-04-19-chainguard-live-all-about-that-base/</guid>
+      <guid>http://localhost:1313/post/2022/2022-04-19-chainguard-live-all-about-that-base/</guid>
       <description>&lt;p&gt;The Chainguard team has released a new whitepaper titled “All About That Base Image.” The whitepaper proposes “quiet” base images, minimal images with few or no security vulnerabilities, and other security features built-in.&lt;/p&gt;&#xA;&lt;p&gt;The intended audience is software development teams that use containers and are interested in reducing the workload associated with investigating and mitigating security vulnerabilities. The whitepaper helps software professionals better understand the security debt of popular base images by analyzing the number, severity, and lifetime of vulnerabilities. Joining us to discuss how Alpine is the choice for your container base image is Alpine maintainer and Chainguard Engineer, Ariadne Conill.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Klustered Teams - Chainguard Vs. Chainguard </title>
-      <link>https://jamesstrong.dev/post/2022/2022-03-21-klustered-chainguard-v-chainguard/</link>
+      <link>http://localhost:1313/post/2022/2022-03-21-klustered-chainguard-v-chainguard/</link>
       <pubDate>Thu, 31 Mar 2022 00:00:00 +0000</pubDate>
-      <guid>https://jamesstrong.dev/post/2022/2022-03-21-klustered-chainguard-v-chainguard/</guid>
+      <guid>http://localhost:1313/post/2022/2022-03-21-klustered-chainguard-v-chainguard/</guid>
       <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/pgNqMcfcO2Q?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;</description>
     </item>
     <item>
       <title>Does K8s still need DR? O&#39;Reilly K8s Author On the Hot Seat!</title>
-      <link>https://jamesstrong.dev/post/2022/2022-01-18-does-k8s-need-backup-podcast/</link>
+      <link>http://localhost:1313/post/2022/2022-01-18-does-k8s-need-backup-podcast/</link>
       <pubDate>Tue, 18 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>https://jamesstrong.dev/post/2022/2022-01-18-does-k8s-need-backup-podcast/</guid>
+      <guid>http://localhost:1313/post/2022/2022-01-18-does-k8s-need-backup-podcast/</guid>
       <description>&lt;p&gt;Things got a little tense on this week&amp;rsquo;s podcast when James Strong (@strongjz, Co-Author of O&amp;rsquo;Reilly&amp;rsquo;s Networking &amp;amp; Kubernetes) hinted at DR being a thing of the past with K8s. Mr. Backups was having none of that. No blows were thrown, mostly because it was all online, but it was a really good conversation that K8s and DR enthusiasts alike will find interesting. We also cover the new book, Networking and Kubernetes, by James Strong and Vallery Lancey, including why the decided to write it, and what it covers. We talk about monitoring K8s networking, and James uses at least 25 acronyms that may be new to some listeners. Don&amp;rsquo;t worry: we make him explain all of them.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Kubernetes Networking Live</title>
-      <link>https://jamesstrong.dev/post/2021/2021-11-01-kubernetes-networking-101/</link>
+      <link>http://localhost:1313/post/2021/2021-11-01-kubernetes-networking-101/</link>
       <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
-      <guid>https://jamesstrong.dev/post/2021/2021-11-01-kubernetes-networking-101/</guid>
+      <guid>http://localhost:1313/post/2021/2021-11-01-kubernetes-networking-101/</guid>
       <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/CYnwBIpvSlM?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;</description>
     </item>
     <item>
       <title>Networking &amp; Kubernetes: Book Review and Interview with Author James Strong</title>
-      <link>https://jamesstrong.dev/post/2021/2021-10-06-hackernoon-interview/</link>
+      <link>http://localhost:1313/post/2021/2021-10-06-hackernoon-interview/</link>
       <pubDate>Wed, 06 Oct 2021 00:00:00 +0000</pubDate>
-      <guid>https://jamesstrong.dev/post/2021/2021-10-06-hackernoon-interview/</guid>
+      <guid>http://localhost:1313/post/2021/2021-10-06-hackernoon-interview/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://hackernoon.com/networking-and-kubernetes-book-review-and-interview-with-author-james-strong&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Networking &amp;amp; Kubernetes: Book Review and Interview with Author James Strong&lt;/a&gt; By &lt;a href=&#34;https://hackernoon.com/u/turbulence&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Amy Pravin Shah&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Cloud Native Security Webinar</title>
-      <link>https://jamesstrong.dev/post/2021/2021-05-27-cloud-native-security/</link>
+      <link>http://localhost:1313/post/2021/2021-05-27-cloud-native-security/</link>
       <pubDate>Thu, 27 May 2021 00:00:00 +0000</pubDate>
-      <guid>https://jamesstrong.dev/post/2021/2021-05-27-cloud-native-security/</guid>
+      <guid>http://localhost:1313/post/2021/2021-05-27-cloud-native-security/</guid>
       <description>&lt;p&gt;As organizations undergo a digital transformation, cloud migration now more than ever remains a high priority for those looking to expand their business and remain top competitors in their field. But how do companies develop and deploy in the cloud without fear? What is really needed to secure your cloud accounts, and develop your engineers’ innovation all while adhering to industry-wide security best practices?&lt;/p&gt;&#xA;&lt;p&gt;On Thursday, May 27th, discover the solution to those questions and more during our latest webinar where we present our unique framework, Cloud Guardian.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Realizing the benefits of container DevSecOps with AWS</title>
-      <link>https://jamesstrong.dev/post/2021/2021-09-21-devsecops-with-aws/</link>
+      <link>http://localhost:1313/post/2021/2021-09-21-devsecops-with-aws/</link>
       <pubDate>Thu, 27 May 2021 00:00:00 +0000</pubDate>
-      <guid>https://jamesstrong.dev/post/2021/2021-09-21-devsecops-with-aws/</guid>
-      <description>&lt;p&gt;AWS DevSecOps Container Pipeline workshop at DevOps Days Houston&lt;/p&gt;&#xA;&lt;p&gt;Workshop available at &lt;a href=&#34;https://aws.containerdevsecops.io/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://aws.containerdevsecops.io/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://jamesstrong.dev/img/aws-devsecops-pipeline.png&#34; alt=&#34;Workshop&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;In this workshop Engineers will learn how to secure their container pipeline using AWS and other Cloud Native tools. This will be part Lecture and part hands on.&lt;/p&gt;&#xA;&lt;p&gt;We will be working through the following topics:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Introduction&lt;/li&gt;&#xA;&lt;li&gt;Workshop Setup&lt;/li&gt;&#xA;&lt;li&gt;Development Environment&lt;/li&gt;&#xA;&lt;li&gt;Container Builds&lt;/li&gt;&#xA;&lt;li&gt;Container Pipeline&lt;/li&gt;&#xA;&lt;li&gt;Running Containers&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;We will be using these tools and techniques to secure a container pipeline and runtime.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/post/2021/2021-09-21-devsecops-with-aws/</guid>
+      <description>&lt;p&gt;AWS DevSecOps Container Pipeline workshop at DevOps Days Houston&lt;/p&gt;&#xA;&lt;p&gt;Workshop available at &lt;a href=&#34;https://aws.containerdevsecops.io/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://aws.containerdevsecops.io/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/aws-devsecops-pipeline.png&#34; alt=&#34;Workshop&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;In this workshop Engineers will learn how to secure their container pipeline using AWS and other Cloud Native tools. This will be part Lecture and part hands on.&lt;/p&gt;&#xA;&lt;p&gt;We will be working through the following topics:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Introduction&lt;/li&gt;&#xA;&lt;li&gt;Workshop Setup&lt;/li&gt;&#xA;&lt;li&gt;Development Environment&lt;/li&gt;&#xA;&lt;li&gt;Container Builds&lt;/li&gt;&#xA;&lt;li&gt;Container Pipeline&lt;/li&gt;&#xA;&lt;li&gt;Running Containers&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;We will be using these tools and techniques to secure a container pipeline and runtime.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Networking and Kubernetes Early Release</title>
-      <link>https://jamesstrong.dev/post/2021/2021-03-02-kubernetes-networking-book/</link>
+      <link>http://localhost:1313/post/2021/2021-03-02-kubernetes-networking-book/</link>
       <pubDate>Tue, 02 Mar 2021 00:00:00 +0000</pubDate>
-      <guid>https://jamesstrong.dev/post/2021/2021-03-02-kubernetes-networking-book/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://jamesstrong.dev/img/book-cover.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;This past year &lt;a href=&#34;https://twitter.com/vllry&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Vallery Lancey&lt;/a&gt; and I have been working on a Kubernetes Networking Book.&lt;/p&gt;&#xA;&lt;p&gt;I am proud to announce that we have an early release of Chapters 1-3 of the book available on O&amp;rsquo;Reilly Digital&#xA;platform.&lt;/p&gt;&#xA;&lt;p&gt;Kubernetes Networking is an essential guide for anyone who wants to deploy, manage, or troubleshoot a production-scale Kubernetes network.&lt;/p&gt;&#xA;&lt;p&gt;Understanding Kubernetes clusters isn&amp;rsquo;t enough to operate Kubernetes at scale. Every layer of the stack&amp;ndash;the network, operating system, and Kubernetes&amp;ndash;depends on the layer below. Successful administrators need to understand each layer and how it works across deployments on-premises, in the cloud, and with managed services. Kubernetes Networking clearly guides administrators through the layers of complexity and abstraction that come with running a Kubernetes network. It covers:&lt;/p&gt;</description>
+      <guid>http://localhost:1313/post/2021/2021-03-02-kubernetes-networking-book/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/book-cover.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;This past year &lt;a href=&#34;https://twitter.com/vllry&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Vallery Lancey&lt;/a&gt; and I have been working on a Kubernetes Networking Book.&lt;/p&gt;&#xA;&lt;p&gt;I am proud to announce that we have an early release of Chapters 1-3 of the book available on O&amp;rsquo;Reilly Digital&#xA;platform.&lt;/p&gt;&#xA;&lt;p&gt;Kubernetes Networking is an essential guide for anyone who wants to deploy, manage, or troubleshoot a production-scale Kubernetes network.&lt;/p&gt;&#xA;&lt;p&gt;Understanding Kubernetes clusters isn&amp;rsquo;t enough to operate Kubernetes at scale. Every layer of the stack&amp;ndash;the network, operating system, and Kubernetes&amp;ndash;depends on the layer below. Successful administrators need to understand each layer and how it works across deployments on-premises, in the cloud, and with managed services. Kubernetes Networking clearly guides administrators through the layers of complexity and abstraction that come with running a Kubernetes network. It covers:&lt;/p&gt;</description>
     </item>
     <item>
       <title>A Cloud Guru Advanced Networking with Kubernetes on AWS </title>
-      <link>https://jamesstrong.dev/post/2020/2020-8-24-acg-networking/</link>
+      <link>http://localhost:1313/post/2020/2020-8-24-acg-networking/</link>
       <pubDate>Wed, 26 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>https://jamesstrong.dev/post/2020/2020-8-24-acg-networking/</guid>
+      <guid>http://localhost:1313/post/2020/2020-8-24-acg-networking/</guid>
       <description>&lt;p&gt;I&amp;rsquo;ve spent the last year created a course for A Cloud Guru. With 3.4 hours of content and 36 lessons, I look forward&#xA;to your feedback. Here is my &amp;ldquo;Advanced Networking with Kubernetes on AWS&amp;rdquo; Course.&lt;/p&gt;&#xA;&lt;p&gt;Since its release in 2014, Kubernetes has become the de-facto standard for container orchestration. Kubernetes is a distributed system for managing containers and its networking is no different. Many companies are deploying Kubernetes on-prem and in the cloud, both managed offerings and self-deployed. With that, the demand for System, Network and Cluster Administrators to understand the underpinnings of the network stack in Kubernetes is ever-increasing.&lt;/p&gt;</description>
     </item>
     <item>
       <title>AWS Cloud Governance &amp; Security through Automation</title>
-      <link>https://jamesstrong.dev/post/2020/2020-08-20-aws-cloud-governance-security/</link>
+      <link>http://localhost:1313/post/2020/2020-08-20-aws-cloud-governance-security/</link>
       <pubDate>Thu, 20 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>https://jamesstrong.dev/post/2020/2020-08-20-aws-cloud-governance-security/</guid>
+      <guid>http://localhost:1313/post/2020/2020-08-20-aws-cloud-governance-security/</guid>
       <description>&lt;p&gt;At the August meetup for Atlanta AWS Builders group Jason Lutz and I presented on AWS Security.&lt;/p&gt;&#xA;&lt;p&gt;Presentation: &lt;a href=&#34;https://www.slideshare.net/jstrong09/aws-dev-secops-atlanta-august-meetup&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.slideshare.net/jstrong09/aws-dev-secops-atlanta-august-meetup&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Is that requirement from NIST 800-53 Controls or NIST 800-190? If you&amp;rsquo;ve ever wondered where those pesky cloud security controls come from, this meetup is for you.&#xA;In this Meetup, Jame Strong and Jason Lutz from Contino (an AWS Permier Consulting Partner) will discuss how Contino views DevSecOps. They will review the Benefits of DevSecOps:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Containers and DevSecops</title>
-      <link>https://jamesstrong.dev/post/2020/2020-05-27-containers-devsecops-austin/</link>
+      <link>http://localhost:1313/post/2020/2020-05-27-containers-devsecops-austin/</link>
       <pubDate>Wed, 27 May 2020 00:00:00 +0000</pubDate>
-      <guid>https://jamesstrong.dev/post/2020/2020-05-27-containers-devsecops-austin/</guid>
+      <guid>http://localhost:1313/post/2020/2020-05-27-containers-devsecops-austin/</guid>
       <description>&lt;p&gt;DevOps is established, and containers are all the rage, but we forget about security!&lt;/p&gt;&#xA;&lt;p&gt;Let&amp;rsquo;s talk about DevSecOps and Containers. We&amp;rsquo;re going to show you how to inject security into your Container Pipelines. Don&amp;rsquo;t have a pipeline? Don&amp;rsquo;t worry, because we&amp;rsquo;ll fix that too.&lt;/p&gt;&#xA;&lt;p&gt;In this talk, James Strong, Cloud Native Director at Contino and AWS APN Ambassador, will share knowledge around container security and building a DevSecOps pipeline in AWS with no servers. That&amp;rsquo;s right - no servers.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Cloud Native Summit Online Stream Experience</title>
-      <link>https://jamesstrong.dev/post/2020/2020-04-27-cloudnative-stream/</link>
+      <link>http://localhost:1313/post/2020/2020-04-27-cloudnative-stream/</link>
       <pubDate>Mon, 27 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>https://jamesstrong.dev/post/2020/2020-04-27-cloudnative-stream/</guid>
+      <guid>http://localhost:1313/post/2020/2020-04-27-cloudnative-stream/</guid>
       <description>&lt;p&gt;The Cloud Native Online Summit was a community event that had updates from all graduated CNCF projects - Kubernetes&#xA;, Prometheus, Envoy, Jaeger, Fluentd, Containerd, CoreDNS, Vitess, TUF. Along with conversations between the key SIG&#xA;and WG contributors.&lt;/p&gt;&#xA;&#xA;    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/jv69-lSc1aA?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;&lt;p&gt;I was part of the Cloud Native Online summit team that helped put on the event.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Kubernetes Best Practices Webinar</title>
-      <link>https://jamesstrong.dev/post/2020/2020-04-16-k8-contino-web/</link>
+      <link>http://localhost:1313/post/2020/2020-04-16-k8-contino-web/</link>
       <pubDate>Thu, 16 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>https://jamesstrong.dev/post/2020/2020-04-16-k8-contino-web/</guid>
+      <guid>http://localhost:1313/post/2020/2020-04-16-k8-contino-web/</guid>
       <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/R9CjnitC2ZM?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;&lt;p&gt;Slides: &lt;a href=&#34;https://www.slideshare.net/jstrong09/kubernetes-do-or-do-not-there-is-no-try&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.slideshare.net/jstrong09/kubernetes-do-or-do-not-there-is-no-try&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;In this webinar Gregory Patmore and I covered:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Getting started with Kubernetes - laying the foundations for success&lt;/li&gt;&#xA;&lt;li&gt;Clusters: Set up, security and operations&lt;/li&gt;&#xA;&lt;li&gt;Best practices for container and Kubernetes adoption&lt;/li&gt;&#xA;&lt;li&gt;Securing containers&lt;/li&gt;&#xA;&lt;li&gt;Optimising application development in Kubernetes environments&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>KubeCon San Diego Recap</title>
-      <link>https://jamesstrong.dev/post/2019/2019-11-23-kubecon/</link>
+      <link>http://localhost:1313/post/2019/2019-11-23-kubecon/</link>
       <pubDate>Sat, 23 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>https://jamesstrong.dev/post/2019/2019-11-23-kubecon/</guid>
+      <guid>http://localhost:1313/post/2019/2019-11-23-kubecon/</guid>
       <description>&lt;p&gt;KubeCon San Diego Recap&lt;/p&gt;&#xA;&lt;p&gt;KubeCon had a great turnout this year with 12,000 attendees that filled the San Diego Convention center.  Three things stood out to me: Security, Network, and Community.&lt;/p&gt;&#xA;&lt;p&gt;The community was a big theme at this event and in many of the keynotes. From David’s talk about &lt;a href=&#34;https://www.youtube.com/watch?v=AWdhli9rhWQ&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;non-code ways to&#xA;contribute&lt;/a&gt; to CNCF’s projects. Kelsey Hightower’s &lt;a href=&#34;https://www.youtube.com/watch?v=jiaLsxjBeOQ&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;keynote&lt;/a&gt; on how we&#xA;could never have done this as an individual or&#xA;a single company. Not to mention, Tim Hockin’s point of &lt;a href=&#34;https://www.youtube.com/watch?v=o-oMegdZcg4&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Co-op-petition between Google, Microsoft, and others;&#xA;Project over Company&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Live at KubeCon North America 2019 with James Strong</title>
-      <link>https://jamesstrong.dev/post/2019/2019-11-20-rancher-live-with-james/</link>
+      <link>http://localhost:1313/post/2019/2019-11-20-rancher-live-with-james/</link>
       <pubDate>Wed, 20 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>https://jamesstrong.dev/post/2019/2019-11-20-rancher-live-with-james/</guid>
+      <guid>http://localhost:1313/post/2019/2019-11-20-rancher-live-with-james/</guid>
       <description>&lt;p&gt;JvB and James dicuss KubeCon and the evolution of the Kubernetes ecosystem at KubeCon North America 2019&lt;/p&gt;&#xA;&#xA;    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/PyRd3RdyP8M?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;</description>
     </item>
     <item>
       <title>Code PaLOUSa 2019</title>
-      <link>https://jamesstrong.dev/post/2019/2019-08-26-code-lou-2019/</link>
+      <link>http://localhost:1313/post/2019/2019-08-26-code-lou-2019/</link>
       <pubDate>Mon, 26 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>https://jamesstrong.dev/post/2019/2019-08-26-code-lou-2019/</guid>
+      <guid>http://localhost:1313/post/2019/2019-08-26-code-lou-2019/</guid>
       <description>&lt;p&gt;Another year! Another amazing Code PaLOUsa come and gone.&lt;/p&gt;&#xA;&lt;h3 id=&#34;location&#34;&gt;&#xA;  Location&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#location&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;This year Code PaLOUsa was at the Hyatt Regency, which is smack dap in the middle of downtown. This location makes it a&#xA;perfect spot for all the speakers and conference-goers to experience some of the tourist spots in Louisville and still&#xA;enjoy the conference.&lt;/p&gt;&#xA;&lt;h3 id=&#34;sessions&#34;&gt;&#xA;  Sessions&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#sessions&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;The sessions were action-packed, as well. A (useful?) attribute of a conference is the level of difficulty for goers to&#xA;decide which speakers to see! There were so many sessions at each hour to choose. Here is the list of ones&#xA;I chose (could) to attend.&lt;/p&gt;</description>
     </item>
     <item>
       <title>High-Performance Computing for Financial Services</title>
-      <link>https://jamesstrong.dev/post/2019/2019-08-19-aws-hpc/</link>
+      <link>http://localhost:1313/post/2019/2019-08-19-aws-hpc/</link>
       <pubDate>Mon, 19 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>https://jamesstrong.dev/post/2019/2019-08-19-aws-hpc/</guid>
+      <guid>http://localhost:1313/post/2019/2019-08-19-aws-hpc/</guid>
       <description>&lt;p&gt;The last week of July, I attended High-Performance Compute (HPC) Training for Financial Services in AWS.&#xA;During this week-long training, AWS professionals in Financial Services shared their outlook on the needs that large&#xA;financial institutions face from the industry, regulators, and markets.&lt;/p&gt;&#xA;&lt;p&gt;The first thing that caught my attention was this question:&lt;/p&gt;&#xA;&lt;p&gt;&amp;ldquo;If you could add 100,000 cores to your HPC grid, return them once you&amp;rsquo;re done and pay only for what you use, just like&#xA;many of your peers do, how would that improve your business?&amp;rdquo;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Kubernetes Networking</title>
-      <link>https://jamesstrong.dev/post/2019/2019-08-08-k8-network/</link>
+      <link>http://localhost:1313/post/2019/2019-08-08-k8-network/</link>
       <pubDate>Thu, 08 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>https://jamesstrong.dev/post/2019/2019-08-08-k8-network/</guid>
-      <description>&lt;p&gt;I have begin working on Deep Dive into Kubernetes Networking, Let me know your thoughts about what you want to see.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://strongjz.github.io/k8-networking/#/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://strongjz.github.io/k8-networking/#/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://jamesstrong.dev/img/service.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;</description>
+      <guid>http://localhost:1313/post/2019/2019-08-08-k8-network/</guid>
+      <description>&lt;p&gt;I have begin working on Deep Dive into Kubernetes Networking, Let me know your thoughts about what you want to see.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://strongjz.github.io/k8-networking/#/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://strongjz.github.io/k8-networking/#/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/service.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Intro to Kubernetes</title>
-      <link>https://jamesstrong.dev/post/2019/2019-04-04-cncf-intro-k8/</link>
+      <link>http://localhost:1313/post/2019/2019-04-04-cncf-intro-k8/</link>
       <pubDate>Thu, 04 Apr 2019 00:00:00 +0000</pubDate>
-      <guid>https://jamesstrong.dev/post/2019/2019-04-04-cncf-intro-k8/</guid>
-      <description>&lt;p&gt;In April, we kicked off [Kubernetes and Cloud Native Computing Louisville](&lt;a href=&#34;https://www.meetup&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.meetup&lt;/a&gt;.&#xA;com/Kubernetes-and-Cloud-Native-Computing-Louisville/)&lt;/p&gt;&#xA;&lt;p&gt;I presented an &amp;ldquo;Intro to Kubernetes&amp;rdquo;, here is a link to the &lt;a href=&#34;http://strongjz.github.io/louk8cnc-intro-k8s&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;presentation&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;More about that Meetup &lt;a href=&#34;https://www.meetup.com/Kubernetes-and-Cloud-Native-Computing-Louisville/events/259202067/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://jamesstrong.dev/img/services.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Recording&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;</description>
+      <guid>http://localhost:1313/post/2019/2019-04-04-cncf-intro-k8/</guid>
+      <description>&lt;p&gt;In April, we kicked off [Kubernetes and Cloud Native Computing Louisville](&lt;a href=&#34;https://www.meetup&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.meetup&lt;/a&gt;.&#xA;com/Kubernetes-and-Cloud-Native-Computing-Louisville/)&lt;/p&gt;&#xA;&lt;p&gt;I presented an &amp;ldquo;Intro to Kubernetes&amp;rdquo;, here is a link to the &lt;a href=&#34;http://strongjz.github.io/louk8cnc-intro-k8s&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;presentation&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;More about that Meetup &lt;a href=&#34;https://www.meetup.com/Kubernetes-and-Cloud-Native-Computing-Louisville/events/259202067/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/services.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Recording&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;</description>
     </item>
     <item>
       <title>Hashicorp DFW</title>
-      <link>https://jamesstrong.dev/post/2019/2019-03-31-hashidfw/</link>
+      <link>http://localhost:1313/post/2019/2019-03-31-hashidfw/</link>
       <pubDate>Sun, 31 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://jamesstrong.dev/post/2019/2019-03-31-hashidfw/</guid>
+      <guid>http://localhost:1313/post/2019/2019-03-31-hashidfw/</guid>
       <description>&lt;p&gt;I will be giving a talk and demo on deploying serverless apps onto AWS with Terraform!&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.meetup.com/hashicorpdfw/events/260071773/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.meetup.com/hashicorpdfw/events/260071773/&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Kubernetes and Cloud Native Computing April Meetup</title>
-      <link>https://jamesstrong.dev/post/2019/2019-03-25-loucncf-4-1/</link>
+      <link>http://localhost:1313/post/2019/2019-03-25-loucncf-4-1/</link>
       <pubDate>Mon, 25 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://jamesstrong.dev/post/2019/2019-03-25-loucncf-4-1/</guid>
+      <guid>http://localhost:1313/post/2019/2019-03-25-loucncf-4-1/</guid>
       <description>&lt;p&gt;The inaugural Kubernetes and Cloud Native Computer Louisville will be on April 4th. I will be presenting&#xA;an &amp;ldquo;Intro to Kubernetes&amp;rdquo;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.meetup.com/Kubernetes-and-Cloud-Native-Computing-Louisville/events/259202067/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.meetup.com/Kubernetes-and-Cloud-Native-Computing-Louisville/events/259202067/&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Dev Nexus 2019</title>
-      <link>https://jamesstrong.dev/post/2019/2019-03-06-devnexus2019/</link>
+      <link>http://localhost:1313/post/2019/2019-03-06-devnexus2019/</link>
       <pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://jamesstrong.dev/post/2019/2019-03-06-devnexus2019/</guid>
+      <guid>http://localhost:1313/post/2019/2019-03-06-devnexus2019/</guid>
       <description>&lt;p&gt;At Dev Nexus 2018 my co-worker, &lt;a href=&#34;http://shahadarsh.com/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Adarsh&lt;/a&gt;, and I led a workshop &lt;a href=&#34;https://devnexus.com/presentations/2999/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&amp;ldquo;Introduction to Kubernetes&amp;rdquo;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Introduction to Kubernetes is a hands-on, interactive workshop giving attendees a thorough&#xA;understanding of the fundamentals of Kubernetes. As part of this workshop, you will learn how Kubernetes&#xA;works, be able to successfully create a kubernetes cluster, deploy microservices to that cluster &amp;amp;&#xA;also hear about some war stories.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://contino.github.io/intro-k8/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://contino.github.io/intro-k8/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Developer density ⁦&lt;a href=&#34;https://twitter.com/devnexus?ref_src=twsrc%5Etfw&#34;&gt;@devnexus&lt;/a&gt;⁩!&lt;br&gt;&lt;br&gt;First class speakers! First class community!&lt;a href=&#34;https://twitter.com/hashtag/Java?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#Java&lt;/a&gt; &lt;a href=&#34;https://t.co/vdFja8kWpN&#34;&gt;pic.twitter.com/vdFja8kWpN&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Passing the CKA</title>
-      <link>https://jamesstrong.dev/post/2019/2019-01-29-passcka/</link>
+      <link>http://localhost:1313/post/2019/2019-01-29-passcka/</link>
       <pubDate>Tue, 29 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://jamesstrong.dev/post/2019/2019-01-29-passcka/</guid>
-      <description>&lt;p&gt;On December 29th I completed my final goal of the year - I passed the CKA.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://jamesstrong.dev/img/cka.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;h4 id=&#34;tldr&#34;&gt;&#xA;  TL;DR&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#tldr&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h4&gt;&#xA;&lt;p&gt;This is a list of the bare minimum necessary to try to pass.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Do Kelsey Hightower’s tutorial &lt;a href=&#34;https://github.com/kelseyhightower/kubernetes-the-hard-way&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Kubernetes The Hard Way&lt;/a&gt; at least three times! Understand it, internalize it.&lt;/li&gt;&#xA;&lt;li&gt;Do all the tasks on &lt;a href=&#34;https://kubernetes.io/docs/tasks/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://kubernetes.io/docs/tasks/&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Read &lt;a href=&#34;https://www.manning.com/books/kubernetes-in-action&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Kubernetes in Action&lt;/em&gt; by Marko Luksa&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Also practice, practice, and practice. Did I mention practice? This is a practical exam, no multiple choice questions here.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/post/2019/2019-01-29-passcka/</guid>
+      <description>&lt;p&gt;On December 29th I completed my final goal of the year - I passed the CKA.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/cka.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;h4 id=&#34;tldr&#34;&gt;&#xA;  TL;DR&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#tldr&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h4&gt;&#xA;&lt;p&gt;This is a list of the bare minimum necessary to try to pass.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Do Kelsey Hightower’s tutorial &lt;a href=&#34;https://github.com/kelseyhightower/kubernetes-the-hard-way&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Kubernetes The Hard Way&lt;/a&gt; at least three times! Understand it, internalize it.&lt;/li&gt;&#xA;&lt;li&gt;Do all the tasks on &lt;a href=&#34;https://kubernetes.io/docs/tasks/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://kubernetes.io/docs/tasks/&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Read &lt;a href=&#34;https://www.manning.com/books/kubernetes-in-action&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Kubernetes in Action&lt;/em&gt; by Marko Luksa&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Also practice, practice, and practice. Did I mention practice? This is a practical exam, no multiple choice questions here.&lt;/p&gt;</description>
     </item>
     <item>
       <title>AWS Re:invent Recap 2018</title>
-      <link>https://jamesstrong.dev/post/2018/2018-12-04-revinventrecap/</link>
+      <link>http://localhost:1313/post/2018/2018-12-04-revinventrecap/</link>
       <pubDate>Tue, 04 Dec 2018 00:00:00 +0000</pubDate>
-      <guid>https://jamesstrong.dev/post/2018/2018-12-04-revinventrecap/</guid>
+      <guid>http://localhost:1313/post/2018/2018-12-04-revinventrecap/</guid>
       <description>&lt;p&gt;Another year, another re:Invent down! 2018 had everything we have come to expect from AWS and re:Invent - releases,&#xA;updates, sessions on everything and shots at Oracle. The focus this time was certainly on developer experience, Artificial&#xA;Intelligence/Machine Learning and Serverless.&lt;/p&gt;&#xA;&lt;p&gt;There were at least sixteen new releases in regards to ML/AI. Sagemaker got new features in Ground truth and RL. There&#xA;is now a marketplace for machine learning algorithm writers to release them and earn from all their hard work. DeepRacer&#xA;has to be the new wow release, another physical device for ML following the release last year of DeepLens. DeepRacer&#xA;is a machine learning car that is programmed with simple python scripts. There is even a league now that customers&#xA;can participate in at AWS events culminating in a championship at re:Invent.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Dockercon 2017</title>
-      <link>https://jamesstrong.dev/post/2017/2017-05-16-dockercon/</link>
+      <link>http://localhost:1313/post/2017/2017-05-16-dockercon/</link>
       <pubDate>Tue, 16 May 2017 00:00:00 +0000</pubDate>
-      <guid>https://jamesstrong.dev/post/2017/2017-05-16-dockercon/</guid>
+      <guid>http://localhost:1313/post/2017/2017-05-16-dockercon/</guid>
       <description>&lt;p&gt;Before we dive into some of the highlights from &lt;a href=&#34;https://2017.dockercon.com/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DockerCon 2017&lt;/a&gt;, let’s do a quick overview&#xA;of what Docker is. Quite simply, a “docker container” is a portable container, of sorts, that allows a collection of&#xA;apps to run on any operating system.&lt;/p&gt;&#xA;&lt;p&gt;How is it possible, you ask, for a docker container to allow any app to “Build, Ship and Run,” as the docker motto says,&#xA;on any OS? A docker container uses kernel features to produce resource isolation (CPU, memory, block I/O&#xA;and more) as well as separate namespaces, to isolate the application’s view of the operating system&#xA;(a visual depiction below).&lt;/p&gt;</description>
     </item>
     <item>
       <title>Code Louisville 2017</title>
-      <link>https://jamesstrong.dev/post/2017/2017-03-29-codelouisville/</link>
+      <link>http://localhost:1313/post/2017/2017-03-29-codelouisville/</link>
       <pubDate>Wed, 29 Mar 2017 00:00:00 +0000</pubDate>
-      <guid>https://jamesstrong.dev/post/2017/2017-03-29-codelouisville/</guid>
+      <guid>http://localhost:1313/post/2017/2017-03-29-codelouisville/</guid>
       <description>&lt;p&gt;This talk was presented in 2017 at Louisville Local Software Development Conference Codepalousa.&lt;/p&gt;&#xA;&lt;p&gt;In this presentation I discussed DevOps, how Continuous Integration and Deployment integrates into that, and&#xA;how CI/CD can be implemented with AWS services.&lt;/p&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th style=&#34;text-align: left&#34;&gt;Running Rules for CI/CD&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: center&#34;&gt;AWS Tool&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;1. Maintain a code repository&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;Commit&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;2. Automate the build&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;*&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;3. Keep the build fast&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;Build&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;4. Make the build self-testing&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;Deploy&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;5. Commit early, commit often&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;Commit&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;6. Every commit to the mainline gets built&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;Pipeline&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;7. Everyone can see the results of the build&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;Pipeline&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;8. Automate the deployment and rollback&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;Deploy&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://www.codepalousa.com/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://www.codepalousa.com/&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Louisville Software Meetup - Jenkins</title>
-      <link>https://jamesstrong.dev/post/2016/2016-01-06-louissoft-jenkins/</link>
+      <link>http://localhost:1313/post/2016/2016-01-06-louissoft-jenkins/</link>
       <pubDate>Wed, 06 Jan 2016 00:00:00 +0000</pubDate>
-      <guid>https://jamesstrong.dev/post/2016/2016-01-06-louissoft-jenkins/</guid>
+      <guid>http://localhost:1313/post/2016/2016-01-06-louissoft-jenkins/</guid>
       <description>&lt;p&gt;This presentation was given at the &lt;a href=&#34;https://www.meetup.com/Louisville-Software-Engineering/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Louisville Software Engineering Meetup.&lt;/a&gt; In It I discuss Continuous Integration and&#xA;Continuous Deployment, and how to achieve it with Jenkins.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;img/jenkins.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;embed src= &#34;pdf/software-engineering.pdf&#34; width= &#34;100%&#34; height= &#34;1000px&#34; type=&#34;application/pdf&#34; &gt;&#xA;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.meetup.com/Louisville-Software-Engineering/events/227294818/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.meetup.com/Louisville-Software-Engineering/events/227294818/&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Masters Presentation</title>
-      <link>https://jamesstrong.dev/post/2015/2015-04-24-master/</link>
+      <link>http://localhost:1313/post/2015/2015-04-24-master/</link>
       <pubDate>Fri, 24 Apr 2015 00:00:00 +0000</pubDate>
-      <guid>https://jamesstrong.dev/post/2015/2015-04-24-master/</guid>
-      <description>&lt;p&gt;On May 9th 2015 I received my Master of Science in Computer Science from the University of Louisville.&#xA;Here is my final project presentation is &lt;a href=&#34;https://prezi.com/fg1szrsl15c8/james-strong-master-final-presentation&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here.&lt;/a&gt;&lt;/p&gt;&#xA;&lt;script type=&#34;text/javascript&#34; src=&#34;https://jamesstrong.dev/js/pdf-js/build/pdf.js&#34;&gt;&lt;/script&gt;&#xA;&lt;style&gt;&#xA;#the-canvas {&#xA;  border: 1px solid black;&#xA;  direction: ltr;&#xA;  width: 100%;&#xA;  height: auto;&#xA;}&#xA;#paginator{&#xA;    text-align: center;&#xA;    margin-bottom: 10px;&#xA;}&#xA;&lt;/style&gt;&#xA;&#xA;&lt;div id=&#34;paginator&#34;&gt;&#xA;    &lt;button id=&#34;prev&#34;&gt;Previous&lt;/button&gt;&#xA;    &lt;button id=&#34;next&#34;&gt;Next&lt;/button&gt;&#xA;    &amp;nbsp; &amp;nbsp;&#xA;    &lt;span&gt;Page: &lt;span id=&#34;page_num&#34;&gt;&lt;/span&gt; / &lt;span id=&#34;page_count&#34;&gt;&lt;/span&gt;&lt;/span&gt;&#xA;&lt;/div&gt;&#xA;&lt;div id=&#34;embed-pdf-container&#34;&gt;&#xA;    &lt;canvas id=&#34;the-canvas&#34;&gt;&lt;/canvas&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;script type=&#34;text/javascript&#34;&gt;&#xA;window.onload = function() {&#xA;&#xA;&#xA;var url = &#34;https:\/\/jamesstrong.dev\/&#34; + &#39;.\/pdf\/master.pdf&#39;;&#xA;var hidePaginator = &#34;&#34;;&#xA;&#xA;&#xA;var pdfjsLib = window[&#39;pdfjs-dist/build/pdf&#39;];&#xA;&#xA;&#xA;pdfjsLib.GlobalWorkerOptions.workerSrc = &#34;https:\/\/jamesstrong.dev\/&#34; + &#39;/js/pdf-js/build/pdf.worker.js&#39;;&#xA;&#xA;&#xA;var pdfDoc = null,&#xA;    pageNum = 1,&#xA;    pageRendering = false,&#xA;    pageNumPending = null,&#xA;    scale = 3,&#xA;    canvas = document.getElementById(&#39;the-canvas&#39;),&#xA;    ctx = canvas.getContext(&#39;2d&#39;);&#xA;&#xA;&#xA;&#xA;function renderPage(num) {&#xA;  pageRendering = true;&#xA;  &#xA;  pdfDoc.getPage(num).then(function(page) {&#xA;    var viewport = page.getViewport({scale: scale});&#xA;    canvas.height = viewport.height;&#xA;    canvas.width = viewport.width;&#xA;&#xA;    &#xA;    var renderContext = {&#xA;      canvasContext: ctx,&#xA;      viewport: viewport&#xA;    };&#xA;    var renderTask = page.render(renderContext);&#xA;&#xA;    &#xA;    renderTask.promise.then(function() {&#xA;      pageRendering = false;&#xA;      if (pageNumPending !== null) {&#xA;        &#xA;        renderPage(pageNumPending);&#xA;        pageNumPending = null;&#xA;      }&#xA;    });&#xA;  });&#xA;&#xA;  &#xA;  document.getElementById(&#39;page_num&#39;).textContent = num;&#xA;}&#xA;&#xA;&#xA;&#xA;function queueRenderPage(num) {&#xA;  if (pageRendering) {&#xA;    pageNumPending = num;&#xA;  } else {&#xA;    renderPage(num);&#xA;  }&#xA;}&#xA;&#xA;&#xA;&#xA;if (hidePaginator) {&#xA;  document.getElementById(&#34;paginator&#34;).style.display = &#39;none&#39;;&#xA;}&#xA;&#xA;&#xA;&#xA;function onPrevPage() {&#xA;  if (pageNum &lt;= 1) {&#xA;    return;&#xA;  }&#xA;  pageNum--;&#xA;  queueRenderPage(pageNum);&#xA;}&#xA;document.getElementById(&#39;prev&#39;).addEventListener(&#39;click&#39;, onPrevPage);&#xA;&#xA;&#xA;&#xA;function onNextPage() {&#xA;  if (pageNum &gt;= pdfDoc.numPages) {&#xA;    return;&#xA;  }&#xA;  pageNum++;&#xA;  queueRenderPage(pageNum);&#xA;}&#xA;document.getElementById(&#39;next&#39;).addEventListener(&#39;click&#39;, onNextPage);&#xA;&#xA;&#xA;&#xA;pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {&#xA;  pdfDoc = pdfDoc_;&#xA;  document.getElementById(&#39;page_count&#39;).textContent = pdfDoc.numPages;&#xA;&#xA;  &#xA;  renderPage(pageNum);&#xA;});&#xA;}&#xA;&#xA;&lt;/script&gt;</description>
+      <guid>http://localhost:1313/post/2015/2015-04-24-master/</guid>
+      <description>&lt;p&gt;On May 9th 2015 I received my Master of Science in Computer Science from the University of Louisville.&#xA;Here is my final project presentation is &lt;a href=&#34;https://prezi.com/fg1szrsl15c8/james-strong-master-final-presentation&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here.&lt;/a&gt;&lt;/p&gt;&#xA;&lt;script type=&#34;text/javascript&#34; src=&#34;http://localhost:1313/js/pdf-js/build/pdf.js&#34;&gt;&lt;/script&gt;&#xA;&lt;style&gt;&#xA;#the-canvas {&#xA;  border: 1px solid black;&#xA;  direction: ltr;&#xA;  width: 100%;&#xA;  height: auto;&#xA;}&#xA;#paginator{&#xA;    text-align: center;&#xA;    margin-bottom: 10px;&#xA;}&#xA;&lt;/style&gt;&#xA;&#xA;&lt;div id=&#34;paginator&#34;&gt;&#xA;    &lt;button id=&#34;prev&#34;&gt;Previous&lt;/button&gt;&#xA;    &lt;button id=&#34;next&#34;&gt;Next&lt;/button&gt;&#xA;    &amp;nbsp; &amp;nbsp;&#xA;    &lt;span&gt;Page: &lt;span id=&#34;page_num&#34;&gt;&lt;/span&gt; / &lt;span id=&#34;page_count&#34;&gt;&lt;/span&gt;&lt;/span&gt;&#xA;&lt;/div&gt;&#xA;&lt;div id=&#34;embed-pdf-container&#34;&gt;&#xA;    &lt;canvas id=&#34;the-canvas&#34;&gt;&lt;/canvas&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;script type=&#34;text/javascript&#34;&gt;&#xA;window.onload = function() {&#xA;&#xA;&#xA;var url = &#34;http:\/\/localhost:1313\/&#34; + &#39;.\/pdf\/master.pdf&#39;;&#xA;var hidePaginator = &#34;&#34;;&#xA;&#xA;&#xA;var pdfjsLib = window[&#39;pdfjs-dist/build/pdf&#39;];&#xA;&#xA;&#xA;pdfjsLib.GlobalWorkerOptions.workerSrc = &#34;http:\/\/localhost:1313\/&#34; + &#39;/js/pdf-js/build/pdf.worker.js&#39;;&#xA;&#xA;&#xA;var pdfDoc = null,&#xA;    pageNum = 1,&#xA;    pageRendering = false,&#xA;    pageNumPending = null,&#xA;    scale = 3,&#xA;    canvas = document.getElementById(&#39;the-canvas&#39;),&#xA;    ctx = canvas.getContext(&#39;2d&#39;);&#xA;&#xA;&#xA;&#xA;function renderPage(num) {&#xA;  pageRendering = true;&#xA;  &#xA;  pdfDoc.getPage(num).then(function(page) {&#xA;    var viewport = page.getViewport({scale: scale});&#xA;    canvas.height = viewport.height;&#xA;    canvas.width = viewport.width;&#xA;&#xA;    &#xA;    var renderContext = {&#xA;      canvasContext: ctx,&#xA;      viewport: viewport&#xA;    };&#xA;    var renderTask = page.render(renderContext);&#xA;&#xA;    &#xA;    renderTask.promise.then(function() {&#xA;      pageRendering = false;&#xA;      if (pageNumPending !== null) {&#xA;        &#xA;        renderPage(pageNumPending);&#xA;        pageNumPending = null;&#xA;      }&#xA;    });&#xA;  });&#xA;&#xA;  &#xA;  document.getElementById(&#39;page_num&#39;).textContent = num;&#xA;}&#xA;&#xA;&#xA;&#xA;function queueRenderPage(num) {&#xA;  if (pageRendering) {&#xA;    pageNumPending = num;&#xA;  } else {&#xA;    renderPage(num);&#xA;  }&#xA;}&#xA;&#xA;&#xA;&#xA;if (hidePaginator) {&#xA;  document.getElementById(&#34;paginator&#34;).style.display = &#39;none&#39;;&#xA;}&#xA;&#xA;&#xA;&#xA;function onPrevPage() {&#xA;  if (pageNum &lt;= 1) {&#xA;    return;&#xA;  }&#xA;  pageNum--;&#xA;  queueRenderPage(pageNum);&#xA;}&#xA;document.getElementById(&#39;prev&#39;).addEventListener(&#39;click&#39;, onPrevPage);&#xA;&#xA;&#xA;&#xA;function onNextPage() {&#xA;  if (pageNum &gt;= pdfDoc.numPages) {&#xA;    return;&#xA;  }&#xA;  pageNum++;&#xA;  queueRenderPage(pageNum);&#xA;}&#xA;document.getElementById(&#39;next&#39;).addEventListener(&#39;click&#39;, onNextPage);&#xA;&#xA;&#xA;&#xA;pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {&#xA;  pdfDoc = pdfDoc_;&#xA;  document.getElementById(&#39;page_count&#39;).textContent = pdfDoc.numPages;&#xA;&#xA;  &#xA;  renderPage(pageNum);&#xA;});&#xA;}&#xA;&#xA;&lt;/script&gt;</description>
     </item>
   </channel>
 </rss>

@@ -2,298 +2,298 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on James Strong</title>
-    <link>https://jamesstrong.dev/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on James Strong</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Copyright (c) 2024, all rights reserved.</copyright>
     <lastBuildDate>Mon, 20 Nov 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://jamesstrong.dev/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Resume</title>
-      <link>https://jamesstrong.dev/tags/resume/</link>
+      <link>http://localhost:1313/tags/resume/</link>
       <pubDate>Mon, 20 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>https://jamesstrong.dev/tags/resume/</guid>
+      <guid>http://localhost:1313/tags/resume/</guid>
       <description></description>
     </item>
     <item>
       <title>Cloud</title>
-      <link>https://jamesstrong.dev/tags/cloud/</link>
+      <link>http://localhost:1313/tags/cloud/</link>
       <pubDate>Tue, 07 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>https://jamesstrong.dev/tags/cloud/</guid>
+      <guid>http://localhost:1313/tags/cloud/</guid>
       <description></description>
     </item>
     <item>
       <title>Conference</title>
-      <link>https://jamesstrong.dev/tags/conference/</link>
+      <link>http://localhost:1313/tags/conference/</link>
       <pubDate>Tue, 07 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>https://jamesstrong.dev/tags/conference/</guid>
+      <guid>http://localhost:1313/tags/conference/</guid>
       <description></description>
     </item>
     <item>
       <title>Kubecon</title>
-      <link>https://jamesstrong.dev/tags/kubecon/</link>
+      <link>http://localhost:1313/tags/kubecon/</link>
       <pubDate>Tue, 07 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>https://jamesstrong.dev/tags/kubecon/</guid>
+      <guid>http://localhost:1313/tags/kubecon/</guid>
       <description></description>
     </item>
     <item>
       <title>Kubernetes</title>
-      <link>https://jamesstrong.dev/tags/kubernetes/</link>
+      <link>http://localhost:1313/tags/kubernetes/</link>
       <pubDate>Tue, 07 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>https://jamesstrong.dev/tags/kubernetes/</guid>
+      <guid>http://localhost:1313/tags/kubernetes/</guid>
       <description></description>
     </item>
     <item>
       <title>Cve</title>
-      <link>https://jamesstrong.dev/tags/cve/</link>
+      <link>http://localhost:1313/tags/cve/</link>
       <pubDate>Mon, 14 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>https://jamesstrong.dev/tags/cve/</guid>
+      <guid>http://localhost:1313/tags/cve/</guid>
       <description></description>
     </item>
     <item>
       <title>Ingress-Nginx</title>
-      <link>https://jamesstrong.dev/tags/ingress-nginx/</link>
+      <link>http://localhost:1313/tags/ingress-nginx/</link>
       <pubDate>Thu, 18 May 2023 00:00:00 +0000</pubDate>
-      <guid>https://jamesstrong.dev/tags/ingress-nginx/</guid>
+      <guid>http://localhost:1313/tags/ingress-nginx/</guid>
       <description></description>
     </item>
     <item>
       <title>Networking</title>
-      <link>https://jamesstrong.dev/tags/networking/</link>
+      <link>http://localhost:1313/tags/networking/</link>
       <pubDate>Thu, 18 May 2023 00:00:00 +0000</pubDate>
-      <guid>https://jamesstrong.dev/tags/networking/</guid>
+      <guid>http://localhost:1313/tags/networking/</guid>
       <description></description>
     </item>
     <item>
       <title>Stream</title>
-      <link>https://jamesstrong.dev/tags/stream/</link>
+      <link>http://localhost:1313/tags/stream/</link>
       <pubDate>Thu, 18 May 2023 00:00:00 +0000</pubDate>
-      <guid>https://jamesstrong.dev/tags/stream/</guid>
+      <guid>http://localhost:1313/tags/stream/</guid>
       <description></description>
     </item>
     <item>
       <title>Gitops</title>
-      <link>https://jamesstrong.dev/tags/gitops/</link>
+      <link>http://localhost:1313/tags/gitops/</link>
       <pubDate>Wed, 10 May 2023 00:00:00 +0000</pubDate>
-      <guid>https://jamesstrong.dev/tags/gitops/</guid>
+      <guid>http://localhost:1313/tags/gitops/</guid>
       <description></description>
     </item>
     <item>
       <title>Nginx</title>
-      <link>https://jamesstrong.dev/tags/nginx/</link>
+      <link>http://localhost:1313/tags/nginx/</link>
       <pubDate>Mon, 01 May 2023 00:00:00 +0000</pubDate>
-      <guid>https://jamesstrong.dev/tags/nginx/</guid>
+      <guid>http://localhost:1313/tags/nginx/</guid>
       <description></description>
     </item>
     <item>
       <title>Sigstore</title>
-      <link>https://jamesstrong.dev/tags/sigstore/</link>
+      <link>http://localhost:1313/tags/sigstore/</link>
       <pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate>
-      <guid>https://jamesstrong.dev/tags/sigstore/</guid>
+      <guid>http://localhost:1313/tags/sigstore/</guid>
       <description></description>
     </item>
     <item>
       <title>Security</title>
-      <link>https://jamesstrong.dev/tags/security/</link>
+      <link>http://localhost:1313/tags/security/</link>
       <pubDate>Wed, 14 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>https://jamesstrong.dev/tags/security/</guid>
+      <guid>http://localhost:1313/tags/security/</guid>
       <description></description>
     </item>
     <item>
       <title>Interview</title>
-      <link>https://jamesstrong.dev/tags/interview/</link>
+      <link>http://localhost:1313/tags/interview/</link>
       <pubDate>Mon, 29 Aug 2022 00:00:00 +0000</pubDate>
-      <guid>https://jamesstrong.dev/tags/interview/</guid>
+      <guid>http://localhost:1313/tags/interview/</guid>
       <description></description>
     </item>
     <item>
       <title>Software Supply Chain Security</title>
-      <link>https://jamesstrong.dev/tags/software-supply-chain-security/</link>
+      <link>http://localhost:1313/tags/software-supply-chain-security/</link>
       <pubDate>Mon, 29 Aug 2022 00:00:00 +0000</pubDate>
-      <guid>https://jamesstrong.dev/tags/software-supply-chain-security/</guid>
+      <guid>http://localhost:1313/tags/software-supply-chain-security/</guid>
       <description></description>
     </item>
     <item>
       <title>Podcast</title>
-      <link>https://jamesstrong.dev/tags/podcast/</link>
+      <link>http://localhost:1313/tags/podcast/</link>
       <pubDate>Tue, 18 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>https://jamesstrong.dev/tags/podcast/</guid>
+      <guid>http://localhost:1313/tags/podcast/</guid>
       <description></description>
     </item>
     <item>
       <title>Aws</title>
-      <link>https://jamesstrong.dev/tags/aws/</link>
+      <link>http://localhost:1313/tags/aws/</link>
       <pubDate>Thu, 27 May 2021 00:00:00 +0000</pubDate>
-      <guid>https://jamesstrong.dev/tags/aws/</guid>
+      <guid>http://localhost:1313/tags/aws/</guid>
       <description></description>
     </item>
     <item>
       <title>Azure</title>
-      <link>https://jamesstrong.dev/tags/azure/</link>
+      <link>http://localhost:1313/tags/azure/</link>
       <pubDate>Thu, 27 May 2021 00:00:00 +0000</pubDate>
-      <guid>https://jamesstrong.dev/tags/azure/</guid>
+      <guid>http://localhost:1313/tags/azure/</guid>
       <description></description>
     </item>
     <item>
       <title>Devsecops</title>
-      <link>https://jamesstrong.dev/tags/devsecops/</link>
+      <link>http://localhost:1313/tags/devsecops/</link>
       <pubDate>Thu, 27 May 2021 00:00:00 +0000</pubDate>
-      <guid>https://jamesstrong.dev/tags/devsecops/</guid>
+      <guid>http://localhost:1313/tags/devsecops/</guid>
       <description></description>
     </item>
     <item>
       <title>Gcp</title>
-      <link>https://jamesstrong.dev/tags/gcp/</link>
+      <link>http://localhost:1313/tags/gcp/</link>
       <pubDate>Thu, 27 May 2021 00:00:00 +0000</pubDate>
-      <guid>https://jamesstrong.dev/tags/gcp/</guid>
+      <guid>http://localhost:1313/tags/gcp/</guid>
       <description></description>
     </item>
     <item>
       <title>Workshop</title>
-      <link>https://jamesstrong.dev/tags/workshop/</link>
+      <link>http://localhost:1313/tags/workshop/</link>
       <pubDate>Thu, 27 May 2021 00:00:00 +0000</pubDate>
-      <guid>https://jamesstrong.dev/tags/workshop/</guid>
+      <guid>http://localhost:1313/tags/workshop/</guid>
       <description></description>
     </item>
     <item>
       <title>Cloud Native</title>
-      <link>https://jamesstrong.dev/tags/cloud-native/</link>
+      <link>http://localhost:1313/tags/cloud-native/</link>
       <pubDate>Wed, 27 May 2020 00:00:00 +0000</pubDate>
-      <guid>https://jamesstrong.dev/tags/cloud-native/</guid>
+      <guid>http://localhost:1313/tags/cloud-native/</guid>
       <description></description>
     </item>
     <item>
       <title>Containers</title>
-      <link>https://jamesstrong.dev/tags/containers/</link>
+      <link>http://localhost:1313/tags/containers/</link>
       <pubDate>Wed, 27 May 2020 00:00:00 +0000</pubDate>
-      <guid>https://jamesstrong.dev/tags/containers/</guid>
+      <guid>http://localhost:1313/tags/containers/</guid>
       <description></description>
     </item>
     <item>
       <title>Devops</title>
-      <link>https://jamesstrong.dev/tags/devops/</link>
+      <link>http://localhost:1313/tags/devops/</link>
       <pubDate>Sat, 23 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>https://jamesstrong.dev/tags/devops/</guid>
+      <guid>http://localhost:1313/tags/devops/</guid>
       <description></description>
     </item>
     <item>
       <title>Developer</title>
-      <link>https://jamesstrong.dev/tags/developer/</link>
+      <link>http://localhost:1313/tags/developer/</link>
       <pubDate>Mon, 26 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>https://jamesstrong.dev/tags/developer/</guid>
+      <guid>http://localhost:1313/tags/developer/</guid>
       <description></description>
     </item>
     <item>
       <title>Blog</title>
-      <link>https://jamesstrong.dev/tags/blog/</link>
+      <link>http://localhost:1313/tags/blog/</link>
       <pubDate>Mon, 19 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>https://jamesstrong.dev/tags/blog/</guid>
+      <guid>http://localhost:1313/tags/blog/</guid>
       <description></description>
     </item>
     <item>
       <title>Code</title>
-      <link>https://jamesstrong.dev/tags/code/</link>
+      <link>http://localhost:1313/tags/code/</link>
       <pubDate>Mon, 19 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>https://jamesstrong.dev/tags/code/</guid>
+      <guid>http://localhost:1313/tags/code/</guid>
       <description></description>
     </item>
     <item>
       <title>Development</title>
-      <link>https://jamesstrong.dev/tags/development/</link>
+      <link>http://localhost:1313/tags/development/</link>
       <pubDate>Mon, 19 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>https://jamesstrong.dev/tags/development/</guid>
+      <guid>http://localhost:1313/tags/development/</guid>
       <description></description>
     </item>
     <item>
       <title>Finserve</title>
-      <link>https://jamesstrong.dev/tags/finserve/</link>
+      <link>http://localhost:1313/tags/finserve/</link>
       <pubDate>Mon, 19 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>https://jamesstrong.dev/tags/finserve/</guid>
+      <guid>http://localhost:1313/tags/finserve/</guid>
       <description></description>
     </item>
     <item>
       <title>Hpc</title>
-      <link>https://jamesstrong.dev/tags/hpc/</link>
+      <link>http://localhost:1313/tags/hpc/</link>
       <pubDate>Mon, 19 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>https://jamesstrong.dev/tags/hpc/</guid>
+      <guid>http://localhost:1313/tags/hpc/</guid>
       <description></description>
     </item>
     <item>
       <title>Meetup</title>
-      <link>https://jamesstrong.dev/tags/meetup/</link>
+      <link>http://localhost:1313/tags/meetup/</link>
       <pubDate>Thu, 04 Apr 2019 00:00:00 +0000</pubDate>
-      <guid>https://jamesstrong.dev/tags/meetup/</guid>
+      <guid>http://localhost:1313/tags/meetup/</guid>
       <description></description>
     </item>
     <item>
       <title>Hashicorp</title>
-      <link>https://jamesstrong.dev/tags/hashicorp/</link>
+      <link>http://localhost:1313/tags/hashicorp/</link>
       <pubDate>Sun, 31 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://jamesstrong.dev/tags/hashicorp/</guid>
+      <guid>http://localhost:1313/tags/hashicorp/</guid>
       <description></description>
     </item>
     <item>
       <title>Serverless</title>
-      <link>https://jamesstrong.dev/tags/serverless/</link>
+      <link>http://localhost:1313/tags/serverless/</link>
       <pubDate>Sun, 31 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://jamesstrong.dev/tags/serverless/</guid>
+      <guid>http://localhost:1313/tags/serverless/</guid>
       <description></description>
     </item>
     <item>
       <title>Cncf</title>
-      <link>https://jamesstrong.dev/tags/cncf/</link>
+      <link>http://localhost:1313/tags/cncf/</link>
       <pubDate>Mon, 25 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://jamesstrong.dev/tags/cncf/</guid>
+      <guid>http://localhost:1313/tags/cncf/</guid>
       <description></description>
     </item>
     <item>
       <title>Cka</title>
-      <link>https://jamesstrong.dev/tags/cka/</link>
+      <link>http://localhost:1313/tags/cka/</link>
       <pubDate>Tue, 29 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://jamesstrong.dev/tags/cka/</guid>
+      <guid>http://localhost:1313/tags/cka/</guid>
       <description></description>
     </item>
     <item>
       <title>Reinvent</title>
-      <link>https://jamesstrong.dev/tags/reinvent/</link>
+      <link>http://localhost:1313/tags/reinvent/</link>
       <pubDate>Tue, 04 Dec 2018 00:00:00 +0000</pubDate>
-      <guid>https://jamesstrong.dev/tags/reinvent/</guid>
+      <guid>http://localhost:1313/tags/reinvent/</guid>
       <description></description>
     </item>
     <item>
       <title>Docker</title>
-      <link>https://jamesstrong.dev/tags/docker/</link>
+      <link>http://localhost:1313/tags/docker/</link>
       <pubDate>Tue, 16 May 2017 00:00:00 +0000</pubDate>
-      <guid>https://jamesstrong.dev/tags/docker/</guid>
+      <guid>http://localhost:1313/tags/docker/</guid>
       <description></description>
     </item>
     <item>
       <title>Cicd</title>
-      <link>https://jamesstrong.dev/tags/cicd/</link>
+      <link>http://localhost:1313/tags/cicd/</link>
       <pubDate>Wed, 29 Mar 2017 00:00:00 +0000</pubDate>
-      <guid>https://jamesstrong.dev/tags/cicd/</guid>
+      <guid>http://localhost:1313/tags/cicd/</guid>
       <description></description>
     </item>
     <item>
       <title>Ci/Cd</title>
-      <link>https://jamesstrong.dev/tags/ci/cd/</link>
+      <link>http://localhost:1313/tags/ci/cd/</link>
       <pubDate>Wed, 06 Jan 2016 00:00:00 +0000</pubDate>
-      <guid>https://jamesstrong.dev/tags/ci/cd/</guid>
+      <guid>http://localhost:1313/tags/ci/cd/</guid>
       <description></description>
     </item>
     <item>
       <title>Jenkins</title>
-      <link>https://jamesstrong.dev/tags/jenkins/</link>
+      <link>http://localhost:1313/tags/jenkins/</link>
       <pubDate>Wed, 06 Jan 2016 00:00:00 +0000</pubDate>
-      <guid>https://jamesstrong.dev/tags/jenkins/</guid>
+      <guid>http://localhost:1313/tags/jenkins/</guid>
       <description></description>
     </item>
     <item>
       <title>Master</title>
-      <link>https://jamesstrong.dev/tags/master/</link>
+      <link>http://localhost:1313/tags/master/</link>
       <pubDate>Fri, 24 Apr 2015 00:00:00 +0000</pubDate>
-      <guid>https://jamesstrong.dev/tags/master/</guid>
+      <guid>http://localhost:1313/tags/master/</guid>
       <description></description>
     </item>
   </channel>
