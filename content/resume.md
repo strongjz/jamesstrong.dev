@@ -136,7 +136,7 @@ Aided client’s efforts to transition to Cloud based architecture exclusively u
 
 ### Cafepress • DevOps Engineer
 
-Louisville, KY • Sept '16 - Dec '16
+Louisville, KY • Sept 2016 - Dec 2016
 
 Responsible for aiding the Organization transition to a Cloud based Architecture and mindset
 
@@ -147,7 +147,7 @@ Responsible for aiding the Organization transition to a Cloud based Architecture
 
 ### GE Appliances • Cloud Architect - Marketing IT
 
-Louisville, KY • May '15 - Sept '16
+Louisville, KY • May 2015 - Sept 2016
 
 Responsible for aiding the team’s transition to a Cloud based Architecture and mindset; utilizing tools, technologies
 and methodologies like Docker, Continuous Integration, Agile, and Microservices.
@@ -162,7 +162,7 @@ and methodologies like Docker, Continuous Integration, Agile, and Microservices.
 
 ### GE Appliances • IT Lead Technologist – Cloud
 
-Louisville, KY • February '13 – May '15
+Louisville, KY • February 2013 – May 2015
 
 Responsible for development and support of GE Appliances’ in-house developed Private Cloud solution utilizing a
 combination of technologies including Ruby, Micro web services, Puppet, RabbitMQ, Jenkins CI, Github, Docker and
@@ -199,14 +199,14 @@ vSphere upgrades.
 
 ### GE Appliances &amp; Lighting • ITLP – Project Management Office
 
-Louisville, KY • August '11 – February '12
+Louisville, KY • August 2011 – February 2012
 
 Lead developer and Scrum Master of the agile project for development and migration of the Project Management office's
 project tracking and tollgate approvals to Service-now.com Cloud services.
 
 ### GE Appliances &amp; Lighting • ITLP – Midrange Team (Linux/UNIX Administration)
 
-Louisville, KY • January '11 – August '11
+Louisville, KY • January 2011 – August 2011
 
 Collaborated with the team and EMC to complete the installation, configuration, and migration to a new EMC Avamar grid.
 
@@ -217,7 +217,7 @@ Collaborated with the team and EMC to complete the installation, configuration, 
 
 ### GE Appliances &amp; Lighting • ITLP – Global Network Team
 
-Louisville, KY • June '10 – January '11
+Louisville, KY • June 2010 – January 2011
 
 Worked with Team on daily operations, upgrades and on-call rotations.
 
@@ -229,7 +229,7 @@ Worked with Team on daily operations, upgrades and on-call rotations.
 
 ### GE Consumer and Industrial • IT Intern
 
-Louisville, KY • May '09 – August '09
+Louisville, KY • May 2009 – August 2009
 
 Created a virtualization strategy for my team's applications. The team was new to virtualization and wanted to know the
 Business and IT impact of virtualizing their applications which I supplied to them.
@@ -238,7 +238,7 @@ Migrated and updated website to company standards for Product Labs testing.
 
 ### University of Dayton • Network Administrator
 
-Dayton, OH August '06 – September '09
+Dayton, OH August 2006 – September 2009
 
 Worked with network management applications such as CiscoWorks, HP OpenView and AMP Airwave to monitor, diagnose, and
 troubleshoot wireless around campus. Deploying and Troubleshooting Network equipment across Campus.
