@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>hpc on James Strong</title>
-    <link>https://jamesstrong.dev/tags/hpc/</link>
-    <description>Recent content in hpc on James Strong</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <title>Hpc on James Strong</title>
+    <link>http://localhost:1313/tags/hpc/</link>
+    <description>Recent content in Hpc on James Strong</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <copyright>Copyright (c) 2023, all rights reserved.</copyright>
+    <copyright>Copyright (c) 2024, all rights reserved.</copyright>
     <lastBuildDate>Mon, 19 Aug 2019 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://jamesstrong.dev/tags/hpc/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/hpc/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>High-Performance Computing for Financial Services</title>
-      <link>https://jamesstrong.dev/post/2019/2019-08-19-aws-hpc/</link>
+      <link>http://localhost:1313/post/2019/2019-08-19-aws-hpc/</link>
       <pubDate>Mon, 19 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>https://jamesstrong.dev/post/2019/2019-08-19-aws-hpc/</guid>
-      <description>The last week of July, I attended High-Performance Compute (HPC) Training for Financial Services in AWS. During this week-long training, AWS professionals in Financial Services shared their outlook on the needs that large financial institutions face from the industry, regulators, and markets.&#xA;The first thing that caught my attention was this question:&#xA;&amp;ldquo;If you could add 100,000 cores to your HPC grid, return them once you&amp;rsquo;re done and pay only for what you use, just like many of your peers do, how would that improve your business?</description>
+      <guid>http://localhost:1313/post/2019/2019-08-19-aws-hpc/</guid>
+      <description>&lt;p&gt;The last week of July, I attended High-Performance Compute (HPC) Training for Financial Services in AWS.&#xA;During this week-long training, AWS professionals in Financial Services shared their outlook on the needs that large&#xA;financial institutions face from the industry, regulators, and markets.&lt;/p&gt;&#xA;&lt;p&gt;The first thing that caught my attention was this question:&lt;/p&gt;&#xA;&lt;p&gt;&amp;ldquo;If you could add 100,000 cores to your HPC grid, return them once you&amp;rsquo;re done and pay only for what you use, just like&#xA;many of your peers do, how would that improve your business?&amp;rdquo;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

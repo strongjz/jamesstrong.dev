@@ -15,8 +15,6 @@ on any OS? A docker container uses kernel features to produce resource isolation
 and more) as well as separate namespaces, to isolate the application’s view of the operating system 
 (a visual depiction below).
  
-{{% fluid_img class="pure-u-1" src="/img/dockercon_2017/vm_container.png" %}}
- 
 Here’s a closer look at this process, using the docker motto as our guide:
 
 ### Build
@@ -57,10 +55,6 @@ docker run -p 80:80 strongjz/example-httpd
 So now, let’s take a closer look at the conference that brought the world of the docker container to life.
 
 ## DockerCon 2017
-
-
-{{% fluid_img src="/img/dockercon_2017/front_banner_dockercon.jpg" %}}
- 
  
 Dockercon 2017 was hosted this year in Texas. They say that everything's bigger in the Lone Star State, 
 and this year’s DockerCon exemplified that -- with a host of Texas-sized sessions and announcements on tap. 
@@ -165,7 +159,7 @@ the Docker ecosystem.
 
 For those who don't know who Brendan Gregg is, they may know work, for instance, this infographic. 
 
-{{% fluid_img src="/img/dockercon_2017/linux_perf_dockercon.png" %}}
+![](img/dockercon_2017/linux_perf_dockercon.png)
 
 In his Dockercon talk, he asks the question Is it the host or the container? Brendan Gregg gives an excellent presentation
 on figuring out this question. This post describing the conference talk will not do it justice; anyone running containers
@@ -184,9 +178,6 @@ Developers don't need to know all the Linux commands to create a network. Docker
 attaches a couple of hosts to it and your done. 
 
 From Laurent presentation available at [SlideShare.](https://www.slideshare.net/lbernail/deep-dive-in-docker-overlay-networks) 
-
-{{% fluid_img src="/img/dockercon_2017/network_dockercon.png" %}}
-
 
 All videos are at the [Dockercon 2017 playlist](https://www.youtube.com/playlist?list=PLkA60AVN3hh_nihZ1mh6cO3n-uMdF7UlV)
 

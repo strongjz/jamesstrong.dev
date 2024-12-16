@@ -1,294 +1,171 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="">
-  <meta name="generator" content="Hugo 0.121.1">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <title>
+  High-Performance Computing for Financial Services · James Strong
+</title>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
 
-  <title>High-Performance Computing for Financial Services &middot; James Strong</title>
 
-    
+
+
+<meta name="description" content="The last week of July, I attended High-Performance Compute (HPC) Training for Financial Services in AWS.
+During this week-long training, AWS professionals in Financial Services shared their outlook on the needs that large
+financial institutions face from the industry, regulators, and markets.
+The first thing that caught my attention was this question:
+&ldquo;If you could add 100,000 cores to your HPC grid, return them once you&rsquo;re done and pay only for what you use, just like
+many of your peers do, how would that improve your business?&rdquo;">
+<meta name="keywords" content="blog,developer,personal">
+
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="High-Performance Computing for Financial Services">
+  <meta name="twitter:description" content="The last week of July, I attended High-Performance Compute (HPC) Training for Financial Services in AWS. During this week-long training, AWS professionals in Financial Services shared their outlook on the needs that large financial institutions face from the industry, regulators, and markets.
+The first thing that caught my attention was this question:
+“If you could add 100,000 cores to your HPC grid, return them once you’re done and pay only for what you use, just like many of your peers do, how would that improve your business?”">
+
+<meta property="og:url" content="http://localhost:1313/post/2019/2019-08-19-aws-hpc/">
+  <meta property="og:site_name" content="James Strong">
+  <meta property="og:title" content="High-Performance Computing for Financial Services">
+  <meta property="og:description" content="The last week of July, I attended High-Performance Compute (HPC) Training for Financial Services in AWS. During this week-long training, AWS professionals in Financial Services shared their outlook on the needs that large financial institutions face from the industry, regulators, and markets.
+The first thing that caught my attention was this question:
+“If you could add 100,000 cores to your HPC grid, return them once you’re done and pay only for what you use, just like many of your peers do, how would that improve your business?”">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="post">
+    <meta property="article:published_time" content="2019-08-19T00:00:00+00:00">
+    <meta property="article:modified_time" content="2019-08-19T00:00:00+00:00">
+    <meta property="article:tag" content="Code">
+    <meta property="article:tag" content="Finserve">
+    <meta property="article:tag" content="Hpc">
+    <meta property="article:tag" content="Development">
+    <meta property="article:tag" content="Aws">
+    <meta property="article:tag" content="Cloud">
+
+
+
+
+<link rel="canonical" href="http://localhost:1313/post/2019/2019-08-19-aws-hpc/">
+
+
+<link rel="preload" href="http://localhost:1313/fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="http://localhost:1313/fonts/fa-regular-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="http://localhost:1313/fonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+
 
   
   
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/pure-min.css">
+  <link rel="stylesheet" href="http://localhost:1313/css/coder.css" media="screen">
 
-  <!--[if lte IE 8]>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-old-ie-min.css">
-  <![endif]-->
-  <!--[if gt IE 8]><!-->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-min.css">
-  <!--<![endif]-->
 
-  <!--[if lte IE 8]>
-  <link rel="stylesheet" href="https://jamesstrong.dev/css/side-menu-old-ie.css">
-  <![endif]-->
-  <!--[if gt IE 8]><!-->
-  <link rel="stylesheet" href="https://jamesstrong.dev/css/side-menu.css">
-  <!--<![endif]-->
 
-  <link rel="stylesheet" href="https://jamesstrong.dev/css/blackburn.css">
 
-  
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
 
-  
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet" type="text/css">
 
-  
-  <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
 
  
-  
 
-  
 
-  <link rel="shortcut icon" href="https://jamesstrong.dev/img/favicon.ico" type="image/x-icon" />
 
-  
-  
+
+<link rel="icon" type="image/svg+xml" href="http://localhost:1313/images/favicon.svg" sizes="any">
+<link rel="icon" type="image/png" href="http://localhost:1313/images/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="http://localhost:1313/images/favicon-16x16.png" sizes="16x16">
+
+<link rel="apple-touch-icon" href="http://localhost:1313/images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="http://localhost:1313/images/apple-touch-icon.png">
+
+<link rel="manifest" href="http://localhost:1313/site.webmanifest">
+<link rel="mask-icon" href="http://localhost:1313/images/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
+
+
 
 </head>
 
 
-<body>
-<div id="layout">
 
+
+<body class="preload-transitions colorscheme-light">
   
-<a href="#menu" id="menuLink" class="menu-link">
-  
-  <span></span>
-</a>
-<div id="menu">
-
-  
-  <a class="pure-menu-heading brand" href="https://jamesstrong.dev/">James Strong</a>
-
-
-  <div class="pure-menu">
-    <ul class="pure-menu-list">
-      
-      
-        <li class="pure-menu-item">
-          <a class="pure-menu-link" href="https://jamesstrong.dev/"><i class='fa fa-home fa-fw'></i>Home</a>
-      
-        </li>
-      
-      
-        <li class="pure-menu-item">
-          <a class="pure-menu-link" href="https://jamesstrong.dev/about/"><i class='fa fa-user fa-fw'></i>About</a>
-      
-        </li>
-      
-      
-        <li class="pure-menu-item">
-          <a class="pure-menu-link" href="https://jamesstrong.dev/post/"><i class='fa fa-list fa-fw'></i>Posts</a>
-      
-        </li>
-      
-      
-        <li class="pure-menu-item">
-          <a class="pure-menu-link" href="https://jamesstrong.dev/resume/"><i class='fa fa-user fa-fw'></i>Resume</a>
-      
-        </li>
-      
-      
-        <li class="pure-menu-item">
-          <a class="pure-menu-link" href="https://jamesstrong.dev/keybase.txt"><i class='fa fa-key fa-fw'></i>Keybase</a>
-      
-        </li>
-      
-      
-        <li class="pure-menu-item">
-          <a class="pure-menu-link" href="https://jamesstrong.dev/tags/"><i class='fa fa-solid fa-tag'></i>Tags</a>
-      
-        </li>
-      
-    </ul>
-  </div>
-
-  <div class="pure-menu social">
-  <ul class="pure-menu-list">
-
-    
-
-    
-
-    
-    <li class="pure-menu-item">
-      <a class="pure-menu-link" href="https://twitter.com/strongjz" rel="me" target="_blank"><i class="fab fa-twitter-square fa-fw"></i>Twitter</a>
-    </li>
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-    <li class="pure-menu-item">
-      <a class="pure-menu-link" href="http://slideshare.net/jstrong09" rel="me" target="_blank"><i class="fab fa-slideshare fa-fw"></i>SlideShare</a>
-    </li>
-    
-
-    
-
-    
-    <li class="pure-menu-item">
-      <a class="pure-menu-link" href="https://linkedin.com/in/strongjz" rel="me" target="_blank"><i class="fab fa-linkedin fa-fw"></i>LinkedIn</a>
-    </li>
-    
-
-    
-
-    
-
-    
-    <li class="pure-menu-item">
-      <a class="pure-menu-link" href="https://reddit.com/user/strongjz" rel="me" target="_blank"><i class="fab fa-reddit-square fa-fw"></i>Reddit</a>
-    </li>
-    
-
-    
-    <li class="pure-menu-item">
-      <a class="pure-menu-link" href="https://news.ycombinator.com/user?id=strongbad" rel="me" target="_blank"><i class="fab fa-hacker-news fa-fw"></i>Hacker News</a>
-    </li>
-    
-
-    
-
-    
-    <li class="pure-menu-item">
-      <a class="pure-menu-link" href="https://github.com/strongjz" rel="me" target="_blank"><i class="fab fa-github-square fa-fw"></i>GitHub</a>
-    </li>
-    
-
-    
-    <li class="pure-menu-item">
-      <a class="pure-menu-link" href="https://gitlab.com/strongjz" rel="me" target="_blank"><i class="fab fa-gitlab fa-fw"></i>GitLab</a>
-    </li>
-    
-
-    
-    <li class="pure-menu-item">
-      <a class="pure-menu-link" href="https://bitbucket.org/strongjz" rel="me" target="_blank"><i class="fab fa-bitbucket fa-fw"></i>Bitbucket</a>
-    </li>
-    
-
-    
-    <li class="pure-menu-item">
-      <a class="pure-menu-link" href="https://stackoverflow.com/users/1794802" rel="me" target="_blank"><i class="fab fa-stack-overflow fa-fw"></i>Stack Overflow</a>
-    </li>
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-    <li class="pure-menu-item">
-      <a class="pure-menu-link" href="https://keybase.io/strongjz" rel="me" target="_blank"><i class="fas fa-key fa-fw"></i>Keybase</a>
-    </li>
-    
-
-  </ul>
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
 </div>
 
 
-  <div>
-  <div class="small-print">
-    <small>Copyright (c) 2023, all rights reserved.</small>
-  </div>
-  <div class="small-print">
-    <small>Built with&nbsp;<a href="https://gohugo.io/" target="_blank">Hugo</a></small>
-    <small>Theme&nbsp;<a href="https://github.com/yoshiharuyamashita/blackburn" target="_blank">Blackburn</a></small>
-  </div>
-</div>
-
-</div>
-
-
-  <div id="main">
-
-
-<div class="header">
-  <h1>High-Performance Computing for Financial Services</h1>
-  <h2></h2>
-</div>
-<div class="content">
-
-  <div class="post-meta">
-
-  <div>
-    <i class="fa fa-calendar fa-fw"></i>
-    <time>Aug 19, 2019</time>
-  </div>
-
-  
-
-  
-
-  
-  
-  
-  <div>
-    <i class="fa fa-tags fa-fw"></i>
+  <main class="wrapper">
+    <nav class="navigation">
+  <section class="container">
     
-      <a class="post-taxonomy-tag" href="https://jamesstrong.dev/tags/code">code</a>&nbsp;&#47;
+    <a class="navigation-title" href="http://localhost:1313/">
+      James Strong
+    </a>
     
-      <a class="post-taxonomy-tag" href="https://jamesstrong.dev/tags/finserve">finserve</a>&nbsp;&#47;
     
-      <a class="post-taxonomy-tag" href="https://jamesstrong.dev/tags/hpc">hpc</a>&nbsp;&#47;
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa-solid fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="http://localhost:1313/">Home</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="http://localhost:1313/about/">About</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="http://localhost:1313/post/">Posts</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="http://localhost:1313/resume/">Resume</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="http://localhost:1313/keybase.txt">Keybase</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="http://localhost:1313/tags/">Tags</a>
+            </li>
+          
+        
+        
+      </ul>
     
-      <a class="post-taxonomy-tag" href="https://jamesstrong.dev/tags/development">development</a>&nbsp;&#47;
-    
-      <a class="post-taxonomy-tag" href="https://jamesstrong.dev/tags/aws">aws</a>&nbsp;&#47;
-    
-      <a class="post-taxonomy-tag" href="https://jamesstrong.dev/tags/cloud">cloud</a>&nbsp;&#47;
-    
-      <a class="post-taxonomy-tag" href="https://jamesstrong.dev/tags/blog">blog</a>
-    
-  </div>
-  
-  
+  </section>
+</nav>
 
-</div>
 
-  <p>The last week of July, I attended High-Performance Compute (HPC) Training for Financial Services in AWS.
+    <div class="content">
+      
+  <section class="container page">
+  <article>
+    <header>
+      <h1 class="title">
+        <a class="title-link" href="http://localhost:1313/post/2019/2019-08-19-aws-hpc/">
+          High-Performance Computing for Financial Services
+        </a>
+      </h1>
+    </header>
+
+    <p>The last week of July, I attended High-Performance Compute (HPC) Training for Financial Services in AWS.
 During this week-long training, AWS professionals in Financial Services shared their outlook on the needs that large
 financial institutions face from the industry, regulators, and markets.</p>
 <p>The first thing that caught my attention was this question:</p>
@@ -301,39 +178,39 @@ Quantitative Analysts, Quants, ability to make informed decisions. With that cap
 the performance of your grid compute while lowering costs and maintaining compliance to compete effectively.
 What CIO or CEO doesn&rsquo;t want that? Here are some examples of doing just that, albeit with 1,000,000 cores.</p>
 <ul>
-<li><a href="https://aws.amazon.com/blogs/aws/western-digital-hdd-simulation-at-cloud-scale-2-5-million-hpc-tasks-40k-ec2-spot-instances/">Western Digital, 1m vCPU cluster</a></li>
-<li><a href="https://aws.amazon.com/blogs/aws/creating-a-1-3-million-vcpu-grid-on-aws-using-ec2-spot-instances-and-tibco-gridserver/">AWS and Tibco, 1.3m vCPU on Spot</a></li>
-<li><a href="https://www.top500.org/system/179693">Get into the Top 500 for just $5k</a></li>
+<li><a href="https://aws.amazon.com/blogs/aws/western-digital-hdd-simulation-at-cloud-scale-2-5-million-hpc-tasks-40k-ec2-spot-instances/"  class="external-link" target="_blank" rel="noopener">Western Digital, 1m vCPU cluster</a></li>
+<li><a href="https://aws.amazon.com/blogs/aws/creating-a-1-3-million-vcpu-grid-on-aws-using-ec2-spot-instances-and-tibco-gridserver/"  class="external-link" target="_blank" rel="noopener">AWS and Tibco, 1.3m vCPU on Spot</a></li>
+<li><a href="https://www.top500.org/system/179693"  class="external-link" target="_blank" rel="noopener">Get into the Top 500 for just $5k</a></li>
 </ul>
 <p>&ldquo;Regardless of whether 2022 is a deadline for reporting only or full capital implementation, banks must have FRTB
-infrastructure in place and models approved by supervisors by then.&rdquo; - <a href="https://www.bloomberg.com/professional/blog/2022-market-risk-odyssey/">Bloomberg Professional Services</a></p>
+infrastructure in place and models approved by supervisors by then.&rdquo; - <a href="https://www.bloomberg.com/professional/blog/2022-market-risk-odyssey/"  class="external-link" target="_blank" rel="noopener">Bloomberg Professional Services</a></p>
 <p>With the Fundamental Review of the Trading Book (FRTB) pushed to 2022, this gives banks more time to understand the
 impact on their risk models and the shift to expected shortfall calculations. More and more pressure is coming from
 regulators for reform and reporting, FRTB will not be the end. IT also adds additional stress to save more while
 also increasing capacity.</p>
 <p>Running your HPC grid on AWS can be the answer to both regulator and IT pressures. However, with that comes with its
-own risk, that you can read about <a href="https://www.capitalone.com/facts2019/">here</a>, <a href="https://www.upguard.com/breaches/cloud-leak-accenture">here</a>,
-and <a href="https://arstechnica.com/information-technology/2017/05/defense-contractor-stored-intelligence-data-in-amazon-cloud-unprotected/">here</a>.
+own risk, that you can read about <a href="https://www.capitalone.com/facts2019/"  class="external-link" target="_blank" rel="noopener">here</a>, <a href="https://www.upguard.com/breaches/cloud-leak-accenture"  class="external-link" target="_blank" rel="noopener">here</a>,
+and <a href="https://arstechnica.com/information-technology/2017/05/defense-contractor-stored-intelligence-data-in-amazon-cloud-unprotected/"  class="external-link" target="_blank" rel="noopener">here</a>.
 Understandably, financial institutions are hesitant to move to the cloud. But the need is greater than ever.</p>
 <p>The AWS Well-Architected Framework can help you realize the following:</p>
 <ul>
 <li>
-<p><a href="https://d1.awsstatic.com/whitepapers/architecture/AWS-Operational-Excellence-Pillar.pdf">Operational Excellence</a> - Scalable resources for repositories, build pipelines as code, and metrics for all levels of
+<p><a href="https://d1.awsstatic.com/whitepapers/architecture/AWS-Operational-Excellence-Pillar.pdf"  class="external-link" target="_blank" rel="noopener">Operational Excellence</a> - Scalable resources for repositories, build pipelines as code, and metrics for all levels of
 operations.</p>
 </li>
 <li>
-<p><a href="https://d1.awsstatic.com/whitepapers/architecture/AWS-Security-Pillar.pdf">Security</a> - Managed and secure access to data sources via AWS IAM, encryption at rest and In transit.</p>
+<p><a href="https://d1.awsstatic.com/whitepapers/architecture/AWS-Security-Pillar.pdf"  class="external-link" target="_blank" rel="noopener">Security</a> - Managed and secure access to data sources via AWS IAM, encryption at rest and In transit.</p>
 </li>
 <li>
-<p><a href="https://d1.awsstatic.com/whitepapers/architecture/AWS-Reliability-Pillar.pdf">Reliability</a> - Leveraging capabilities like Autoscaling and services like S3, you be sure that your solutions are
+<p><a href="https://d1.awsstatic.com/whitepapers/architecture/AWS-Reliability-Pillar.pdf"  class="external-link" target="_blank" rel="noopener">Reliability</a> - Leveraging capabilities like Autoscaling and services like S3, you be sure that your solutions are
 always available when needed.</p>
 </li>
 <li>
-<p><a href="https://d1.awsstatic.com/whitepapers/architecture/AWS-Performance-Efficiency-Pillar.pdf">Performance</a> - There are many options to run your workload, and with AWS, you can experiment to find the right level
+<p><a href="https://d1.awsstatic.com/whitepapers/architecture/AWS-Performance-Efficiency-Pillar.pdf"  class="external-link" target="_blank" rel="noopener">Performance</a> - There are many options to run your workload, and with AWS, you can experiment to find the right level
 of performance your workload needs.</p>
 </li>
 <li>
-<p><a href="https://d1.awsstatic.com/whitepapers/architecture/AWS-Cost-Optimization-Pillar.pdf">Cost Optimization</a> - Spot instances for computing can reduce costs up to 90%, You can track and analyze spend to
+<p><a href="https://d1.awsstatic.com/whitepapers/architecture/AWS-Cost-Optimization-Pillar.pdf"  class="external-link" target="_blank" rel="noopener">Cost Optimization</a> - Spot instances for computing can reduce costs up to 90%, You can track and analyze spend to
 ensure services are scaled and appropriately utilized.</p>
 </li>
 </ul>
@@ -341,29 +218,28 @@ ensure services are scaled and appropriately utilized.</p>
 elements to ensure your workloads are architected according to AWS&rsquo;s best practices.</p>
 <p>AWS has lots of example architectures in their Architecture Center, below is an example of how to run an HPC Grid on
 AWS securely.</p>
-<!-- raw HTML omitted -->
-<p><a href="https://media.amazonwebservices.com/architecturecenter/AWS_ac_ra_financialgrid_12.pdf">https://media.amazonwebservices.com/architecturecenter/AWS_ac_ra_financialgrid_12.pdf</a></p>
+<p><a href="https://media.amazonwebservices.com/architecturecenter/AWS_ac_ra_financialgrid_12.pdf"  class="external-link" target="_blank" rel="noopener">https://media.amazonwebservices.com/architecturecenter/AWS_ac_ra_financialgrid_12.pdf</a></p>
 <p>With AWS, you can allocate extra compute capacity on-demand without upfront planning of data center, network, and
 server infrastructure. This ability is a huge advantage when compared to on-prem grid setups. Below are just some of
 the options that can be used for an AWS powered HPC:</p>
 <ul>
 <li>
-<p><a href="https://github.com/aws/aws-parallelcluster">Parallel Cluster</a> - With a couple of lines of YAML, you can have an HPC grid up and running in minutes. Parallel Cluster
+<p><a href="https://github.com/aws/aws-parallelcluster"  class="external-link" target="_blank" rel="noopener">Parallel Cluster</a> - With a couple of lines of YAML, you can have an HPC grid up and running in minutes. Parallel Cluster
 supports these schedulers; AWS Batch, SGE, Torque, and Slurm, to customize the needs of your firm&rsquo;s algorithms.
 Submit a job and let Autoscaling take care of the number of hosts needed to run it, you only pay for what is required
 and save massively on the cost with spot instances.</p>
 </li>
 <li>
-<p><a href="https://aws.amazon.com/batch/">AWS Batch</a> - AWS Batch enables developers and Quants to quickly and efficiently execute hundreds of thousands of batch
+<p><a href="https://aws.amazon.com/batch/"  class="external-link" target="_blank" rel="noopener">AWS Batch</a> - AWS Batch enables developers and Quants to quickly and efficiently execute hundreds of thousands of batch
 jobs on AWS. AWS Batch dynamically provisions the optimal quantity and compute resources based on the volume and specific
 resource requirements of the batch jobs submitted.</p>
 </li>
 <li>
-<p><a href="https://aws.amazon.com/lambda/">Lambda</a> - No servers, no maintenance needed, just code. Lambda will execute what you need and when you need it.
+<p><a href="https://aws.amazon.com/lambda/"  class="external-link" target="_blank" rel="noopener">Lambda</a> - No servers, no maintenance needed, just code. Lambda will execute what you need and when you need it.
 Couple this with streaming data from Kinesis, and you can analyze data in near real-time.</p>
 </li>
 <li>
-<p><a href="https://aws.amazon.com/ec2/spot/">EC2 Spot</a> - With spot instances, you could save up to 90% of your compute cost. Spot instances allow you to use AWS
+<p><a href="https://aws.amazon.com/ec2/spot/"  class="external-link" target="_blank" rel="noopener">EC2 Spot</a> - With spot instances, you could save up to 90% of your compute cost. Spot instances allow you to use AWS
 spare capacity; in return for that, you pay less than the on-demand price. Launch a cluster with EC2 spot instances
 and watch the savings roll in.</p>
 </li>
@@ -378,126 +254,82 @@ and watch the savings roll in.</p>
 </ul>
 <p>More Resources</p>
 <ul>
-<li><a href="https://aws.amazon.com/financial-services/grid-computing/">AWS Grid Computing</a></li>
-<li><a href="https://d1.awsstatic.com/Industries/Financial%20Services/Grid%20Computing/aws-financial-services-grid-computing.pdf">AWS Grid Computing White paper</a></li>
-<li><a href="https://github.com/aws/aws-parallelcluster">Github Repo of Parallel Cluster</a></li>
-<li><a href="https://docs.aws.amazon.com/parallelcluster/latest/ug/what-is-aws-parallelcluster.html">What is Parallel Cluster?</a></li>
-<li><a href="https://www.bloomberg.com/professional/blog/2022-market-risk-odyssey/">Bloomberb 2022 Market Risk Odyssey</a></li>
+<li><a href="https://aws.amazon.com/financial-services/grid-computing/"  class="external-link" target="_blank" rel="noopener">AWS Grid Computing</a></li>
+<li><a href="https://d1.awsstatic.com/Industries/Financial%20Services/Grid%20Computing/aws-financial-services-grid-computing.pdf"  class="external-link" target="_blank" rel="noopener">AWS Grid Computing White paper</a></li>
+<li><a href="https://github.com/aws/aws-parallelcluster"  class="external-link" target="_blank" rel="noopener">Github Repo of Parallel Cluster</a></li>
+<li><a href="https://docs.aws.amazon.com/parallelcluster/latest/ug/what-is-aws-parallelcluster.html"  class="external-link" target="_blank" rel="noopener">What is Parallel Cluster?</a></li>
+<li><a href="https://www.bloomberg.com/professional/blog/2022-market-risk-odyssey/"  class="external-link" target="_blank" rel="noopener">Bloomberb 2022 Market Risk Odyssey</a></li>
 </ul>
 
-  
-  <h4><i class="fas fa-share-alt" aria-hidden="true"></i>&nbsp;Share!</h4>
-<ul class="share-buttons">
-	<li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fjamesstrong.dev%2fpost%2f2019%2f2019-08-19-aws-hpc%2f" target="_blank" title="Share on Facebook"><i class="fab fa-facebook" aria-hidden="true"></i><span class="sr-only">Share on Facebook</span></a>
-	</li>&nbsp;&nbsp;&nbsp;
-	<li><a href="https://twitter.com/intent/tweet?source=https%3a%2f%2fjamesstrong.dev%2fpost%2f2019%2f2019-08-19-aws-hpc%2f" target="_blank" title="Tweet"><i class="fab fa-twitter" aria-hidden="true"></i><span class="sr-only">Tweet</span></a>
-	</li>&nbsp;&nbsp;&nbsp;
-	<li><a href="https://plus.google.com/share?url=https%3a%2f%2fjamesstrong.dev%2fpost%2f2019%2f2019-08-19-aws-hpc%2f" target="_blank" title="Share on Google+"><i class="fab fa-google-plus" aria-hidden="true"></i><span class="sr-only">Share on Google+</span></a>
-	</li>&nbsp;&nbsp;&nbsp;
-	<li><a href="http://www.tumblr.com/share?v=3&u=https%3a%2f%2fjamesstrong.dev%2fpost%2f2019%2f2019-08-19-aws-hpc%2f" target="_blank" title="Post to Tumblr"><i class="fab fa-tumblr" aria-hidden="true"></i><span class="sr-only">Post to Tumblr</span></a>
-	</li>&nbsp;&nbsp;&nbsp;
-	<li><a href="http://pinterest.com/pin/create/button/?url=https%3a%2f%2fjamesstrong.dev%2fpost%2f2019%2f2019-08-19-aws-hpc%2f" target="_blank" title="Pin it"><i class="fab fa-pinterest-p" aria-hidden="true"></i><span class="sr-only">Pin it</span></a>
-	</li>&nbsp;&nbsp;&nbsp;
-	<li><a href="http://www.reddit.com/submit?url=https%3a%2f%2fjamesstrong.dev%2fpost%2f2019%2f2019-08-19-aws-hpc%2f" target="_blank" title="Submit to Reddit"><i class="fab fa-reddit-alien" aria-hidden="true"></i><span class="sr-only">Submit to Reddit</span></a>
-	</li>
-</ul>
-
-
-<style>
-	ul.share-buttons{
-	  list-style: none;
-	  padding: 0;
-	}
-
-	ul.share-buttons li{
-	  display: inline;
-	}
-
-	ul.share-buttons .sr-only{
-	  position: absolute;
-	  clip: rect(1px 1px 1px 1px);
-	  clip: rect(1px, 1px, 1px, 1px);
-	  padding: 0;
-	  border: 0;
-	  height: 1px;
-	  width: 1px;
-	  overflow: hidden;
-	}
-</style>
-
+  </article>
+</section>
 
   
-<div class="prev-next-post pure-g">
-  <div class="pure-u-1-24" style="text-align: left;">
+
+    </div>
+
+    <footer class="footer">
+  <section class="container">
+    ©
     
-    <a href="https://jamesstrong.dev/post/2019/2019-08-08-k8-network/"><i class="fa fa-chevron-left"></i></a>
+      2017 -
     
-  </div>
-  <div class="pure-u-10-24">
+    2024
     
-    <nav class="prev">
-      <a href="https://jamesstrong.dev/post/2019/2019-08-08-k8-network/">Kubernetes Networking</a>
-    </nav>
+    ·
     
-  </div>
-  <div class="pure-u-2-24">
-    &nbsp;
-  </div>
-  <div class="pure-u-10-24">
+    Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/" target="_blank" rel="noopener">Coder</a>.
     
-    <nav class="next">
-      <a href="https://jamesstrong.dev/post/2019/2019-08-26-code-lou-2019/">Code PaLOUSa 2019</a>
-    </nav>
-    
-  </div>
-  <div class="pure-u-1-24" style="text-align: right;">
-    
-    <a href="https://jamesstrong.dev/post/2019/2019-08-26-code-lou-2019/"><i class="fa fa-chevron-right"></i></a>
-    
-  </div>
-</div>
+  </section>
+</footer>
 
+  </main>
+
+  
 
   
   
-  
+  <script src="http://localhost:1313/js/coder.js"></script>
   
 
   
 
-</div>
-
-</div>
-</div>
-<script src="https://jamesstrong.dev/js/ui.js"></script>
-<script src="https://jamesstrong.dev/js/menus.js"></script>
-
-
-
-
-
-
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-Y034J08BEQ"></script>
-<script>
-  
-  if (window.location.hostname != "localhost") {
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-Y034J08BEQ');
-  }
-</script>
-
-
-
-
-
-
-<script src="https://jamesstrong.dev/js/math-code.js"></script>
-  <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"></script>
   
 
 
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
 </body>
-</html>
 
+</html>

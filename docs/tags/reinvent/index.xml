@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>reinvent on James Strong</title>
-    <link>https://jamesstrong.dev/tags/reinvent/</link>
-    <description>Recent content in reinvent on James Strong</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <title>Reinvent on James Strong</title>
+    <link>http://localhost:1313/tags/reinvent/</link>
+    <description>Recent content in Reinvent on James Strong</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <copyright>Copyright (c) 2023, all rights reserved.</copyright>
+    <copyright>Copyright (c) 2024, all rights reserved.</copyright>
     <lastBuildDate>Tue, 04 Dec 2018 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://jamesstrong.dev/tags/reinvent/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/reinvent/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AWS Re:invent Recap 2018</title>
-      <link>https://jamesstrong.dev/post/2018/2018-12-04-revinventrecap/</link>
+      <link>http://localhost:1313/post/2018/2018-12-04-revinventrecap/</link>
       <pubDate>Tue, 04 Dec 2018 00:00:00 +0000</pubDate>
-      <guid>https://jamesstrong.dev/post/2018/2018-12-04-revinventrecap/</guid>
-      <description>Another year, another re:Invent down! 2018 had everything we have come to expect from AWS and re:Invent - releases, updates, sessions on everything and shots at Oracle. The focus this time was certainly on developer experience, Artificial Intelligence/Machine Learning and Serverless.&#xA;There were at least sixteen new releases in regards to ML/AI. Sagemaker got new features in Ground truth and RL. There is now a marketplace for machine learning algorithm writers to release them and earn from all their hard work.</description>
+      <guid>http://localhost:1313/post/2018/2018-12-04-revinventrecap/</guid>
+      <description>&lt;p&gt;Another year, another re:Invent down! 2018 had everything we have come to expect from AWS and re:Invent - releases,&#xA;updates, sessions on everything and shots at Oracle. The focus this time was certainly on developer experience, Artificial&#xA;Intelligence/Machine Learning and Serverless.&lt;/p&gt;&#xA;&lt;p&gt;There were at least sixteen new releases in regards to ML/AI. Sagemaker got new features in Ground truth and RL. There&#xA;is now a marketplace for machine learning algorithm writers to release them and earn from all their hard work. DeepRacer&#xA;has to be the new wow release, another physical device for ML following the release last year of DeepLens. DeepRacer&#xA;is a machine learning car that is programmed with simple python scripts. There is even a league now that customers&#xA;can participate in at AWS events culminating in a championship at re:Invent.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

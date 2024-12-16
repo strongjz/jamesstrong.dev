@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>security on James Strong</title>
-    <link>https://jamesstrong.dev/tags/security/</link>
-    <description>Recent content in security on James Strong</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <title>Security on James Strong</title>
+    <link>http://localhost:1313/tags/security/</link>
+    <description>Recent content in Security on James Strong</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <copyright>Copyright (c) 2023, all rights reserved.</copyright>
+    <copyright>Copyright (c) 2024, all rights reserved.</copyright>
     <lastBuildDate>Wed, 14 Dec 2022 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://jamesstrong.dev/tags/security/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/security/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>From Build to Prod: Getting Started with Software Signing &amp; Policy Enforce</title>
-      <link>https://jamesstrong.dev/post/2022/2022-12-14-getting-started-signing-and-policy/</link>
+      <link>http://localhost:1313/post/2022/2022-12-14-getting-started-signing-and-policy/</link>
       <pubDate>Wed, 14 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>https://jamesstrong.dev/post/2022/2022-12-14-getting-started-signing-and-policy/</guid>
-      <description>Want to know how to get started on signing your images and commits? Secure from build to prod and join James Strong to walk through signing images with Sigstore via Tekton chains and commits with Gitsign, all with policy enforced by Chainguard!&#xA;Watch on crowd cast</description>
+      <guid>http://localhost:1313/post/2022/2022-12-14-getting-started-signing-and-policy/</guid>
+      <description>&lt;p&gt;Want to know how to get started on signing your images and commits? Secure from build to prod and join James Strong to walk through signing images with Sigstore via Tekton chains and commits with Gitsign, all with policy enforced by Chainguard!&lt;/p&gt;&#xA;&lt;p&gt;Watch on &lt;a href=&#34;https://www.crowdcast.io/c/software-signing&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;crowd cast&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/getting-started-signing.png&#34; alt=&#34;Image&#34;&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>AWS Cloud Governance &amp; Security through Automation</title>
-      <link>https://jamesstrong.dev/post/2020/2020-08-20-aws-cloud-governance-security/</link>
+      <link>http://localhost:1313/post/2020/2020-08-20-aws-cloud-governance-security/</link>
       <pubDate>Thu, 20 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>https://jamesstrong.dev/post/2020/2020-08-20-aws-cloud-governance-security/</guid>
-      <description>At the August meetup for Atlanta AWS Builders group Jason Lutz and I presented on AWS Security.&#xA;Presentation: https://www.slideshare.net/jstrong09/aws-dev-secops-atlanta-august-meetup&#xA;Is that requirement from NIST 800-53 Controls or NIST 800-190? If you&amp;rsquo;ve ever wondered where those pesky cloud security controls come from, this meetup is for you. In this Meetup, Jame Strong and Jason Lutz from Contino (an AWS Permier Consulting Partner) will discuss how Contino views DevSecOps. They will review the Benefits of DevSecOps:</description>
+      <guid>http://localhost:1313/post/2020/2020-08-20-aws-cloud-governance-security/</guid>
+      <description>&lt;p&gt;At the August meetup for Atlanta AWS Builders group Jason Lutz and I presented on AWS Security.&lt;/p&gt;&#xA;&lt;p&gt;Presentation: &lt;a href=&#34;https://www.slideshare.net/jstrong09/aws-dev-secops-atlanta-august-meetup&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.slideshare.net/jstrong09/aws-dev-secops-atlanta-august-meetup&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Is that requirement from NIST 800-53 Controls or NIST 800-190? If you&amp;rsquo;ve ever wondered where those pesky cloud security controls come from, this meetup is for you.&#xA;In this Meetup, Jame Strong and Jason Lutz from Contino (an AWS Permier Consulting Partner) will discuss how Contino views DevSecOps. They will review the Benefits of DevSecOps:&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

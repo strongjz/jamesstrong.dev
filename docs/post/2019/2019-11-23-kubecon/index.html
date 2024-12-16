@@ -1,296 +1,179 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="">
-  <meta name="generator" content="Hugo 0.121.1">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <title>
+  KubeCon San Diego Recap · James Strong
+</title>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
 
-  <title>KubeCon San Diego Recap &middot; James Strong</title>
 
-    
+
+
+<meta name="description" content="KubeCon San Diego Recap
+KubeCon had a great turnout this year with 12,000 attendees that filled the San Diego Convention center.  Three things stood out to me: Security, Network, and Community.
+The community was a big theme at this event and in many of the keynotes. From David’s talk about non-code ways to
+contribute to CNCF’s projects. Kelsey Hightower’s keynote on how we
+could never have done this as an individual or
+a single company. Not to mention, Tim Hockin’s point of Co-op-petition between Google, Microsoft, and others;
+Project over Company.">
+<meta name="keywords" content="blog,developer,personal">
+
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="KubeCon San Diego Recap">
+  <meta name="twitter:description" content="KubeCon San Diego Recap
+KubeCon had a great turnout this year with 12,000 attendees that filled the San Diego Convention center. Three things stood out to me: Security, Network, and Community.
+The community was a big theme at this event and in many of the keynotes. From David’s talk about non-code ways to contribute to CNCF’s projects. Kelsey Hightower’s keynote on how we could never have done this as an individual or a single company. Not to mention, Tim Hockin’s point of Co-op-petition between Google, Microsoft, and others; Project over Company.">
+
+<meta property="og:url" content="http://localhost:1313/post/2019/2019-11-23-kubecon/">
+  <meta property="og:site_name" content="James Strong">
+  <meta property="og:title" content="KubeCon San Diego Recap">
+  <meta property="og:description" content="KubeCon San Diego Recap
+KubeCon had a great turnout this year with 12,000 attendees that filled the San Diego Convention center. Three things stood out to me: Security, Network, and Community.
+The community was a big theme at this event and in many of the keynotes. From David’s talk about non-code ways to contribute to CNCF’s projects. Kelsey Hightower’s keynote on how we could never have done this as an individual or a single company. Not to mention, Tim Hockin’s point of Co-op-petition between Google, Microsoft, and others; Project over Company.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="post">
+    <meta property="article:published_time" content="2019-11-23T00:00:00+00:00">
+    <meta property="article:modified_time" content="2019-11-23T00:00:00+00:00">
+    <meta property="article:tag" content="Kubernetes">
+    <meta property="article:tag" content="Devops">
+    <meta property="article:tag" content="Cloud">
+
+
+
+
+<link rel="canonical" href="http://localhost:1313/post/2019/2019-11-23-kubecon/">
+
+
+<link rel="preload" href="http://localhost:1313/fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="http://localhost:1313/fonts/fa-regular-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="http://localhost:1313/fonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+
 
   
   
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/pure-min.css">
+  <link rel="stylesheet" href="http://localhost:1313/css/coder.css" media="screen">
 
-  <!--[if lte IE 8]>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-old-ie-min.css">
-  <![endif]-->
-  <!--[if gt IE 8]><!-->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-min.css">
-  <!--<![endif]-->
 
-  <!--[if lte IE 8]>
-  <link rel="stylesheet" href="https://jamesstrong.dev/css/side-menu-old-ie.css">
-  <![endif]-->
-  <!--[if gt IE 8]><!-->
-  <link rel="stylesheet" href="https://jamesstrong.dev/css/side-menu.css">
-  <!--<![endif]-->
 
-  <link rel="stylesheet" href="https://jamesstrong.dev/css/blackburn.css">
 
-  
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
 
-  
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet" type="text/css">
 
-  
-  <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
 
  
-  
 
-  
 
-  <link rel="shortcut icon" href="https://jamesstrong.dev/img/favicon.ico" type="image/x-icon" />
 
-  
-  
+
+<link rel="icon" type="image/svg+xml" href="http://localhost:1313/images/favicon.svg" sizes="any">
+<link rel="icon" type="image/png" href="http://localhost:1313/images/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="http://localhost:1313/images/favicon-16x16.png" sizes="16x16">
+
+<link rel="apple-touch-icon" href="http://localhost:1313/images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="http://localhost:1313/images/apple-touch-icon.png">
+
+<link rel="manifest" href="http://localhost:1313/site.webmanifest">
+<link rel="mask-icon" href="http://localhost:1313/images/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
+
+
 
 </head>
 
 
-<body>
-<div id="layout">
 
+
+<body class="preload-transitions colorscheme-light">
   
-<a href="#menu" id="menuLink" class="menu-link">
-  
-  <span></span>
-</a>
-<div id="menu">
-
-  
-  <a class="pure-menu-heading brand" href="https://jamesstrong.dev/">James Strong</a>
-
-
-  <div class="pure-menu">
-    <ul class="pure-menu-list">
-      
-      
-        <li class="pure-menu-item">
-          <a class="pure-menu-link" href="https://jamesstrong.dev/"><i class='fa fa-home fa-fw'></i>Home</a>
-      
-        </li>
-      
-      
-        <li class="pure-menu-item">
-          <a class="pure-menu-link" href="https://jamesstrong.dev/about/"><i class='fa fa-user fa-fw'></i>About</a>
-      
-        </li>
-      
-      
-        <li class="pure-menu-item">
-          <a class="pure-menu-link" href="https://jamesstrong.dev/post/"><i class='fa fa-list fa-fw'></i>Posts</a>
-      
-        </li>
-      
-      
-        <li class="pure-menu-item">
-          <a class="pure-menu-link" href="https://jamesstrong.dev/resume/"><i class='fa fa-user fa-fw'></i>Resume</a>
-      
-        </li>
-      
-      
-        <li class="pure-menu-item">
-          <a class="pure-menu-link" href="https://jamesstrong.dev/keybase.txt"><i class='fa fa-key fa-fw'></i>Keybase</a>
-      
-        </li>
-      
-      
-        <li class="pure-menu-item">
-          <a class="pure-menu-link" href="https://jamesstrong.dev/tags/"><i class='fa fa-solid fa-tag'></i>Tags</a>
-      
-        </li>
-      
-    </ul>
-  </div>
-
-  <div class="pure-menu social">
-  <ul class="pure-menu-list">
-
-    
-
-    
-
-    
-    <li class="pure-menu-item">
-      <a class="pure-menu-link" href="https://twitter.com/strongjz" rel="me" target="_blank"><i class="fab fa-twitter-square fa-fw"></i>Twitter</a>
-    </li>
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-    <li class="pure-menu-item">
-      <a class="pure-menu-link" href="http://slideshare.net/jstrong09" rel="me" target="_blank"><i class="fab fa-slideshare fa-fw"></i>SlideShare</a>
-    </li>
-    
-
-    
-
-    
-    <li class="pure-menu-item">
-      <a class="pure-menu-link" href="https://linkedin.com/in/strongjz" rel="me" target="_blank"><i class="fab fa-linkedin fa-fw"></i>LinkedIn</a>
-    </li>
-    
-
-    
-
-    
-
-    
-    <li class="pure-menu-item">
-      <a class="pure-menu-link" href="https://reddit.com/user/strongjz" rel="me" target="_blank"><i class="fab fa-reddit-square fa-fw"></i>Reddit</a>
-    </li>
-    
-
-    
-    <li class="pure-menu-item">
-      <a class="pure-menu-link" href="https://news.ycombinator.com/user?id=strongbad" rel="me" target="_blank"><i class="fab fa-hacker-news fa-fw"></i>Hacker News</a>
-    </li>
-    
-
-    
-
-    
-    <li class="pure-menu-item">
-      <a class="pure-menu-link" href="https://github.com/strongjz" rel="me" target="_blank"><i class="fab fa-github-square fa-fw"></i>GitHub</a>
-    </li>
-    
-
-    
-    <li class="pure-menu-item">
-      <a class="pure-menu-link" href="https://gitlab.com/strongjz" rel="me" target="_blank"><i class="fab fa-gitlab fa-fw"></i>GitLab</a>
-    </li>
-    
-
-    
-    <li class="pure-menu-item">
-      <a class="pure-menu-link" href="https://bitbucket.org/strongjz" rel="me" target="_blank"><i class="fab fa-bitbucket fa-fw"></i>Bitbucket</a>
-    </li>
-    
-
-    
-    <li class="pure-menu-item">
-      <a class="pure-menu-link" href="https://stackoverflow.com/users/1794802" rel="me" target="_blank"><i class="fab fa-stack-overflow fa-fw"></i>Stack Overflow</a>
-    </li>
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-    <li class="pure-menu-item">
-      <a class="pure-menu-link" href="https://keybase.io/strongjz" rel="me" target="_blank"><i class="fas fa-key fa-fw"></i>Keybase</a>
-    </li>
-    
-
-  </ul>
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
 </div>
 
 
-  <div>
-  <div class="small-print">
-    <small>Copyright (c) 2023, all rights reserved.</small>
-  </div>
-  <div class="small-print">
-    <small>Built with&nbsp;<a href="https://gohugo.io/" target="_blank">Hugo</a></small>
-    <small>Theme&nbsp;<a href="https://github.com/yoshiharuyamashita/blackburn" target="_blank">Blackburn</a></small>
-  </div>
-</div>
-
-</div>
-
-
-  <div id="main">
-
-
-<div class="header">
-  <h1>KubeCon San Diego Recap</h1>
-  <h2></h2>
-</div>
-<div class="content">
-
-  <div class="post-meta">
-
-  <div>
-    <i class="fa fa-calendar fa-fw"></i>
-    <time>Nov 23, 2019</time>
-  </div>
-
-  
-
-  
-
-  
-  
-  
-  <div>
-    <i class="fa fa-tags fa-fw"></i>
+  <main class="wrapper">
+    <nav class="navigation">
+  <section class="container">
     
-      <a class="post-taxonomy-tag" href="https://jamesstrong.dev/tags/kubernetes">kubernetes</a>&nbsp;&#47;
+    <a class="navigation-title" href="http://localhost:1313/">
+      James Strong
+    </a>
     
-      <a class="post-taxonomy-tag" href="https://jamesstrong.dev/tags/devops">devops</a>&nbsp;&#47;
     
-      <a class="post-taxonomy-tag" href="https://jamesstrong.dev/tags/cloud">cloud</a>
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa-solid fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="http://localhost:1313/">Home</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="http://localhost:1313/about/">About</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="http://localhost:1313/post/">Posts</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="http://localhost:1313/resume/">Resume</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="http://localhost:1313/keybase.txt">Keybase</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="http://localhost:1313/tags/">Tags</a>
+            </li>
+          
+        
+        
+      </ul>
     
-  </div>
-  
-  
+  </section>
+</nav>
 
-</div>
 
-  <p>KubeCon San Diego Recap</p>
+    <div class="content">
+      
+  <section class="container page">
+  <article>
+    <header>
+      <h1 class="title">
+        <a class="title-link" href="http://localhost:1313/post/2019/2019-11-23-kubecon/">
+          KubeCon San Diego Recap
+        </a>
+      </h1>
+    </header>
+
+    <p>KubeCon San Diego Recap</p>
 <p>KubeCon had a great turnout this year with 12,000 attendees that filled the San Diego Convention center.  Three things stood out to me: Security, Network, and Community.</p>
-<p>The community was a big theme at this event and in many of the keynotes. From David’s talk about <a href="https://www.youtube.com/watch?v=AWdhli9rhWQ">non-code ways to
-contribute</a> to CNCF’s projects. Kelsey Hightower’s <a href="https://www.youtube.com/watch?v=jiaLsxjBeOQ">keynote</a> on how we
+<p>The community was a big theme at this event and in many of the keynotes. From David’s talk about <a href="https://www.youtube.com/watch?v=AWdhli9rhWQ"  class="external-link" target="_blank" rel="noopener">non-code ways to
+contribute</a> to CNCF’s projects. Kelsey Hightower’s <a href="https://www.youtube.com/watch?v=jiaLsxjBeOQ"  class="external-link" target="_blank" rel="noopener">keynote</a> on how we
 could never have done this as an individual or
-a single company. Not to mention, Tim Hockin’s point of <a href="https://www.youtube.com/watch?v=o-oMegdZcg4">Co-op-petition between Google, Microsoft, and others;
+a single company. Not to mention, Tim Hockin’s point of <a href="https://www.youtube.com/watch?v=o-oMegdZcg4"  class="external-link" target="_blank" rel="noopener">Co-op-petition between Google, Microsoft, and others;
 Project over Company</a>.</p>
 <p>There were several co-located events at KubeCon:</p>
 <p>I attended sessions from both KubeSec and AWS Container days at the start of the week. Security was a big part of
-KubeCon with KubeSec and CloudNative Security Day being collocated events this year. At KubeSec <a href="https://twitter.com/lizrice">Liz Rice</a>, from
-Aquasec, discussed the <a href="https://en.wikipedia.org/wiki/OODA_loop">OODA loop</a>, Observe, orientate, decide, act, this
+KubeCon with KubeSec and CloudNative Security Day being collocated events this year. At KubeSec <a href="https://twitter.com/lizrice"  class="external-link" target="_blank" rel="noopener">Liz Rice</a>, from
+Aquasec, discussed the <a href="https://en.wikipedia.org/wiki/OODA_loop"  class="external-link" target="_blank" rel="noopener">OODA loop</a>, Observe, orientate, decide, act, this
 presentation of the week set the tone for
 him. By building security into the pipeline, teams can respond faster to incidents and secure your infrastructure and applications at an accelerated rate as well. At each phase of the pipeline, security can  be added.</p>
 <p><strong>Build</strong></p>
@@ -311,26 +194,26 @@ him. By building security into the pipeline, teams can respond faster to inciden
 <p>The Cloud Native Security Day focused on how the state of containerized and cloud-native ecosystem, including
 sessions around Kubernetes’ first third-party security assessment, exploiting Kubernetes in its default
 configuration. There were also sessions about using Open Policy Agent for automating policy-based compliance as well
-as leveraging serverless &amp; machine learning for alerting administrators of potential attacks. The recordings from the Cloud Native Security Day can be seen on this <a href="https://www.youtube.com/watch?v=gtaaONq-XGY&amp;list=PLj6h78yzYM2MGKo_LNRA-lhxlNXwiDJDT&amp;index=3">YouTube playlist.</a></p>
+as leveraging serverless &amp; machine learning for alerting administrators of potential attacks. The recordings from the Cloud Native Security Day can be seen on this <a href="https://www.youtube.com/watch?v=gtaaONq-XGY&amp;list=PLj6h78yzYM2MGKo_LNRA-lhxlNXwiDJDT&amp;index=3"  class="external-link" target="_blank" rel="noopener">YouTube playlist.</a></p>
 <p>At the AWS event, we learned all about the Container ecosystem inside AWS, updates to EKS, and some announcements
-ahead of Re:Invent. There was an <a href="https://eksworkshop.com/">AWS App Mesh workshop</a> and Kubeflow workshop. If you want to try out the App Mesh
+ahead of Re:Invent. There was an <a href="https://eksworkshop.com/"  class="external-link" target="_blank" rel="noopener">AWS App Mesh workshop</a> and Kubeflow workshop. If you want to try out the App Mesh
 workshop, here is the link to it. The biggest update is the release of managed nodes for EKS. AWS can now manage
-your entire cluster lifecycle for your team if desired. If you want to learn more about it <a href="https://aws.amazon.com/blogs/containers/eks-managed-node-groups/">here</a> is the release
-blog post about it. The EKS team also has its container roadmap available on GitHub at <a href="https://github.com/aws/containers-roadmap">https://github.com/aws/containers-roadmap</a></p>
+your entire cluster lifecycle for your team if desired. If you want to learn more about it <a href="https://aws.amazon.com/blogs/containers/eks-managed-node-groups/"  class="external-link" target="_blank" rel="noopener">here</a> is the release
+blog post about it. The EKS team also has its container roadmap available on GitHub at <a href="https://github.com/aws/containers-roadmap"  class="external-link" target="_blank" rel="noopener">https://github.com/aws/containers-roadmap</a></p>
 <p>Announcements</p>
 <ul>
 <li>AWS EKS managed nodes</li>
 <li>Microsoft open enclave confidential compute
 <ul>
 <li>Microsoft Open Enclave SDK</li>
-<li><a href="https://azure.microsoft.com/en-us/solutions/confidential-compute/">https://azure.microsoft.com/en-us/solutions/confidential-compute/</a></li>
-<li><a href="https://confidentialcomputing.io/">https://confidentialcomputing.io/</a></li>
+<li><a href="https://azure.microsoft.com/en-us/solutions/confidential-compute/"  class="external-link" target="_blank" rel="noopener">https://azure.microsoft.com/en-us/solutions/confidential-compute/</a></li>
+<li><a href="https://confidentialcomputing.io/"  class="external-link" target="_blank" rel="noopener">https://confidentialcomputing.io/</a></li>
 </ul>
 </li>
-<li>Hubble from Cilium: <a href="https://cilium.io/blog/2019/11/19/announcing-hubble/">https://cilium.io/blog/2019/11/19/announcing-hubble/</a></li>
-<li><a href="https://www.cncf.io/announcement/2019/11/13/helm-reaches-version-3/">Helm v3 going GA</a></li>
-<li><a href="https://buoyant.io/2019/11/18/announcing-dive/">Buoyant Announces Dive, a SaaS Control Plane for Kubernetes</a></li>
-<li><a href="https://www.weave.works/blog/argo-flux-join-forces">GitOps Engine = AWS + Intuit + Weaveworks + Argo Flux</a></li>
+<li>Hubble from Cilium: <a href="https://cilium.io/blog/2019/11/19/announcing-hubble/"  class="external-link" target="_blank" rel="noopener">https://cilium.io/blog/2019/11/19/announcing-hubble/</a></li>
+<li><a href="https://www.cncf.io/announcement/2019/11/13/helm-reaches-version-3/"  class="external-link" target="_blank" rel="noopener">Helm v3 going GA</a></li>
+<li><a href="https://buoyant.io/2019/11/18/announcing-dive/"  class="external-link" target="_blank" rel="noopener">Buoyant Announces Dive, a SaaS Control Plane for Kubernetes</a></li>
+<li><a href="https://www.weave.works/blog/argo-flux-join-forces"  class="external-link" target="_blank" rel="noopener">GitOps Engine = AWS + Intuit + Weaveworks + Argo Flux</a></li>
 </ul>
 <p>Let me know what announcements at KubeCon you were most excited about!</p>
 <p>Tools we learned about:</p>
@@ -353,147 +236,106 @@ blog post about it. The EKS team also has its container roadmap available on Git
 <li>Advocacy</li>
 <li>Marketing/Communications</li>
 </ul>
-<p>The best way to get started is to speak directly to maintainers. Click on this <a href="https://www.youtube.com/watch?v=AWdhli9rhWQ&amp;list=PLj6h78yzYM2NDs-iu8WU5fMxINxHXlien&amp;index=11&amp;t=0s">link</a> to learn more about getting
+<p>The best way to get started is to speak directly to maintainers. Click on this <a href="https://www.youtube.com/watch?v=AWdhli9rhWQ&amp;list=PLj6h78yzYM2NDs-iu8WU5fMxINxHXlien&amp;index=11&amp;t=0s"  class="external-link" target="_blank" rel="noopener">link</a> to learn more about getting
 involved.</p>
 <p>Project updates:</p>
 <ul>
-<li><a href="https://www.youtube.com/watch?v=-Hz6LFJu1cY&amp;list=PLj6h78yzYM2NDs-iu8WU5fMxINxHXlien&amp;index=344&amp;t=0s">Vitess</a> - Vitess is a cluster MySQL solution that has moved to a graduated state in the CNCF.</li>
-<li><a href="https://www.youtube.com/watch?v=afCRt5Gd6Rk&amp;list=PLj6h78yzYM2NDs-iu8WU5fMxINxHXlien&amp;index=207&amp;t=0s">Helm 3 </a> -
+<li><a href="https://www.youtube.com/watch?v=-Hz6LFJu1cY&amp;list=PLj6h78yzYM2NDs-iu8WU5fMxINxHXlien&amp;index=344&amp;t=0s"  class="external-link" target="_blank" rel="noopener">Vitess</a> - Vitess is a cluster MySQL solution that has moved to a graduated state in the CNCF.</li>
+<li><a href="https://www.youtube.com/watch?v=afCRt5Gd6Rk&amp;list=PLj6h78yzYM2NDs-iu8WU5fMxINxHXlien&amp;index=207&amp;t=0s"  class="external-link" target="_blank" rel="noopener">Helm 3 </a> -
 Helm 3 comes with the removal of Tiller and other updates to the project.</li>
-<li><a href="https://www.youtube.com/watch?v=lWOSCXufgyw&amp;list=PLj6h78yzYM2NDs-iu8WU5fMxINxHXlien&amp;index=273&amp;t=0s">SIG Network UPdates</a>  -
+<li><a href="https://www.youtube.com/watch?v=lWOSCXufgyw&amp;list=PLj6h78yzYM2NDs-iu8WU5fMxINxHXlien&amp;index=273&amp;t=0s"  class="external-link" target="_blank" rel="noopener">SIG Network UPdates</a>  -
 IPv4/IPv6 dual-stack update, why endpoints slices, service typologies, among other things, lots of movement
 in Sig Network.</li>
-<li><a href="https://blog.openpolicyagent.org/opa-v0-15-1-rego-on-webassembly-81c226c51be4">OPA 0.15.1 released</a> - WebAssembly compilation of Rego templates!</li>
+<li><a href="https://blog.openpolicyagent.org/opa-v0-15-1-rego-on-webassembly-81c226c51be4"  class="external-link" target="_blank" rel="noopener">OPA 0.15.1 released</a> - WebAssembly compilation of Rego templates!</li>
 </ul>
 <p>Sessions:</p>
-<p><a href="https://www.youtube.com/watch?v=FrQ8Lwm9_j8&amp;list=PLj6h78yzYM2NDs-iu8WU5fMxINxHXlien&amp;index=58">10 Weird ways to blow up your Kubernetes</a> - AirBnB engineers gave us their lessons learned when running k8. There
+<p><a href="https://www.youtube.com/watch?v=FrQ8Lwm9_j8&amp;list=PLj6h78yzYM2NDs-iu8WU5fMxINxHXlien&amp;index=58"  class="external-link" target="_blank" rel="noopener">10 Weird ways to blow up your Kubernetes</a> - AirBnB engineers gave us their lessons learned when running k8. There
 are a lot of growing pains when managing your clusters. This talk is a great way to understand some issues that may arise when managing Kubernetes.</p>
-<p>If you’re interested, there is even a site for deep dives into Kubernetes missteps <a href="https://k8s.af/">https://k8s.af/</a> . A favorite is
-when a <a href="https://www.youtube.com/watch?v=ix0Tw8uinWs">Spotify engineer deleted a production cluster</a>!</p>
-<p><a href="https://www.youtube.com/watch?v=Kmm8Hl57WDU">Understanding and Troubleshooting the eBPF Datapath in Cilium</a> - Nathan Sweet, a software engineer from DigitalOcean talked about how DO uses Cilium for the CNI in their Kubernetes Managed service. Slides Here. He gives a great illustration of the Architecture of eBPF below.</p>
+<p>If you’re interested, there is even a site for deep dives into Kubernetes missteps <a href="https://k8s.af/"  class="external-link" target="_blank" rel="noopener">https://k8s.af/</a> . A favorite is
+when a <a href="https://www.youtube.com/watch?v=ix0Tw8uinWs"  class="external-link" target="_blank" rel="noopener">Spotify engineer deleted a production cluster</a>!</p>
+<p><a href="https://www.youtube.com/watch?v=Kmm8Hl57WDU"  class="external-link" target="_blank" rel="noopener">Understanding and Troubleshooting the eBPF Datapath in Cilium</a> - Nathan Sweet, a software engineer from DigitalOcean talked about how DO uses Cilium for the CNI in their Kubernetes Managed service. Slides Here. He gives a great illustration of the Architecture of eBPF below.</p>
 <p>There was a great talk conducted held by Greg Castle and Tim Allclair on attacks and potential mitigations for when
-an attacker successfully compromises a container and is able to break out of it: <a href="https://www.youtube.com/watch?v=6rMGRvcjvKc">Walls Within Walls: What if Your
+an attacker successfully compromises a container and is able to break out of it: <a href="https://www.youtube.com/watch?v=6rMGRvcjvKc"  class="external-link" target="_blank" rel="noopener">Walls Within Walls: What if Your
 Attacker Knows Parkour?</a> It is well worth the time.</p>
 <p>There was a lot to take in at KubeCon 2019. From sessions, meeting vendors and most importantly meeting others in the community. KubeCon is certainly the conference to go to learn about what is going in all the CNCF projects.</p>
 <p>I hope to see you at the next one.</p>
-<p><a href="https://www.youtube.com/playlist?list=PLj6h78yzYM2NDs-iu8WU5fMxINxHXlien">The entire playlist of Sessions at Kubernetes</a></p>
-<p><a href="https://www.flickr.com/photos/143247548@N03/49087922038/in/album-72157711835777083/">Photos from the KubeCon CloudNativeCon</a></p>
+<p><a href="https://www.youtube.com/playlist?list=PLj6h78yzYM2NDs-iu8WU5fMxINxHXlien"  class="external-link" target="_blank" rel="noopener">The entire playlist of Sessions at Kubernetes</a></p>
+<p><a href="https://www.flickr.com/photos/143247548@N03/49087922038/in/album-72157711835777083/"  class="external-link" target="_blank" rel="noopener">Photos from the KubeCon CloudNativeCon</a></p>
 <p>Other awesome posts as well:</p>
 <ul>
-<li><a href="https://octetz.com/posts/k8s-kubecon-sd-review">https://octetz.com/posts/k8s-kubecon-sd-review</a></li>
-<li><a href="https://www.openfaas.com/blog/kubecon-san-diego-highlights/">https://www.openfaas.com/blog/kubecon-san-diego-highlights/</a></li>
+<li><a href="https://octetz.com/posts/k8s-kubecon-sd-review"  class="external-link" target="_blank" rel="noopener">https://octetz.com/posts/k8s-kubecon-sd-review</a></li>
+<li><a href="https://www.openfaas.com/blog/kubecon-san-diego-highlights/"  class="external-link" target="_blank" rel="noopener">https://www.openfaas.com/blog/kubecon-san-diego-highlights/</a></li>
 </ul>
 
-  
-  <h4><i class="fas fa-share-alt" aria-hidden="true"></i>&nbsp;Share!</h4>
-<ul class="share-buttons">
-	<li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fjamesstrong.dev%2fpost%2f2019%2f2019-11-23-kubecon%2f" target="_blank" title="Share on Facebook"><i class="fab fa-facebook" aria-hidden="true"></i><span class="sr-only">Share on Facebook</span></a>
-	</li>&nbsp;&nbsp;&nbsp;
-	<li><a href="https://twitter.com/intent/tweet?source=https%3a%2f%2fjamesstrong.dev%2fpost%2f2019%2f2019-11-23-kubecon%2f" target="_blank" title="Tweet"><i class="fab fa-twitter" aria-hidden="true"></i><span class="sr-only">Tweet</span></a>
-	</li>&nbsp;&nbsp;&nbsp;
-	<li><a href="https://plus.google.com/share?url=https%3a%2f%2fjamesstrong.dev%2fpost%2f2019%2f2019-11-23-kubecon%2f" target="_blank" title="Share on Google+"><i class="fab fa-google-plus" aria-hidden="true"></i><span class="sr-only">Share on Google+</span></a>
-	</li>&nbsp;&nbsp;&nbsp;
-	<li><a href="http://www.tumblr.com/share?v=3&u=https%3a%2f%2fjamesstrong.dev%2fpost%2f2019%2f2019-11-23-kubecon%2f" target="_blank" title="Post to Tumblr"><i class="fab fa-tumblr" aria-hidden="true"></i><span class="sr-only">Post to Tumblr</span></a>
-	</li>&nbsp;&nbsp;&nbsp;
-	<li><a href="http://pinterest.com/pin/create/button/?url=https%3a%2f%2fjamesstrong.dev%2fpost%2f2019%2f2019-11-23-kubecon%2f" target="_blank" title="Pin it"><i class="fab fa-pinterest-p" aria-hidden="true"></i><span class="sr-only">Pin it</span></a>
-	</li>&nbsp;&nbsp;&nbsp;
-	<li><a href="http://www.reddit.com/submit?url=https%3a%2f%2fjamesstrong.dev%2fpost%2f2019%2f2019-11-23-kubecon%2f" target="_blank" title="Submit to Reddit"><i class="fab fa-reddit-alien" aria-hidden="true"></i><span class="sr-only">Submit to Reddit</span></a>
-	</li>
-</ul>
-
-
-<style>
-	ul.share-buttons{
-	  list-style: none;
-	  padding: 0;
-	}
-
-	ul.share-buttons li{
-	  display: inline;
-	}
-
-	ul.share-buttons .sr-only{
-	  position: absolute;
-	  clip: rect(1px 1px 1px 1px);
-	  clip: rect(1px, 1px, 1px, 1px);
-	  padding: 0;
-	  border: 0;
-	  height: 1px;
-	  width: 1px;
-	  overflow: hidden;
-	}
-</style>
-
+  </article>
+</section>
 
   
-<div class="prev-next-post pure-g">
-  <div class="pure-u-1-24" style="text-align: left;">
-    
-    <a href="https://jamesstrong.dev/post/2019/2019-11-20-rancher-live-with-james/"><i class="fa fa-chevron-left"></i></a>
-    
-  </div>
-  <div class="pure-u-10-24">
-    
-    <nav class="prev">
-      <a href="https://jamesstrong.dev/post/2019/2019-11-20-rancher-live-with-james/">Live at KubeCon North America 2019 with James Strong</a>
-    </nav>
-    
-  </div>
-  <div class="pure-u-2-24">
-    &nbsp;
-  </div>
-  <div class="pure-u-10-24">
-    
-    <nav class="next">
-      <a href="https://jamesstrong.dev/post/2020/2020-04-16-k8-contino-web/">Kubernetes Best Practices Webinar</a>
-    </nav>
-    
-  </div>
-  <div class="pure-u-1-24" style="text-align: right;">
-    
-    <a href="https://jamesstrong.dev/post/2020/2020-04-16-k8-contino-web/"><i class="fa fa-chevron-right"></i></a>
-    
-  </div>
-</div>
 
+    </div>
+
+    <footer class="footer">
+  <section class="container">
+    ©
+    
+      2017 -
+    
+    2024
+    
+    ·
+    
+    Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/" target="_blank" rel="noopener">Coder</a>.
+    
+  </section>
+</footer>
+
+  </main>
+
+  
 
   
   
-  
+  <script src="http://localhost:1313/js/coder.js"></script>
   
 
   
 
-</div>
-
-</div>
-</div>
-<script src="https://jamesstrong.dev/js/ui.js"></script>
-<script src="https://jamesstrong.dev/js/menus.js"></script>
-
-
-
-
-
-
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-Y034J08BEQ"></script>
-<script>
   
-  if (window.location.hostname != "localhost") {
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-Y034J08BEQ');
-  }
-</script>
 
 
+  
 
+  
 
+  
 
+  
 
+  
 
+  
 
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
 </body>
-</html>
 
+</html>

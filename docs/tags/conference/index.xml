@@ -1,62 +1,62 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>conference on James Strong</title>
-    <link>https://jamesstrong.dev/tags/conference/</link>
-    <description>Recent content in conference on James Strong</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <title>Conference on James Strong</title>
+    <link>http://localhost:1313/tags/conference/</link>
+    <description>Recent content in Conference on James Strong</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <copyright>Copyright (c) 2023, all rights reserved.</copyright>
+    <copyright>Copyright (c) 2024, all rights reserved.</copyright>
     <lastBuildDate>Tue, 07 Nov 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://jamesstrong.dev/tags/conference/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/conference/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>What&#39;s Happening with Ingress-Nginx!</title>
-      <link>https://jamesstrong.dev/post/2023/2023-11-07-whats-happening-ingress-kubecon/</link>
+      <link>http://localhost:1313/post/2023/2023-11-07-whats-happening-ingress-kubecon/</link>
       <pubDate>Tue, 07 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>https://jamesstrong.dev/post/2023/2023-11-07-whats-happening-ingress-kubecon/</guid>
-      <description>What&amp;rsquo;s Happening with Ingress-Nginx! - James Strong, Chainguard &amp;amp; Ricardo Katz, VMware&#xA;This presentation will discuss our plans for Ingress-nginx 2.0 release, breaking changes, new features, and deprecations. We will also discuss our plans for gateway API, CVE reduction, and other security updates coming to ingress-nginx. As always, we will provide a community update, roadmap, and other critical information attendees should know about the project. Please join us to learn all about the progress and future of ingress-nginx.</description>
+      <guid>http://localhost:1313/post/2023/2023-11-07-whats-happening-ingress-kubecon/</guid>
+      <description>&lt;p&gt;What&amp;rsquo;s Happening with Ingress-Nginx! - James Strong, Chainguard &amp;amp; Ricardo Katz, VMware&lt;/p&gt;&#xA;&lt;p&gt;This presentation will discuss our plans for Ingress-nginx 2.0 release, breaking changes, new features, and deprecations. We will also discuss our plans for gateway API, CVE reduction, and other security updates coming to ingress-nginx. As always, we will provide a community update, roadmap, and other critical information attendees should know about the project. Please join us to learn all about the progress and future of ingress-nginx.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Wolfi: A Secure-by-Default Distro for Curing Container CVE Chaos </title>
-      <link>https://jamesstrong.dev/post/2023/2023-08-14-all-systems-go-wolfi/</link>
+      <link>http://localhost:1313/post/2023/2023-08-14-all-systems-go-wolfi/</link>
       <pubDate>Mon, 14 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>https://jamesstrong.dev/post/2023/2023-08-14-all-systems-go-wolfi/</guid>
-      <description>Are you using container images with hundreds of known vulnerabilities?&#xA;The majority of us are using images based on the Docker official images available on the Docker Hub. This includes base images – such as Debian and Ubuntu – as well as application images such as nginx and redis. Unfortunately these images often have hundreds of known vulnerabilities due to excessively large dependency trees with out-of-date packages. This security debt can lead to unnecessary security risks and slower development cycles.</description>
+      <guid>http://localhost:1313/post/2023/2023-08-14-all-systems-go-wolfi/</guid>
+      <description>&lt;p&gt;Are you using container images with hundreds of known vulnerabilities?&lt;/p&gt;&#xA;&lt;p&gt;The majority of us are using images based on the Docker official images available on the Docker Hub. This includes base images – such as Debian and Ubuntu – as well as application images such as nginx and redis. Unfortunately these images often have hundreds of known vulnerabilities due to excessively large dependency trees with out-of-date packages. This security debt can lead to unnecessary security risks and slower development cycles.&lt;/p&gt;</description>
     </item>
     <item>
       <title>What Does Rugby Have To Do With Sigstore?</title>
-      <link>https://jamesstrong.dev/post/2023/2023-02-04-fosdem-sigstore-rugby/</link>
+      <link>http://localhost:1313/post/2023/2023-02-04-fosdem-sigstore-rugby/</link>
       <pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate>
-      <guid>https://jamesstrong.dev/post/2023/2023-02-04-fosdem-sigstore-rugby/</guid>
-      <description>Cosign, fulcio, rekor are all components in keyless signing with Sigstore. Each piece has its responsibility to provide a smooth developer experience for container signing. How does it all work together to complete that complicated dance to tie identity to cryptographic signatures? And what&amp;rsquo;s more cryptic than rugby? In this talk, James and Lewis will educate attendees about sigstore and container signing using examples from the best sport in the world, rugby.</description>
+      <guid>http://localhost:1313/post/2023/2023-02-04-fosdem-sigstore-rugby/</guid>
+      <description>&lt;p&gt;Cosign, fulcio, rekor are all components in keyless signing with Sigstore. Each piece has its responsibility to provide a smooth developer experience for container signing. How does it all work together to complete that complicated dance to tie identity to cryptographic signatures? And what&amp;rsquo;s more cryptic than rugby? In this talk, James and Lewis will educate attendees about sigstore and container signing using examples from the best sport in the world, rugby. If you&amp;rsquo;re interested in learning more about sigstore and what a hooker does, this talk is for you.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Realizing the benefits of container DevSecOps with AWS</title>
-      <link>https://jamesstrong.dev/post/2021/2021-09-21-devsecops-with-aws/</link>
+      <link>http://localhost:1313/post/2021/2021-09-21-devsecops-with-aws/</link>
       <pubDate>Thu, 27 May 2021 00:00:00 +0000</pubDate>
-      <guid>https://jamesstrong.dev/post/2021/2021-09-21-devsecops-with-aws/</guid>
-      <description>AWS DevSecOps Container Pipeline workshop at DevOps Days Houston&#xA;Workshop available at https://aws.containerdevsecops.io/&#xA;In this workshop Engineers will learn how to secure their container pipeline using AWS and other Cloud Native tools. This will be part Lecture and part hands on.&#xA;We will be working through the following topics:&#xA;Introduction Workshop Setup Development Environment Container Builds Container Pipeline Running Containers We will be using these tools and techniques to secure a container pipeline and runtime.</description>
+      <guid>http://localhost:1313/post/2021/2021-09-21-devsecops-with-aws/</guid>
+      <description>&lt;p&gt;AWS DevSecOps Container Pipeline workshop at DevOps Days Houston&lt;/p&gt;&#xA;&lt;p&gt;Workshop available at &lt;a href=&#34;https://aws.containerdevsecops.io/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://aws.containerdevsecops.io/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/aws-devsecops-pipeline.png&#34; alt=&#34;Workshop&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;In this workshop Engineers will learn how to secure their container pipeline using AWS and other Cloud Native tools. This will be part Lecture and part hands on.&lt;/p&gt;&#xA;&lt;p&gt;We will be working through the following topics:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Introduction&lt;/li&gt;&#xA;&lt;li&gt;Workshop Setup&lt;/li&gt;&#xA;&lt;li&gt;Development Environment&lt;/li&gt;&#xA;&lt;li&gt;Container Builds&lt;/li&gt;&#xA;&lt;li&gt;Container Pipeline&lt;/li&gt;&#xA;&lt;li&gt;Running Containers&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;We will be using these tools and techniques to secure a container pipeline and runtime.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Code PaLOUSa 2019</title>
-      <link>https://jamesstrong.dev/post/2019/2019-08-26-code-lou-2019/</link>
+      <link>http://localhost:1313/post/2019/2019-08-26-code-lou-2019/</link>
       <pubDate>Mon, 26 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>https://jamesstrong.dev/post/2019/2019-08-26-code-lou-2019/</guid>
-      <description>Another year! Another amazing Code PaLOUsa come and gone.&#xA;Location This year Code PaLOUsa was at the Hyatt Regency, which is smack dap in the middle of downtown. This location makes it a perfect spot for all the speakers and conference-goers to experience some of the tourist spots in Louisville and still enjoy the conference.&#xA;Sessions The sessions were action-packed, as well. A (useful?) attribute of a conference is the level of difficulty for goers to decide which speakers to see!</description>
+      <guid>http://localhost:1313/post/2019/2019-08-26-code-lou-2019/</guid>
+      <description>&lt;p&gt;Another year! Another amazing Code PaLOUsa come and gone.&lt;/p&gt;&#xA;&lt;h3 id=&#34;location&#34;&gt;&#xA;  Location&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#location&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;This year Code PaLOUsa was at the Hyatt Regency, which is smack dap in the middle of downtown. This location makes it a&#xA;perfect spot for all the speakers and conference-goers to experience some of the tourist spots in Louisville and still&#xA;enjoy the conference.&lt;/p&gt;&#xA;&lt;h3 id=&#34;sessions&#34;&gt;&#xA;  Sessions&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#sessions&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;The sessions were action-packed, as well. A (useful?) attribute of a conference is the level of difficulty for goers to&#xA;decide which speakers to see! There were so many sessions at each hour to choose. Here is the list of ones&#xA;I chose (could) to attend.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Dev Nexus 2019</title>
-      <link>https://jamesstrong.dev/post/2019/2019-03-06-devnexus2019/</link>
+      <link>http://localhost:1313/post/2019/2019-03-06-devnexus2019/</link>
       <pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://jamesstrong.dev/post/2019/2019-03-06-devnexus2019/</guid>
-      <description>At Dev Nexus 2018 my co-worker, Adarsh, and I led a workshop &amp;ldquo;Introduction to Kubernetes&amp;rdquo;&#xA;Introduction to Kubernetes is a hands-on, interactive workshop giving attendees a thorough understanding of the fundamentals of Kubernetes. As part of this workshop, you will learn how Kubernetes works, be able to successfully create a kubernetes cluster, deploy microservices to that cluster &amp;amp; also hear about some war stories.&#xA;https://contino.github.io/intro-k8/&#xA;Developer density ⁦@devnexus⁩!&#xA;First class speakers!</description>
+      <guid>http://localhost:1313/post/2019/2019-03-06-devnexus2019/</guid>
+      <description>&lt;p&gt;At Dev Nexus 2018 my co-worker, &lt;a href=&#34;http://shahadarsh.com/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Adarsh&lt;/a&gt;, and I led a workshop &lt;a href=&#34;https://devnexus.com/presentations/2999/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&amp;ldquo;Introduction to Kubernetes&amp;rdquo;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Introduction to Kubernetes is a hands-on, interactive workshop giving attendees a thorough&#xA;understanding of the fundamentals of Kubernetes. As part of this workshop, you will learn how Kubernetes&#xA;works, be able to successfully create a kubernetes cluster, deploy microservices to that cluster &amp;amp;&#xA;also hear about some war stories.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://contino.github.io/intro-k8/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://contino.github.io/intro-k8/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Developer density ⁦&lt;a href=&#34;https://twitter.com/devnexus?ref_src=twsrc%5Etfw&#34;&gt;@devnexus&lt;/a&gt;⁩!&lt;br&gt;&lt;br&gt;First class speakers! First class community!&lt;a href=&#34;https://twitter.com/hashtag/Java?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#Java&lt;/a&gt; &lt;a href=&#34;https://t.co/vdFja8kWpN&#34;&gt;pic.twitter.com/vdFja8kWpN&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Dockercon 2017</title>
-      <link>https://jamesstrong.dev/post/2017/2017-05-16-dockercon/</link>
+      <link>http://localhost:1313/post/2017/2017-05-16-dockercon/</link>
       <pubDate>Tue, 16 May 2017 00:00:00 +0000</pubDate>
-      <guid>https://jamesstrong.dev/post/2017/2017-05-16-dockercon/</guid>
-      <description>Before we dive into some of the highlights from DockerCon 2017, let’s do a quick overview of what Docker is. Quite simply, a “docker container” is a portable container, of sorts, that allows a collection of apps to run on any operating system.&#xA;How is it possible, you ask, for a docker container to allow any app to “Build, Ship and Run,” as the docker motto says, on any OS? A docker container uses kernel features to produce resource isolation (CPU, memory, block I/O and more) as well as separate namespaces, to isolate the application’s view of the operating system (a visual depiction below).</description>
+      <guid>http://localhost:1313/post/2017/2017-05-16-dockercon/</guid>
+      <description>&lt;p&gt;Before we dive into some of the highlights from &lt;a href=&#34;https://2017.dockercon.com/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DockerCon 2017&lt;/a&gt;, let’s do a quick overview&#xA;of what Docker is. Quite simply, a “docker container” is a portable container, of sorts, that allows a collection of&#xA;apps to run on any operating system.&lt;/p&gt;&#xA;&lt;p&gt;How is it possible, you ask, for a docker container to allow any app to “Build, Ship and Run,” as the docker motto says,&#xA;on any OS? A docker container uses kernel features to produce resource isolation (CPU, memory, block I/O&#xA;and more) as well as separate namespaces, to isolate the application’s view of the operating system&#xA;(a visual depiction below).&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

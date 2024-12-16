@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>serverless on James Strong</title>
-    <link>https://jamesstrong.dev/tags/serverless/</link>
-    <description>Recent content in serverless on James Strong</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <title>Serverless on James Strong</title>
+    <link>http://localhost:1313/tags/serverless/</link>
+    <description>Recent content in Serverless on James Strong</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <copyright>Copyright (c) 2023, all rights reserved.</copyright>
+    <copyright>Copyright (c) 2024, all rights reserved.</copyright>
     <lastBuildDate>Sun, 31 Mar 2019 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://jamesstrong.dev/tags/serverless/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/serverless/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hashicorp DFW</title>
-      <link>https://jamesstrong.dev/post/2019/2019-03-31-hashidfw/</link>
+      <link>http://localhost:1313/post/2019/2019-03-31-hashidfw/</link>
       <pubDate>Sun, 31 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://jamesstrong.dev/post/2019/2019-03-31-hashidfw/</guid>
-      <description>I will be giving a talk and demo on deploying serverless apps onto AWS with Terraform!&#xA;https://www.meetup.com/hashicorpdfw/events/260071773/</description>
+      <guid>http://localhost:1313/post/2019/2019-03-31-hashidfw/</guid>
+      <description>&lt;p&gt;I will be giving a talk and demo on deploying serverless apps onto AWS with Terraform!&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.meetup.com/hashicorpdfw/events/260071773/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.meetup.com/hashicorpdfw/events/260071773/&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -2,254 +2,255 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://jamesstrong.dev/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2023-11-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jamesstrong.dev/tags/resume/</loc>
+    <loc>http://localhost:1313/tags/resume/</loc>
     <lastmod>2023-11-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jamesstrong.dev/resume/</loc>
+    <loc>http://localhost:1313/resume/</loc>
     <lastmod>2023-11-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jamesstrong.dev/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2023-11-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jamesstrong.dev/tags/cloud/</loc>
+    <loc>http://localhost:1313/tags/cloud/</loc>
     <lastmod>2023-11-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jamesstrong.dev/tags/conference/</loc>
+    <loc>http://localhost:1313/tags/conference/</loc>
     <lastmod>2023-11-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jamesstrong.dev/tags/kubecon/</loc>
+    <loc>http://localhost:1313/tags/kubecon/</loc>
     <lastmod>2023-11-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jamesstrong.dev/tags/kubernetes/</loc>
+    <loc>http://localhost:1313/tags/kubernetes/</loc>
     <lastmod>2023-11-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jamesstrong.dev/post/</loc>
+    <loc>http://localhost:1313/post/</loc>
     <lastmod>2023-11-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jamesstrong.dev/post/2023/2023-11-07-whats-happening-ingress-kubecon/</loc>
+    <loc>http://localhost:1313/post/2023/2023-11-07-whats-happening-ingress-kubecon/</loc>
     <lastmod>2023-11-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jamesstrong.dev/tags/cve/</loc>
+    <loc>http://localhost:1313/tags/cve/</loc>
     <lastmod>2023-08-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jamesstrong.dev/post/2023/2023-08-14-all-systems-go-wolfi/</loc>
+    <loc>http://localhost:1313/post/2023/2023-08-14-all-systems-go-wolfi/</loc>
     <lastmod>2023-08-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jamesstrong.dev/post/2023/2023-05-18-englightning-ingress-nginx/</loc>
+    <loc>http://localhost:1313/post/2023/2023-05-18-englightning-ingress-nginx/</loc>
     <lastmod>2023-05-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jamesstrong.dev/tags/ingress-nginx/</loc>
+    <loc>http://localhost:1313/tags/ingress-nginx/</loc>
     <lastmod>2023-05-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jamesstrong.dev/tags/networking/</loc>
+    <loc>http://localhost:1313/tags/networking/</loc>
     <lastmod>2023-05-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jamesstrong.dev/tags/stream/</loc>
+    <loc>http://localhost:1313/tags/stream/</loc>
     <lastmod>2023-05-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jamesstrong.dev/post/2023/2023-05-10-e2e-security-chainguard-weaveworks/</loc>
+    <loc>http://localhost:1313/post/2023/2023-05-10-e2e-security-chainguard-weaveworks/</loc>
     <lastmod>2023-05-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jamesstrong.dev/tags/gitops/</loc>
+    <loc>http://localhost:1313/tags/gitops/</loc>
     <lastmod>2023-05-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jamesstrong.dev/post/2023/2023-05-01-lifeofacve/</loc>
+    <loc>http://localhost:1313/post/2023/2023-05-01-lifeofacve/</loc>
     <lastmod>2023-05-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jamesstrong.dev/tags/nginx/</loc>
+    <loc>http://localhost:1313/tags/nginx/</loc>
     <lastmod>2023-05-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jamesstrong.dev/tags/sigstore/</loc>
+    <loc>http://localhost:1313/tags/sigstore/</loc>
     <lastmod>2023-02-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jamesstrong.dev/post/2023/2023-02-04-fosdem-sigstore-rugby/</loc>
+    <loc>http://localhost:1313/post/2023/2023-02-04-fosdem-sigstore-rugby/</loc>
     <lastmod>2023-02-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jamesstrong.dev/about/</loc>
+    <loc>http://localhost:1313/about/</loc>
     <lastmod>2022-12-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jamesstrong.dev/post/2022/2022-12-14-getting-started-signing-and-policy/</loc>
+    <loc>http://localhost:1313/post/2022/2022-12-14-getting-started-signing-and-policy/</loc>
     <lastmod>2022-12-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jamesstrong.dev/tags/security/</loc>
+    <loc>http://localhost:1313/tags/security/</loc>
     <lastmod>2022-12-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jamesstrong.dev/post/2022/2022-11-11-understanding-future-ingress-nginx/</loc>
+    <loc>http://localhost:1313/post/2022/2022-11-11-understanding-future-ingress-nginx/</loc>
     <lastmod>2022-11-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jamesstrong.dev/post/2022/2022-08-29-jfrog-supply-chain-security/</loc>
+    <loc>http://localhost:1313/post/2022/2022-08-29-jfrog-supply-chain-security/</loc>
     <lastmod>2022-08-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jamesstrong.dev/tags/interview/</loc>
+    <loc>http://localhost:1313/tags/interview/</loc>
     <lastmod>2022-08-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jamesstrong.dev/tags/software-supply-chain-security/</loc>
+    <loc>http://localhost:1313/tags/software-supply-chain-security/</loc>
     <lastmod>2022-08-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jamesstrong.dev/post/2022/2022-04-19-chainguard-live-all-about-that-base/</loc>
+    <loc>http://localhost:1313/post/2022/2022-04-19-chainguard-live-all-about-that-base/</loc>
     <lastmod>2022-04-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jamesstrong.dev/post/2022/2022-03-21-klustered-chainguard-v-chainguard/</loc>
+    <loc>http://localhost:1313/post/2022/2022-03-21-klustered-chainguard-v-chainguard/</loc>
     <lastmod>2022-03-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jamesstrong.dev/post/2022/2022-01-18-does-k8s-need-backup-podcast/</loc>
+    <loc>http://localhost:1313/post/2022/2022-01-18-does-k8s-need-backup-podcast/</loc>
     <lastmod>2022-01-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jamesstrong.dev/tags/podcast/</loc>
+    <loc>http://localhost:1313/tags/podcast/</loc>
     <lastmod>2022-01-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jamesstrong.dev/post/2021/2021-11-01-kubernetes-networking-101/</loc>
+    <loc>http://localhost:1313/post/2021/2021-11-01-kubernetes-networking-101/</loc>
     <lastmod>2021-11-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jamesstrong.dev/post/2021/2021-10-06-hackernoon-interview/</loc>
+    <loc>http://localhost:1313/post/2021/2021-10-06-hackernoon-interview/</loc>
     <lastmod>2021-10-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jamesstrong.dev/tags/aws/</loc>
+    <loc>http://localhost:1313/tags/aws/</loc>
     <lastmod>2021-05-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jamesstrong.dev/tags/azure/</loc>
+    <loc>http://localhost:1313/tags/azure/</loc>
     <lastmod>2021-05-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jamesstrong.dev/post/2021/2021-05-27-cloud-native-security/</loc>
+    <loc>http://localhost:1313/post/2021/2021-05-27-cloud-native-security/</loc>
     <lastmod>2021-05-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jamesstrong.dev/tags/devsecops/</loc>
+    <loc>http://localhost:1313/tags/devsecops/</loc>
     <lastmod>2021-05-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jamesstrong.dev/tags/gcp/</loc>
+    <loc>http://localhost:1313/tags/gcp/</loc>
     <lastmod>2021-05-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jamesstrong.dev/post/2021/2021-09-21-devsecops-with-aws/</loc>
+    <loc>http://localhost:1313/post/2021/2021-09-21-devsecops-with-aws/</loc>
     <lastmod>2021-05-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jamesstrong.dev/tags/workshop/</loc>
+    <loc>http://localhost:1313/tags/workshop/</loc>
     <lastmod>2021-05-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jamesstrong.dev/post/2021/2021-03-02-kubernetes-networking-book/</loc>
+    <loc>http://localhost:1313/post/2021/2021-03-02-kubernetes-networking-book/</loc>
     <lastmod>2021-03-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jamesstrong.dev/post/2020/2020-8-24-acg-networking/</loc>
+    <loc>http://localhost:1313/post/2020/2020-8-24-acg-networking/</loc>
     <lastmod>2020-08-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jamesstrong.dev/post/2020/2020-08-20-aws-cloud-governance-security/</loc>
+    <loc>http://localhost:1313/post/2020/2020-08-20-aws-cloud-governance-security/</loc>
     <lastmod>2020-08-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jamesstrong.dev/tags/cloud-native/</loc>
+    <loc>http://localhost:1313/tags/cloud-native/</loc>
     <lastmod>2020-05-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jamesstrong.dev/tags/containers/</loc>
+    <loc>http://localhost:1313/tags/containers/</loc>
     <lastmod>2020-05-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jamesstrong.dev/post/2020/2020-05-27-containers-devsecops-austin/</loc>
+    <loc>http://localhost:1313/post/2020/2020-05-27-containers-devsecops-austin/</loc>
     <lastmod>2020-05-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jamesstrong.dev/post/2020/2020-04-27-cloudnative-stream/</loc>
+    <loc>http://localhost:1313/post/2020/2020-04-27-cloudnative-stream/</loc>
     <lastmod>2020-04-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jamesstrong.dev/post/2020/2020-04-16-k8-contino-web/</loc>
+    <loc>http://localhost:1313/post/2020/2020-04-16-k8-contino-web/</loc>
     <lastmod>2020-04-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jamesstrong.dev/tags/devops/</loc>
+    <loc>http://localhost:1313/tags/devops/</loc>
     <lastmod>2019-11-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jamesstrong.dev/post/2019/2019-11-23-kubecon/</loc>
+    <loc>http://localhost:1313/post/2019/2019-11-23-kubecon/</loc>
     <lastmod>2019-11-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jamesstrong.dev/post/2019/2019-11-20-rancher-live-with-james/</loc>
+    <loc>http://localhost:1313/post/2019/2019-11-20-rancher-live-with-james/</loc>
     <lastmod>2019-11-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jamesstrong.dev/post/2019/2019-08-26-code-lou-2019/</loc>
+    <loc>http://localhost:1313/post/2019/2019-08-26-code-lou-2019/</loc>
     <lastmod>2019-08-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jamesstrong.dev/tags/developer/</loc>
+    <loc>http://localhost:1313/tags/developer/</loc>
     <lastmod>2019-08-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jamesstrong.dev/tags/blog/</loc>
+    <loc>http://localhost:1313/tags/blog/</loc>
     <lastmod>2019-08-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jamesstrong.dev/tags/code/</loc>
+    <loc>http://localhost:1313/tags/code/</loc>
     <lastmod>2019-08-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jamesstrong.dev/tags/development/</loc>
+    <loc>http://localhost:1313/tags/development/</loc>
     <lastmod>2019-08-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jamesstrong.dev/tags/finserve/</loc>
+    <loc>http://localhost:1313/tags/finserve/</loc>
     <lastmod>2019-08-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jamesstrong.dev/post/2019/2019-08-19-aws-hpc/</loc>
+    <loc>http://localhost:1313/post/2019/2019-08-19-aws-hpc/</loc>
     <lastmod>2019-08-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jamesstrong.dev/tags/hpc/</loc>
+    <loc>http://localhost:1313/tags/hpc/</loc>
     <lastmod>2019-08-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jamesstrong.dev/post/2019/2019-08-08-k8-network/</loc>
+    <loc>http://localhost:1313/post/2019/2019-08-08-k8-network/</loc>
     <lastmod>2019-08-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jamesstrong.dev/post/2019/2019-04-04-cncf-intro-k8/</loc>
+    <loc>http://localhost:1313/post/2019/2019-04-04-cncf-intro-k8/</loc>
     <lastmod>2019-04-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jamesstrong.dev/tags/meetup/</loc>
+    <loc>http://localhost:1313/tags/meetup/</loc>
     <lastmod>2019-04-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jamesstrong.dev/tags/hashicorp/</loc>
+    <loc>http://localhost:1313/tags/hashicorp/</loc>
     <lastmod>2019-03-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jamesstrong.dev/post/2019/2019-03-31-hashidfw/</loc>
+    <loc>http://localhost:1313/post/2019/2019-03-31-hashidfw/</loc>
     <lastmod>2019-03-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jamesstrong.dev/tags/serverless/</loc>
+    <loc>http://localhost:1313/tags/serverless/</loc>
     <lastmod>2019-03-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jamesstrong.dev/tags/cncf/</loc>
+    <loc>http://localhost:1313/tags/cncf/</loc>
     <lastmod>2019-03-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jamesstrong.dev/post/2019/2019-03-25-loucncf-4-1/</loc>
+    <loc>http://localhost:1313/post/2019/2019-03-25-loucncf-4-1/</loc>
     <lastmod>2019-03-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jamesstrong.dev/post/2019/2019-03-06-devnexus2019/</loc>
+    <loc>http://localhost:1313/post/2019/2019-03-06-devnexus2019/</loc>
     <lastmod>2019-03-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jamesstrong.dev/tags/cka/</loc>
+    <loc>http://localhost:1313/tags/cka/</loc>
     <lastmod>2019-01-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jamesstrong.dev/post/2019/2019-01-29-passcka/</loc>
+    <loc>http://localhost:1313/post/2019/2019-01-29-passcka/</loc>
     <lastmod>2019-01-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jamesstrong.dev/post/2018/2018-12-04-revinventrecap/</loc>
+    <loc>http://localhost:1313/post/2018/2018-12-04-revinventrecap/</loc>
     <lastmod>2018-12-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jamesstrong.dev/tags/reinvent/</loc>
+    <loc>http://localhost:1313/tags/reinvent/</loc>
     <lastmod>2018-12-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jamesstrong.dev/tags/docker/</loc>
+    <loc>http://localhost:1313/tags/docker/</loc>
     <lastmod>2017-05-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jamesstrong.dev/post/2017/2017-05-16-dockercon/</loc>
+    <loc>http://localhost:1313/post/2017/2017-05-16-dockercon/</loc>
     <lastmod>2017-05-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jamesstrong.dev/tags/cicd/</loc>
+    <loc>http://localhost:1313/tags/cicd/</loc>
     <lastmod>2017-03-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jamesstrong.dev/post/2017/2017-03-29-codelouisville/</loc>
+    <loc>http://localhost:1313/post/2017/2017-03-29-codelouisville/</loc>
     <lastmod>2017-03-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jamesstrong.dev/tags/jenkins/</loc>
+    <loc>http://localhost:1313/tags/ci/cd/</loc>
     <lastmod>2016-01-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jamesstrong.dev/post/2016/2016-01-06-louissoft-jenkins/</loc>
+    <loc>http://localhost:1313/tags/jenkins/</loc>
     <lastmod>2016-01-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jamesstrong.dev/tags/master/</loc>
+    <loc>http://localhost:1313/post/2016/2016-01-06-louissoft-jenkins/</loc>
+    <lastmod>2016-01-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/master/</loc>
     <lastmod>2015-04-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jamesstrong.dev/post/2015/2015-04-24-master/</loc>
+    <loc>http://localhost:1313/post/2015/2015-04-24-master/</loc>
     <lastmod>2015-04-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jamesstrong.dev/tags/ci/cd/</loc>
-  </url><url>
-    <loc>https://jamesstrong.dev/topics/</loc>
+    <loc>http://localhost:1313/topics/</loc>
   </url>
 </urlset>

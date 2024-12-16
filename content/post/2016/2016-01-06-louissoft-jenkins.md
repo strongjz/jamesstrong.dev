@@ -12,8 +12,8 @@ tags:
 This presentation was given at the [Louisville Software Engineering Meetup.](https://www.meetup.com/Louisville-Software-Engineering/) In It I discuss Continuous Integration and 
 Continuous Deployment, and how to achieve it with Jenkins.
 
-![](/img/jenkins.png)
+![](img/jenkins.png)
 
-<embed src="/pdf/software-engineering.pdf" type="application/pdf"  width="775px" height="800px">
+{{< pdfReader "pdf/software-engineering.pdf" >}}
 
 https://www.meetup.com/Louisville-Software-Engineering/events/227294818/
