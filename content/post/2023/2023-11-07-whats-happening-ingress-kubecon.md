@@ -2,7 +2,6 @@
 title: "What's Happening with Ingress-Nginx!"
 date: 2023-11-07
 tags:
-- cloud
 - kubernetes
 - kubecon
 - conference

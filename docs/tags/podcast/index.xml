@@ -7,8 +7,22 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Copyright (c) 2024, all rights reserved.</copyright>
-    <lastBuildDate>Tue, 18 Jan 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 03 Oct 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/podcast/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A day in the life of a maintainer</title>
+      <link>http://localhost:1313/post/2024/2024-10-03-a-day-in-the-life-giaint-swarm/</link>
+      <pubDate>Thu, 03 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2024/2024-10-03-a-day-in-the-life-giaint-swarm/</guid>
+      <description>&lt;p&gt;Giant Conversations Episode #23 A day in the life of a maintainer&lt;/p&gt;&#xA;&lt;p&gt;&amp;ldquo;Wait, you&amp;rsquo;re doing what? Coding? In your free time? For free? Nobody is paying you?&amp;rdquo;&lt;/p&gt;&#xA;&lt;p&gt;In this episode of Giant Conversations we would like to dive into the world of Open Source, find out how you can contribute to it, which challenges you might face, which lessons you can learn, and how you can become a reviewer or a maintainer of a project.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>SE Radio 619: James Strong on Kubernetes Networking</title>
+      <link>http://localhost:1313/post/2024/2024-06-05-se-radio-619-k8s-networking/</link>
+      <pubDate>Thu, 03 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2024/2024-06-05-se-radio-619-k8s-networking/</guid>
+      <description>&lt;p&gt;Infrastructure engineer and Kubernetes ingress-Nginx maintainer James Strong joins host Robert Blumen to discuss the Kubernetes networking layer. The discussion draws on content from Strong’s book on the topic and covers a lot of ground, including: the Kubernetes network’s use of different IP ranges than the host network; overlay network with its own IP ranges compared to using expanded portions of the host network ranges; adding routes with kernel extension points; programming kernel extension points with IP tables compared to eBPF; how routes are updated as the host network gains or loses nodes, the use of the Linux network namespace to isolate each pod; routing between pods on the same host; routing between pods across the host network; the container-network interface (CNI); the CNI ecosystem; differences between CNIs; choosing a CNI when running on a public cloud service; the Kubernetes service abstraction with a cluster-wide IP address; monitoring and telemetry of the Kubernetes network; and troubleshooting the Kubernetes network&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Does K8s still need DR? O&#39;Reilly K8s Author On the Hot Seat!</title>
       <link>http://localhost:1313/post/2022/2022-01-18-does-k8s-need-backup-podcast/</link>

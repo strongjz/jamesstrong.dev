@@ -7,8 +7,36 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Copyright (c) 2024, all rights reserved.</copyright>
-    <lastBuildDate>Tue, 07 Nov 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 15 Nov 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/kubernetes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Securing the Future of Ingress-Nginx</title>
+      <link>http://localhost:1313/post/2024/2024-11-14-securing-the-future-ingress/</link>
+      <pubDate>Fri, 15 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2024/2024-11-14-securing-the-future-ingress/</guid>
+      <description>&lt;p&gt;Ingress NGINX is a very flexible Ingress controller that provides users with a lot of NGINX functionality through annotations. However, this flexibility also raises security concerns for maintainers and cluster administrators. There have been eight significant CVEs and RCEs in Ingress NGINX. To address these issues, we have created a security hardening guide, which will be presented as a preview in this talk. Additionally, we will enable restrictive features by default to offer a more secure out-of-the-box experience with Ingress NGINX such as annotation validations. To maintain and secure the project and its Gateway API implementation, we will not be adding any new features to the core functionality of ingress, and a significant amount of functionality, such as UDP/TCP Routing, will be moved to Gateway API. We will also unveil the new name of the project during this presentation.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Understanding Kubernetes Networking in 30 Minutes</title>
+      <link>http://localhost:1313/post/2024/2024-11-14-understanding-kubernetes-networking/</link>
+      <pubDate>Thu, 14 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2024/2024-11-14-understanding-kubernetes-networking/</guid>
+      <description>&lt;p&gt;You are learning Kubernetes and started to face concepts like Pod CIDRs, Services, CNI, kube-proxy? Welcome! you have reached the amazing area of Kubernetes networking! We all have already been there and know how complex it may seem on the beginning, but in this talk, Ricardo and James will demystify the Kubernetes network concepts and model on a fun way, exploring how it is designed, why the is a &amp;ldquo;pause&amp;rdquo; container on every Pods, how the communication between Pods work, what are kube-proxy and CNI and their importance. In the end of this talk we expect you to get your learning path on Kubernetes Networking clear to better understand not only what are the concepts about, but also see on a live demo how every component correlates and makes the communications possible on a Kubernetes cluster.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>A day in the life of a maintainer</title>
+      <link>http://localhost:1313/post/2024/2024-10-03-a-day-in-the-life-giaint-swarm/</link>
+      <pubDate>Thu, 03 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2024/2024-10-03-a-day-in-the-life-giaint-swarm/</guid>
+      <description>&lt;p&gt;Giant Conversations Episode #23 A day in the life of a maintainer&lt;/p&gt;&#xA;&lt;p&gt;&amp;ldquo;Wait, you&amp;rsquo;re doing what? Coding? In your free time? For free? Nobody is paying you?&amp;rdquo;&lt;/p&gt;&#xA;&lt;p&gt;In this episode of Giant Conversations we would like to dive into the world of Open Source, find out how you can contribute to it, which challenges you might face, which lessons you can learn, and how you can become a reviewer or a maintainer of a project.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>SE Radio 619: James Strong on Kubernetes Networking</title>
+      <link>http://localhost:1313/post/2024/2024-06-05-se-radio-619-k8s-networking/</link>
+      <pubDate>Thu, 03 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2024/2024-06-05-se-radio-619-k8s-networking/</guid>
+      <description>&lt;p&gt;Infrastructure engineer and Kubernetes ingress-Nginx maintainer James Strong joins host Robert Blumen to discuss the Kubernetes networking layer. The discussion draws on content from Strong’s book on the topic and covers a lot of ground, including: the Kubernetes network’s use of different IP ranges than the host network; overlay network with its own IP ranges compared to using expanded portions of the host network ranges; adding routes with kernel extension points; programming kernel extension points with IP tables compared to eBPF; how routes are updated as the host network gains or loses nodes, the use of the Linux network namespace to isolate each pod; routing between pods on the same host; routing between pods across the host network; the container-network interface (CNI); the CNI ecosystem; differences between CNIs; choosing a CNI when running on a public cloud service; the Kubernetes service abstraction with a cluster-wide IP address; monitoring and telemetry of the Kubernetes network; and troubleshooting the Kubernetes network&lt;/p&gt;</description>
+    </item>
     <item>
       <title>What&#39;s Happening with Ingress-Nginx!</title>
       <link>http://localhost:1313/post/2023/2023-11-07-whats-happening-ingress-kubecon/</link>

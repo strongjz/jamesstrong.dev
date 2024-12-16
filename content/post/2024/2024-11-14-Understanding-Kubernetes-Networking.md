@@ -2,7 +2,7 @@
 title: "Understanding Kubernetes Networking in 30 Minutes"
 date: 2024-11-14
 tags:
-- cloud
+- networking
 - kubernetes
 - kubecon
 - conference

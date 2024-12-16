@@ -2,10 +2,8 @@
 title: "A day in the life of a maintainer"
 date: 2024-10-03
 tags:
-- cloud
 - kubernetes
-- kubecon
-- conference
+- podcast
 ---
 
 Giant Conversations Episode #23 A day in the life of a maintainer

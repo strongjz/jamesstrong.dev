@@ -7,8 +7,22 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Copyright (c) 2024, all rights reserved.</copyright>
-    <lastBuildDate>Tue, 07 Nov 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 15 Nov 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/kubecon/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Securing the Future of Ingress-Nginx</title>
+      <link>http://localhost:1313/post/2024/2024-11-14-securing-the-future-ingress/</link>
+      <pubDate>Fri, 15 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2024/2024-11-14-securing-the-future-ingress/</guid>
+      <description>&lt;p&gt;Ingress NGINX is a very flexible Ingress controller that provides users with a lot of NGINX functionality through annotations. However, this flexibility also raises security concerns for maintainers and cluster administrators. There have been eight significant CVEs and RCEs in Ingress NGINX. To address these issues, we have created a security hardening guide, which will be presented as a preview in this talk. Additionally, we will enable restrictive features by default to offer a more secure out-of-the-box experience with Ingress NGINX such as annotation validations. To maintain and secure the project and its Gateway API implementation, we will not be adding any new features to the core functionality of ingress, and a significant amount of functionality, such as UDP/TCP Routing, will be moved to Gateway API. We will also unveil the new name of the project during this presentation.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Understanding Kubernetes Networking in 30 Minutes</title>
+      <link>http://localhost:1313/post/2024/2024-11-14-understanding-kubernetes-networking/</link>
+      <pubDate>Thu, 14 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2024/2024-11-14-understanding-kubernetes-networking/</guid>
+      <description>&lt;p&gt;You are learning Kubernetes and started to face concepts like Pod CIDRs, Services, CNI, kube-proxy? Welcome! you have reached the amazing area of Kubernetes networking! We all have already been there and know how complex it may seem on the beginning, but in this talk, Ricardo and James will demystify the Kubernetes network concepts and model on a fun way, exploring how it is designed, why the is a &amp;ldquo;pause&amp;rdquo; container on every Pods, how the communication between Pods work, what are kube-proxy and CNI and their importance. In the end of this talk we expect you to get your learning path on Kubernetes Networking clear to better understand not only what are the concepts about, but also see on a live demo how every component correlates and makes the communications possible on a Kubernetes cluster.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>What&#39;s Happening with Ingress-Nginx!</title>
       <link>http://localhost:1313/post/2023/2023-11-07-whats-happening-ingress-kubecon/</link>

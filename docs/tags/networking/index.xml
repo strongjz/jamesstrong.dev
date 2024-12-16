@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Copyright (c) 2024, all rights reserved.</copyright>
-    <lastBuildDate>Thu, 18 May 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 03 Oct 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/networking/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SE Radio 619: James Strong on Kubernetes Networking</title>
+      <link>http://localhost:1313/post/2024/2024-06-05-se-radio-619-k8s-networking/</link>
+      <pubDate>Thu, 03 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2024/2024-06-05-se-radio-619-k8s-networking/</guid>
+      <description>&lt;p&gt;Infrastructure engineer and Kubernetes ingress-Nginx maintainer James Strong joins host Robert Blumen to discuss the Kubernetes networking layer. The discussion draws on content from Strong’s book on the topic and covers a lot of ground, including: the Kubernetes network’s use of different IP ranges than the host network; overlay network with its own IP ranges compared to using expanded portions of the host network ranges; adding routes with kernel extension points; programming kernel extension points with IP tables compared to eBPF; how routes are updated as the host network gains or loses nodes, the use of the Linux network namespace to isolate each pod; routing between pods on the same host; routing between pods across the host network; the container-network interface (CNI); the CNI ecosystem; differences between CNIs; choosing a CNI when running on a public cloud service; the Kubernetes service abstraction with a cluster-wide IP address; monitoring and telemetry of the Kubernetes network; and troubleshooting the Kubernetes network&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Enlightning - What is Ingress-nginx?</title>
       <link>http://localhost:1313/post/2023/2023-05-18-englightning-ingress-nginx/</link>
