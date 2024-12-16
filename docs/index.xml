@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Copyright (c) 2024, all rights reserved.</copyright>
-    <lastBuildDate>Fri, 15 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Dec 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://jamesstrong.dev/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Resume</title>
+      <link>https://jamesstrong.dev/resume/</link>
+      <pubDate>Mon, 16 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://jamesstrong.dev/resume/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://jamesstrong.dev/pdf/James-Strong-Resume.pdf&#34; &gt;PDF Version&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;james-strong&#34;&gt;&#xA;  James Strong&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#james-strong&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;h2 id=&#34;overview&#34;&gt;&#xA;  Overview&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#overview&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Experienced Technical Professional who works well with minimum supervision as well as a group member. Customer&#xA;oriented problem solver with an ability to adapt to new situations. A quick learner with a desire for continuous&#xA;personal and technical growth. Effective communicator with the ability to create technical materials that convey&#xA;value for both clients and end users.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Securing the Future of Ingress-Nginx</title>
       <link>https://jamesstrong.dev/post/2024/2024-11-14-securing-the-future-ingress/</link>
@@ -36,13 +43,6 @@
       <pubDate>Wed, 05 Jun 2024 00:00:00 +0000</pubDate>
       <guid>https://jamesstrong.dev/post/2024/2024-06-05-se-radio-619-k8s-networking/</guid>
       <description>&lt;p&gt;Infrastructure engineer and Kubernetes ingress-Nginx maintainer James Strong joins host Robert Blumen to discuss the Kubernetes networking layer. The discussion draws on content from Strong’s book on the topic and covers a lot of ground, including: the Kubernetes network’s use of different IP ranges than the host network; overlay network with its own IP ranges compared to using expanded portions of the host network ranges; adding routes with kernel extension points; programming kernel extension points with IP tables compared to eBPF; how routes are updated as the host network gains or loses nodes, the use of the Linux network namespace to isolate each pod; routing between pods on the same host; routing between pods across the host network; the container-network interface (CNI); the CNI ecosystem; differences between CNIs; choosing a CNI when running on a public cloud service; the Kubernetes service abstraction with a cluster-wide IP address; monitoring and telemetry of the Kubernetes network; and troubleshooting the Kubernetes network&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Resume</title>
-      <link>https://jamesstrong.dev/resume/</link>
-      <pubDate>Mon, 20 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>https://jamesstrong.dev/resume/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://jamesstrong.dev/pdf/James-Strong-Resume.pdf&#34; &gt;PDF Version&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;james-strong&#34;&gt;&#xA;  James Strong&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#james-strong&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;h2 id=&#34;overview&#34;&gt;&#xA;  Overview&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#overview&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Experienced Technical Professional who works well with minimum supervision as well as a group member. Customer&#xA;oriented problem solver with an ability to adapt to new situations. A quick learner with a desire for continuous&#xA;personal and technical growth. Effective communicator with the ability to create technical materials that convey&#xA;value for both clients and end users.&lt;/p&gt;</description>
     </item>
     <item>
       <title>What&#39;s Happening with Ingress-Nginx!</title>

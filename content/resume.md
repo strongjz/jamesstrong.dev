@@ -1,6 +1,6 @@
 ---
 title: "Resume"
-date: "2023-11-20"
+date: "2024-12-16"
 tags:
   - resume
 ---
@@ -18,13 +18,17 @@ value for both clients and end users.
 
 ## Professional Experience
 
+### Isovalent At Cisco • Senior Customer Success Manager
+
+Remote • Jan 2024 - Present
+
 ### Isovalent • Senior Solutions Architect
 
-Remote • Jan ‘24 - Present
+Remote • Jan 2024 - April 2024
 
 ### Chainguard, Inc • Staff Solutions Architect
 
-Remote • Dec ‘21 - Dec ‘23
+Remote • Dec 2021 - Dec 2023
 
 Responsible for providing Chainguard customer product support, answering
 technical questions while architecting solutions, and solving customer problems
@@ -45,7 +49,7 @@ Community meeting playlist https://www.youtube.com/playlist?list=PL69nYSiGNLP2Rq
 
 ### Contino • Cloud Native Director
 
-New York City, NY • Sept ‘19 - Dec ‘21
+New York City, NY • Sept 2019 - Dec 2021
 
 Responsible for Evangelizing Contino’s work in DevOps and Cloud
 transformations. Partnering with clients, conference organizers, and others to
@@ -85,7 +89,7 @@ https://learn.acloud.guru/course/advanced-networking-with-kubernetes-for-aws/das
 
 ### Volunteer • Meetup Organizer
 
-New York City, NY • April ‘19 - March ‘20
+New York City, NY • April 2019 - March 2020
 
 Responsible for organizing and scheduling several Meetups in the Louisville and NYC tech community. In Louisville,
 Kubernetes and Cloud Native, GoLou, and the AWS User group. James works as Co-Organizer for DevOps NYC.
@@ -100,7 +104,7 @@ https://www.meetup.com/go-lou/
 
 ### Contino • Technical Principal
 
-New York City, NY • Jan ‘18 - Dec ‘18
+New York City, NY • Jan 2018 - Dec 2018
 
 Lead technical teams implementing technologies such as Terraform, Docker and other cloud native technologies.
 To upskill teams on those technologies implementing paired programming or workshops. Responsible for day-to-day
@@ -108,7 +112,7 @@ Scrum master duties, completion of Project deliverables and report outs to Key s
 
 ### Contino • Senior DevOps Consultant
 
-New York City, NY • Jan ‘18 - Dec ‘18
+New York City, NY • Jan 2018 - Dec 2018
 
 Provide guidance for Enterprise organizations on how to adopt DevOps practices by
 
@@ -120,7 +124,7 @@ Provide guidance for Enterprise organizations on how to adopt DevOps practices b
 
 ### Bluesentry IT • DevOps Engineer Lead
 
-Louisville, KY • Jan ‘17 - Jan 18
+Louisville, KY • Jan 2017 - Jan 18
 
 Aided client’s efforts to transition to Cloud based architecture exclusively utilizing AWS
 
@@ -171,7 +175,7 @@ VMware infrastructure. Also, responsible for public cloud migration utilizing Am
 
 ### GE Home &amp; Business Solutions • IT Technologist – Cloud
 
-Louisville, KY • August ‘12 – February ‘13
+Louisville, KY • August 2012 – February 2013
 
 * Responsible for continued implementation, design, and support of GE Home and Business Solutions' private cloud
   utilizing VMware’s vCloud automation center 5.1, C#, Puppet and Ruby. Also, contributed in the support of the current
@@ -182,7 +186,7 @@ Louisville, KY • August ‘12 – February ‘13
 
 ### GE Home &amp; Business Solutions • Information Technology Leadership Program (ITLP) Member – Enterprise Client Services
 
-Louisville, KY • February ‘12 – August `12
+Louisville, KY • February 2012 – August `12
 
 Facilitated the design and implementation of an infrastructure as a service environment utilizing DynamicOps Cloud
 Automation Center. Completed manual Virtual server builds to understand the build process to automate it.
@@ -243,11 +247,10 @@ troubleshoot wireless around campus. Deploying and Troubleshooting Network equip
 
 Current
 
-* [CNCF CKS](/pdf/cks.pdf)
-* [CNCF CKA](/pdf/cka.pdf)
-
 Past
 
+* [CNCF CKS](/pdf/cks.pdf)
+* [CNCF CKA](/pdf/cka.pdf)
 * AWS DEVOPS - Professional
 * AWS CSA - Professional
 * AWS CSA – Associate
