@@ -2,89 +2,96 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Networking on James Strong</title>
-    <link>http://localhost:1313/tags/networking/</link>
+    <link>https://jamesstrong.dev/tags/networking/</link>
     <description>Recent content in Networking on James Strong</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Copyright (c) 2024, all rights reserved.</copyright>
-    <lastBuildDate>Thu, 03 Oct 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/networking/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 14 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://jamesstrong.dev/tags/networking/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Understanding Kubernetes Networking in 30 Minutes</title>
+      <link>https://jamesstrong.dev/post/2024/2024-11-14-understanding-kubernetes-networking/</link>
+      <pubDate>Thu, 14 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://jamesstrong.dev/post/2024/2024-11-14-understanding-kubernetes-networking/</guid>
+      <description>&lt;p&gt;You are learning Kubernetes and started to face concepts like Pod CIDRs, Services, CNI, kube-proxy? Welcome! you have reached the amazing area of Kubernetes networking! We all have already been there and know how complex it may seem on the beginning, but in this talk, Ricardo and James will demystify the Kubernetes network concepts and model on a fun way, exploring how it is designed, why the is a &amp;ldquo;pause&amp;rdquo; container on every Pods, how the communication between Pods work, what are kube-proxy and CNI and their importance. In the end of this talk we expect you to get your learning path on Kubernetes Networking clear to better understand not only what are the concepts about, but also see on a live demo how every component correlates and makes the communications possible on a Kubernetes cluster.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>SE Radio 619: James Strong on Kubernetes Networking</title>
-      <link>http://localhost:1313/post/2024/2024-06-05-se-radio-619-k8s-networking/</link>
-      <pubDate>Thu, 03 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/2024/2024-06-05-se-radio-619-k8s-networking/</guid>
+      <link>https://jamesstrong.dev/post/2024/2024-06-05-se-radio-619-k8s-networking/</link>
+      <pubDate>Wed, 05 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://jamesstrong.dev/post/2024/2024-06-05-se-radio-619-k8s-networking/</guid>
       <description>&lt;p&gt;Infrastructure engineer and Kubernetes ingress-Nginx maintainer James Strong joins host Robert Blumen to discuss the Kubernetes networking layer. The discussion draws on content from Strong’s book on the topic and covers a lot of ground, including: the Kubernetes network’s use of different IP ranges than the host network; overlay network with its own IP ranges compared to using expanded portions of the host network ranges; adding routes with kernel extension points; programming kernel extension points with IP tables compared to eBPF; how routes are updated as the host network gains or loses nodes, the use of the Linux network namespace to isolate each pod; routing between pods on the same host; routing between pods across the host network; the container-network interface (CNI); the CNI ecosystem; differences between CNIs; choosing a CNI when running on a public cloud service; the Kubernetes service abstraction with a cluster-wide IP address; monitoring and telemetry of the Kubernetes network; and troubleshooting the Kubernetes network&lt;/p&gt;</description>
     </item>
     <item>
       <title>Enlightning - What is Ingress-nginx?</title>
-      <link>http://localhost:1313/post/2023/2023-05-18-englightning-ingress-nginx/</link>
+      <link>https://jamesstrong.dev/post/2023/2023-05-18-englightning-ingress-nginx/</link>
       <pubDate>Thu, 18 May 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/2023/2023-05-18-englightning-ingress-nginx/</guid>
+      <guid>https://jamesstrong.dev/post/2023/2023-05-18-englightning-ingress-nginx/</guid>
       <description>&lt;p&gt;ingress-nginx is an Ingress controller for Kubernetes using NGINX as a reverse proxy and load balancer.  It&amp;rsquo;s not the NGINX inc controller&amp;hellip; confusing, right?  In this session we will discuss how the ingress-nginx controller works, how it differs from the NGINX inc controller, the release process, and how you can help contribute to the project!&lt;/p&gt;&#xA;&#xA;    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/ly_zzKR_alA?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;</description>
     </item>
     <item>
       <title>Life of a CVE with Ingress-Nginx; Understanding the Project&#39;s Release Cycle</title>
-      <link>http://localhost:1313/post/2023/2023-05-01-lifeofacve/</link>
+      <link>https://jamesstrong.dev/post/2023/2023-05-01-lifeofacve/</link>
       <pubDate>Mon, 01 May 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/2023/2023-05-01-lifeofacve/</guid>
+      <guid>https://jamesstrong.dev/post/2023/2023-05-01-lifeofacve/</guid>
       <description>&lt;p&gt;Life of a CVE with Ingress-Nginx; Understanding the Project&amp;rsquo;s Release Cycle - James Strong, Chainguard &amp;amp; Dylen Turnbull, Nginx INC&lt;/p&gt;&#xA;&lt;p&gt;Speakers: Dylen Turnbull, James Strong&lt;/p&gt;&#xA;&lt;p&gt;In 7 years, Ingress-nginx has had 221 releases, with over 6800 commits. To ensure stability and to test this highly configurable controller, the project has grown to over 400 e2e tests and helm chart tests across various kubernetes versions and deployment landscapes. We were 3/4 through our stabilization project in the last maintainer track we presented. The ironic thing about OSS and software, in general, is that it is never really completed, nor should the stabilization and security of the project. In this talk, we discuss how we work to improve the release process of ingress-nginx to keep Ingress-nginx CVE-free with real-world examples. We will discuss the current release process and how we are working with sig-release and sig-security to increase release velocity, reduce complexity and increase the security of ingress-nginx. Please join us for this presentation if you want to hear about the ingress-nginx controller getting released &amp;amp; how we continue to improve it.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Understanding the Future of Ingress-nginx</title>
-      <link>http://localhost:1313/post/2022/2022-11-11-understanding-future-ingress-nginx/</link>
+      <link>https://jamesstrong.dev/post/2022/2022-11-11-understanding-future-ingress-nginx/</link>
       <pubDate>Fri, 11 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/2022/2022-11-11-understanding-future-ingress-nginx/</guid>
+      <guid>https://jamesstrong.dev/post/2022/2022-11-11-understanding-future-ingress-nginx/</guid>
       <description>&lt;p&gt;Understanding the Future of Ingress-nginx - James Strong, Chainguard &amp;amp; Ricardo Katz, VMware&lt;/p&gt;&#xA;&lt;p&gt;Speakers: Ricardo Katz, James Strong&lt;/p&gt;&#xA;&lt;p&gt;In this talk, we will present the survey results from our Ingress-nginx community survey. The survey&amp;rsquo;s goal was to know what we should be doing for future releases and how to prioritize features, bugs, or other issues important to the community. The ingress-nginx project is undergoing a stabilization project as well. This stabilization project has worked to increase the security, review and deprecate older features, and fix long-standing issues with the project. We will examine the current status of the stabilization project and invite community members and users to join us to discuss the future of the ingress-nginx project.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Does K8s still need DR? O&#39;Reilly K8s Author On the Hot Seat!</title>
-      <link>http://localhost:1313/post/2022/2022-01-18-does-k8s-need-backup-podcast/</link>
+      <link>https://jamesstrong.dev/post/2022/2022-01-18-does-k8s-need-backup-podcast/</link>
       <pubDate>Tue, 18 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/2022/2022-01-18-does-k8s-need-backup-podcast/</guid>
+      <guid>https://jamesstrong.dev/post/2022/2022-01-18-does-k8s-need-backup-podcast/</guid>
       <description>&lt;p&gt;Things got a little tense on this week&amp;rsquo;s podcast when James Strong (@strongjz, Co-Author of O&amp;rsquo;Reilly&amp;rsquo;s Networking &amp;amp; Kubernetes) hinted at DR being a thing of the past with K8s. Mr. Backups was having none of that. No blows were thrown, mostly because it was all online, but it was a really good conversation that K8s and DR enthusiasts alike will find interesting. We also cover the new book, Networking and Kubernetes, by James Strong and Vallery Lancey, including why the decided to write it, and what it covers. We talk about monitoring K8s networking, and James uses at least 25 acronyms that may be new to some listeners. Don&amp;rsquo;t worry: we make him explain all of them.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Kubernetes Networking Live</title>
-      <link>http://localhost:1313/post/2021/2021-11-01-kubernetes-networking-101/</link>
+      <link>https://jamesstrong.dev/post/2021/2021-11-01-kubernetes-networking-101/</link>
       <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/2021/2021-11-01-kubernetes-networking-101/</guid>
+      <guid>https://jamesstrong.dev/post/2021/2021-11-01-kubernetes-networking-101/</guid>
       <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/CYnwBIpvSlM?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;</description>
     </item>
     <item>
       <title>Networking &amp; Kubernetes: Book Review and Interview with Author James Strong</title>
-      <link>http://localhost:1313/post/2021/2021-10-06-hackernoon-interview/</link>
+      <link>https://jamesstrong.dev/post/2021/2021-10-06-hackernoon-interview/</link>
       <pubDate>Wed, 06 Oct 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/2021/2021-10-06-hackernoon-interview/</guid>
+      <guid>https://jamesstrong.dev/post/2021/2021-10-06-hackernoon-interview/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://hackernoon.com/networking-and-kubernetes-book-review-and-interview-with-author-james-strong&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Networking &amp;amp; Kubernetes: Book Review and Interview with Author James Strong&lt;/a&gt; By &lt;a href=&#34;https://hackernoon.com/u/turbulence&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Amy Pravin Shah&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Cloud Native Security Webinar</title>
-      <link>http://localhost:1313/post/2021/2021-05-27-cloud-native-security/</link>
+      <link>https://jamesstrong.dev/post/2021/2021-05-27-cloud-native-security/</link>
       <pubDate>Thu, 27 May 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/2021/2021-05-27-cloud-native-security/</guid>
+      <guid>https://jamesstrong.dev/post/2021/2021-05-27-cloud-native-security/</guid>
       <description>&lt;p&gt;As organizations undergo a digital transformation, cloud migration now more than ever remains a high priority for those looking to expand their business and remain top competitors in their field. But how do companies develop and deploy in the cloud without fear? What is really needed to secure your cloud accounts, and develop your engineers’ innovation all while adhering to industry-wide security best practices?&lt;/p&gt;&#xA;&lt;p&gt;On Thursday, May 27th, discover the solution to those questions and more during our latest webinar where we present our unique framework, Cloud Guardian.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Networking and Kubernetes Early Release</title>
-      <link>http://localhost:1313/post/2021/2021-03-02-kubernetes-networking-book/</link>
+      <link>https://jamesstrong.dev/post/2021/2021-03-02-kubernetes-networking-book/</link>
       <pubDate>Tue, 02 Mar 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/2021/2021-03-02-kubernetes-networking-book/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/book-cover.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;This past year &lt;a href=&#34;https://twitter.com/vllry&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Vallery Lancey&lt;/a&gt; and I have been working on a Kubernetes Networking Book.&lt;/p&gt;&#xA;&lt;p&gt;I am proud to announce that we have an early release of Chapters 1-3 of the book available on O&amp;rsquo;Reilly Digital&#xA;platform.&lt;/p&gt;&#xA;&lt;p&gt;Kubernetes Networking is an essential guide for anyone who wants to deploy, manage, or troubleshoot a production-scale Kubernetes network.&lt;/p&gt;&#xA;&lt;p&gt;Understanding Kubernetes clusters isn&amp;rsquo;t enough to operate Kubernetes at scale. Every layer of the stack&amp;ndash;the network, operating system, and Kubernetes&amp;ndash;depends on the layer below. Successful administrators need to understand each layer and how it works across deployments on-premises, in the cloud, and with managed services. Kubernetes Networking clearly guides administrators through the layers of complexity and abstraction that come with running a Kubernetes network. It covers:&lt;/p&gt;</description>
+      <guid>https://jamesstrong.dev/post/2021/2021-03-02-kubernetes-networking-book/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://jamesstrong.dev/img/book-cover.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;This past year &lt;a href=&#34;https://twitter.com/vllry&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Vallery Lancey&lt;/a&gt; and I have been working on a Kubernetes Networking Book.&lt;/p&gt;&#xA;&lt;p&gt;I am proud to announce that we have an early release of Chapters 1-3 of the book available on O&amp;rsquo;Reilly Digital&#xA;platform.&lt;/p&gt;&#xA;&lt;p&gt;Kubernetes Networking is an essential guide for anyone who wants to deploy, manage, or troubleshoot a production-scale Kubernetes network.&lt;/p&gt;&#xA;&lt;p&gt;Understanding Kubernetes clusters isn&amp;rsquo;t enough to operate Kubernetes at scale. Every layer of the stack&amp;ndash;the network, operating system, and Kubernetes&amp;ndash;depends on the layer below. Successful administrators need to understand each layer and how it works across deployments on-premises, in the cloud, and with managed services. Kubernetes Networking clearly guides administrators through the layers of complexity and abstraction that come with running a Kubernetes network. It covers:&lt;/p&gt;</description>
     </item>
     <item>
       <title>A Cloud Guru Advanced Networking with Kubernetes on AWS </title>
-      <link>http://localhost:1313/post/2020/2020-8-24-acg-networking/</link>
+      <link>https://jamesstrong.dev/post/2020/2020-8-24-acg-networking/</link>
       <pubDate>Wed, 26 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/2020/2020-8-24-acg-networking/</guid>
+      <guid>https://jamesstrong.dev/post/2020/2020-8-24-acg-networking/</guid>
       <description>&lt;p&gt;I&amp;rsquo;ve spent the last year created a course for A Cloud Guru. With 3.4 hours of content and 36 lessons, I look forward&#xA;to your feedback. Here is my &amp;ldquo;Advanced Networking with Kubernetes on AWS&amp;rdquo; Course.&lt;/p&gt;&#xA;&lt;p&gt;Since its release in 2014, Kubernetes has become the de-facto standard for container orchestration. Kubernetes is a distributed system for managing containers and its networking is no different. Many companies are deploying Kubernetes on-prem and in the cloud, both managed offerings and self-deployed. With that, the demand for System, Network and Cluster Administrators to understand the underpinnings of the network stack in Kubernetes is ever-increasing.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Kubernetes Networking</title>
-      <link>http://localhost:1313/post/2019/2019-08-08-k8-network/</link>
+      <link>https://jamesstrong.dev/post/2019/2019-08-08-k8-network/</link>
       <pubDate>Thu, 08 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/2019/2019-08-08-k8-network/</guid>
-      <description>&lt;p&gt;I have begin working on Deep Dive into Kubernetes Networking, Let me know your thoughts about what you want to see.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://strongjz.github.io/k8-networking/#/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://strongjz.github.io/k8-networking/#/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/service.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;</description>
+      <guid>https://jamesstrong.dev/post/2019/2019-08-08-k8-network/</guid>
+      <description>&lt;p&gt;I have begin working on Deep Dive into Kubernetes Networking, Let me know your thoughts about what you want to see.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://strongjz.github.io/k8-networking/#/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://strongjz.github.io/k8-networking/#/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://jamesstrong.dev/img/service.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

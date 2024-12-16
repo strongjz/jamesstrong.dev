@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Resume on James Strong</title>
-    <link>http://localhost:1313/tags/resume/</link>
+    <link>https://jamesstrong.dev/tags/resume/</link>
     <description>Recent content in Resume on James Strong</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Copyright (c) 2024, all rights reserved.</copyright>
     <lastBuildDate>Mon, 20 Nov 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/resume/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://jamesstrong.dev/tags/resume/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Resume</title>
-      <link>http://localhost:1313/resume/</link>
+      <link>https://jamesstrong.dev/resume/</link>
       <pubDate>Mon, 20 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/resume/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://localhost:1313/pdf/James-Strong-Resume.pdf&#34; &gt;PDF Version&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;james-strong&#34;&gt;&#xA;  James Strong&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#james-strong&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;h2 id=&#34;overview&#34;&gt;&#xA;  Overview&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#overview&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Experienced Technical Professional who works well with minimum supervision as well as a group member. Customer&#xA;oriented problem solver with an ability to adapt to new situations. A quick learner with a desire for continuous&#xA;personal and technical growth. Effective communicator with the ability to create technical materials that convey&#xA;value for both clients and end users.&lt;/p&gt;</description>
+      <guid>https://jamesstrong.dev/resume/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://jamesstrong.dev/pdf/James-Strong-Resume.pdf&#34; &gt;PDF Version&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;james-strong&#34;&gt;&#xA;  James Strong&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#james-strong&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;h2 id=&#34;overview&#34;&gt;&#xA;  Overview&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#overview&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Experienced Technical Professional who works well with minimum supervision as well as a group member. Customer&#xA;oriented problem solver with an ability to adapt to new situations. A quick learner with a desire for continuous&#xA;personal and technical growth. Effective communicator with the ability to create technical materials that convey&#xA;value for both clients and end users.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

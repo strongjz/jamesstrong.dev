@@ -1,6 +1,6 @@
 ---
 title: "SE Radio 619: James Strong on Kubernetes Networking"
-date: 2024-10-03
+date: 2024-06-05
 tags:
 - kubernetes
 - podcast

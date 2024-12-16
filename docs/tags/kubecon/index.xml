@@ -2,53 +2,53 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Kubecon on James Strong</title>
-    <link>http://localhost:1313/tags/kubecon/</link>
+    <link>https://jamesstrong.dev/tags/kubecon/</link>
     <description>Recent content in Kubecon on James Strong</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Copyright (c) 2024, all rights reserved.</copyright>
     <lastBuildDate>Fri, 15 Nov 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/kubecon/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://jamesstrong.dev/tags/kubecon/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Securing the Future of Ingress-Nginx</title>
-      <link>http://localhost:1313/post/2024/2024-11-14-securing-the-future-ingress/</link>
+      <link>https://jamesstrong.dev/post/2024/2024-11-14-securing-the-future-ingress/</link>
       <pubDate>Fri, 15 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/2024/2024-11-14-securing-the-future-ingress/</guid>
+      <guid>https://jamesstrong.dev/post/2024/2024-11-14-securing-the-future-ingress/</guid>
       <description>&lt;p&gt;Ingress NGINX is a very flexible Ingress controller that provides users with a lot of NGINX functionality through annotations. However, this flexibility also raises security concerns for maintainers and cluster administrators. There have been eight significant CVEs and RCEs in Ingress NGINX. To address these issues, we have created a security hardening guide, which will be presented as a preview in this talk. Additionally, we will enable restrictive features by default to offer a more secure out-of-the-box experience with Ingress NGINX such as annotation validations. To maintain and secure the project and its Gateway API implementation, we will not be adding any new features to the core functionality of ingress, and a significant amount of functionality, such as UDP/TCP Routing, will be moved to Gateway API. We will also unveil the new name of the project during this presentation.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Understanding Kubernetes Networking in 30 Minutes</title>
-      <link>http://localhost:1313/post/2024/2024-11-14-understanding-kubernetes-networking/</link>
+      <link>https://jamesstrong.dev/post/2024/2024-11-14-understanding-kubernetes-networking/</link>
       <pubDate>Thu, 14 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/2024/2024-11-14-understanding-kubernetes-networking/</guid>
+      <guid>https://jamesstrong.dev/post/2024/2024-11-14-understanding-kubernetes-networking/</guid>
       <description>&lt;p&gt;You are learning Kubernetes and started to face concepts like Pod CIDRs, Services, CNI, kube-proxy? Welcome! you have reached the amazing area of Kubernetes networking! We all have already been there and know how complex it may seem on the beginning, but in this talk, Ricardo and James will demystify the Kubernetes network concepts and model on a fun way, exploring how it is designed, why the is a &amp;ldquo;pause&amp;rdquo; container on every Pods, how the communication between Pods work, what are kube-proxy and CNI and their importance. In the end of this talk we expect you to get your learning path on Kubernetes Networking clear to better understand not only what are the concepts about, but also see on a live demo how every component correlates and makes the communications possible on a Kubernetes cluster.&lt;/p&gt;</description>
     </item>
     <item>
       <title>What&#39;s Happening with Ingress-Nginx!</title>
-      <link>http://localhost:1313/post/2023/2023-11-07-whats-happening-ingress-kubecon/</link>
+      <link>https://jamesstrong.dev/post/2023/2023-11-07-whats-happening-ingress-kubecon/</link>
       <pubDate>Tue, 07 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/2023/2023-11-07-whats-happening-ingress-kubecon/</guid>
+      <guid>https://jamesstrong.dev/post/2023/2023-11-07-whats-happening-ingress-kubecon/</guid>
       <description>&lt;p&gt;What&amp;rsquo;s Happening with Ingress-Nginx! - James Strong, Chainguard &amp;amp; Ricardo Katz, VMware&lt;/p&gt;&#xA;&lt;p&gt;This presentation will discuss our plans for Ingress-nginx 2.0 release, breaking changes, new features, and deprecations. We will also discuss our plans for gateway API, CVE reduction, and other security updates coming to ingress-nginx. As always, we will provide a community update, roadmap, and other critical information attendees should know about the project. Please join us to learn all about the progress and future of ingress-nginx.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Life of a CVE with Ingress-Nginx; Understanding the Project&#39;s Release Cycle</title>
-      <link>http://localhost:1313/post/2023/2023-05-01-lifeofacve/</link>
+      <link>https://jamesstrong.dev/post/2023/2023-05-01-lifeofacve/</link>
       <pubDate>Mon, 01 May 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/2023/2023-05-01-lifeofacve/</guid>
+      <guid>https://jamesstrong.dev/post/2023/2023-05-01-lifeofacve/</guid>
       <description>&lt;p&gt;Life of a CVE with Ingress-Nginx; Understanding the Project&amp;rsquo;s Release Cycle - James Strong, Chainguard &amp;amp; Dylen Turnbull, Nginx INC&lt;/p&gt;&#xA;&lt;p&gt;Speakers: Dylen Turnbull, James Strong&lt;/p&gt;&#xA;&lt;p&gt;In 7 years, Ingress-nginx has had 221 releases, with over 6800 commits. To ensure stability and to test this highly configurable controller, the project has grown to over 400 e2e tests and helm chart tests across various kubernetes versions and deployment landscapes. We were 3/4 through our stabilization project in the last maintainer track we presented. The ironic thing about OSS and software, in general, is that it is never really completed, nor should the stabilization and security of the project. In this talk, we discuss how we work to improve the release process of ingress-nginx to keep Ingress-nginx CVE-free with real-world examples. We will discuss the current release process and how we are working with sig-release and sig-security to increase release velocity, reduce complexity and increase the security of ingress-nginx. Please join us for this presentation if you want to hear about the ingress-nginx controller getting released &amp;amp; how we continue to improve it.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Understanding the Future of Ingress-nginx</title>
-      <link>http://localhost:1313/post/2022/2022-11-11-understanding-future-ingress-nginx/</link>
+      <link>https://jamesstrong.dev/post/2022/2022-11-11-understanding-future-ingress-nginx/</link>
       <pubDate>Fri, 11 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/2022/2022-11-11-understanding-future-ingress-nginx/</guid>
+      <guid>https://jamesstrong.dev/post/2022/2022-11-11-understanding-future-ingress-nginx/</guid>
       <description>&lt;p&gt;Understanding the Future of Ingress-nginx - James Strong, Chainguard &amp;amp; Ricardo Katz, VMware&lt;/p&gt;&#xA;&lt;p&gt;Speakers: Ricardo Katz, James Strong&lt;/p&gt;&#xA;&lt;p&gt;In this talk, we will present the survey results from our Ingress-nginx community survey. The survey&amp;rsquo;s goal was to know what we should be doing for future releases and how to prioritize features, bugs, or other issues important to the community. The ingress-nginx project is undergoing a stabilization project as well. This stabilization project has worked to increase the security, review and deprecate older features, and fix long-standing issues with the project. We will examine the current status of the stabilization project and invite community members and users to join us to discuss the future of the ingress-nginx project.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Live at KubeCon North America 2019 with James Strong</title>
-      <link>http://localhost:1313/post/2019/2019-11-20-rancher-live-with-james/</link>
+      <link>https://jamesstrong.dev/post/2019/2019-11-20-rancher-live-with-james/</link>
       <pubDate>Wed, 20 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/2019/2019-11-20-rancher-live-with-james/</guid>
+      <guid>https://jamesstrong.dev/post/2019/2019-11-20-rancher-live-with-james/</guid>
       <description>&lt;p&gt;JvB and James dicuss KubeCon and the evolution of the Kubernetes ecosystem at KubeCon North America 2019&lt;/p&gt;&#xA;&#xA;    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/PyRd3RdyP8M?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;</description>
     </item>
   </channel>

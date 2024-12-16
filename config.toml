@@ -34,8 +34,8 @@ ignoreLogs = ['warning-goldmark-raw-html']
   icon = "fa-brands fa-github fa-2x"
   url       = "https://github.com/strongjz"
 [[params.social]]
-  name = "fa-brands fa-twitter fa-2x"
-  icon = "Twitter"
+  name = "Twitter"
+  icon = "fa-brands fa-twitter fa-2x"
   url       = "https://twitter.com/strongjz"
 [[params.social]]
   name      = "Linkedin"

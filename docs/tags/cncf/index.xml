@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cncf on James Strong</title>
-    <link>http://localhost:1313/tags/cncf/</link>
+    <link>https://jamesstrong.dev/tags/cncf/</link>
     <description>Recent content in Cncf on James Strong</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Copyright (c) 2024, all rights reserved.</copyright>
     <lastBuildDate>Mon, 25 Mar 2019 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/cncf/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://jamesstrong.dev/tags/cncf/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Kubernetes and Cloud Native Computing April Meetup</title>
-      <link>http://localhost:1313/post/2019/2019-03-25-loucncf-4-1/</link>
+      <link>https://jamesstrong.dev/post/2019/2019-03-25-loucncf-4-1/</link>
       <pubDate>Mon, 25 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/2019/2019-03-25-loucncf-4-1/</guid>
+      <guid>https://jamesstrong.dev/post/2019/2019-03-25-loucncf-4-1/</guid>
       <description>&lt;p&gt;The inaugural Kubernetes and Cloud Native Computer Louisville will be on April 4th. I will be presenting&#xA;an &amp;ldquo;Intro to Kubernetes&amp;rdquo;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.meetup.com/Kubernetes-and-Cloud-Native-Computing-Louisville/events/259202067/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.meetup.com/Kubernetes-and-Cloud-Native-Computing-Louisville/events/259202067/&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Dev Nexus 2019</title>
-      <link>http://localhost:1313/post/2019/2019-03-06-devnexus2019/</link>
+      <link>https://jamesstrong.dev/post/2019/2019-03-06-devnexus2019/</link>
       <pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/2019/2019-03-06-devnexus2019/</guid>
+      <guid>https://jamesstrong.dev/post/2019/2019-03-06-devnexus2019/</guid>
       <description>&lt;p&gt;At Dev Nexus 2018 my co-worker, &lt;a href=&#34;http://shahadarsh.com/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Adarsh&lt;/a&gt;, and I led a workshop &lt;a href=&#34;https://devnexus.com/presentations/2999/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&amp;ldquo;Introduction to Kubernetes&amp;rdquo;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Introduction to Kubernetes is a hands-on, interactive workshop giving attendees a thorough&#xA;understanding of the fundamentals of Kubernetes. As part of this workshop, you will learn how Kubernetes&#xA;works, be able to successfully create a kubernetes cluster, deploy microservices to that cluster &amp;amp;&#xA;also hear about some war stories.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://contino.github.io/intro-k8/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://contino.github.io/intro-k8/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Developer density ⁦&lt;a href=&#34;https://twitter.com/devnexus?ref_src=twsrc%5Etfw&#34;&gt;@devnexus&lt;/a&gt;⁩!&lt;br&gt;&lt;br&gt;First class speakers! First class community!&lt;a href=&#34;https://twitter.com/hashtag/Java?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#Java&lt;/a&gt; &lt;a href=&#34;https://t.co/vdFja8kWpN&#34;&gt;pic.twitter.com/vdFja8kWpN&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>

@@ -1,5 +1,5 @@
 ---
-title: "A day in the life of a maintainer"
+title: "Giant Conversations Episode #23 - A day in the life of a maintainer"
 date: 2024-10-03
 tags:
 - kubernetes

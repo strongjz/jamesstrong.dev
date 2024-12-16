@@ -2,46 +2,46 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Stream on James Strong</title>
-    <link>http://localhost:1313/tags/stream/</link>
+    <link>https://jamesstrong.dev/tags/stream/</link>
     <description>Recent content in Stream on James Strong</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Copyright (c) 2024, all rights reserved.</copyright>
     <lastBuildDate>Thu, 18 May 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/stream/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://jamesstrong.dev/tags/stream/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Enlightning - What is Ingress-nginx?</title>
-      <link>http://localhost:1313/post/2023/2023-05-18-englightning-ingress-nginx/</link>
+      <link>https://jamesstrong.dev/post/2023/2023-05-18-englightning-ingress-nginx/</link>
       <pubDate>Thu, 18 May 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/2023/2023-05-18-englightning-ingress-nginx/</guid>
+      <guid>https://jamesstrong.dev/post/2023/2023-05-18-englightning-ingress-nginx/</guid>
       <description>&lt;p&gt;ingress-nginx is an Ingress controller for Kubernetes using NGINX as a reverse proxy and load balancer.  It&amp;rsquo;s not the NGINX inc controller&amp;hellip; confusing, right?  In this session we will discuss how the ingress-nginx controller works, how it differs from the NGINX inc controller, the release process, and how you can help contribute to the project!&lt;/p&gt;&#xA;&#xA;    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/ly_zzKR_alA?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;</description>
     </item>
     <item>
       <title>End to End Security &amp; Operations with Chainguard and Weave GitOps</title>
-      <link>http://localhost:1313/post/2023/2023-05-10-e2e-security-chainguard-weaveworks/</link>
+      <link>https://jamesstrong.dev/post/2023/2023-05-10-e2e-security-chainguard-weaveworks/</link>
       <pubDate>Wed, 10 May 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/2023/2023-05-10-e2e-security-chainguard-weaveworks/</guid>
+      <guid>https://jamesstrong.dev/post/2023/2023-05-10-e2e-security-chainguard-weaveworks/</guid>
       <description>&lt;p&gt;One of the key values of GitOps relies on its fully declarative single source of truth in Git for the desired state of your entire system – configuration that continuously reconciles with the runtime of the system.&lt;/p&gt;&#xA;&lt;p&gt;Validating committer identity in your Git repository is a critical component towards a secure GitOps solution. Although basic capabilities are provided by Git service providers, more granular controls for governance and compliance are a requirement to satisfy most enterprise grade implementations.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Klustered Teams - Chainguard Vs. Chainguard </title>
-      <link>http://localhost:1313/post/2022/2022-03-21-klustered-chainguard-v-chainguard/</link>
+      <link>https://jamesstrong.dev/post/2022/2022-03-21-klustered-chainguard-v-chainguard/</link>
       <pubDate>Thu, 31 Mar 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/2022/2022-03-21-klustered-chainguard-v-chainguard/</guid>
+      <guid>https://jamesstrong.dev/post/2022/2022-03-21-klustered-chainguard-v-chainguard/</guid>
       <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/pgNqMcfcO2Q?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;</description>
     </item>
     <item>
       <title>Kubernetes Networking Live</title>
-      <link>http://localhost:1313/post/2021/2021-11-01-kubernetes-networking-101/</link>
+      <link>https://jamesstrong.dev/post/2021/2021-11-01-kubernetes-networking-101/</link>
       <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/2021/2021-11-01-kubernetes-networking-101/</guid>
+      <guid>https://jamesstrong.dev/post/2021/2021-11-01-kubernetes-networking-101/</guid>
       <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/CYnwBIpvSlM?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;</description>
     </item>
     <item>
       <title>Cloud Native Security Webinar</title>
-      <link>http://localhost:1313/post/2021/2021-05-27-cloud-native-security/</link>
+      <link>https://jamesstrong.dev/post/2021/2021-05-27-cloud-native-security/</link>
       <pubDate>Thu, 27 May 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/2021/2021-05-27-cloud-native-security/</guid>
+      <guid>https://jamesstrong.dev/post/2021/2021-05-27-cloud-native-security/</guid>
       <description>&lt;p&gt;As organizations undergo a digital transformation, cloud migration now more than ever remains a high priority for those looking to expand their business and remain top competitors in their field. But how do companies develop and deploy in the cloud without fear? What is really needed to secure your cloud accounts, and develop your engineers’ innovation all while adhering to industry-wide security best practices?&lt;/p&gt;&#xA;&lt;p&gt;On Thursday, May 27th, discover the solution to those questions and more during our latest webinar where we present our unique framework, Cloud Guardian.&lt;/p&gt;</description>
     </item>
   </channel>

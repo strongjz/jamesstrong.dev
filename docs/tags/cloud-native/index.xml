@@ -2,54 +2,54 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cloud Native on James Strong</title>
-    <link>http://localhost:1313/tags/cloud-native/</link>
+    <link>https://jamesstrong.dev/tags/cloud-native/</link>
     <description>Recent content in Cloud Native on James Strong</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Copyright (c) 2024, all rights reserved.</copyright>
     <lastBuildDate>Wed, 27 May 2020 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/cloud-native/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://jamesstrong.dev/tags/cloud-native/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Containers and DevSecops</title>
-      <link>http://localhost:1313/post/2020/2020-05-27-containers-devsecops-austin/</link>
+      <link>https://jamesstrong.dev/post/2020/2020-05-27-containers-devsecops-austin/</link>
       <pubDate>Wed, 27 May 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/2020/2020-05-27-containers-devsecops-austin/</guid>
+      <guid>https://jamesstrong.dev/post/2020/2020-05-27-containers-devsecops-austin/</guid>
       <description>&lt;p&gt;DevOps is established, and containers are all the rage, but we forget about security!&lt;/p&gt;&#xA;&lt;p&gt;Let&amp;rsquo;s talk about DevSecOps and Containers. We&amp;rsquo;re going to show you how to inject security into your Container Pipelines. Don&amp;rsquo;t have a pipeline? Don&amp;rsquo;t worry, because we&amp;rsquo;ll fix that too.&lt;/p&gt;&#xA;&lt;p&gt;In this talk, James Strong, Cloud Native Director at Contino and AWS APN Ambassador, will share knowledge around container security and building a DevSecOps pipeline in AWS with no servers. That&amp;rsquo;s right - no servers.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Cloud Native Summit Online Stream Experience</title>
-      <link>http://localhost:1313/post/2020/2020-04-27-cloudnative-stream/</link>
+      <link>https://jamesstrong.dev/post/2020/2020-04-27-cloudnative-stream/</link>
       <pubDate>Mon, 27 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/2020/2020-04-27-cloudnative-stream/</guid>
+      <guid>https://jamesstrong.dev/post/2020/2020-04-27-cloudnative-stream/</guid>
       <description>&lt;p&gt;The Cloud Native Online Summit was a community event that had updates from all graduated CNCF projects - Kubernetes&#xA;, Prometheus, Envoy, Jaeger, Fluentd, Containerd, CoreDNS, Vitess, TUF. Along with conversations between the key SIG&#xA;and WG contributors.&lt;/p&gt;&#xA;&#xA;    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/jv69-lSc1aA?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;&lt;p&gt;I was part of the Cloud Native Online summit team that helped put on the event.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Kubernetes Best Practices Webinar</title>
-      <link>http://localhost:1313/post/2020/2020-04-16-k8-contino-web/</link>
+      <link>https://jamesstrong.dev/post/2020/2020-04-16-k8-contino-web/</link>
       <pubDate>Thu, 16 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/2020/2020-04-16-k8-contino-web/</guid>
+      <guid>https://jamesstrong.dev/post/2020/2020-04-16-k8-contino-web/</guid>
       <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/R9CjnitC2ZM?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;&lt;p&gt;Slides: &lt;a href=&#34;https://www.slideshare.net/jstrong09/kubernetes-do-or-do-not-there-is-no-try&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.slideshare.net/jstrong09/kubernetes-do-or-do-not-there-is-no-try&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;In this webinar Gregory Patmore and I covered:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Getting started with Kubernetes - laying the foundations for success&lt;/li&gt;&#xA;&lt;li&gt;Clusters: Set up, security and operations&lt;/li&gt;&#xA;&lt;li&gt;Best practices for container and Kubernetes adoption&lt;/li&gt;&#xA;&lt;li&gt;Securing containers&lt;/li&gt;&#xA;&lt;li&gt;Optimising application development in Kubernetes environments&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Hashicorp DFW</title>
-      <link>http://localhost:1313/post/2019/2019-03-31-hashidfw/</link>
+      <link>https://jamesstrong.dev/post/2019/2019-03-31-hashidfw/</link>
       <pubDate>Sun, 31 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/2019/2019-03-31-hashidfw/</guid>
+      <guid>https://jamesstrong.dev/post/2019/2019-03-31-hashidfw/</guid>
       <description>&lt;p&gt;I will be giving a talk and demo on deploying serverless apps onto AWS with Terraform!&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.meetup.com/hashicorpdfw/events/260071773/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.meetup.com/hashicorpdfw/events/260071773/&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Kubernetes and Cloud Native Computing April Meetup</title>
-      <link>http://localhost:1313/post/2019/2019-03-25-loucncf-4-1/</link>
+      <link>https://jamesstrong.dev/post/2019/2019-03-25-loucncf-4-1/</link>
       <pubDate>Mon, 25 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/2019/2019-03-25-loucncf-4-1/</guid>
+      <guid>https://jamesstrong.dev/post/2019/2019-03-25-loucncf-4-1/</guid>
       <description>&lt;p&gt;The inaugural Kubernetes and Cloud Native Computer Louisville will be on April 4th. I will be presenting&#xA;an &amp;ldquo;Intro to Kubernetes&amp;rdquo;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.meetup.com/Kubernetes-and-Cloud-Native-Computing-Louisville/events/259202067/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.meetup.com/Kubernetes-and-Cloud-Native-Computing-Louisville/events/259202067/&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Passing the CKA</title>
-      <link>http://localhost:1313/post/2019/2019-01-29-passcka/</link>
+      <link>https://jamesstrong.dev/post/2019/2019-01-29-passcka/</link>
       <pubDate>Tue, 29 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/2019/2019-01-29-passcka/</guid>
-      <description>&lt;p&gt;On December 29th I completed my final goal of the year - I passed the CKA.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/cka.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;h4 id=&#34;tldr&#34;&gt;&#xA;  TL;DR&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#tldr&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h4&gt;&#xA;&lt;p&gt;This is a list of the bare minimum necessary to try to pass.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Do Kelsey Hightower’s tutorial &lt;a href=&#34;https://github.com/kelseyhightower/kubernetes-the-hard-way&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Kubernetes The Hard Way&lt;/a&gt; at least three times! Understand it, internalize it.&lt;/li&gt;&#xA;&lt;li&gt;Do all the tasks on &lt;a href=&#34;https://kubernetes.io/docs/tasks/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://kubernetes.io/docs/tasks/&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Read &lt;a href=&#34;https://www.manning.com/books/kubernetes-in-action&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Kubernetes in Action&lt;/em&gt; by Marko Luksa&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Also practice, practice, and practice. Did I mention practice? This is a practical exam, no multiple choice questions here.&lt;/p&gt;</description>
+      <guid>https://jamesstrong.dev/post/2019/2019-01-29-passcka/</guid>
+      <description>&lt;p&gt;On December 29th I completed my final goal of the year - I passed the CKA.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://jamesstrong.dev/img/cka.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;h4 id=&#34;tldr&#34;&gt;&#xA;  TL;DR&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#tldr&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h4&gt;&#xA;&lt;p&gt;This is a list of the bare minimum necessary to try to pass.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Do Kelsey Hightower’s tutorial &lt;a href=&#34;https://github.com/kelseyhightower/kubernetes-the-hard-way&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Kubernetes The Hard Way&lt;/a&gt; at least three times! Understand it, internalize it.&lt;/li&gt;&#xA;&lt;li&gt;Do all the tasks on &lt;a href=&#34;https://kubernetes.io/docs/tasks/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://kubernetes.io/docs/tasks/&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Read &lt;a href=&#34;https://www.manning.com/books/kubernetes-in-action&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Kubernetes in Action&lt;/em&gt; by Marko Luksa&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Also practice, practice, and practice. Did I mention practice? This is a practical exam, no multiple choice questions here.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

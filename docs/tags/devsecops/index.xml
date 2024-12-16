@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Devsecops on James Strong</title>
-    <link>http://localhost:1313/tags/devsecops/</link>
+    <link>https://jamesstrong.dev/tags/devsecops/</link>
     <description>Recent content in Devsecops on James Strong</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Copyright (c) 2024, all rights reserved.</copyright>
     <lastBuildDate>Thu, 27 May 2021 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/devsecops/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://jamesstrong.dev/tags/devsecops/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Realizing the benefits of container DevSecOps with AWS</title>
-      <link>http://localhost:1313/post/2021/2021-09-21-devsecops-with-aws/</link>
+      <link>https://jamesstrong.dev/post/2021/2021-09-21-devsecops-with-aws/</link>
       <pubDate>Thu, 27 May 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/2021/2021-09-21-devsecops-with-aws/</guid>
-      <description>&lt;p&gt;AWS DevSecOps Container Pipeline workshop at DevOps Days Houston&lt;/p&gt;&#xA;&lt;p&gt;Workshop available at &lt;a href=&#34;https://aws.containerdevsecops.io/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://aws.containerdevsecops.io/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/aws-devsecops-pipeline.png&#34; alt=&#34;Workshop&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;In this workshop Engineers will learn how to secure their container pipeline using AWS and other Cloud Native tools. This will be part Lecture and part hands on.&lt;/p&gt;&#xA;&lt;p&gt;We will be working through the following topics:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Introduction&lt;/li&gt;&#xA;&lt;li&gt;Workshop Setup&lt;/li&gt;&#xA;&lt;li&gt;Development Environment&lt;/li&gt;&#xA;&lt;li&gt;Container Builds&lt;/li&gt;&#xA;&lt;li&gt;Container Pipeline&lt;/li&gt;&#xA;&lt;li&gt;Running Containers&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;We will be using these tools and techniques to secure a container pipeline and runtime.&lt;/p&gt;</description>
+      <guid>https://jamesstrong.dev/post/2021/2021-09-21-devsecops-with-aws/</guid>
+      <description>&lt;p&gt;AWS DevSecOps Container Pipeline workshop at DevOps Days Houston&lt;/p&gt;&#xA;&lt;p&gt;Workshop available at &lt;a href=&#34;https://aws.containerdevsecops.io/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://aws.containerdevsecops.io/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://jamesstrong.dev/img/aws-devsecops-pipeline.png&#34; alt=&#34;Workshop&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;In this workshop Engineers will learn how to secure their container pipeline using AWS and other Cloud Native tools. This will be part Lecture and part hands on.&lt;/p&gt;&#xA;&lt;p&gt;We will be working through the following topics:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Introduction&lt;/li&gt;&#xA;&lt;li&gt;Workshop Setup&lt;/li&gt;&#xA;&lt;li&gt;Development Environment&lt;/li&gt;&#xA;&lt;li&gt;Container Builds&lt;/li&gt;&#xA;&lt;li&gt;Container Pipeline&lt;/li&gt;&#xA;&lt;li&gt;Running Containers&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;We will be using these tools and techniques to secure a container pipeline and runtime.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Containers and DevSecops</title>
-      <link>http://localhost:1313/post/2020/2020-05-27-containers-devsecops-austin/</link>
+      <link>https://jamesstrong.dev/post/2020/2020-05-27-containers-devsecops-austin/</link>
       <pubDate>Wed, 27 May 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/2020/2020-05-27-containers-devsecops-austin/</guid>
+      <guid>https://jamesstrong.dev/post/2020/2020-05-27-containers-devsecops-austin/</guid>
       <description>&lt;p&gt;DevOps is established, and containers are all the rage, but we forget about security!&lt;/p&gt;&#xA;&lt;p&gt;Let&amp;rsquo;s talk about DevSecOps and Containers. We&amp;rsquo;re going to show you how to inject security into your Container Pipelines. Don&amp;rsquo;t have a pipeline? Don&amp;rsquo;t worry, because we&amp;rsquo;ll fix that too.&lt;/p&gt;&#xA;&lt;p&gt;In this talk, James Strong, Cloud Native Director at Contino and AWS APN Ambassador, will share knowledge around container security and building a DevSecOps pipeline in AWS with no servers. That&amp;rsquo;s right - no servers.&lt;/p&gt;</description>
     </item>
   </channel>
