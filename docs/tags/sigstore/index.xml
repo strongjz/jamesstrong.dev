@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Sigstore on James Strong</title>
-    <link>http://localhost:1313/tags/sigstore/</link>
+    <link>https://jamesstrong.dev/tags/sigstore/</link>
     <description>Recent content in Sigstore on James Strong</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Copyright (c) 2024, all rights reserved.</copyright>
     <lastBuildDate>Sat, 04 Feb 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/sigstore/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://jamesstrong.dev/tags/sigstore/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>What Does Rugby Have To Do With Sigstore?</title>
-      <link>http://localhost:1313/post/2023/2023-02-04-fosdem-sigstore-rugby/</link>
+      <link>https://jamesstrong.dev/post/2023/2023-02-04-fosdem-sigstore-rugby/</link>
       <pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/2023/2023-02-04-fosdem-sigstore-rugby/</guid>
+      <guid>https://jamesstrong.dev/post/2023/2023-02-04-fosdem-sigstore-rugby/</guid>
       <description>&lt;p&gt;Cosign, fulcio, rekor are all components in keyless signing with Sigstore. Each piece has its responsibility to provide a smooth developer experience for container signing. How does it all work together to complete that complicated dance to tie identity to cryptographic signatures? And what&amp;rsquo;s more cryptic than rugby? In this talk, James and Lewis will educate attendees about sigstore and container signing using examples from the best sport in the world, rugby. If you&amp;rsquo;re interested in learning more about sigstore and what a hooker does, this talk is for you.&lt;/p&gt;</description>
     </item>
   </channel>
