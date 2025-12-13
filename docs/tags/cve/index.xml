@@ -2,40 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cve on James Strong</title>
-    <link>https://jamesstrong.dev/tags/cve/</link>
+    <link>http://localhost:1313/tags/cve/</link>
     <description>Recent content in Cve on James Strong</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Copyright (c) 2024, all rights reserved.</copyright>
     <lastBuildDate>Mon, 14 Aug 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://jamesstrong.dev/tags/cve/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/cve/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Wolfi: A Secure-by-Default Distro for Curing Container CVE Chaos </title>
-      <link>https://jamesstrong.dev/post/2023/2023-08-14-all-systems-go-wolfi/</link>
+      <link>http://localhost:1313/post/2023/2023-08-14-all-systems-go-wolfi/</link>
       <pubDate>Mon, 14 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>https://jamesstrong.dev/post/2023/2023-08-14-all-systems-go-wolfi/</guid>
+      <guid>http://localhost:1313/post/2023/2023-08-14-all-systems-go-wolfi/</guid>
       <description>&lt;p&gt;Are you using container images with hundreds of known vulnerabilities?&lt;/p&gt;&#xA;&lt;p&gt;The majority of us are using images based on the Docker official images available on the Docker Hub. This includes base images – such as Debian and Ubuntu – as well as application images such as nginx and redis. Unfortunately these images often have hundreds of known vulnerabilities due to excessively large dependency trees with out-of-date packages. This security debt can lead to unnecessary security risks and slower development cycles.&lt;/p&gt;</description>
     </item>
     <item>
       <title>End to End Security &amp; Operations with Chainguard and Weave GitOps</title>
-      <link>https://jamesstrong.dev/post/2023/2023-05-10-e2e-security-chainguard-weaveworks/</link>
+      <link>http://localhost:1313/post/2023/2023-05-10-e2e-security-chainguard-weaveworks/</link>
       <pubDate>Wed, 10 May 2023 00:00:00 +0000</pubDate>
-      <guid>https://jamesstrong.dev/post/2023/2023-05-10-e2e-security-chainguard-weaveworks/</guid>
+      <guid>http://localhost:1313/post/2023/2023-05-10-e2e-security-chainguard-weaveworks/</guid>
       <description>&lt;p&gt;One of the key values of GitOps relies on its fully declarative single source of truth in Git for the desired state of your entire system – configuration that continuously reconciles with the runtime of the system.&lt;/p&gt;&#xA;&lt;p&gt;Validating committer identity in your Git repository is a critical component towards a secure GitOps solution. Although basic capabilities are provided by Git service providers, more granular controls for governance and compliance are a requirement to satisfy most enterprise grade implementations.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Life of a CVE with Ingress-Nginx; Understanding the Project&#39;s Release Cycle</title>
-      <link>https://jamesstrong.dev/post/2023/2023-05-01-lifeofacve/</link>
+      <link>http://localhost:1313/post/2023/2023-05-01-lifeofacve/</link>
       <pubDate>Mon, 01 May 2023 00:00:00 +0000</pubDate>
-      <guid>https://jamesstrong.dev/post/2023/2023-05-01-lifeofacve/</guid>
+      <guid>http://localhost:1313/post/2023/2023-05-01-lifeofacve/</guid>
       <description>&lt;p&gt;Life of a CVE with Ingress-Nginx; Understanding the Project&amp;rsquo;s Release Cycle - James Strong, Chainguard &amp;amp; Dylen Turnbull, Nginx INC&lt;/p&gt;&#xA;&lt;p&gt;Speakers: Dylen Turnbull, James Strong&lt;/p&gt;&#xA;&lt;p&gt;In 7 years, Ingress-nginx has had 221 releases, with over 6800 commits. To ensure stability and to test this highly configurable controller, the project has grown to over 400 e2e tests and helm chart tests across various kubernetes versions and deployment landscapes. We were 3/4 through our stabilization project in the last maintainer track we presented. The ironic thing about OSS and software, in general, is that it is never really completed, nor should the stabilization and security of the project. In this talk, we discuss how we work to improve the release process of ingress-nginx to keep Ingress-nginx CVE-free with real-world examples. We will discuss the current release process and how we are working with sig-release and sig-security to increase release velocity, reduce complexity and increase the security of ingress-nginx. Please join us for this presentation if you want to hear about the ingress-nginx controller getting released &amp;amp; how we continue to improve it.&lt;/p&gt;</description>
     </item>
     <item>
       <title>From Build to Prod: Getting Started with Software Signing &amp; Policy Enforce</title>
-      <link>https://jamesstrong.dev/post/2022/2022-12-14-getting-started-signing-and-policy/</link>
+      <link>http://localhost:1313/post/2022/2022-12-14-getting-started-signing-and-policy/</link>
       <pubDate>Wed, 14 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>https://jamesstrong.dev/post/2022/2022-12-14-getting-started-signing-and-policy/</guid>
-      <description>&lt;p&gt;Want to know how to get started on signing your images and commits? Secure from build to prod and join James Strong to walk through signing images with Sigstore via Tekton chains and commits with Gitsign, all with policy enforced by Chainguard!&lt;/p&gt;&#xA;&lt;p&gt;Watch on &lt;a href=&#34;https://www.crowdcast.io/c/software-signing&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;crowd cast&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://jamesstrong.dev/img/getting-started-signing.png&#34; alt=&#34;Image&#34;&gt;&lt;/p&gt;</description>
+      <guid>http://localhost:1313/post/2022/2022-12-14-getting-started-signing-and-policy/</guid>
+      <description>&lt;p&gt;Want to know how to get started on signing your images and commits? Secure from build to prod and join James Strong to walk through signing images with Sigstore via Tekton chains and commits with Gitsign, all with policy enforced by Chainguard!&lt;/p&gt;&#xA;&lt;p&gt;Watch on &lt;a href=&#34;https://www.crowdcast.io/c/software-signing&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;crowd cast&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/getting-started-signing.png&#34; alt=&#34;Image&#34;&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

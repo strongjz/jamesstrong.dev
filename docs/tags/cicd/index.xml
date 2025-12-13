@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cicd on James Strong</title>
-    <link>https://jamesstrong.dev/tags/cicd/</link>
+    <link>http://localhost:1313/tags/cicd/</link>
     <description>Recent content in Cicd on James Strong</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Copyright (c) 2024, all rights reserved.</copyright>
     <lastBuildDate>Wed, 29 Mar 2017 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://jamesstrong.dev/tags/cicd/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/cicd/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Code Louisville 2017</title>
-      <link>https://jamesstrong.dev/post/2017/2017-03-29-codelouisville/</link>
+      <link>http://localhost:1313/post/2017/2017-03-29-codelouisville/</link>
       <pubDate>Wed, 29 Mar 2017 00:00:00 +0000</pubDate>
-      <guid>https://jamesstrong.dev/post/2017/2017-03-29-codelouisville/</guid>
+      <guid>http://localhost:1313/post/2017/2017-03-29-codelouisville/</guid>
       <description>&lt;p&gt;This talk was presented in 2017 at Louisville Local Software Development Conference Codepalousa.&lt;/p&gt;&#xA;&lt;p&gt;In this presentation I discussed DevOps, how Continuous Integration and Deployment integrates into that, and&#xA;how CI/CD can be implemented with AWS services.&lt;/p&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th style=&#34;text-align: left&#34;&gt;Running Rules for CI/CD&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: center&#34;&gt;AWS Tool&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;1. Maintain a code repository&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;Commit&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;2. Automate the build&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;*&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;3. Keep the build fast&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;Build&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;4. Make the build self-testing&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;Deploy&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;5. Commit early, commit often&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;Commit&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;6. Every commit to the mainline gets built&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;Pipeline&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;7. Everyone can see the results of the build&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;Pipeline&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;8. Automate the deployment and rollback&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;Deploy&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://www.codepalousa.com/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://www.codepalousa.com/&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>

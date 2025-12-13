@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Workshop on James Strong</title>
-    <link>https://jamesstrong.dev/tags/workshop/</link>
+    <link>http://localhost:1313/tags/workshop/</link>
     <description>Recent content in Workshop on James Strong</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Copyright (c) 2024, all rights reserved.</copyright>
     <lastBuildDate>Thu, 27 May 2021 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://jamesstrong.dev/tags/workshop/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/workshop/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Realizing the benefits of container DevSecOps with AWS</title>
-      <link>https://jamesstrong.dev/post/2021/2021-09-21-devsecops-with-aws/</link>
+      <link>http://localhost:1313/post/2021/2021-09-21-devsecops-with-aws/</link>
       <pubDate>Thu, 27 May 2021 00:00:00 +0000</pubDate>
-      <guid>https://jamesstrong.dev/post/2021/2021-09-21-devsecops-with-aws/</guid>
-      <description>&lt;p&gt;AWS DevSecOps Container Pipeline workshop at DevOps Days Houston&lt;/p&gt;&#xA;&lt;p&gt;Workshop available at &lt;a href=&#34;https://aws.containerdevsecops.io/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://aws.containerdevsecops.io/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://jamesstrong.dev/img/aws-devsecops-pipeline.png&#34; alt=&#34;Workshop&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;In this workshop Engineers will learn how to secure their container pipeline using AWS and other Cloud Native tools. This will be part Lecture and part hands on.&lt;/p&gt;&#xA;&lt;p&gt;We will be working through the following topics:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Introduction&lt;/li&gt;&#xA;&lt;li&gt;Workshop Setup&lt;/li&gt;&#xA;&lt;li&gt;Development Environment&lt;/li&gt;&#xA;&lt;li&gt;Container Builds&lt;/li&gt;&#xA;&lt;li&gt;Container Pipeline&lt;/li&gt;&#xA;&lt;li&gt;Running Containers&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;We will be using these tools and techniques to secure a container pipeline and runtime.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/post/2021/2021-09-21-devsecops-with-aws/</guid>
+      <description>&lt;p&gt;AWS DevSecOps Container Pipeline workshop at DevOps Days Houston&lt;/p&gt;&#xA;&lt;p&gt;Workshop available at &lt;a href=&#34;https://aws.containerdevsecops.io/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://aws.containerdevsecops.io/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/aws-devsecops-pipeline.png&#34; alt=&#34;Workshop&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;In this workshop Engineers will learn how to secure their container pipeline using AWS and other Cloud Native tools. This will be part Lecture and part hands on.&lt;/p&gt;&#xA;&lt;p&gt;We will be working through the following topics:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Introduction&lt;/li&gt;&#xA;&lt;li&gt;Workshop Setup&lt;/li&gt;&#xA;&lt;li&gt;Development Environment&lt;/li&gt;&#xA;&lt;li&gt;Container Builds&lt;/li&gt;&#xA;&lt;li&gt;Container Pipeline&lt;/li&gt;&#xA;&lt;li&gt;Running Containers&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;We will be using these tools and techniques to secure a container pipeline and runtime.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Dev Nexus 2019</title>
-      <link>https://jamesstrong.dev/post/2019/2019-03-06-devnexus2019/</link>
+      <link>http://localhost:1313/post/2019/2019-03-06-devnexus2019/</link>
       <pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://jamesstrong.dev/post/2019/2019-03-06-devnexus2019/</guid>
+      <guid>http://localhost:1313/post/2019/2019-03-06-devnexus2019/</guid>
       <description>&lt;p&gt;At Dev Nexus 2018 my co-worker, &lt;a href=&#34;http://shahadarsh.com/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Adarsh&lt;/a&gt;, and I led a workshop &lt;a href=&#34;https://devnexus.com/presentations/2999/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&amp;ldquo;Introduction to Kubernetes&amp;rdquo;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Introduction to Kubernetes is a hands-on, interactive workshop giving attendees a thorough&#xA;understanding of the fundamentals of Kubernetes. As part of this workshop, you will learn how Kubernetes&#xA;works, be able to successfully create a kubernetes cluster, deploy microservices to that cluster &amp;amp;&#xA;also hear about some war stories.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://contino.github.io/intro-k8/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://contino.github.io/intro-k8/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Developer density ⁦&lt;a href=&#34;https://twitter.com/devnexus?ref_src=twsrc%5Etfw&#34;&gt;@devnexus&lt;/a&gt;⁩!&lt;br&gt;&lt;br&gt;First class speakers! First class community!&lt;a href=&#34;https://twitter.com/hashtag/Java?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#Java&lt;/a&gt; &lt;a href=&#34;https://t.co/vdFja8kWpN&#34;&gt;pic.twitter.com/vdFja8kWpN&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
