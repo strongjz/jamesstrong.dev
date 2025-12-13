@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <title>
+  Chainguard Live: All About That Base Image · James Strong
+</title>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
+
+
+
+
+<meta name="description" content="The Chainguard team has released a new whitepaper titled “All About That Base Image.” The whitepaper proposes “quiet” base images, minimal images with few or no security vulnerabilities, and other security features built-in.
+The intended audience is software development teams that use containers and are interested in reducing the workload associated with investigating and mitigating security vulnerabilities. The whitepaper helps software professionals better understand the security debt of popular base images by analyzing the number, severity, and lifetime of vulnerabilities. Joining us to discuss how Alpine is the choice for your container base image is Alpine maintainer and Chainguard Engineer, Ariadne Conill.">
+<meta name="keywords" content="blog,developer,personal">
+
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Chainguard Live: All About That Base Image">
+  <meta name="twitter:description" content="The Chainguard team has released a new whitepaper titled “All About That Base Image.” The whitepaper proposes “quiet” base images, minimal images with few or no security vulnerabilities, and other security features built-in.
+The intended audience is software development teams that use containers and are interested in reducing the workload associated with investigating and mitigating security vulnerabilities. The whitepaper helps software professionals better understand the security debt of popular base images by analyzing the number, severity, and lifetime of vulnerabilities. Joining us to discuss how Alpine is the choice for your container base image is Alpine maintainer and Chainguard Engineer, Ariadne Conill.">
+
+<meta property="og:url" content="http://localhost:1313/post/2022/2022-04-19-chainguard-live-all-about-that-base/">
+  <meta property="og:site_name" content="James Strong">
+  <meta property="og:title" content="Chainguard Live: All About That Base Image">
+  <meta property="og:description" content="The Chainguard team has released a new whitepaper titled “All About That Base Image.” The whitepaper proposes “quiet” base images, minimal images with few or no security vulnerabilities, and other security features built-in.
+The intended audience is software development teams that use containers and are interested in reducing the workload associated with investigating and mitigating security vulnerabilities. The whitepaper helps software professionals better understand the security debt of popular base images by analyzing the number, severity, and lifetime of vulnerabilities. Joining us to discuss how Alpine is the choice for your container base image is Alpine maintainer and Chainguard Engineer, Ariadne Conill.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="post">
+    <meta property="article:published_time" content="2022-04-19T00:00:00+00:00">
+    <meta property="article:modified_time" content="2022-04-19T00:00:00+00:00">
+    <meta property="article:tag" content="Cloud">
+    <meta property="article:tag" content="Software Supply Chain Security">
+    <meta property="article:tag" content="Interview">
+
+
+
+
+<link rel="canonical" href="http://localhost:1313/post/2022/2022-04-19-chainguard-live-all-about-that-base/">
+
+
+<link rel="preload" href="http://localhost:1313/fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="http://localhost:1313/fonts/fa-regular-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="http://localhost:1313/fonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+
+
+  
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/coder.css" media="screen">
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+<link rel="icon" type="image/svg+xml" href="http://localhost:1313/images/favicon.svg" sizes="any">
+<link rel="icon" type="image/png" href="http://localhost:1313/images/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="http://localhost:1313/images/favicon-16x16.png" sizes="16x16">
+
+<link rel="apple-touch-icon" href="http://localhost:1313/images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="http://localhost:1313/images/apple-touch-icon.png">
+
+<link rel="manifest" href="http://localhost:1313/site.webmanifest">
+<link rel="mask-icon" href="http://localhost:1313/images/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
+
+
+
+</head>
+
+
+
+
+<body class="preload-transitions colorscheme-light">
+  
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+  <main class="wrapper">
+    <nav class="navigation">
+  <section class="container">
+    
+    <a class="navigation-title" href="http://localhost:1313/">
+      James Strong
+    </a>
+    
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa-solid fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="http://localhost:1313/">Home</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="http://localhost:1313/about/">About</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="http://localhost:1313/post/">Posts</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="http://localhost:1313/resume/">Resume</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="http://localhost:1313/keybase.txt">Keybase</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="http://localhost:1313/tags/">Tags</a>
+            </li>
+          
+        
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+    <div class="content">
+      
+  <section class="container page">
+  <article>
+    <header>
+      <h1 class="title">
+        <a class="title-link" href="http://localhost:1313/post/2022/2022-04-19-chainguard-live-all-about-that-base/">
+          Chainguard Live: All About That Base Image
+        </a>
+      </h1>
+    </header>
+
+    <p>The Chainguard team has released a new whitepaper titled “All About That Base Image.” The whitepaper proposes “quiet” base images, minimal images with few or no security vulnerabilities, and other security features built-in.</p>
+<p>The intended audience is software development teams that use containers and are interested in reducing the workload associated with investigating and mitigating security vulnerabilities. The whitepaper helps software professionals better understand the security debt of popular base images by analyzing the number, severity, and lifetime of vulnerabilities. Joining us to discuss how Alpine is the choice for your container base image is Alpine maintainer and Chainguard Engineer, Ariadne Conill.</p>
+<p>In this webinar come to listen to the authors of the <a href="https://uploads-ssl.webflow.com/6228fdbc6c97145dad2a9c2b/624e2337f70386ed568d7e7e_chainguard-all-about-that-base-image.pdf"  class="external-link" target="_blank" rel="noopener">whitepaper</a>, Zack Newman and John Speed Meyers discuss how to</p>
+<p>reduce security debt,</p>
+<p>decrease developer workload,</p>
+<p>and improve development velocity.</p>
+<p>If you are interested in “quiet” base images, minimal images with few or no security vulnerabilities, and other security features built-in, read the “All About That Base Image Whitepaper” and join us for the webinar!</p>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/iqY8DTYqLW0?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+    </div>
+
+
+  </article>
+</section>
+
+  
+
+    </div>
+
+    <footer class="footer">
+  <section class="container">
+    ©
+    
+      2017 -
+    
+    2025
+    
+    ·
+    
+    Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/" target="_blank" rel="noopener">Coder</a>.
+    
+  </section>
+</footer>
+
+  </main>
+
+  
+
+  
+  
+  <script src="http://localhost:1313/js/coder.js"></script>
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</body>
+
+</html>

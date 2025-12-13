@@ -1,4 +1,4 @@
-publishDir = "docs/"
+publishDir = "public/"
 languageCode = "en-us"
 baseurl = "https://jamesstrong.dev/"
 title = "James Strong"

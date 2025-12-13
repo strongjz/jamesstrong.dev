@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <title>
+  Louisville Software Meetup - Jenkins · James Strong
+</title>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
+
+
+
+
+<meta name="description" content="This presentation was given at the Louisville Software Engineering Meetup. In It I discuss Continuous Integration and
+Continuous Deployment, and how to achieve it with Jenkins.
+
+
+
+https://www.meetup.com/Louisville-Software-Engineering/events/227294818/">
+<meta name="keywords" content="blog,developer,personal">
+
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Louisville Software Meetup - Jenkins">
+  <meta name="twitter:description" content="This presentation was given at the Louisville Software Engineering Meetup. In It I discuss Continuous Integration and Continuous Deployment, and how to achieve it with Jenkins.
+https://www.meetup.com/Louisville-Software-Engineering/events/227294818/">
+
+<meta property="og:url" content="http://localhost:1313/post/2016/2016-01-06-louissoft-jenkins/">
+  <meta property="og:site_name" content="James Strong">
+  <meta property="og:title" content="Louisville Software Meetup - Jenkins">
+  <meta property="og:description" content="This presentation was given at the Louisville Software Engineering Meetup. In It I discuss Continuous Integration and Continuous Deployment, and how to achieve it with Jenkins.
+https://www.meetup.com/Louisville-Software-Engineering/events/227294818/">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="post">
+    <meta property="article:published_time" content="2016-01-06T00:00:00+00:00">
+    <meta property="article:modified_time" content="2016-01-06T00:00:00+00:00">
+    <meta property="article:tag" content="Development">
+    <meta property="article:tag" content="Ci/Cd">
+    <meta property="article:tag" content="Jenkins">
+    <meta property="article:tag" content="Meetup">
+    <meta property="article:tag" content="Devops">
+
+
+
+
+<link rel="canonical" href="http://localhost:1313/post/2016/2016-01-06-louissoft-jenkins/">
+
+
+<link rel="preload" href="http://localhost:1313/fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="http://localhost:1313/fonts/fa-regular-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="http://localhost:1313/fonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+
+
+  
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/coder.css" media="screen">
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+<link rel="icon" type="image/svg+xml" href="http://localhost:1313/images/favicon.svg" sizes="any">
+<link rel="icon" type="image/png" href="http://localhost:1313/images/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="http://localhost:1313/images/favicon-16x16.png" sizes="16x16">
+
+<link rel="apple-touch-icon" href="http://localhost:1313/images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="http://localhost:1313/images/apple-touch-icon.png">
+
+<link rel="manifest" href="http://localhost:1313/site.webmanifest">
+<link rel="mask-icon" href="http://localhost:1313/images/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
+
+
+
+</head>
+
+
+
+
+<body class="preload-transitions colorscheme-light">
+  
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+  <main class="wrapper">
+    <nav class="navigation">
+  <section class="container">
+    
+    <a class="navigation-title" href="http://localhost:1313/">
+      James Strong
+    </a>
+    
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa-solid fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="http://localhost:1313/">Home</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="http://localhost:1313/about/">About</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="http://localhost:1313/post/">Posts</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="http://localhost:1313/resume/">Resume</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="http://localhost:1313/keybase.txt">Keybase</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="http://localhost:1313/tags/">Tags</a>
+            </li>
+          
+        
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+    <div class="content">
+      
+  <section class="container page">
+  <article>
+    <header>
+      <h1 class="title">
+        <a class="title-link" href="http://localhost:1313/post/2016/2016-01-06-louissoft-jenkins/">
+          Louisville Software Meetup - Jenkins
+        </a>
+      </h1>
+    </header>
+
+    <p>This presentation was given at the <a href="https://www.meetup.com/Louisville-Software-Engineering/"  class="external-link" target="_blank" rel="noopener">Louisville Software Engineering Meetup.</a> In It I discuss Continuous Integration and
+Continuous Deployment, and how to achieve it with Jenkins.</p>
+<p><img src="img/jenkins.png" alt=""></p>
+<embed src= "pdf/software-engineering.pdf" width= "100%" height= "1000px" type="application/pdf" >
+
+<p><a href="https://www.meetup.com/Louisville-Software-Engineering/events/227294818/"  class="external-link" target="_blank" rel="noopener">https://www.meetup.com/Louisville-Software-Engineering/events/227294818/</a></p>
+
+  </article>
+</section>
+
+  
+
+    </div>
+
+    <footer class="footer">
+  <section class="container">
+    ©
+    
+      2017 -
+    
+    2025
+    
+    ·
+    
+    Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/" target="_blank" rel="noopener">Coder</a>.
+    
+  </section>
+</footer>
+
+  </main>
+
+  
+
+  
+  
+  <script src="http://localhost:1313/js/coder.js"></script>
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</body>
+
+</html>

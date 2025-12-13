@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <title>
+  High-Performance Computing for Financial Services · James Strong
+</title>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
+
+
+
+
+<meta name="description" content="The last week of July, I attended High-Performance Compute (HPC) Training for Financial Services in AWS.
+During this week-long training, AWS professionals in Financial Services shared their outlook on the needs that large
+financial institutions face from the industry, regulators, and markets.
+The first thing that caught my attention was this question:
+&ldquo;If you could add 100,000 cores to your HPC grid, return them once you&rsquo;re done and pay only for what you use, just like
+many of your peers do, how would that improve your business?&rdquo;">
+<meta name="keywords" content="blog,developer,personal">
+
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="High-Performance Computing for Financial Services">
+  <meta name="twitter:description" content="The last week of July, I attended High-Performance Compute (HPC) Training for Financial Services in AWS. During this week-long training, AWS professionals in Financial Services shared their outlook on the needs that large financial institutions face from the industry, regulators, and markets.
+The first thing that caught my attention was this question:
+“If you could add 100,000 cores to your HPC grid, return them once you’re done and pay only for what you use, just like many of your peers do, how would that improve your business?”">
+
+<meta property="og:url" content="http://localhost:1313/post/2019/2019-08-19-aws-hpc/">
+  <meta property="og:site_name" content="James Strong">
+  <meta property="og:title" content="High-Performance Computing for Financial Services">
+  <meta property="og:description" content="The last week of July, I attended High-Performance Compute (HPC) Training for Financial Services in AWS. During this week-long training, AWS professionals in Financial Services shared their outlook on the needs that large financial institutions face from the industry, regulators, and markets.
+The first thing that caught my attention was this question:
+“If you could add 100,000 cores to your HPC grid, return them once you’re done and pay only for what you use, just like many of your peers do, how would that improve your business?”">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="post">
+    <meta property="article:published_time" content="2019-08-19T00:00:00+00:00">
+    <meta property="article:modified_time" content="2019-08-19T00:00:00+00:00">
+    <meta property="article:tag" content="Code">
+    <meta property="article:tag" content="Finserve">
+    <meta property="article:tag" content="Hpc">
+    <meta property="article:tag" content="Development">
+    <meta property="article:tag" content="Aws">
+    <meta property="article:tag" content="Cloud">
+
+
+
+
+<link rel="canonical" href="http://localhost:1313/post/2019/2019-08-19-aws-hpc/">
+
+
+<link rel="preload" href="http://localhost:1313/fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="http://localhost:1313/fonts/fa-regular-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="http://localhost:1313/fonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+
+
+  
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/coder.css" media="screen">
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+<link rel="icon" type="image/svg+xml" href="http://localhost:1313/images/favicon.svg" sizes="any">
+<link rel="icon" type="image/png" href="http://localhost:1313/images/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="http://localhost:1313/images/favicon-16x16.png" sizes="16x16">
+
+<link rel="apple-touch-icon" href="http://localhost:1313/images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="http://localhost:1313/images/apple-touch-icon.png">
+
+<link rel="manifest" href="http://localhost:1313/site.webmanifest">
+<link rel="mask-icon" href="http://localhost:1313/images/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
+
+
+
+</head>
+
+
+
+
+<body class="preload-transitions colorscheme-light">
+  
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+  <main class="wrapper">
+    <nav class="navigation">
+  <section class="container">
+    
+    <a class="navigation-title" href="http://localhost:1313/">
+      James Strong
+    </a>
+    
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa-solid fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="http://localhost:1313/">Home</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="http://localhost:1313/about/">About</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="http://localhost:1313/post/">Posts</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="http://localhost:1313/resume/">Resume</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="http://localhost:1313/keybase.txt">Keybase</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="http://localhost:1313/tags/">Tags</a>
+            </li>
+          
+        
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+    <div class="content">
+      
+  <section class="container page">
+  <article>
+    <header>
+      <h1 class="title">
+        <a class="title-link" href="http://localhost:1313/post/2019/2019-08-19-aws-hpc/">
+          High-Performance Computing for Financial Services
+        </a>
+      </h1>
+    </header>
+
+    <p>The last week of July, I attended High-Performance Compute (HPC) Training for Financial Services in AWS.
+During this week-long training, AWS professionals in Financial Services shared their outlook on the needs that large
+financial institutions face from the industry, regulators, and markets.</p>
+<p>The first thing that caught my attention was this question:</p>
+<p>&ldquo;If you could add 100,000 cores to your HPC grid, return them once you&rsquo;re done and pay only for what you use, just like
+many of your peers do, how would that improve your business?&rdquo;</p>
+<p>In a few words, HPC allows organizations to process data and perform complex calculations at high speeds. The cloud
+enables you to have access to almost infinite processing power.</p>
+<p>That is a powerful question; with powerful implications. With that ability, your IT department could speed up
+Quantitative Analysts, Quants, ability to make informed decisions. With that capability, you could also increase
+the performance of your grid compute while lowering costs and maintaining compliance to compete effectively.
+What CIO or CEO doesn&rsquo;t want that? Here are some examples of doing just that, albeit with 1,000,000 cores.</p>
+<ul>
+<li><a href="https://aws.amazon.com/blogs/aws/western-digital-hdd-simulation-at-cloud-scale-2-5-million-hpc-tasks-40k-ec2-spot-instances/"  class="external-link" target="_blank" rel="noopener">Western Digital, 1m vCPU cluster</a></li>
+<li><a href="https://aws.amazon.com/blogs/aws/creating-a-1-3-million-vcpu-grid-on-aws-using-ec2-spot-instances-and-tibco-gridserver/"  class="external-link" target="_blank" rel="noopener">AWS and Tibco, 1.3m vCPU on Spot</a></li>
+<li><a href="https://www.top500.org/system/179693"  class="external-link" target="_blank" rel="noopener">Get into the Top 500 for just $5k</a></li>
+</ul>
+<p>&ldquo;Regardless of whether 2022 is a deadline for reporting only or full capital implementation, banks must have FRTB
+infrastructure in place and models approved by supervisors by then.&rdquo; - <a href="https://www.bloomberg.com/professional/blog/2022-market-risk-odyssey/"  class="external-link" target="_blank" rel="noopener">Bloomberg Professional Services</a></p>
+<p>With the Fundamental Review of the Trading Book (FRTB) pushed to 2022, this gives banks more time to understand the
+impact on their risk models and the shift to expected shortfall calculations. More and more pressure is coming from
+regulators for reform and reporting, FRTB will not be the end. IT also adds additional stress to save more while
+also increasing capacity.</p>
+<p>Running your HPC grid on AWS can be the answer to both regulator and IT pressures. However, with that comes with its
+own risk, that you can read about <a href="https://www.capitalone.com/facts2019/"  class="external-link" target="_blank" rel="noopener">here</a>, <a href="https://www.upguard.com/breaches/cloud-leak-accenture"  class="external-link" target="_blank" rel="noopener">here</a>,
+and <a href="https://arstechnica.com/information-technology/2017/05/defense-contractor-stored-intelligence-data-in-amazon-cloud-unprotected/"  class="external-link" target="_blank" rel="noopener">here</a>.
+Understandably, financial institutions are hesitant to move to the cloud. But the need is greater than ever.</p>
+<p>The AWS Well-Architected Framework can help you realize the following:</p>
+<ul>
+<li>
+<p><a href="https://d1.awsstatic.com/whitepapers/architecture/AWS-Operational-Excellence-Pillar.pdf"  class="external-link" target="_blank" rel="noopener">Operational Excellence</a> - Scalable resources for repositories, build pipelines as code, and metrics for all levels of
+operations.</p>
+</li>
+<li>
+<p><a href="https://d1.awsstatic.com/whitepapers/architecture/AWS-Security-Pillar.pdf"  class="external-link" target="_blank" rel="noopener">Security</a> - Managed and secure access to data sources via AWS IAM, encryption at rest and In transit.</p>
+</li>
+<li>
+<p><a href="https://d1.awsstatic.com/whitepapers/architecture/AWS-Reliability-Pillar.pdf"  class="external-link" target="_blank" rel="noopener">Reliability</a> - Leveraging capabilities like Autoscaling and services like S3, you be sure that your solutions are
+always available when needed.</p>
+</li>
+<li>
+<p><a href="https://d1.awsstatic.com/whitepapers/architecture/AWS-Performance-Efficiency-Pillar.pdf"  class="external-link" target="_blank" rel="noopener">Performance</a> - There are many options to run your workload, and with AWS, you can experiment to find the right level
+of performance your workload needs.</p>
+</li>
+<li>
+<p><a href="https://d1.awsstatic.com/whitepapers/architecture/AWS-Cost-Optimization-Pillar.pdf"  class="external-link" target="_blank" rel="noopener">Cost Optimization</a> - Spot instances for computing can reduce costs up to 90%, You can track and analyze spend to
+ensure services are scaled and appropriately utilized.</p>
+</li>
+</ul>
+<p>Also included in the Well-Architected Framework is AWS HPC Lens, it covers common HPC scenarios and identifies key
+elements to ensure your workloads are architected according to AWS&rsquo;s best practices.</p>
+<p>AWS has lots of example architectures in their Architecture Center, below is an example of how to run an HPC Grid on
+AWS securely.</p>
+<p><a href="https://media.amazonwebservices.com/architecturecenter/AWS_ac_ra_financialgrid_12.pdf"  class="external-link" target="_blank" rel="noopener">https://media.amazonwebservices.com/architecturecenter/AWS_ac_ra_financialgrid_12.pdf</a></p>
+<p>With AWS, you can allocate extra compute capacity on-demand without upfront planning of data center, network, and
+server infrastructure. This ability is a huge advantage when compared to on-prem grid setups. Below are just some of
+the options that can be used for an AWS powered HPC:</p>
+<ul>
+<li>
+<p><a href="https://github.com/aws/aws-parallelcluster"  class="external-link" target="_blank" rel="noopener">Parallel Cluster</a> - With a couple of lines of YAML, you can have an HPC grid up and running in minutes. Parallel Cluster
+supports these schedulers; AWS Batch, SGE, Torque, and Slurm, to customize the needs of your firm&rsquo;s algorithms.
+Submit a job and let Autoscaling take care of the number of hosts needed to run it, you only pay for what is required
+and save massively on the cost with spot instances.</p>
+</li>
+<li>
+<p><a href="https://aws.amazon.com/batch/"  class="external-link" target="_blank" rel="noopener">AWS Batch</a> - AWS Batch enables developers and Quants to quickly and efficiently execute hundreds of thousands of batch
+jobs on AWS. AWS Batch dynamically provisions the optimal quantity and compute resources based on the volume and specific
+resource requirements of the batch jobs submitted.</p>
+</li>
+<li>
+<p><a href="https://aws.amazon.com/lambda/"  class="external-link" target="_blank" rel="noopener">Lambda</a> - No servers, no maintenance needed, just code. Lambda will execute what you need and when you need it.
+Couple this with streaming data from Kinesis, and you can analyze data in near real-time.</p>
+</li>
+<li>
+<p><a href="https://aws.amazon.com/ec2/spot/"  class="external-link" target="_blank" rel="noopener">EC2 Spot</a> - With spot instances, you could save up to 90% of your compute cost. Spot instances allow you to use AWS
+spare capacity; in return for that, you pay less than the on-demand price. Launch a cluster with EC2 spot instances
+and watch the savings roll in.</p>
+</li>
+</ul>
+<p>AWS can help with these HPC solutions:</p>
+<ul>
+<li>Financial Services - Real track of stocks and risk management</li>
+<li>Insurance Companies - Risk management and insurance calculations</li>
+<li>Media - Render special effects and media streaming</li>
+<li>Healthcare Companies - Develop new drugs and cure diseases</li>
+<li>Banking Industry - Detect credit card fraud</li>
+</ul>
+<p>More Resources</p>
+<ul>
+<li><a href="https://aws.amazon.com/financial-services/grid-computing/"  class="external-link" target="_blank" rel="noopener">AWS Grid Computing</a></li>
+<li><a href="https://d1.awsstatic.com/Industries/Financial%20Services/Grid%20Computing/aws-financial-services-grid-computing.pdf"  class="external-link" target="_blank" rel="noopener">AWS Grid Computing White paper</a></li>
+<li><a href="https://github.com/aws/aws-parallelcluster"  class="external-link" target="_blank" rel="noopener">Github Repo of Parallel Cluster</a></li>
+<li><a href="https://docs.aws.amazon.com/parallelcluster/latest/ug/what-is-aws-parallelcluster.html"  class="external-link" target="_blank" rel="noopener">What is Parallel Cluster?</a></li>
+<li><a href="https://www.bloomberg.com/professional/blog/2022-market-risk-odyssey/"  class="external-link" target="_blank" rel="noopener">Bloomberb 2022 Market Risk Odyssey</a></li>
+</ul>
+
+  </article>
+</section>
+
+  
+
+    </div>
+
+    <footer class="footer">
+  <section class="container">
+    ©
+    
+      2017 -
+    
+    2025
+    
+    ·
+    
+    Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/" target="_blank" rel="noopener">Coder</a>.
+    
+  </section>
+</footer>
+
+  </main>
+
+  
+
+  
+  
+  <script src="http://localhost:1313/js/coder.js"></script>
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</body>
+
+</html>
