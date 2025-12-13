@@ -7,7 +7,7 @@ canonifyurls = true
 theme = "hugo-coder"
 defaultContentLanguage = "en"
 enableEmoji = true
-
+contentDir = "content/"
 [pagination]
 pagerSize = 10
 

@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cka on James Strong</title>
-    <link>https://jamesstrong.dev/tags/cka/</link>
+    <link>http://localhost:1313/tags/cka/</link>
     <description>Recent content in Cka on James Strong</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Copyright (c) 2024, all rights reserved.</copyright>
     <lastBuildDate>Tue, 29 Jan 2019 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://jamesstrong.dev/tags/cka/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/cka/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Passing the CKA</title>
-      <link>https://jamesstrong.dev/post/2019/2019-01-29-passcka/</link>
+      <link>http://localhost:1313/post/2019/2019-01-29-passcka/</link>
       <pubDate>Tue, 29 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://jamesstrong.dev/post/2019/2019-01-29-passcka/</guid>
-      <description>&lt;p&gt;On December 29th I completed my final goal of the year - I passed the CKA.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://jamesstrong.dev/img/cka.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;h4 id=&#34;tldr&#34;&gt;&#xA;  TL;DR&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#tldr&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h4&gt;&#xA;&lt;p&gt;This is a list of the bare minimum necessary to try to pass.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Do Kelsey Hightower’s tutorial &lt;a href=&#34;https://github.com/kelseyhightower/kubernetes-the-hard-way&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Kubernetes The Hard Way&lt;/a&gt; at least three times! Understand it, internalize it.&lt;/li&gt;&#xA;&lt;li&gt;Do all the tasks on &lt;a href=&#34;https://kubernetes.io/docs/tasks/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://kubernetes.io/docs/tasks/&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Read &lt;a href=&#34;https://www.manning.com/books/kubernetes-in-action&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Kubernetes in Action&lt;/em&gt; by Marko Luksa&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Also practice, practice, and practice. Did I mention practice? This is a practical exam, no multiple choice questions here.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/post/2019/2019-01-29-passcka/</guid>
+      <description>&lt;p&gt;On December 29th I completed my final goal of the year - I passed the CKA.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/cka.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;h4 id=&#34;tldr&#34;&gt;&#xA;  TL;DR&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#tldr&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h4&gt;&#xA;&lt;p&gt;This is a list of the bare minimum necessary to try to pass.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Do Kelsey Hightower’s tutorial &lt;a href=&#34;https://github.com/kelseyhightower/kubernetes-the-hard-way&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Kubernetes The Hard Way&lt;/a&gt; at least three times! Understand it, internalize it.&lt;/li&gt;&#xA;&lt;li&gt;Do all the tasks on &lt;a href=&#34;https://kubernetes.io/docs/tasks/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://kubernetes.io/docs/tasks/&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Read &lt;a href=&#34;https://www.manning.com/books/kubernetes-in-action&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Kubernetes in Action&lt;/em&gt; by Marko Luksa&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Also practice, practice, and practice. Did I mention practice? This is a practical exam, no multiple choice questions here.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

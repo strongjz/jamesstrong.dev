@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Meetup on James Strong</title>
-    <link>https://jamesstrong.dev/tags/meetup/</link>
+    <link>http://localhost:1313/tags/meetup/</link>
     <description>Recent content in Meetup on James Strong</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Copyright (c) 2024, all rights reserved.</copyright>
     <lastBuildDate>Thu, 04 Apr 2019 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://jamesstrong.dev/tags/meetup/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/meetup/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Intro to Kubernetes</title>
-      <link>https://jamesstrong.dev/post/2019/2019-04-04-cncf-intro-k8/</link>
+      <link>http://localhost:1313/post/2019/2019-04-04-cncf-intro-k8/</link>
       <pubDate>Thu, 04 Apr 2019 00:00:00 +0000</pubDate>
-      <guid>https://jamesstrong.dev/post/2019/2019-04-04-cncf-intro-k8/</guid>
-      <description>&lt;p&gt;In April, we kicked off [Kubernetes and Cloud Native Computing Louisville](&lt;a href=&#34;https://www.meetup&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.meetup&lt;/a&gt;.&#xA;com/Kubernetes-and-Cloud-Native-Computing-Louisville/)&lt;/p&gt;&#xA;&lt;p&gt;I presented an &amp;ldquo;Intro to Kubernetes&amp;rdquo;, here is a link to the &lt;a href=&#34;http://strongjz.github.io/louk8cnc-intro-k8s&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;presentation&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;More about that Meetup &lt;a href=&#34;https://www.meetup.com/Kubernetes-and-Cloud-Native-Computing-Louisville/events/259202067/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://jamesstrong.dev/img/services.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Recording&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;</description>
+      <guid>http://localhost:1313/post/2019/2019-04-04-cncf-intro-k8/</guid>
+      <description>&lt;p&gt;In April, we kicked off [Kubernetes and Cloud Native Computing Louisville](&lt;a href=&#34;https://www.meetup&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.meetup&lt;/a&gt;.&#xA;com/Kubernetes-and-Cloud-Native-Computing-Louisville/)&lt;/p&gt;&#xA;&lt;p&gt;I presented an &amp;ldquo;Intro to Kubernetes&amp;rdquo;, here is a link to the &lt;a href=&#34;http://strongjz.github.io/louk8cnc-intro-k8s&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;presentation&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;More about that Meetup &lt;a href=&#34;https://www.meetup.com/Kubernetes-and-Cloud-Native-Computing-Louisville/events/259202067/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/services.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Recording&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;</description>
     </item>
     <item>
       <title>Hashicorp DFW</title>
-      <link>https://jamesstrong.dev/post/2019/2019-03-31-hashidfw/</link>
+      <link>http://localhost:1313/post/2019/2019-03-31-hashidfw/</link>
       <pubDate>Sun, 31 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://jamesstrong.dev/post/2019/2019-03-31-hashidfw/</guid>
+      <guid>http://localhost:1313/post/2019/2019-03-31-hashidfw/</guid>
       <description>&lt;p&gt;I will be giving a talk and demo on deploying serverless apps onto AWS with Terraform!&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.meetup.com/hashicorpdfw/events/260071773/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.meetup.com/hashicorpdfw/events/260071773/&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Kubernetes and Cloud Native Computing April Meetup</title>
-      <link>https://jamesstrong.dev/post/2019/2019-03-25-loucncf-4-1/</link>
+      <link>http://localhost:1313/post/2019/2019-03-25-loucncf-4-1/</link>
       <pubDate>Mon, 25 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://jamesstrong.dev/post/2019/2019-03-25-loucncf-4-1/</guid>
+      <guid>http://localhost:1313/post/2019/2019-03-25-loucncf-4-1/</guid>
       <description>&lt;p&gt;The inaugural Kubernetes and Cloud Native Computer Louisville will be on April 4th. I will be presenting&#xA;an &amp;ldquo;Intro to Kubernetes&amp;rdquo;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.meetup.com/Kubernetes-and-Cloud-Native-Computing-Louisville/events/259202067/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.meetup.com/Kubernetes-and-Cloud-Native-Computing-Louisville/events/259202067/&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Louisville Software Meetup - Jenkins</title>
-      <link>https://jamesstrong.dev/post/2016/2016-01-06-louissoft-jenkins/</link>
+      <link>http://localhost:1313/post/2016/2016-01-06-louissoft-jenkins/</link>
       <pubDate>Wed, 06 Jan 2016 00:00:00 +0000</pubDate>
-      <guid>https://jamesstrong.dev/post/2016/2016-01-06-louissoft-jenkins/</guid>
+      <guid>http://localhost:1313/post/2016/2016-01-06-louissoft-jenkins/</guid>
       <description>&lt;p&gt;This presentation was given at the &lt;a href=&#34;https://www.meetup.com/Louisville-Software-Engineering/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Louisville Software Engineering Meetup.&lt;/a&gt; In It I discuss Continuous Integration and&#xA;Continuous Deployment, and how to achieve it with Jenkins.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;img/jenkins.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;embed src= &#34;pdf/software-engineering.pdf&#34; width= &#34;100%&#34; height= &#34;1000px&#34; type=&#34;application/pdf&#34; &gt;&#xA;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.meetup.com/Louisville-Software-Engineering/events/227294818/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.meetup.com/Louisville-Software-Engineering/events/227294818/&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>

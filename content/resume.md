@@ -18,9 +18,13 @@ value for both clients and end users.
 
 ## Professional Experience
 
+### Isovalent At Cisco • Principal Customer Success Manager
+
+Remote • Dec 2025 - Present
+
 ### Isovalent At Cisco • Senior Customer Success Manager
 
-Remote • Jan 2024 - Present
+Remote • Jan 2024 - Dec 2025
 
 ### Isovalent • Senior Solutions Architect
 
