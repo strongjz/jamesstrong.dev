@@ -8,6 +8,10 @@ theme = "hugo-coder"
 defaultContentLanguage = "en"
 enableEmoji = true
 contentDir = "content/"
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+    
 [pagination]
 pagerSize = 10
 
